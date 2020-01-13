@@ -1,0 +1,54 @@
+@prefix bag: <https://bag.basisregistraties.overheid.nl/def/bag#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix imgeo: <https://definities.geostandaarden.nl/def/imgeo#> .
+@prefix nen3160: <https://definities.geostandaarden.nl/def/nen3610#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# imgeo:Pand
+
+imgeo:Pand a owl:Class ;
+    rdfs:subClassOf imgeo:Object, nen3610:Gebouw ; 
+    rdfs:label "Pand"@nl ;
+    skos:definition """Een PAND is de kleinste bij de totstandkoming functioneel
+    en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met
+    de aarde is verbonden en betreedbaar en afsluitbaar is."""@nl ;
+    .
+
+imgeo:nummeraanduidingreeks a owl:ObjectProperty ;
+    rdfs:range imgeo:Nummeraanduidingreeks ;
+    rdfs:label "Huisnummers"@nl ;
+    rdfs:comment "Bevat de reeks nummeraanduidingen behorend bij het pand ten behoeve van visualisatie."@nl ;
+    .
+
+# imgeo:Nummeraanduidingreeks
+
+imgeo:Nummeraanduidingreeks a owl:Class ;
+    rdfs:label "Nummeraanduidingreeks" ;
+    rdfs:comment """Uit de BAG afgeleide reeks nummeraanduidingen waarbij het laagste en hoogste bijbehorende
+    huisnummer worden gevisualiseerd. Bij één pand kunnen meerdere reeksen nummeraanduidingen worden opgenomen
+    (t.b.v galerijflats en dergelijke). In een reeks kunnen ook huisletters worden opgenomen. Bij een pand met
+    één verblijfsobject wordt een nummeraanduidingreeks met daarin één huisnummer en eventueel huisletter en 
+    toevoeging opgenomen. De BAG identificatie van de verblijfsobjecten met het laagste en hoogste huisnummer 
+    wordt opgenomen. Als bij het pand maar één nummeraanduiding hoort, wordt de bijbehorende BAG identificatie 
+    opgenomen als laagste nummeraanduiding. Ten behoeve van visualisatie zijn het punt waar de 
+    nummeraanduidingreeks moet worden gevisualiseerd en eventueel de rotatiehoek opgenomen."""@nl ;
+    .
+
+imgeo:nummeraanduidingreeksnummeraanduidingreeks a owl:DatatypeProperty ; 
+    rdfs:label "Van huisnummer tot huisnummer"@nl ;
+    rdfs:domain imgeo:Nummeraanduidingreeks ; 
+    rdfs:range xsd:string ; 
+    .
+imgeo:hoogsteHuisnummer a owl:DatatypeProperty ; 
+    rdfs:label "Hoogste huisnummer"@nl ;
+    rdfs:domain imgeo:Nummeraanduidingreeks ; 
+    rdfs:range xsd:string ; 
+    .
+imgeo:laagsteHuisnummer a owl:DatatypeProperty ; 
+    rdfs:label "Laagste huisnummer"@nl ;
+    rdfs:domain imgeo:Nummeraanduidingreeks ; 
+    rdfs:range xsd:string ; 
+    . 
+

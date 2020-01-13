@@ -1,0 +1,43 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix imgeo: <http://definities.geostandaarden.nl/def/imgeo#> .
+@prefix imgeo-col: <http://definities.geostandaarden.nl/imgeo/id/collection/> .
+@prefix imgeo-sh: <http://definities.geostandaarden.nl/def/imgeo/> .
+@prefix nen3160: <http://definities.geostandaarden.nl/def/nen3610#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+imgeo-sh:Pand a sh:Nodeshape ;
+    sh:targetClass imgeo:Pand ;
+    sh:property [
+        sh:path geo:sfIntersects ;
+        sh:class bag:Pand ;
+        sh:nodeKind sh:IRI ;
+        rdfs:comment "Dit relateert het imgeo:Pand aan het bag:Pand."@nl ;
+    ] ;
+    sh:property [
+        sh:path imgeo:nummeraanduidingreeks ;
+        sh:class imgeo:Nummeraanduidingreeks ;
+        sh:nodeKind sh:BlankNodeOrIRI ;
+        sh:min 1 ;
+    ]
+    .
+
+imgeo-sh:Nummeraanduidingreeks a sh:Nodeshape ;
+    sh:targetClass imgeo:Nummeraanduidingreeks ;
+    sh:property [
+        sh:path imgeo:hoogsteHuisnummer ;
+        sh:datatype xsd:string ;
+    ] ;
+    sh:property [
+        sh:path imgeo:laagsteHuisnummer ;
+        sh:datatype xsd:string ;
+    ] ;
+    sh:property [
+        sh:path imgeo:nummeraanduidingreeksnummeraanduidingreeks ;
+        sh:datatype xsd:string ;
+    ] ;
+    .
+
