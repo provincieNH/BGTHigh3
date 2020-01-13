@@ -45,11 +45,11 @@ imgeo:nummeraanduidingreeksnummeraanduidingreeks a owl:DatatypeProperty ;
 imgeo:hoogsteHuisnummer a owl:DatatypeProperty ; 
     rdfs:label "Hoogste huisnummer"@nl ;
     rdfs:domain imgeo:Nummeraanduidingreeks ; 
-    rdfs:range xsd:string ; 
+    rdfs:range bag:Nummeraanduiding ;
     .
 imgeo:laagsteHuisnummer a owl:DatatypeProperty ; 
     rdfs:label "Laagste huisnummer"@nl ;
-    rdfs:domain imgeo:Nummeraanduidingreeks ; 
-    rdfs:range xsd:string ; 
+    rdfs:domain imgeo:Nummeraanduidingreeks ;
+    rdfs:range bag:Nummeraanduiding ;
     . 
 

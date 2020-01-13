@@ -31,14 +31,16 @@ imgeo-sh:Nummeraanduidingreeks a sh:Nodeshape ;
     sh:targetClass imgeo:Nummeraanduidingreeks ;
     sh:property [
         sh:path imgeo:hoogsteHuisnummer ;
-        sh:datatype xsd:string ;
+        sh:class bag:Nummeraanduiding ;
+        sh:nodeKind sh:IRI ;
     ] ;
     sh:property [
         sh:path imgeo:laagsteHuisnummer ;
-        sh:datatype xsd:string ;
+        sh:class bag:Nummeraanduiding ;
+        sh:nodeKind sh:IRI ;
     ] ;
     sh:property [
-        sh:path imgeo:nummeraanduidingreeksnummeraanduidingreeks ;
+        sh:path imgeo:nummeraanduidingreeksnummeraanduidingreeks ; #Pano: rdfs:label?
         sh:datatype xsd:string ;
     ] ;
     .
