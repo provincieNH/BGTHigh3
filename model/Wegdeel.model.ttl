@@ -1,4 +1,6 @@
-@prefix : <https://register.geostandaarden.nl/informatiemodel/imgeo/2.1.1#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix imgeo: <http://definities.geostandaarden.nl/def/imgeo#> .
+@prefix nen3610: <http://definities.geostandaarden.nl/def/nen3610#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -18,7 +20,7 @@ imgeo:Wegdeel a owl:Class ;
 imgeo:Weg_gesloten_verharding a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_gesloten_verharding>;
   rdfs:label "gesloten verharding";
-  rdfs:subClassOf :Wegdeel .
+  rdfs:subClassOf imgeo:Wegdeel .
 
 imgeo:WegPlus_asfalt a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_asfalt>;
@@ -33,7 +35,7 @@ imgeo:WegPlus_cementbeton a owl:Class;
 imgeo:Weg_half_verhard a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_half_verhard>;
   rdfs:label "half verhard";
-  rdfs:subClassOf :Wegdeel .
+  rdfs:subClassOf imgeo:Wegdeel .
 
 imgeo:WegPlus_grasklinkers a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_grasklinkers>;
@@ -63,7 +65,7 @@ imgeo:WegPlus_schelpen a owl:Class;
 imgeo:Weg_onverhard a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_onverhard>;
   rdfs:label "onverhard";
-  rdfs:subClassOf :Wegdeel .
+  rdfs:subClassOf imgeo:Wegdeel .
 
 imgeo:WegPlus_boomschors a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_boomschors>;
@@ -78,7 +80,7 @@ imgeo:WegPlus_zand a owl:Class;
 imgeo:Weg_open_verharding a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_open_verharding>;
   rdfs:label "open verharding";
-  rdfs:subClassOf :Wegdeel .
+  rdfs:subClassOf imgeo:Wegdeel .
 
 imgeo:WegPlus_beton_element a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_beton_element>;
