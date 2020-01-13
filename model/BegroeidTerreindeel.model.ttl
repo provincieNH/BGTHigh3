@@ -7,248 +7,117 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix imgeo: <https://definities.geostandaarden.nl/def/imgeo#> .
 
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_akkerbouw
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_akkerbouw> rdf:type owl:Class ;
-                                                                                          rdfs:subClassOf <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_bouwland> ;
-                                                                                          rdfs:label "akkerbouw" ;
-                                                                                          skos:definition "Terreindeel in gebruik als akker, voor de teelt van akkerbouwgewassen." .
-
-
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_bodembedekkers
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_bodembedekkers> rdf:type owl:Class ;
-                                                                                               rdfs:subClassOf <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_groenvoorziening> ;
-                                                                                               rdfs:label "bodembedekkers" ;
-                                                                                               skos:definition "Beheerde beplanting van groenvak in  de openbare ruimte, zijnde bodembedekkers." .
-
-
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_bollenteelt
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_bollenteelt> rdf:type owl:Class ;
-                                                                                            rdfs:subClassOf <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_bouwland> ;
-                                                                                            rdfs:label "bollenteelt" ;
-                                                                                            skos:definition "Terreindeel in gebruik als akker, voor de teelt van bloembollen." .
-
-
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_bosplantsoen
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_bosplantsoen> rdf:type owl:Class ;
-                                                                                             rdfs:subClassOf <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_groenvoorziening> ;
-                                                                                             rdfs:label "bosplantsoen" ;
-                                                                                             skos:definition "Opgaande beplanting van houtachtige gewassen die struikvormend en/of boomvormend zijn. De soorten zijn als bosplantsoen opgekweekt en aangeplant.De beplanting kan open of gesloten zijn en bestaat vaak uit inheemse soorten. Onderscheidt zich van heesters omdat de sierkenmerken niet voorop staan." .
-
-
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_braakliggend
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_braakliggend> rdf:type owl:Class ;
-                                                                                             rdfs:subClassOf <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_bouwland> ;
-                                                                                             rdfs:label "braakliggend" ;
-                                                                                             skos:definition "Terrein in gebruik als akker, maar tijdelijk niet beteeld met een landbouwgewas." .
-
-
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_gesloten_duinvegetatie
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_gesloten_duinvegetatie> rdf:type owl:Class ;
-                                                                                                       rdfs:subClassOf <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_duin> ;
-                                                                                                       rdfs:label "gesloten duinvegetatie" ;
-                                                                                                       skos:definition "Duin met een overwegend opgaande vegetatie van struiken en of bomen." .
-
-
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_gras_en_kruidachtigen
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_gras_en_kruidachtigen> rdf:type owl:Class ;
-                                                                                                      rdfs:subClassOf <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_groenvoorziening> ;
-                                                                                                      rdfs:label "gras- en kruidachtigen" ;
-                                                                                                      skos:definition "(Grond met) een laagblijvende, aaneengesloten kruidachtige vegetatie." .
-
-
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_griend_en_hakhout
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_griend_en_hakhout> rdf:type owl:Class ;
-                                                                                                  rdfs:subClassOf <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_loofbos> ;
-                                                                                                  rdfs:label "griend en hakhout" ;
-                                                                                                  skos:definition "Terreindeel met opgaande begroeiing van loofbomen, in een dicht groeiverband, en die periodiek wordt afgezet." .
-
-
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_heesters
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_heesters> rdf:type owl:Class ;
-                                                                                         rdfs:subClassOf <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_groenvoorziening> ;
-                                                                                         rdfs:label "heesters" ;
-                                                                                         skos:definition "Beplanting van houtige gewassen die struikvormend zijn en die al dan niet een gesloten geheel vormen. Het accent ligt op de sierwaarde, de beplanting kan uit Ã©Ã©n soort of uit meerdere soorten bestaan. Onder de heesters kan een houtachtige of kruidachtige onderbegroeiing aanwezig zijn. Het oppervlak met struikachtige gewassen is meer dan 50% van de totale oppervlakte van het vak." .
-
-
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_hoogstam_boomgaarden
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_hoogstam_boomgaarden> rdf:type owl:Class ;
-                                                                                                     rdfs:subClassOf <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_fruitteelt> ;
-                                                                                                     rdfs:label "hoogstam boomgaarden" ;
-                                                                                                     skos:definition "Terreindeel begroeid met hoogstamfruitbomen." .
-
-
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_klein_fruit
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_klein_fruit> rdf:type owl:Class ;
-                                                                                            rdfs:subClassOf <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_fruitteelt> ;
-                                                                                            rdfs:label "klein fruit" ;
-                                                                                            skos:definition "Terreindeel begroeid met heesters voor zachtfruit zoals bessen of frambozen." .
-
-
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_laagstam_boomgaarden
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_laagstam_boomgaarden> rdf:type owl:Class ;
-                                                                                                     rdfs:subClassOf <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_fruitteelt> ;
-                                                                                                     rdfs:label "laagstam boomgaarden" ;
-                                                                                                     skos:definition "Terreindeel begroeid met laagstamfruitbomen." .
-
-
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_open_duinvegetatie
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_open_duinvegetatie> rdf:type owl:Class ;
-                                                                                                   rdfs:subClassOf <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_duin> ;
-                                                                                                   rdfs:label "open duinvegetatie" ;
-                                                                                                   skos:definition "Duin met een overwegend grasachtige vegetatie." .
-
-
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_planten
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_planten> rdf:type owl:Class ;
-                                                                                        rdfs:subClassOf <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_groenvoorziening> ;
-                                                                                        rdfs:label "planten" ;
-                                                                                        skos:definition "Beheerde niet nader gespecificeerde beplanting van groenvak in de openbare ruimte." .
-
-
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_struikrozen
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_struikrozen> rdf:type owl:Class ;
-                                                                                            rdfs:subClassOf <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_groenvoorziening> ;
-                                                                                            rdfs:label "struikrozen" ;
-                                                                                            skos:definition "Beheerde beplanting van groenvak in  de openbare ruimte, zijnde in struikvorm groeiende rozen." .
-
-
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_vollegrondsteelt
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_vollegrondsteelt> rdf:type owl:Class ;
-                                                                                                 rdfs:subClassOf <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_bouwland> ;
-                                                                                                 rdfs:label "vollegrondsteelt" ;
-                                                                                                 skos:definition "Terreindeel in gebruik als akker, voor de teelt van tuinbouwgewassen." .
-
-
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_wijngaarden
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_wijngaarden> rdf:type owl:Class ;
-                                                                                            rdfs:subClassOf <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_fruitteelt> ;
-                                                                                            rdfs:label "wijngaarden" ;
-                                                                                            skos:definition "Terreindeel begroeid met druivenstokken voor wijnbouw." .
-
-
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_boomteelt
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_boomteelt> rdf:type owl:Class ;
-                                                                                      rdfs:subClassOf :BegroeidTerreindeel ;
-                                                                                      rdfs:label "boomteelt" ;
-                                                                                      skos:definition "Grond in gebruik voor het kweken van jonge siergewassen, bomen enz. ten behoeve van een later gebruik elders." .
-
-
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_bouwland
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_bouwland> rdf:type owl:Class ;
-                                                                                     rdfs:subClassOf :BegroeidTerreindeel ;
-                                                                                     rdfs:label "bouwland" ;
-                                                                                     skos:definition "Terreindeel in gebruik als akker, met gewassen die in een teelt roulatieschema zijn opgenomen. Kan tijdelijk zonder gewas zijn of braak liggen." .
-
-
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_duin
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_duin> rdf:type owl:Class ;
-                                                                                 rdfs:subClassOf :BegroeidTerreindeel ;
-                                                                                 rdfs:label "duin" ;
-                                                                                 skos:definition "Verhoging of heuvel van zand of fijne losse aarde  en verpulverd gesteente opgeworpen door wind of door stromend water." .
-
-
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_fruitteelt
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_fruitteelt> rdf:type owl:Class ;
-                                                                                       rdfs:subClassOf :BegroeidTerreindeel ;
-                                                                                       rdfs:label "fruitteelt" ;
-                                                                                       skos:definition "Terreindeel begroeid met fruitbomen in de vorm van hoogstam en laagstamboomgaard, druiven of kleinfruit." .
-
-
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_gemengd_bos
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_gemengd_bos> rdf:type owl:Class ;
-                                                                                        rdfs:subClassOf :BegroeidTerreindeel ;
-                                                                                        rdfs:label "gemengd bos" ;
-                                                                                        skos:definition "Terreindeel begroeid met een dusdanige aantal naald- en loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen." .
-
-
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_grasland_agrarisch
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_grasland_agrarisch> rdf:type owl:Class ;
-                                                                                               rdfs:subClassOf :BegroeidTerreindeel ;
-                                                                                               rdfs:label "grasland agrarisch" ;
-                                                                                               skos:definition "Terreindeel met een vegetatie bestaande uit grassen en of grasachtigen, en met de in graslanden voorkomende  kruiden, zijnde cultuurgrasland dat in gebruik is voor de veeteelt, bijvoorbeeld als weiland of als hooiland." .
-
-
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_grasland_overig
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_grasland_overig> rdf:type owl:Class ;
-                                                                                            rdfs:subClassOf :BegroeidTerreindeel ;
-                                                                                            rdfs:label "grasland overig" ;
-                                                                                            skos:definition "Terreindeel met een vegetatie bestaande uit grassen en of grasachtigen, en met de in graslanden voorkomende  kruiden, dat niet in gebruik is voor agrarische doeleinden." .
-
-
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_groenvoorziening
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_groenvoorziening> rdf:type owl:Class ;
-                                                                                             rdfs:subClassOf :BegroeidTerreindeel ;
-                                                                                             rdfs:label "groenvoorziening" ;
-                                                                                             skos:definition "Terreindeel met aangelegde beplanting, meestal gras, heesters of struiken." .
-
-
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_heide
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_heide> rdf:type owl:Class ;
-                                                                                  rdfs:subClassOf :BegroeidTerreindeel ;
-                                                                                  rdfs:label "heide" ;
-                                                                                  skos:definition "Terreindeel overwegend begroeid met heide en heideachtige vegetaties." .
-
-
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_houtwal
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_houtwal> rdf:type owl:Class ;
-                                                                                    rdfs:subClassOf :BegroeidTerreindeel ;
-                                                                                    rdfs:label "houtwal" ;
-                                                                                    skos:definition "Terreindeel zijnde een afscheiding met beperkte breedte en beplant met bomen of struiken." .
-
-
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_kwelder
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_kwelder> rdf:type owl:Class ;
-                                                                                    rdfs:subClassOf :BegroeidTerreindeel ;
-                                                                                    rdfs:label "kwelder" ;
-                                                                                    skos:definition "Buitendijks gelegen aangeslibd land van een wad, dat bij gewone vloed niet meer onder loopt." .
-
-
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_loofbos
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_loofbos> rdf:type owl:Class ;
-                                                                                    rdfs:subClassOf :BegroeidTerreindeel ;
-                                                                                    rdfs:label "loofbos" ;
-                                                                                    skos:definition "Terreindeel begroeid met een dusdanige aantal loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen." .
-
-
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_moeras
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_moeras> rdf:type owl:Class ;
-                                                                                   rdfs:subClassOf :BegroeidTerreindeel ;
-                                                                                   rdfs:label "moeras" ;
-                                                                                   skos:definition "Terreindeel met moerasvegetatie in stilstaand water van geringe diepte zonder merkbare toe- of afvloeiing." .
-
-
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_naaldbos
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_naaldbos> rdf:type owl:Class ;
-                                                                                     rdfs:subClassOf :BegroeidTerreindeel ;
-                                                                                     rdfs:label "naaldbos" ;
-                                                                                     skos:definition "Terreindeel begroeid met een dusdanige aantal naaldbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen." .
-
-
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_rietland
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_rietland> rdf:type owl:Class ;
-                                                                                     rdfs:subClassOf :BegroeidTerreindeel ;
-                                                                                     rdfs:label "rietland" ;
-                                                                                     skos:definition "Terreindeel overwegend begroeid met rietvegetatie." .
-
-
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_struiken
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_struiken> rdf:type owl:Class ;
-                                                                                     rdfs:subClassOf :BegroeidTerreindeel ;
-                                                                                     rdfs:label "struiken" ;
-                                                                                     skos:definition "Terreindeel bedekt met niet-gecultiveerde (natuurlijke), lage, houtachtige, overblijvende planten gekenmerkt door verschillende vertakkingen dicht bij de wortel en afwezigheid van opvallende stammen." .
-
-
-###  http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_transitie
-<http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_transitie> rdf:type owl:Class ;
-                                                                                      rdfs:subClassOf :BegroeidTerreindeel ;
-                                                                                      rdfs:label "transitie" ;
-                                                                                      skos:definition "De waarde is tijdens transitie niet bekend." .
-
-
 ###  https://register.geostandaarden.nl/informatiemodel/imgeo/2.1.1#BegroeidTerreindeel
-:BegroeidTerreindeel rdf:type owl:Class ;
-    rdfs:subClassOf imgeo:Object , <http://definities.geostandaarden.nl/def/nen3610#Terrein>;
-    .
+imgeo:BegroeidTerreindeel rdf:type owl:Class ;
+    rdfs:subClassOf imgeo:Object , <http://definities.geostandaarden.nl/def/nen3610#Terrein> ;
+.
 
+imgeo:BegroeidTerrein_bouwland a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_bouwland>;
+  rdfs:label "bouwland";
+  rdfs:subClassOf :BegroeidTerreindeel .
 
-###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
+imgeo:BegroeidTerreinPlus_akkerbouw a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_akkerbouw>;
+  rdfs:label "akkerbouw";
+  rdfs:subClassOf imgeo:BegroeidTerrein_bouwland .
+
+imgeo:BegroeidTerreinPlus_bollenteelt a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_bollenteelt>;
+  rdfs:label "bollenteelt";
+  rdfs:subClassOf imgeo:BegroeidTerrein_bouwland .
+
+imgeo:BegroeidTerreinPlus_braakliggend a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_braakliggend>;
+  rdfs:label "braakliggend";
+  rdfs:subClassOf imgeo:BegroeidTerrein_bouwland .
+
+imgeo:BegroeidTerreinPlus_vollegrondsteelt a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_vollegrondsteelt>;
+  rdfs:label "vollegrondsteelt";
+  rdfs:subClassOf imgeo:BegroeidTerrein_bouwland .
+
+imgeo:BegroeidTerrein_duin a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_duin>;
+  rdfs:label "duin";
+  rdfs:subClassOf :BegroeidTerreindeel .
+
+imgeo:BegroeidTerreinPlus_gesloten_duinvegetatie a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_gesloten_duinvegetatie>;
+  rdfs:label "gesloten duinvegetatie";
+  rdfs:subClassOf imgeo:BegroeidTerrein_duin .
+
+imgeo:BegroeidTerreinPlus_open_duinvegetatie a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_open_duinvegetatie>;
+  rdfs:label "open duinvegetatie";
+  rdfs:subClassOf imgeo:BegroeidTerrein_duin .
+
+imgeo:BegroeidTerrein_fruitteelt a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_fruitteelt>;
+  rdfs:label "fruitteelt";
+  rdfs:subClassOf :BegroeidTerreindeel .
+
+imgeo:BegroeidTerreinPlus_hoogstam_boomgaarden a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_hoogstam_boomgaarden>;
+  rdfs:label "hoogstam boomgaarden";
+  rdfs:subClassOf imgeo:BegroeidTerrein_fruitteelt .
+
+imgeo:BegroeidTerreinPlus_klein_fruit a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_klein_fruit>;
+  rdfs:label "klein fruit";
+  rdfs:subClassOf imgeo:BegroeidTerrein_fruitteelt .
+
+imgeo:BegroeidTerreinPlus_laagstam_boomgaarden a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_laagstam_boomgaarden>;
+  rdfs:label "laagstam boomgaarden";
+  rdfs:subClassOf imgeo:BegroeidTerrein_fruitteelt .
+
+imgeo:BegroeidTerreinPlus_wijngaarden a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_wijngaarden>;
+  rdfs:label "wijngaarden";
+  rdfs:subClassOf imgeo:BegroeidTerrein_fruitteelt .
+
+imgeo:BegroeidTerrein_groenvoorziening a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_groenvoorziening>;
+  rdfs:label "groenvoorziening";
+  rdfs:subClassOf :BegroeidTerreindeel .
+
+imgeo:BegroeidTerreinPlus_bodembedekkers a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_bodembedekkers>;
+  rdfs:label "bodembedekkers";
+  rdfs:subClassOf imgeo:BegroeidTerrein_groenvoorziening .
+
+imgeo:BegroeidTerreinPlus_bosplantsoen a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_bosplantsoen>;
+  rdfs:label "bosplantsoen";
+  rdfs:subClassOf imgeo:BegroeidTerrein_groenvoorziening .
+
+imgeo:BegroeidTerreinPlus_gras_en_kruidachtigen a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_gras_en_kruidachtigen>;
+  rdfs:label "gras- en kruidachtigen";
+  rdfs:subClassOf imgeo:BegroeidTerrein_groenvoorziening .
+
+imgeo:BegroeidTerreinPlus_heesters a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_heesters>;
+  rdfs:label "heesters";
+  rdfs:subClassOf imgeo:BegroeidTerrein_groenvoorziening .
+
+imgeo:BegroeidTerreinPlus_planten a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_planten>;
+  rdfs:label "planten";
+  rdfs:subClassOf imgeo:BegroeidTerrein_groenvoorziening .
+
+imgeo:BegroeidTerreinPlus_struikrozen a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_struikrozen>;
+  rdfs:label "struikrozen";
+  rdfs:subClassOf imgeo:BegroeidTerrein_groenvoorziening .
+
+imgeo:BegroeidTerrein_loofbos a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_loofbos>;
+  rdfs:label "loofbos";
+  rdfs:subClassOf :BegroeidTerreindeel .
+
+imgeo:BegroeidTerreinPlus_griend_en_hakhout a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_griend_en_hakhout>;
+  rdfs:label "griend en hakhout";
+  rdfs:subClassOf imgeo:BegroeidTerrein_loofbos .
