@@ -1,0 +1,33 @@
+@prefix imgeo-col: <http://definities.geostandaarden.nl/imgeo/id/collection/> .
+@prefix imgeo-cpt: <http://definities.geostandaarden.nl/imgeo/id/concept/> .
+@prefix imgeo-sch: <http://definities.geostandaarden.nl/imgeo/id/scheme/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+imgeo-sch:imgeo a skos:ConceptScheme ;
+  rdfs:label "IMGEO begrippenkader" ;
+.
+
+imgeo-cpt:Status a skos:Concept ;
+  rdfs:label "Status" ;
+  skos:prefLabel "Status"@nl ;
+  skos:narrower imgeo-cpt:Bestaand ;
+  skos:topConceptOf imgeo-sch:imgeo ;
+  skos:inScheme imgeo-sch:imgeo ;
+.
+
+imgeo-cpt:Bestaand a skos:Concept ;
+  rdfs:label "Bestaand" ;
+  skos:prefLabel "Bestaand"@nl ;
+  skos:inScheme imgeo-sch:imgeo ;
+.
+
+imgeo-col:BgtStatus a skos:Collection ;
+  rdfs:label "BGT-status waardelijst" ;
+  skos:member
+    imgeo-cpt:Bestaand ;
+  skos:inScheme imgeo-sch:imgeo ;
+.

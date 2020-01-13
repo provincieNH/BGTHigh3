@@ -1,6 +1,6 @@
-@prefix bgt-col: <http://bgt.basisregistraties.overheid.nl/bgt/id/collection/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix imgeo: <http://definities.geostandaarden.nl/def/imgeo#> .
+@prefix imgeo-col: <http://definities.geostandaarden.nl/imgeo/id/collection/> .
 @prefix imgeo-sh: <http://definities.geostandaarden.nl/def/imgeo/> .
 @prefix nen3160: <http://definities.geostandaarden.nl/def/nen3610#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -28,7 +28,7 @@ imgeo-sh:Object_bgt-status a sh:PropertyShape ;
   sh:node [
     sh:property [
       sh:path [ sh:inversePath skos:member ] ;
-      sh:hasValue bgt-col:Status ;
+      sh:hasValue imgeo-col:BgtStatus ;
       sh:minCount 1 ;
     ] ;
   ] ;
