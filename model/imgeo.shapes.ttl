@@ -1,0 +1,41 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix imgeo: <https://definities.geostandaarden.nl/def/imgeo#> .
+@prefix imgeo-sh: <https://definities.geostandaarden.nl/def/imgeo/> .
+@prefix nen3160: <https://definities.geostandaarden.nl/def/nen3610#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+#########################################
+# imgeo:Object
+#########################################
+
+imgeo-sh:Object a sh:NodeShape ;
+  sh:targetClass imgeo:Object ;
+  sh:property
+    imgeo-sh:Object_bgt-status ,
+    imgeo-sh:Object_;
+.
+
+imgeo-sh:Object_bgt-status a sh:PropertyShape ;
+  sh:path imgeo:bgt-status ;
+  sh:class skos:Concept ;
+  sh:node [
+    sh:property [
+      sh:path [sh:inversePath skos:member] ;
+      sh:hasValue bgt-col:Status ;
+      sh:minCount 1 ;
+    ] ;
+  ] ;
+  sh:minCount 1 ;
+  sh:maxCount 1 ;
+.
+
+
+#########################################
+# imgeo:Objectregistratie
+#########################################
+
+

@@ -1,0 +1,294 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix ns3: <http://purl.org/dc/terms/>.
+@prefix ns2: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix n1: <http://www.w3.org/ns/prov#>.
+@prefix n2: <http://www.opengis.net/ont/geosparql#>.
+@prefix n3: <http://schema.org/>.
+@prefix n4: <http://definities.geostandaarden.nl/def/nen3610/>.
+@prefix n5: <http://definities.geostandaarden.nl/def/nen3610#>.
+@prefix n6: <http://definities.geostandaarden.nl/def/>.
+n1:wasRevisionOf rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    rdf:type <http://www.w3.org/2002/07/owl#AnnotationProperty>;
+    rdfs:comment "A revision is a derivation that revises an entity into a revised version."@en
+.
+n5:vorigeGeldigeVersie rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    rdfs:label "previous valid version"@en;
+    rdfs:label "vorige geldige versie"@nl;
+    rdfs:comment "De vorige materieel geldige versie van de registratie van een geo-object"@nl;
+    ns3:subject <http://definities.geostandaarden.nl/nen3610/id/begrip/VorigGeldigeVersie>
+.
+n5:vorigeGeregistreerdeVersie rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    rdfs:subPropertyOf n1:wasRevisionOf;
+    rdfs:label "vorige geregistreerde versie"@nl;
+    rdfs:label "previous registered version"@en;
+    rdfs:comment "Dit is een specialisatie van prov:wasRevisionOf, die specifiek de vorige versie van een objectregistratie in een lijn van versies aanduidt."@nl;
+    rdfs:comment "This is a specialisation of prov:wasRevisionOf, which specifically points to a previous version of a object registration in a lineage."@en;
+    ns3:subject <http://definities.geostandaarden.nl/nen3610/id/begrip/VorigGeregistreerdeVersie>
+.
+n3:AdministrativeArea rdf:type rdfs:Class;
+    rdfs:label "AdministrativeArea"@en;
+    rdfs:comment "A geographical region, typically under the jurisdiction of a particular government."@en;
+    rdfs:subClassOf n3:Place
+.
+n4:GeoObject rdf:type ns2:NodeShape;
+    rdfs:label "Shape voor GeoObject";
+    ns2:name "nen3610:GeoObject";
+    ns2:targetClass n5:GeoObject;
+    ns2:property [
+       ns2:name "nen3610:identificatie";
+       ns2:node n4:NEN3610Identificatie;
+       ns2:path n5:identificatie;
+       ns2:maxCount 1;
+       ns2:minCount 1
+   ];
+    ns2:property [
+       rdfs:comment "Deze eigenschap verbindt een Geo-object met de verschillende versies van de beschrijving van dit geo-object";
+       ns2:name "foaf:isPrimaryTopicOf";
+       ns2:node n4:GeoObjectRegistratie;
+       ns2:path <http://xmlns.com/foaf/0.1/isPrimaryTopicOf>
+   ]
+.
+n4:GeoObjectRegistratie rdf:type ns2:NodeShape;
+    rdfs:label "Shape voor GeoObjectRegistratie";
+    ns2:property [
+       ns2:name "nen3610:beginGeldigheid";
+       ns2:path n5:beginGeldigheid;
+       ns2:maxCount 1;
+       ns2:minCount 1;
+       ns2:datatype xsd:dateTime
+   ];
+    ns2:property [
+       ns2:name "nen3610:eindGeldigheid";
+       ns2:path n5:eindGeldigheid;
+       ns2:maxCount 1;
+       ns2:datatype xsd:dateTime
+   ];
+    ns2:property [
+       rdfs:label "tijdstip registratie";
+       ns2:name "prov:GeneratedAtTime";
+       ns2:path n1:generatedAtTime;
+       ns2:maxCount 1;
+       ns2:minCount 1
+   ];
+    ns2:property [
+       rdfs:label "eindregistratie";
+       ns2:name "prov:InvalidatedAtTime";
+       ns2:path n1:invalidatedAtTime;
+       ns2:maxCount 1
+   ];
+    ns2:property [
+       rdfs:label "heeft vorige materieel geldige versie";
+       ns2:name "nen3610:vorigeGeldigeVersie";
+       ns2:path n5:vorigeGeldigeVersie;
+       ns2:maxCount 1
+   ];
+    ns2:property [
+       rdfs:label "heeft vorige formeel geldige versie";
+       ns2:name "nen3610:vorigeGeregistreerdeVersie";
+       ns2:path n5:vorigeGeregistreerdeVersie;
+       ns2:maxCount 1
+   ]
+.
+n4:NEN3610Identificatie rdf:type ns2:NodeShape;
+    rdfs:label "Shape voor NEN3610 identificatie";
+    rdfs:comment "De combinatie van 'namespace' van een registratie, lokale identificatie en versie-informatie maken een object uniek identificeerbaar. Met de informatie van deze klasse kan daardoor met zekerheid worden verwezen naar het geïdentificeerde object.";
+    ns2:property [
+       ns2:message "namespace voldoet niet aan de eisen";
+       ns2:name "nen3610:namespace";
+       ns2:path n5:namespace;
+       ns2:pattern "^[A-Za-z0-9_,.-]*$";
+       ns2:maxCount 1;
+       ns2:minCount 1;
+       ns2:datatype xsd:string
+   ];
+    ns2:property [
+       ns2:message "lokaalId voldoet niet aan de eisen";
+       ns2:name "nen3610:lokaalID";
+       ns2:path n5:lokaalID;
+       ns2:pattern "^[A-Za-z0-9_,.-]*$";
+       ns2:maxCount 1;
+       ns2:minCount 1;
+       ns2:datatype xsd:string
+   ];
+    ns2:property [
+       ns2:maxLength 25;
+       ns2:message "versie voldoet niet aan de eisen";
+       ns2:name "nen3610:versie";
+       ns2:path n5:versie;
+       ns2:pattern "^[A-Za-z0-9_,.-]*$";
+       ns2:maxCount 1;
+       ns2:datatype xsd:string
+   ];
+    ns2:property [
+       rdfs:label "Samengestelde NEN 3610 identificatiestring";
+       rdfs:comment "Deze eigenschap kan gebruikt worden voor het beschrijven van de samengestelde NEN 3610 identitificatiestring";
+       ns2:message "value voldoet niet aan de eisen";
+       ns2:name "rdf:value";
+       ns2:path rdf:value;
+       ns2:pattern "^[A-Za-z0-9_,.-]*$";
+       ns2:maxCount 1;
+       ns2:datatype xsd:string
+   ]
+.
+n5:Kunstwerk rdf:type <http://www.w3.org/2002/07/owl#Class>;
+    rdfs:label "Kunstwerk"@nl;
+    rdfs:comment "civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen en niet bedoeld voor permanent menselijk verblijf"@nl;
+    rdfs:subClassOf n3:Place;
+    rdfs:subClassOf n5:GeoObject;
+    ns3:subject <http://definities.geostandaarden.nl/nen3610/id/begrip/Kunstwerk>
+.
+n3:Place rdf:type rdfs:Class;
+    rdfs:label "Place"@en;
+    rdfs:comment "Entities that have a somewhat fixed, physical extension."@en
+.
+n2:Feature rdf:type <http://www.w3.org/2002/07/owl#Class>;
+    rdfs:label "Feature"@en;
+    rdfs:comment "This class represents the top-level feature type. This class is equivalent to GFI_Feature defined in ISO 19156:2011, and it is superclass of all feature types."@en
+.
+n5:FunctioneelGebied rdf:type <http://www.w3.org/2002/07/owl#Class>;
+    rdfs:label "Functioneel gebied"@nl;
+    rdfs:comment "Begrensd en benoemd gebied dat door een functionele eenheid wordt beschreven"@nl;
+    rdfs:subClassOf n5:GeoObject;
+    rdfs:subClassOf n3:Place;
+    ns3:subject <http://definities.geostandaarden.nl/nen3610/id/begrip/FunctioneelGebied>
+.
+n5:Gebouw rdf:type <http://www.w3.org/2002/07/owl#Class>;
+    rdfs:label "Gebouw"@nl;
+    rdfs:label "Building"@en;
+    rdfs:comment "Vrijstaande, overdekte en geheel of gedeeltelijk met wanden omsloten toegankelijke ruimte, die direct of indirect met de grond is verbonden"@nl;
+    rdfs:subClassOf n3:Place;
+    rdfs:subClassOf n5:GeoObject;
+    ns3:subject <http://definities.geostandaarden.nl/nen3610/id/begrip/Gebouw>
+.
+n5:GeoObject rdf:type <http://www.w3.org/2002/07/owl#Class>;
+    rdfs:label "Geo-object"@nl;
+    rdfs:label "Geo-object"@en;
+    rdfs:comment "Een geo-object is een abstractie van een fenomeen in de werkelijkheid dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde (bijvoorbeeld ten opzichte van het aardoppervlak)"@nl;
+    rdfs:seeAlso n3:Place;
+    rdfs:subClassOf n2:Feature;
+    ns3:subject <http://definities.geostandaarden.nl/nen3610/id/begrip/GeoObject>
+.
+n5:GeografischGebied rdf:type <http://www.w3.org/2002/07/owl#Class>;
+    rdfs:label "Geografisch gebied"@nl;
+    rdfs:label "Geographical area"@en;
+    rdfs:comment "Geografisch benoemd of aangeduid gebied"@nl;
+    rdfs:subClassOf n3:Place;
+    rdfs:subClassOf n5:GeoObject;
+    ns3:subject <http://definities.geostandaarden.nl/nen3610/id/begrip/GeografischGebied>
+.
+n5:Identificatie rdf:type <http://www.w3.org/2002/07/owl#Class>;
+    rdfs:label "Identification"@en;
+    rdfs:label "Identificatie"@nl;
+    rdfs:comment "Een identificatie is een unieke identificatie van het object binnen het domein van NEN 3610."@nl;
+    ns3:subject <http://definities.geostandaarden.nl/nen3610/id/begrip/Identificatie>
+.
+n5:Inrichtingselement rdf:type <http://www.w3.org/2002/07/owl#Class>;
+    rdfs:label "Inrichtingselement"@nl;
+    rdfs:comment "ruimtelijk object al dan niet ter detaillering dan wel ter inrichting van de overige benoemde ruimtelijke objecten of een ander inrichtingselement"@nl;
+    rdfs:subClassOf n3:Place;
+    rdfs:subClassOf n5:GeoObject;
+    ns3:subject <http://definities.geostandaarden.nl/nen3610/id/begrip/Inrichtingselement>
+.
+n5:Leiding rdf:type <http://www.w3.org/2002/07/owl#Class>;
+    rdfs:label "Pipe"@en;
+    rdfs:label "Leiding"@nl;
+    rdfs:comment "Buis of kabel bestemd voor de voortgeleiding van energie of materie"@nl;
+    rdfs:subClassOf n5:GeoObject;
+    ns3:subject <http://definities.geostandaarden.nl/nen3610/id/begrip/Leiding>
+.
+n5:PlanologischGebied rdf:type <http://www.w3.org/2002/07/owl#Class>;
+    rdfs:label "Planologisch gebied"@nl;
+    rdfs:comment "Niet-tastbaar begrensd gebied waaraan een bepaalde (toekomstige) bestemming, functionele en/of bestuurlijke ruimtelijke ontwikkeling is gekoppeld"@nl;
+    rdfs:subClassOf n3:Place;
+    rdfs:subClassOf n5:GeoObject;
+    ns3:subject <http://definities.geostandaarden.nl/nen3610/id/begrip/PlanologischGebied>
+.
+n5:RegistratiefGebied rdf:type <http://www.w3.org/2002/07/owl#Class>;
+    rdfs:label "Registratief gebied"@nl;
+    rdfs:label "Administrative area"@en;
+    rdfs:comment "Op basis van wet- of regelgeving afgebakend gebied dat als eenheid geldt van politiek/bestuurlijke verantwoordelijkheid of voor bedrijfsvoering"@nl;
+    rdfs:subClassOf n3:AdministrativeArea;
+    rdfs:subClassOf n5:GeoObject;
+    ns3:subject <http://definities.geostandaarden.nl/nen3610/id/begrip/RegistratiefGebied>
+.
+n5:Spoorbaan rdf:type <http://www.w3.org/2002/07/owl#Class>;
+    rdfs:label "Railroad"@en;
+    rdfs:label "Spoorbaan"@nl;
+    rdfs:comment "Gebaand gedeelte voor het verkeer over rails"@nl;
+    rdfs:subClassOf n3:Place;
+    rdfs:subClassOf n5:GeoObject;
+    ns3:subject <http://definities.geostandaarden.nl/nen3610/id/begrip/Spoorbaan>
+.
+n5:Terrein rdf:type <http://www.w3.org/2002/07/owl#Class>;
+    rdfs:label "Terrain"@en;
+    rdfs:label "Terrein"@nl;
+    rdfs:comment "Door een fysiek voorkomen gekarakteriseerd zichtbaar begrensd stuk grond"@nl;
+    rdfs:subClassOf n5:GeoObject;
+    rdfs:subClassOf n3:Place;
+    ns3:subject <http://definities.geostandaarden.nl/nen3610/id/begrip/Terrein>
+.
+n5:Water rdf:type <http://www.w3.org/2002/07/owl#Class>;
+    rdfs:label "Water"@en;
+    rdfs:label "Water"@nl;
+    rdfs:comment "Grondoppervlak in principe bedekt met water";
+    rdfs:subClassOf n3:Place;
+    rdfs:subClassOf n5:GeoObject;
+    ns3:subject <http://definities.geostandaarden.nl/nen3610/id/begrip/Water>
+.
+n5:Weg rdf:type <http://www.w3.org/2002/07/owl#Class>;
+    rdfs:label "Street"@en;
+    rdfs:label "Weg"@nl;
+    rdfs:comment "Gebaand gedeelte voor het wegverkeer en vliegverkeer te land"@nl;
+    rdfs:subClassOf n5:GeoObject;
+    rdfs:subClassOf n3:Place;
+    ns3:subject <http://definities.geostandaarden.nl/nen3610/id/begrip/Weg>
+.
+n5:beginGeldigheid rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    rdfs:label "beginGeldigheid"@nl;
+    rdfs:label "validFrom"@en;
+    rdfs:comment "Start van de periode waarop deze instantie van het object geldig is in de werkelijkheid"@nl;
+    ns3:subject <http://definities.geostandaarden.nl/nen3610/id/begrip/BeginGeldigheid>
+.
+n5:eindGeldigheid rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    rdfs:label "validTo"@en;
+    rdfs:label "eindGeldigheid"@nl;
+    rdfs:comment "Eind van de periode waarop deze instantie van het object geldig is in de werkelijkheid."@nl;
+    ns3:subject <http://definities.geostandaarden.nl/nen3610/id/begrip/EindGeldigheid>
+.
+n5:identificatie rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty>;
+    rdfs:label "identification"@en;
+    rdfs:label "identificatie"@nl;
+    rdfs:range n5:Identificatie;
+    rdfs:comment "Een identificatie is een unieke identificatie van het object binnen het domein van NEN 3610."@nl;
+    ns3:subject <http://definities.geostandaarden.nl/nen3610/id/begrip/Identificatie>
+.
+n5:lokaalID rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    rdfs:label "lokaalID"@nl;
+    rdfs:label "localID"@en;
+    rdfs:domain n5:Identificatie;
+    rdfs:range xsd:string;
+    skos:definition "unieke identificatiecode binnen een registratie";
+    skos:scopeNote "'lokaalID' is de identificatiecode die een object heeft binnen een (lokale) registratie."
+.
+n5:namespace rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    rdfs:label "namespace"@nl;
+    rdfs:domain n5:Identificatie;
+    rdfs:range xsd:string;
+    skos:definition "unieke verwijzing naar een registratie van objecten";
+    skos:scopeNote "Het attribuut 'namespace' is een unieke verwijzing naar de registratie die de identificatie uitdeelt. Deze lijst van registraties wordt beheerd binnen de context van NEN 3610. Binnen Nederland zal deze namespace vrijwel altijd met 'NL' beginnen."
+.
+n5:versie rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+    rdfs:label "version"@en;
+    rdfs:label "versie"@nl;
+    rdfs:domain n5:Identificatie;
+    rdfs:range xsd:string;
+    skos:definition "versie-aanduiding van een object";
+    skos:scopeNote "Het attribuut 'versie' maakt geen deel uit van de identificatie van het object maar kan worden gebruikt om verschillende versies van hetzelfde object te identificeren."
+.
+n6:nen3610 rdf:type <http://www.w3.org/2002/07/owl#Ontology>;
+    rdfs:label "NEN3610 Ontologie"@nl;
+    rdfs:label "NEN3610 Ontology"@en
+.

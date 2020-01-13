@@ -1,0 +1,52 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix imgeo: <https://definities.geostandaarden.nl/def/imgeo#> .
+@prefix nen3160: <https://definities.geostandaarden.nl/def/nen3610#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+#########################################
+# imgeo:Object
+#########################################
+
+imgeo:Object a owl:Class ;
+  rdfs:label "Object" ;
+  rdfs:subClassOf nen3160:GeoObject ; 
+.
+
+imgeo:bgt-status a owl:ObjectProperty ;
+  rdfs:label "BGT-status" ;
+  rdfs:domain imgeo:Object ;
+.
+
+imgeo:relatieveHoogteligging a owl:DatatypeProperty ;
+  rdfs:label "relatieve hoogteligging" ;
+  rdfs:domain imgeo:Object ;
+  rdfs:range xsd:integer ;
+.
+
+#########################################
+# imgeo:Objectregistratie
+#########################################
+
+imgeo:Objectregistratie a owl:Class ;
+  rdfs:label "Objectregistratie" ;
+  rdfs:subClassOf foaf:Document ;
+.
+
+imgeo:bronhouder a owl:ObjectProperty ;
+  rdfs:label "bronhouder" ;
+  rdfs:domain imgeo:Objectregistratie ;
+.
+
+imgeo:inOnderzoek a owl:DatatypeProperty ;
+  rdfs:label "in onderzoek" ;
+  rdfs:domain imgeo:Objectregistratie ;
+  rdfs:range xsd:boolean ;
+.
+
+imgeo:lv-publicatiedatum a owl:DatatypeProperty ;
+  rdfs:label "LV-publicatiedatum" ;
+  rdfs:domain imgeo:Objectregistratie ;
+  rdfs:range xsd:dateTime ;
+.
