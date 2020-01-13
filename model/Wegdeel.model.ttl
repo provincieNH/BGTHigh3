@@ -15,33 +15,6 @@ imgeo:Wegdeel a owl:Class ;
     nen3610:Weg ;
 .
 
-imgeo:wegdeelOpTalud a owl:DatatypeProperty ;
-  rdfs:label "wegdeel op talud" ;
-  rdfs:domain imgeo:Wegdeel ;
-  rdfs:range xsd:boolean ;
-.
-
-imgeo:kruinlijnWegdeel a owl:ObjectProperty ;
-  rdfs:label "kruinlijnWegdeel" ;
-  rdfs:subPropertyOf gsp:hasGeometry ;
-  rdfs:domain imgeo:Wegdeel ;
-  rdfs:range gsp:Geometry ;
-.
-
-imgeo:geometrie2dWegdeel a owl:ObjectProperty ;
-  rdfs:label "geometrie2dWegdeel" ;
-  rdfs:subPropertyOf gsp:hasGeometry ;
-  rdfs:domain imgeo:Wegdeel ;
-  rdfs:range gsp:Geometry ;
-.
-
-imgeo:lod0SurfaceWegdeel a owl:ObjectProperty ;
-  rdfs:label "lod0SurfaceWegdeel" ;
-  rdfs:subPropertyOf gsp:hasGeometry ;
-  rdfs:domain imgeo:Wegdeel ;
-  rdfs:range gsp:Geometry ;
-.
-
 imgeo:Weg_gesloten_verharding a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_gesloten_verharding>;
   rdfs:label "gesloten verharding";

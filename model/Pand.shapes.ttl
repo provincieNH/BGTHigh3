@@ -21,7 +21,7 @@ imgeo-sh:Pand a sh:Nodeshape ;
         sh:path imgeo:nummeraanduidingreeks ;
         sh:class imgeo:Nummeraanduidingreeks ;
         sh:nodeKind sh:BlankNodeOrIRI ;
-        sh:min 1 ;
+        sh:minCount 1 ;
     ]
     .
 

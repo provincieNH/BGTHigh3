@@ -5,7 +5,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix imgeo: <https://definities.geostandaarden.nl/def/imgeo#> .
+@prefix imgeo: <http://definities.geostandaarden.nl/def/imgeo#> .
 
 ###  https://register.geostandaarden.nl/informatiemodel/imgeo/2.1.1#BegroeidTerreindeel
 imgeo:BegroeidTerreindeel rdf:type owl:Class ;

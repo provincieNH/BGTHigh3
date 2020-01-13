@@ -12,38 +12,26 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 #########################################
-# imgeo:Wegdeel
+# imgeo:BegroeidTerreindeel
 #########################################
 
-imgeo-sh:Wegdeel a sh:NodeShape ;
-  sh:targetClass imgeo:Wegdeel ;
+imgeo-sh:BegroeidTerreindeel a sh:NodeShape ;
+  sh:targetClass imgeo:BegroeidTerreindeel ;
   sh:property
-    imgeo-sh:Wegdeel_functie ,
-    imgeo-sh:Wegdeel_opTalud ,
-    imgeo-sh:Wegdeel_kruinlijn ,
-    imgeo-sh:Wegdeel_geometrie2d ,
-    imgeo-sh:Wegdeel_lod0Surface ;
+    imgeo-sh:BegroeidTerreindeel_opTalud ,
+    imgeo-sh:BegroeidTerreindeel_kruinlijn ,
+    imgeo-sh:BegroeidTerreindeel_geometrie2d ,
+    imgeo-sh:BegroeidTerreindeel_lod0Surface ;
 .
 
-imgeo-sh:Wegdeel_functie a sh:PropertyShape ;
-  sh:path imgeo:functie ;
-  sh:node [
-    sh:property [
-      sh:path [ sh:inversePath skos:member ] ;
-      sh:hasValue imgeo-col:Wegdeelfuncties ;
-      sh:minCount 1 ;
-    ] ;
-  ] ;
-.
-
-imgeo-sh:Wegdeel_opTalud a sh:PropertyShape ;
+imgeo-sh:BegroeidTerreindeel_opTalud a sh:PropertyShape ;
   sh:path imgeo:opTalud ;
   sh:datatype xsd:boolean ;
   sh:minCount 1 ;
   sh:maxCount 1 ;
 .
 
-imgeo-sh:Wegdeel_kruinlijn a sh:PropertyShape ;
+imgeo-sh:BegroeidTerreindeel_kruinlijn a sh:PropertyShape ;
   sh:path imgeo:kruinlijn ;
   sh:class
     gsp:Geometry ,
@@ -51,7 +39,7 @@ imgeo-sh:Wegdeel_kruinlijn a sh:PropertyShape ;
   sh:maxCount 1 ;
 .
 
-imgeo-sh:Wegdeel_geometrie2d a sh:PropertyShape ;
+imgeo-sh:BegroeidTerreindeel_geometrie2d a sh:PropertyShape ;
   sh:path imgeo:geometrie2d ;
   sh:class
     gsp:Geometry ,
@@ -60,10 +48,10 @@ imgeo-sh:Wegdeel_geometrie2d a sh:PropertyShape ;
   sh:maxCount 1 ;
 .
 
-imgeo-sh:Wegdeel_lod0Surface a sh:PropertyShape ;
+imgeo-sh:BegroeidTerreindeel_lod0Surface a sh:PropertyShape ;
   sh:path imgeo:lod0Surface ;
   sh:class
     gsp:Geometry ,
-    gml:Surface ;
+    gml:MultiSurface ;
   sh:maxCount 1 ;
 .
