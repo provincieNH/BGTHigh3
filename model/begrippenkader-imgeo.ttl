@@ -1,0 +1,2382 @@
+
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/(haven)kraan> rdfs:label "(haven)kraan"@nl ;
+	skos:definition "Spoorbaan waarop een hefkraan  bij een haven  zich voortbeweegt. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Abri> rdfs:label "abri"@nl ;
+	skos:definition "Overdekte wachtplaats voor passagiers van het openbaar vervoer. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/AdministratiefGebied> rdfs:label "administratief gebied"@nl ;
+	skos:definition "Een niet tastbaar begrensd grondoppervlak dat als eenheid geldt voor bestuurlijke verantwoordelijkheid  voor bedrijfsvoering  waarbinnen een specifieke rechtsverhouding te onderscheiden is of waarvoor een specifieke functie of bestemming geldt. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Afsluitpaal> rdfs:label "afsluitpaal"@nl ;
+	skos:definition "Al dan niet verwijderbare paal in de grond om de weg of een gedeelte hiervan af te sluiten. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/AfvalApartPlaats> rdfs:label "afval apart plaats"@nl ;
+	skos:definition "Boven- of ondergrondse opslagplaats voor het gescheiden inzamelen van afval  met stortkoker s  op het straatniveau. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Afvalbak> rdfs:label "afvalbak"@nl ;
+	skos:definition "Bak of korf in de openbare ruimte met een permanent karakter  bedoeld voor het verzamelen van  meestal los  afval. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Akkerbouw> rdfs:label "akkerbouw"@nl ;
+	skos:definition "Terreindeel in gebruik als akker  voor de teelt van akkerbouwgewassen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Aquaduct> rdfs:label "aquaduct"@nl ;
+	skos:definition "Kunstwerk waarmee een watergang door een bakvormige constructie over een weg  een spoorweg  een andere watergang  een leiding of een terrein wordt geleid. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Asfalt> rdfs:label "asfalt"@nl ;
+	skos:definition "Gesloten verharding bestaande uit asfaltbeton of andere met bitumen gebonden materialen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/BaanVoorVliegverkeer> rdfs:label "baan voor vliegverkeer"@nl ;
+	skos:definition "Wegdeel uitsluitend bedoeld voor vliegverkeer. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Bak> rdfs:label "bak"@nl ;
+	skos:definition "Object met een permanent karakter dat dient om iets in te bergen of te verzamelen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Balustrade> rdfs:label "balustrade"@nl ;
+	skos:definition "Een balustrade is een hekwerk of afzetting aan de rand van een overbrugging. Een balustrade beveiligt tegen het vallen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Bank> rdfs:label "bank"@nl ;
+	skos:definition "Aaneengesloten zitplaats voor verscheidene personen  bedoeld voor openbaar gebruik en geplaatst in de openbare ruimte  vnl. in parken  plantsoenen  bossen en langs wegen .  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Bassin> rdfs:label "bassin"@nl ;
+	skos:definition "Waterbak  zoals een zwembad of een dok. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Bedrijvigheid> rdfs:label "bedrijvigheid"@nl ;
+	skos:definition "Gebied waarop  panden of overige gebouwen staan  en   of niet bebouwde oppervlakte   voornamelijk gebruikt  voor economische activiteiten en non-profit activiteiten. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Beek> rdfs:label "beek"@nl ;
+	skos:definition "Een natuurlijke smalle waterloop zonder getij. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Begraafplaats> rdfs:label "begraafplaats"@nl ;
+	skos:definition "Een besloten gebied waar lichamen van overleden personen worden begraven. Ook worden op begraafplaatsen urnen as van gecremeerde lichamen bewaard. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/BegroeidTerreindeel> rdfs:label "begroeid terreindeel"@nl ;
+	skos:definition "Kleinste functioneel onafhankelijk stukje van een terrein dat er binnen het objecttype Terrein van NEN 3610 wordt onderscheiden  met aaneengesloten vegetatie. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/BegroeidTerreindeelOpTalud> rdfs:label "begroeid terreindeel op talud"@nl ;
+	skos:definition "Indicatie of het object wel of niet op een hellend vlak ligt.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Benzine-Olieput> rdfs:label "benzine- / olieput"@nl ;
+	skos:definition "Putdeksel die toegang geeft tot een benzine- of olietank ten behoeve van vullen  onderhoud of inspectie. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Benzinestation> rdfs:label "benzinestation"@nl ;
+	skos:definition "Geheel van installaties  verharding en opstallen waar brandstoffen ten behoeve van verbrandingsmotoren worden verkocht. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Berm> rdfs:label "berm"@nl ;
+	skos:definition "Een strook grond langs een weg of spoorweg. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Bestaand> rdfs:label "bestaand"@nl ;
+	skos:definition "Situatie waarin het object wordt   kan worden gebruikt voor het doel waarvoor het is gebouwd   aangelegd. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Betaalautomaat> rdfs:label "betaalautomaat"@nl ;
+	skos:definition "Een apparaat dat betaalkaarten en of contant geld accepteert om betalingen uit te voeren. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/BetonElement> rdfs:label "beton element"@nl ;
+	skos:definition "Geprepareerde elementen van beton zoals  trottoirbanden  opsluitbanden en stelconplaten. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Betonning> rdfs:label "betonning"@nl ;
+	skos:definition "Een systeem van boeien en bakens  waarmee in open zee of in een vaarwater ondiepten of de aanwezigheid van gevaarlijke objecten worden aangegeven. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Betonstraatstenen_fysiekVoorkomenWegPlus> rdfs:label "betonstraatstenen (fysiek voorkomen weg plus)"@nl ;
+	skos:definition "Verharding gemaakt van betonstraatstenen. Straatsteen die als goedkope vervanging van de gebakken klinkers is ontwikkeld. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Betonstraatstenen_fysiekVoorkomenOndersteunendWegdeelPlus> rdfs:label "betonstraatstenen (fysiek voorkomen ondersteunend wegdeel plus)"@nl ;
+	skos:definition "Verharding gemaakt van betonstraatstenen. Straatsteen die als goedkope vervanging van de gebakken klinkers is ontwikkeld.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Bewoning> rdfs:label "bewoning"@nl ;
+	skos:definition "Gebied waarop panden of overige bouwwerken staan die voornamelijk gebruikt worden voor bewoning  inclusief erven en tuinen die bij de panden behoren. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Bezinkbak> rdfs:label "bezinkbak"@nl ;
+	skos:definition "Een gesloten reservoir waarin het afvalwater tijdelijk wordt opgevangen met een slibreinigende voorziening. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Bgt-fysiekVoorkomen> rdfs:label "bgt-fysiek voorkomen"@nl ;
+	skos:definition "Classificatie van het soort terrein  ingedeeld naar de uiterlijke verschijningsvorm. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Bgt-status> rdfs:label "bgt-status"@nl ;
+	skos:definition "De status gekoppeld aan de levenscyclus van een geo-object "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Bgt-type_functioneelGebied> rdfs:label "bgt-type (functioneel gebied)"@nl ;
+	skos:definition "Specificatie van het soort Functioneel Gebied. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Bgt-type_kunstwerkdeel> rdfs:label "bgt-type (kunstwerkdeel)"@nl ;
+	skos:definition "Specificatie van het soort kunstwerk.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Bgt-type_overigBouwwerk> rdfs:label "bgt-type (overig bouwwerk)"@nl ;
+	skos:definition "Specificatie van het soort overig bouwwerk.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Bgt-type_scheiding> rdfs:label "bgt-type (scheiding)"@nl ;
+	skos:definition "Specificatie van het soort scheiding. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Bloembak> rdfs:label "bloembak"@nl ;
+	skos:definition "Bak in de openbare ruimte met een permanent karakter  waarin planten of struiken zijn geplant. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Bodembedekkers> rdfs:label "bodembedekkers"@nl ;
+	skos:definition "Beheerde beplanting van groenvak in  de openbare ruimte  zijnde bodembedekkers. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Bodemval> rdfs:label "bodemval"@nl ;
+	skos:definition "Sprong in de bodem van een waterloop. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Bolder> rdfs:label "bolder"@nl ;
+	skos:definition "Een inrichting aan de wal  waar een schip  door middel van een tros of landvast  aan vastgelegd kan worden. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Bollenteelt> rdfs:label "bollenteelt"@nl ;
+	skos:definition "Terreindeel in gebruik als akker  voor de teelt van bloembollen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Boom> rdfs:label "boom"@nl ;
+	skos:definition "Een markante boom die geen onderdeel uitmaakt van een ander boom- of struikbeplanting.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Boomschors_fysiekVoorkomenWegPlus> rdfs:label "boomschors (fysiek voorkomen weg plus)"@nl ;
+	skos:definition "Onverhard met als deklaag boomschors. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Boomschors_fysiekVoorkomenOndersteunendWegdeelPlus> rdfs:label "boomschors (fysiek voorkomen ondersteunend wegdeel plus)"@nl ;
+	skos:definition "Onverhard met als deklaag boomschors.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Boomspiegel> rdfs:label "boomspiegel"@nl ;
+	skos:definition "Het stuk grond rondom de stam van een boom dat van boven toegankelijk is voor lucht en water.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Boomteelt> rdfs:label "boomteelt"@nl ;
+	skos:definition "Grond in gebruik voor het kweken van jonge siergewassen  bomen enz. ten behoeve van een later gebruik elders. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Bord> rdfs:label "bord"@nl ;
+	skos:definition "Een paneel waarop informatie wordt afgebeeld. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Bordes> rdfs:label "bordes"@nl ;
+	skos:definition "Een verhard oppervlak  eventueel verhoogd en of uitgevoerd met treden  grenzend aan een pand en primair bedoeld voor gebruik door voetgangers. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Bosplantsoen> rdfs:label "bosplantsoen"@nl ;
+	skos:definition "Opgaande beplanting van houtachtige gewassen die struikvormend en of boomvormend zijn. De soorten zijn als bosplantsoen opgekweekt en aangeplant.De beplanting kan open of gesloten zijn en bestaat vaak uit inheemse soorten. Onderscheidt zich van heesters omdat de sierkenmerken niet voorop staan. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Bouwland> rdfs:label "bouwland"@nl ;
+	skos:definition "Terreindeel in gebruik als akker  met gewassen die in een teelt roulatieschema zijn opgenomen. Kan tijdelijk zonder gewas zijn of braak liggen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Bouwtekening> rdfs:label "bouwtekening"@nl ;
+	skos:definition "De geometrie is van een bouwtekening afgeleid. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Bovenleidingmast> rdfs:label "bovenleidingmast"@nl ;
+	skos:definition "Mast die een onderdeel vormt van de bovenleidingdraagconstructie. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Braakliggend> rdfs:label "braakliggend"@nl ;
+	skos:definition "Terrein in gebruik als akker  maar tijdelijk niet beteeld met een landbouwgewas. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Brandkraan-put> rdfs:label "brandkraan / -put"@nl ;
+	skos:definition "Op de drinkwaterleiding aangesloten kraan  of een put voor het plaatsen van een brandkraan  op of nabij de openbare weg  voor brandbestrijding. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Brievenbus> rdfs:label "brievenbus"@nl ;
+	skos:definition "Uitpandige kast waar post in kan worden gedeponeerd ter bezorging.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Bron> rdfs:label "bron"@nl ;
+	skos:definition "Grondwater dat op natuurlijke wijze uit het aardoppervlak tevoorschijn komt. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Bronhouder> rdfs:label "bronhouder"@nl ;
+	skos:definition "De bronhoudercode van het object. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Brug> rdfs:label "brug"@nl ;
+	skos:definition "Kunstwerk over een watervlakte of waterloop  bestaande uit een brugdek gesteund door pijlers en of landhoofden. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Bunker> rdfs:label "bunker"@nl ;
+	skos:definition "Een bunker is een militair verdedigingswerk dat een zekere mate van bescherming biedt tegen beschietingen en bombardementen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Bushalte> rdfs:label "bushalte"@nl ;
+	skos:definition "Halteplaats voor bussen van het openbaar vervoer. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Buurt> rdfs:label "buurt"@nl ;
+	skos:definition "Een aaneengesloten gedeelte van een wijk  waarvan de grenzen zoveel mogelijk zijn gebaseerd op topografische elementen.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Buurtcode> rdfs:label "buurtcode"@nl ;
+	skos:definition "De code behorende bij de naam van de buurt.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Cai-kast> rdfs:label "cai-kast"@nl ;
+	skos:definition "Kast ten behoeve van de regeling van radio- en televisiesignalen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Calamiteitendoorsteek> rdfs:label "calamiteitendoorsteek"@nl ;
+	skos:definition "Een  Calamiteiten doorsteek  CADO heeft tot doel het verkeer op een rijbaan via een doorsteek van de weg te kunnen geleiden in geval van een calamiteit of werkzaamheden op de rijbaan. Een tweede doel is het faciliteren van toegang tot rijbanen voor hulpdiensten vanaf andere rijbanen of van een parallelweg. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Camera> rdfs:label "camera"@nl ;
+	skos:definition "Installatie voor de registratie van beelden van situaties  waarvan direkte observatie moeilijk of niet permanent mogelijk is. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Carpoolplaats> rdfs:label "carpoolplaats"@nl ;
+	skos:definition "Parkeerplaats die qua ligging en ontsluiting geschikt is voor carpooling. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Cementbeton> rdfs:label "cementbeton"@nl ;
+	skos:definition "Gesloten verharding bestaande uit gewapend of ongewapend beton. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Container> rdfs:label "container"@nl ;
+	skos:definition "Nagelvast met de grond verbonden inzamelmiddel voor afvalstoffen  doorgaans van metaal of kunststof waarin afvalstoffen worden verzameld  bewaard en waaruit deze afvalstoffen vervolgens worden overgeladen in een inzamelvoertuig. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Coupure> rdfs:label "coupure"@nl ;
+	skos:definition "Een onderbreking in een waterkering voor de doorvoer van een weg of spoorweg  die bij extreme waterstanden afsluitbaar is. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Damwand> rdfs:label "damwand"@nl ;
+	skos:definition "Een grondkerende constructie die bestaat uit een verticaal in de grond geplaatste wand. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/DatumInwinning> rdfs:label "datum inwinning"@nl ;
+	skos:definition "Datum waarop het punt is ingewonnen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Debietmeter> rdfs:label "debietmeter"@nl ;
+	skos:definition "Een instrument dat de  afvoer capaciteit van de volumestroom meet. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Dek> rdfs:label "dek"@nl ;
+	skos:definition "Direct door het verkeer belaste deel van de bovenbouw van de brug. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Detectielus> rdfs:label "detectielus"@nl ;
+	skos:definition "In de verharding opgenomen lusvormig onderdeel van een verkeersdetector. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Digitaliseren> rdfs:label "digitaliseren"@nl ;
+	skos:definition "De geometrie is handmatig van analoog naar digitale informatie omgezet. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Dijkpaal> rdfs:label "dijkpaal"@nl ;
+	skos:definition "Een markant punt op de waterkering of op het strand dat dient als referentiepunt voor afstandsaanduidingen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Draadraster> rdfs:label "draadraster"@nl ;
+	skos:definition "Kunstmatige terreinafscheiding  niet zijnde een faunaraster  in de vorm van een overwegend houten  metalen of kunststoffen rechtopstaande palen met daartussen een of meerdere draden. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Drainageput> rdfs:label "drainageput"@nl ;
+	skos:definition "Put welke toegang geeft naar een poreuze of geperforeerde buisleiding  aangebracht onder de grond om de afwatering van de grond te verbeteren. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Drinkbak> rdfs:label "drinkbak"@nl ;
+	skos:definition "Bak gevuld met water  waaruit vee of wild kan drinken. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Drukknoppaal> rdfs:label "drukknoppaal"@nl ;
+	skos:definition "Paal met een lengte van ongeveer 1 m  met drukknop waarmee de verkeersdeelnemer zich meldt bij een verkeersregelinstallatie. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Duiker> rdfs:label "duiker"@nl ;
+	skos:definition "Kunstwerk voor de waterhuishouding  bestaande uit een kokervormige constructie aangebracht onder een weg of spoorweg of in een dam. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Duin> rdfs:label "duin"@nl ;
+	skos:definition "Verhoging of heuvel van zand of fijne losse aarde  en verpulverd gesteente opgeworpen door wind of door stromend water. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/DynamischeSnelheidsindicator> rdfs:label "dynamische snelheidsindicator"@nl ;
+	skos:definition "Een snelheidsinformatiebord dat in "real time" de snelheid van de weggebruikers aanduidt. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Ecoduct> rdfs:label "ecoduct"@nl ;
+	skos:definition "Wildwissel in de vorm van een viaduct voor passages van dieren over een weg of spoorweg. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/EindRegistratie> rdfs:label "eind registratie"@nl ;
+	skos:definition "Eind van de periode waarop deze instantie van het object geldig is bij de bronhouder. Wanneer deze waarde niet is ingevuld is de instantie nog geldig. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Elektrakast> rdfs:label "elektrakast"@nl ;
+	skos:definition "Kast ten behoeve van de regeling van het transport van elektriciteit. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Erf> rdfs:label "erf"@nl ;
+	skos:definition "Terreindeel dat bij een pand of overig bouwwerk hoort  dat niet nader wordt ingewonnen en dat bestaat uit een mengvorm van begroeiing  verharding  en of water. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Faunaraster> rdfs:label "faunaraster"@nl ;
+	skos:definition "Kunstmatig aangebrachte scheiding van metaaldraad tussen palen  bedoeld voor het leiden van dieren. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Faunavoorziening> rdfs:label "faunavoorziening"@nl ;
+	skos:definition "Voorziening bij een weg of spoorweg  niet zijnde een ecoduct  om de uit dat werk voortvloeiende negatieve gevolgen voor de fauna zoveel mogelijk te voorkomen of te beperken. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Fietsenkluis> rdfs:label "fietsenkluis"@nl ;
+	skos:definition "Een fietskluis is een kluis om een fiets in te bewaren  meestal ter voorkoming van diefstal of beschadiging. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Fietsenrek> rdfs:label "fietsenrek"@nl ;
+	skos:definition "Een duurzaam verankerd rek in de openbare ruimte voor het stallen van fietsen.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Fietspad> rdfs:label "fietspad"@nl ;
+	skos:definition "Wegdeel met name bestemd voor fietsers en  indien toegestaan  bromfietsers en dat afgescheiden is van de andere wegdelen niet uitsluitend door markering. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Flitser> rdfs:label "flitser"@nl ;
+	skos:definition "Een flitser bevat een mechanisme om een snelheidsmeting uit te voeren om snelheidsovertredingen in het verkeer te kunnen vaststellen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Fly-over> rdfs:label "fly-over"@nl ;
+	skos:definition "Kunstwerk in de vorm van een viaduct dat deel uitmaakt van een verkeersbaan en waarmee een verkeersstroom over twee of meer ongelijkvloerse verkeersstromen wordt geleid. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Fontein> rdfs:label "fontein"@nl ;
+	skos:definition "Een fontein is een natuurlijke of kunstmatige installatie die water spuit.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Fotogrammetisch> rdfs:label "fotogrammetisch"@nl ;
+	skos:definition "De geometrie is ingewonnen vanaf daartoe geschikte  digitale  foto s  meestal luchtfoto s. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Fruitteelt> rdfs:label "fruitteelt"@nl ;
+	skos:definition "Terreindeel begroeid met fruitbomen in de vorm van hoogstam en laagstamboomgaard  druiven of kleinfruit. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/FunctioneelBeheer> rdfs:label "functioneel beheer"@nl ;
+	skos:definition "Gebied waar een specifiek beheer voor benodigd is  louter bepaald vanuit beheersoogpunt. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/FunctioneelBeheerHondenuitlaatplaats> rdfs:label "functioneel beheer: hondenuitlaatplaats"@nl ;
+	skos:definition "Een uitlaatplaats waar uw hond zijn behoefte kan  mag doen waarbij geen opruimplicht bestaat. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/FunctioneelGebied> rdfs:label "functioneel gebied"@nl ;
+	skos:definition "Begrensd en benoemd gebied dat door een functionele eenheid beschreven wordt. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Gaskast> rdfs:label "gaskast"@nl ;
+	skos:definition "Kast ten behoeve van de regeling van het transport van gas. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Gasput> rdfs:label "gasput"@nl ;
+	skos:definition "Put met afsluitkraan ten behoeve van het ondergrondse leidingenstelsel voor gastransport. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/GebakkenKlinkers_fysiekVoorkomenWegPlus> rdfs:label "gebakken klinkers (fysiek voorkomen weg plus)"@nl ;
+	skos:definition "Verharding gemaakt van straatbakstenen. Gebakken klinkers worden voornamelijk geproduceerd uit grondstof van eigen bodem  amp ndash  de beddingen van onze rivieren.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/GebakkenKlinkers_fysiekVoorkomenOnbegroeidTerreinPlus> rdfs:label "gebakken klinkers (fysiek voorkomen onbegroeid terrein plus)"@nl ;
+	skos:definition "Verharding gemaakt van straatbakstenen. Gebakken klinkers worden voornamelijk geproduceerd uit grondstof van eigen bodem  ndash  de beddingen van onze rivieren. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/GebakkenKlinkers_fysiekVoorkomenOndersteunendWegdeelPlus> rdfs:label "gebakken klinkers (fysiek voorkomen ondersteunend wegdeel plus)"@nl ;
+	skos:definition "Verharding gemaakt van straatbakstenen. Gebakken klinkers worden voornamelijk geproduceerd uit grondstof van eigen bodem  de beddingen van onze rivieren. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/GebouwInstallatie> rdfs:label "gebouw installatie"@nl ;
+	skos:definition "Een component aan de buitenzijde van een gebouw  die het aanzicht van het gebouw mede bepaalt.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Geconstrueerd> rdfs:label "geconstrueerd"@nl ;
+	skos:definition "De geometrie is in een GIS of CAD systeem geconstrueerd. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/GeenWaarde> rdfs:label "geen waarde"@nl ;
+	skos:definition "Element heeft in werkelijkheid geen waarde. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Geleideconstructie> rdfs:label "geleideconstructie"@nl ;
+	skos:definition "Bermbeveiligingsconstructie bedoeld voor fysieke geleiding van voertuigen die uit de koers zijn geraakt. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Geleidewerk> rdfs:label "geleidewerk"@nl ;
+	skos:definition "Fuikvormige constructie aansluitend aan het hoofd van een kunstwerk voor het geven van mechanische en visuele geleiding tijdens het invaren van dat kunstwerk. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Geluidsscherm> rdfs:label "geluidsscherm"@nl ;
+	skos:definition "Een scheiding bedoeld om geluidshinder in de buitenlucht te verminderen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Gemaal> rdfs:label "gemaal"@nl ;
+	skos:definition "Een kunstwerk in principe bedoeld om water van een laag peil naar een hoog peil te brengen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/GemengdBos> rdfs:label "gemengd bos"@nl ;
+	skos:definition "Terreindeel begroeid met een dusdanige aantal naald- en loofbomen dat deze een min of meer gesloten geheel vormen of  na volgroeiing van de bomen  zullen vormen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Geometrie> rdfs:label "geometrie"@nl ;
+	skos:definition "Puntgeometrie."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Geometrie2d_ongeclassificeerdObject> rdfs:label "geometrie2d (ongeclassificeerd object)"@nl ;
+	skos:definition "Vlakgeometrie."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Geometrie2d_registratiefGebied> rdfs:label "geometrie2d (registratief gebied)"@nl ;
+	skos:definition "Multivlakgeometrie."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Geometrie2dBak> rdfs:label "geometrie2d bak"@nl ;
+	skos:definition "Puntgeometrie."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Geometrie2dBegroeidTerreindeel> rdfs:label "geometrie2d begroeid terreindeel"@nl ;
+	skos:definition "Vlakgeometrie."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Geometrie2dBord> rdfs:label "geometrie2d bord"@nl ;
+	skos:definition "Puntgeometrie."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Geometrie2dFunctioneelGebied> rdfs:label "geometrie2d functioneel gebied"@nl ;
+	skos:definition "Vlakgeometrie."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Geometrie2dGebouwInstallatie> rdfs:label "geometrie2d gebouw installatie"@nl ;
+	skos:definition "Vlakgeometrie."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Geometrie2dGrondvlak> rdfs:label "geometrie2d grondvlak"@nl ;
+	skos:definition "Vlakgeometrie grondvlak."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Geometrie2dInstallatie> rdfs:label "geometrie2d installatie"@nl ;
+	skos:definition "Puntgeometrie."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Geometrie2dKast> rdfs:label "geometrie2d kast"@nl ;
+	skos:definition "Puntgeometrie."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Geometrie2dMast> rdfs:label "geometrie2d mast"@nl ;
+	skos:definition "Puntgeometrie."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Geometrie2dOnbegroeidTerreindeel> rdfs:label "geometrie2d onbegroeid terreindeel"@nl ;
+	skos:definition "Vlakgeometrie."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Geometrie2dOndersteunendWaterdeel> rdfs:label "geometrie2d ondersteunend waterdeel"@nl ;
+	skos:definition "Vlakgeometrie."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Geometrie2dOndersteunendWegdeel> rdfs:label "geometrie2d ondersteunend wegdeel"@nl ;
+	skos:definition "Vlakgeometrie."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Geometrie2dOverbruggingsdeel> rdfs:label "geometrie2d overbruggingsdeel"@nl ;
+	skos:definition "Vlakgeometrie."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Geometrie2dOverigeConstructie> rdfs:label "geometrie2d overige constructie"@nl ;
+	skos:definition "Punt-  lijn-  vlak- of multivlakgeometrie."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Geometrie2dPaal> rdfs:label "geometrie2d paal"@nl ;
+	skos:definition "Puntgeometrie."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Geometrie2dPut> rdfs:label "geometrie2d put"@nl ;
+	skos:definition "Puntgeometrie."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Geometrie2dSensor> rdfs:label "geometrie2d sensor"@nl ;
+	skos:definition "Punt- of lijngeometrie."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Geometrie2dSpoor> rdfs:label "geometrie2d spoor"@nl ;
+	skos:definition "Lijngeometrie."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Geometrie2dStraatmeubilair> rdfs:label "geometrie2d straatmeubilair"@nl ;
+	skos:definition "Puntgeometrie."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Geometrie2dTunneldeel> rdfs:label "geometrie2d tunneldeel"@nl ;
+	skos:definition "Vlakgeometrie."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Geometrie2dVegetatieObject> rdfs:label "geometrie2d vegetatie object"@nl ;
+	skos:definition "Punt-  lijn-  of vlakgeometrie."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Geometrie2dWaterdeel> rdfs:label "geometrie2d waterdeel"@nl ;
+	skos:definition "Vlakgeometrie."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Geometrie2dWaterinrichtingselement> rdfs:label "geometrie2d waterinrichtingselement"@nl ;
+	skos:definition "Punt- of lijngeometrie."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Geometrie2dWegdeel> rdfs:label "geometrie2d wegdeel"@nl ;
+	skos:definition "Vlakgeometrie."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Geometrie2dWeginrichtingselement> rdfs:label "geometrie2d weginrichtingselement"@nl ;
+	skos:definition "Punt-  lijn of vlakgeometrie."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/GeslotenDuinvegetatie> rdfs:label "gesloten duinvegetatie"@nl ;
+	skos:definition "Duin met een overwegend opgaande vegetatie van struiken en of bomen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/GeslotenVerharding> rdfs:label "gesloten verharding"@nl ;
+	skos:definition "Verharding bestaande uit een materiaal dat niet verwijderbaar is zonder definitieve destructie  zoals bijvoorbeeld bitumen  cement of kunststof. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/GmsKast> rdfs:label "gms kast"@nl ;
+	skos:definition "Kast ten behoeve van het meten van weers- en wegdekomstandigheden. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/GmsSensor> rdfs:label "gms sensor"@nl ;
+	skos:definition "Gladheidsmeldsysteem  GMS  waarmee de kans op gladheid wordt voorspeld aan de hand van meting en interpretatie van de parameters die een rol spelen bij het ontstaan van gladheid. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Gracht> rdfs:label "gracht"@nl ;
+	skos:definition "Een gracht is een gegraven greppel met water  die hoofdzakelijk voorkomt in oude steden. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Gras-EnKruidachtigen> rdfs:label "gras- en kruidachtigen"@nl ;
+	skos:definition " Grond met  een laagblijvende  aaneengesloten kruidachtige vegetatie. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Grasklinkers_fysiekVoorkomenWegPlus> rdfs:label "grasklinkers (fysiek voorkomen weg plus)"@nl ;
+	skos:definition "Elementenverharding bestaande uit elementen van beperkte afmetingen die ten behoeve van de doorgroei van grassen en kruiden  zijn voorzien van openingen of met tussenruimten aangebracht.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Grasklinkers_fysiekVoorkomenOnbegroeidTerreinPlus> rdfs:label "grasklinkers (fysiek voorkomen onbegroeid terrein plus)"@nl ;
+	skos:definition "Elementenverharding bestaande uit elementen van beperkte afmetingen die ten behoeve van de doorgroei van grassen en kruiden  zijn voorzien van openingen of met tussenruimten aangebracht. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/GraslandAgrarisch> rdfs:label "grasland agrarisch"@nl ;
+	skos:definition "Terreindeel met een vegetatie bestaande uit grassen en of grasachtigen  en met de in graslanden voorkomende  kruiden  zijnde cultuurgrasland dat in gebruik is voor de veeteelt  bijvoorbeeld als weiland of als hooiland. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/GraslandOverig> rdfs:label "grasland overig"@nl ;
+	skos:definition "Terreindeel met een vegetatie bestaande uit grassen en of grasachtigen  en met de in graslanden voorkomende  kruiden  dat niet in gebruik is voor agrarische doeleinden. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Gravel_fysiekVoorkomenWegPlus> rdfs:label "gravel (fysiek voorkomen weg plus)"@nl ;
+	skos:definition "Gravel is een ondergrond van gemalen baksteen die veel wordt gebruikt bij tennis en ook wel op atletiekbanen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Gravel_fysiekVoorkomenOndersteunendWegdeelPlus> rdfs:label "gravel (fysiek voorkomen ondersteunend wegdeel plus)"@nl ;
+	skos:definition "Gravel is een ondergrond van gemalen baksteen die veel wordt gebruikt bij tennis en ook wel op atletiekbanen.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Grensmarkering> rdfs:label "grensmarkering"@nl ;
+	skos:definition "Paal ter afbakening van een grens. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/GreppelDrogeSloot> rdfs:label "greppel, droge sloot"@nl ;
+	skos:definition "Een ten behoeve van de waterbeheersing gegraven geul die al dan niet met water bedekt is. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/GriendEnHakhout> rdfs:label "griend en hakhout"@nl ;
+	skos:definition "Terreindeel met opgaande begroeiing van loofbomen  in een dicht groeiverband  en die periodiek wordt afgezet. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Grind_fysiekVoorkomenOnbegroeidTerreinPlus> rdfs:label "grind (fysiek voorkomen onbegroeid terrein plus)"@nl ;
+	skos:definition "Ongebonden verharding bestaande uit kiezelmateriaal  waarvan de stenen in doorsnede vari ren van 1 tot 5 cm. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Grind_fysiekVoorkomenWegPlus> rdfs:label "grind (fysiek voorkomen weg plus)"@nl ;
+	skos:definition "Ongebonden verharding bestaande uit kiezelmateriaal  waarvan de stenen in doorsnede vari ren van 1 tot 5 cm.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Groenvoorziening> rdfs:label "groenvoorziening"@nl ;
+	skos:definition "Terreindeel met aangelegde beplanting  meestal gras  heesters of struiken. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Haag> rdfs:label "haag"@nl ;
+	skos:definition "Een rijvormige afscheiding van zeer beperkte breedte bestaande uit aangeplante aaneengesloten struiken. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/HalfVerhard> rdfs:label "half verhard"@nl ;
+	skos:definition "Verharding bestaande uit een door verdichting gebonden materiaal  of onsamenhangend materiaal. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Haltepaal> rdfs:label "haltepaal"@nl ;
+	skos:definition "Paal met daarop de dienstregeling ten behoeve van het openbaar vervoer. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Haven> rdfs:label "haven"@nl ;
+	skos:definition "Een tot ligplaats van schepen geschikt  natuurlijk of gegraven waterbekken aan zee of aan de oever van een rivier of binnenwater  dat beschutting biedt tegen wind en golven. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Hectometeraanduiding> rdfs:label "hectometeraanduiding"@nl ;
+	skos:definition "Code van de paal die kan worden gebruikt voor afstandsaanduiding  zoals bij hectometerpaaltjes en dijkpalen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Hectometerpaal> rdfs:label "hectometerpaal"@nl ;
+	skos:definition "Paaltje of bordje geplaatst langs de weg  waarop een hectometerwaarde  weg  of kilometrering  vaarweg  is vermeld eventueel gevolgd door een letter. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Heesters> rdfs:label "heesters"@nl ;
+	skos:definition "Beplanting van houtige gewassen die struikvormend zijn en die al dan niet een gesloten geheel vormen. Het accent ligt op de sierwaarde  de beplanting kan uit   n soort of uit meerdere soorten bestaan. Onder de heesters kan een houtachtige of kruidachtige onderbegroeiing aanwezig zijn. Het oppervlak met struikachtige gewassen is meer dan 50  van de totale oppervlakte van het vak. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Heide> rdfs:label "heide"@nl ;
+	skos:definition "Terreindeel overwegend begroeid met heide en heideachtige vegetaties. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Hek> rdfs:label "hek"@nl ;
+	skos:definition "Een hekwerk of schutting  typisch ten behoeve van erfafscheiding.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Herdenkingsmonument> rdfs:label "herdenkingsmonument"@nl ;
+	skos:definition "Langs de weg of elders in het terrein aangelegd object ter herdenking van personen of evenementen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Historie> rdfs:label "historie"@nl ;
+	skos:definition "Situatie waarin het geregistreerde object fysiek niet meer bestaat. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Hoek> rdfs:label "hoek"@nl ;
+	skos:definition "De rotatie van het label bij visualisatie  met de klok mee ten opzichte van de normale tekstrichting. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Hoogspanningsmast> rdfs:label "hoogspanningsmast"@nl ;
+	skos:definition "Metalen mast of stellage ter ondersteuning van geleidedraden voor het transport van elektriciteit met een hoog voltage. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/HoogstamBoomgaarden> rdfs:label "hoogstam boomgaarden"@nl ;
+	skos:definition "Terreindeel begroeid met hoogstamfruitbomen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Hoogtedetectieapparaat> rdfs:label "hoogtedetectieapparaat"@nl ;
+	skos:definition "Een mechanisch of elektronisch waarschuwingssysteem  dat in werking treedt bij overschrijding van de aangegeven maximale doorrijhoogte. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Hoogtemerk> rdfs:label "hoogtemerk"@nl ;
+	skos:definition "Relatief permanent merk  natuurlijk of kunstmatig  met daarin een punt met een bekende hoogte ten opzichte van een bepaald referentievlak. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/HoortBijTypeOverbrugging> rdfs:label "hoort bij type overbrugging"@nl ;
+	skos:definition "Nadere classificatie van de overbrugging waar het overbruggingsdeel een onderdeel van is. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Houtwal> rdfs:label "houtwal"@nl ;
+	skos:definition "Terreindeel zijnde een afscheiding met beperkte breedte en beplant met bomen of struiken.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Identificatie> rdfs:label "identificatie"@nl ;
+	skos:definition "Uniek identificatienummer voor het object dat onveranderlijk is zolang het object bestaat. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/IdentificatieBagopr> rdfs:label "identificatie bagopr"@nl ;
+	skos:definition "De unieke identificatie van het object zoals is toegekend in de BAG-administratie. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/IdentificatieBagpnd> rdfs:label "identificatie bagpnd"@nl ;
+	skos:definition "De unieke identificatie van het object zoals is toegekend in de BAG-administratie. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/IdentificatieBagvbohoogsteHuisnummer> rdfs:label "identificatie bagvbohoogste huisnummer"@nl ;
+	skos:definition "Identificatie in de BAG registratie van het verblijfsobject met het hoogste huisnummer behorende tot de reeks. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/IdentificatieBagvbolaagsteHuisnummer> rdfs:label "identificatie bagvbolaagste huisnummer"@nl ;
+	skos:definition "Identificatie in de BAG registratie van het verblijfsobject met het laagste huisnummer behorende tot de reeks. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Imgeo-object> rdfs:label "imgeo-object"@nl ;
+	skos:definition "De gemeenschappelijke eigenschappen van een grootschalig topografisch object  al dan niet uit de basisregistratie . "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/InOnderzoek> rdfs:label "in onderzoek"@nl ;
+	skos:definition "Een aanduiding waarmee wordt aangegeven dat een onderzoek wordt uitgevoerd naar de juistheid van een of meer gegevens van het betreffende object. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Informatiebord> rdfs:label "informatiebord"@nl ;
+	skos:definition "Een bord met daarop specifieke actuele informatie  zoals plattegronden of vertrektijden. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/InfrastructuurVerkeerEnVervoer> rdfs:label "infrastructuur verkeer en vervoer"@nl ;
+	skos:definition "Gebied primair in gebruik voor verkeer en vervoer  waaronder verstaan spoorwegen  wegdelen  vliegverkeersbanen  parkeerterreinen  bermen en de ondersteunende objecten als kunstwerken. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/InfrastructuurWaterstaatswerken> rdfs:label "infrastructuur waterstaatswerken"@nl ;
+	skos:definition "Gebied grenzend aan oppervlaktewater  primair in gebruik voor de oppervlaktewaterhuishouding  waterafvoer  wateraanvoer en waterconservering . "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Inrichtingselement> rdfs:label "inrichtingselement"@nl ;
+	skos:definition "Een ruimtelijk object al dan niet ter detaillering dan wel ter inrichting van de overige benoemde ruimtelijke objecten of een ander inrichtingselement. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Inrit> rdfs:label "inrit"@nl ;
+	skos:definition "Toegangswegen  oprijlanen en dergelijke met verkeersfunctie die leiden naar afgelegen erven en terreinen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Inspectie-Rioolput> rdfs:label "inspectie- / rioolput"@nl ;
+	skos:definition "Put die toegang geeft tot een  riool leiding. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Installatie> rdfs:label "installatie"@nl ;
+	skos:definition "Samenhangend systeem dat een bepaald doel dient. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/InwinnendeInstantie> rdfs:label "inwinnende instantie"@nl ;
+	skos:definition "De organisatie die namens de bronhouder het object inwint. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Inwinningsmethode> rdfs:label "inwinningsmethode"@nl ;
+	skos:definition "De wijze waarop het punt is ingewonnen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Kademuur> rdfs:label "kademuur"@nl ;
+	skos:definition "Verticale wand ter scheiding van land en water  opgebouwd uit een muur van gemetselde stenen of gestort beton. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Kanaal> rdfs:label "kanaal"@nl ;
+	skos:definition "Een gegraven grote waterloop die dient voor scheepvaart en of watertransport. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Kast> rdfs:label "kast"@nl ;
+	skos:definition "Object met een permanent karakter dat dient om iets in te bergen en te beschermen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Keermuur> rdfs:label "keermuur"@nl ;
+	skos:definition "Een keermuur of keerwand is een stijf  grond- of waterkerend kunstwerk dat door een groot gewicht en een brede voet een grote standzekerheid kan bereiken. Een keermuur is meestal van gewapend beton  maar er kan ook ander materiaal gebruikt worden. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Kering> rdfs:label "kering"@nl ;
+	skos:definition "Een waterkerende en   of scheidende  kunstmatige of natuurlijke hoogte of hooggelegen gronden inclusief de daarin aanwezige waterkerende elementen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/KleinFruit> rdfs:label "klein fruit"@nl ;
+	skos:definition "Terreindeel begroeid met heesters voor zachtfruit zoals bessen of frambozen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Kolk> rdfs:label "kolk"@nl ;
+	skos:definition "Op het riool aangesloten voorziening voor de opvang van hemel- en afvalwater afkomstig van erop aangesloten oppervlakken. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/KruinlijnBegroeidTerreindeel> rdfs:label "kruinlijn begroeid terreindeel"@nl ;
+	skos:definition "Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/KruinlijnOnbegroeidTerreindeel> rdfs:label "kruinlijn onbegroeid terreindeel"@nl ;
+	skos:definition "Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/KruinlijnOndersteunendWegdeel> rdfs:label "kruinlijn ondersteunend wegdeel"@nl ;
+	skos:definition "Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/KruinlijnWegdeel> rdfs:label "kruinlijn wegdeel"@nl ;
+	skos:definition "Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Kunstobject> rdfs:label "kunstobject"@nl ;
+	skos:definition "Een object dat als kunst gezien wordt en een bepaalde schoonheid heeft  niet door de natuur gemaakt.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Kunststof> rdfs:label "kunststof"@nl ;
+	skos:definition "Synthetisch vervaardigd materiaal dat als verharding dient  zoals kunstgras of kunststof toplagen op atletiekbanen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Kunstwerk> rdfs:label "kunstwerk"@nl ;
+	skos:definition "Civiel-technisch werk voor de infrastructuur van wegen  water  spoorbanen  waterkeringen en of leidingen en niet bedoeld voor permanent menselijk verblijf. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Kunstwerkdeel> rdfs:label "kunstwerkdeel"@nl ;
+	skos:definition "Onderdeel van een civiel-technisch werk voor de infrastructuur van wegen  water  spoorbanen  waterkeringen en of leidingen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Kwelder> rdfs:label "kwelder"@nl ;
+	skos:definition "Buitendijks gelegen aangeslibd land van een wad  dat bij gewone vloed niet meer onder loopt. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Laagspanningsmast> rdfs:label "laagspanningsmast"@nl ;
+	skos:definition "Houten of metalen mast waaraan kabels voor het transport van elektrische energie met een spannning lager dan 500 V zijn bevestigd. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/LaagstamBoomgaarden> rdfs:label "laagstam boomgaarden"@nl ;
+	skos:definition "Terreindeel begroeid met laagstamfruitbomen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Label> rdfs:label "label"@nl ;
+	skos:definition "Een samengesteld attribuut voor verwijzing naar een te plaatsen labeltekst en positie daarvan. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Labelpositie> rdfs:label "labelpositie"@nl ;
+	skos:definition "Locatie waar een label ten behoeve van visualisatie moet worden afgebeeld. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/LageTrafo> rdfs:label "lage trafo"@nl ;
+	skos:definition "Bouwwerk waarin transformator en  zijn geplaatst voor elektriciteitsvoorziening. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Landbouw> rdfs:label "landbouw"@nl ;
+	skos:definition "Gebied primair in gebruik voor land- en tuinbouwproductie. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Landhoofd> rdfs:label "landhoofd"@nl ;
+	skos:definition "Ondersteuningsconstructie ter plaatse van een overgang van de aardebaan naar een kunstwerk. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/LandschappelijkGebied> rdfs:label "landschappelijk gebied"@nl ;
+	skos:definition "Definitie ontbreekt in de BAG. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Laser> rdfs:label "laser"@nl ;
+	skos:definition "De geometrie is met behulp van een laserscanner ingewonnen.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Lichtcel> rdfs:label "lichtcel"@nl ;
+	skos:definition "Lichtcel waarmee het verlichtingsniveau naar een lager verlichtingsniveau omgeschakeld wordt  dimmen  wanneer de situatie dit toelaat.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Lichtmast> rdfs:label "lichtmast"@nl ;
+	skos:definition "Mast bestemd voor het dragen van een of meer verlichtingsarmaturen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Lichtpunt> rdfs:label "lichtpunt"@nl ;
+	skos:definition "Een lichtpunt is een lamp die licht uitzendt niet verbonden met een mast die het maaiveld raakt.   "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Lijnafwatering> rdfs:label "lijnafwatering"@nl ;
+	skos:definition "Goot in de lengterichting van de verharding  niet zijnde molgoot. Bijvoorbeeld roostergoot en verholen goot. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Lod0curveSpoor> rdfs:label "lod0curve spoor"@nl ;
+	skos:definition "Lijngeometrie in 2.5D."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Lod0geometrieBak> rdfs:label "lod0geometrie bak"@nl ;
+	skos:definition "Puntgeometrie in 2.5D op level of detail 0."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Lod0geometrieBord> rdfs:label "lod0geometrie bord"@nl ;
+	skos:definition "Puntgeometrie in 2.5D op level of detail 0."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Lod0geometrieInstallatie> rdfs:label "lod0geometrie installatie"@nl ;
+	skos:definition "Puntgeometrie in 2.5D op level of detail 0."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Lod0geometrieKast> rdfs:label "lod0geometrie kast"@nl ;
+	skos:definition "Puntgeometrie in 2.5D op level of detail 0."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Lod0geometrieMast> rdfs:label "lod0geometrie mast"@nl ;
+	skos:definition "Puntgeometrie in 2.5D op level of detail 0."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Lod0geometrieOverbruggingsdeel> rdfs:label "lod0geometrie overbruggingsdeel"@nl ;
+	skos:definition "Vlakgeometrie in 2.5D op level of detail 0."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Lod0geometriePaal> rdfs:label "lod0geometrie paal"@nl ;
+	skos:definition "Puntgeometrie in 2.5D op level of detail 0."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Lod0geometriePut> rdfs:label "lod0geometrie put"@nl ;
+	skos:definition "Puntgeometrie in 2.5D op level of detail 0."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Lod0geometrieSensor> rdfs:label "lod0geometrie sensor"@nl ;
+	skos:definition "Punt- of lijngeometrie in 2.5D op level of detail 0."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Lod0geometrieStraatmeubilair> rdfs:label "lod0geometrie straatmeubilair"@nl ;
+	skos:definition "Puntgeometrie in 2.5D op level of detail 0."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Lod0geometrieTunneldeel> rdfs:label "lod0geometrie tunneldeel"@nl ;
+	skos:definition "Vlakgeometrie in 2.5D op level of detail 0."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Lod0geometrieWaterinrichtingselement> rdfs:label "lod0geometrie waterinrichtingselement"@nl ;
+	skos:definition "Punt- of lijngeometrie in 2.5D op level of detail 0."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Lod0geometrieWeginrichtingselement> rdfs:label "lod0geometrie weginrichtingselement"@nl ;
+	skos:definition "Punt-  lijn- of vlakgeometrie in 2.5D op level of detail 0."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Lod0geometry> rdfs:label "lod0geometry"@nl ;
+	skos:definition "Punt-  lijn- of vlakgeometrie in 2.5D."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Lod0geometryGebouwInstallatie> rdfs:label "lod0geometry gebouw installatie"@nl ;
+	skos:definition "Vlakgeometrie in 2.5D op level of detail 0."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Lod0geometryVegetatieObject> rdfs:label "lod0geometry vegetatie object"@nl ;
+	skos:definition "Punt-  lijn-  of vlakgeometrie in 2.5D op level of detail 0."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Lod0implicitRepresentation> rdfs:label "lod0implicit representation"@nl ;
+	skos:definition "Link naar een prototypische geometrie op level of detail 0  die wordt hergebruikt elke keer als een dergelijk object voorkomt."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Lod0multiSurfaceBegroeidTerreindeel> rdfs:label "lod0multi surface begroeid terreindeel"@nl ;
+	skos:definition "Multivlakgeometrie in 2.5D."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Lod0surfaceOndersteunendWegdeel> rdfs:label "lod0surface ondersteunend wegdeel"@nl ;
+	skos:definition "Vlakgeometrie in 2.5D."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Lod0surfaceWegdeel> rdfs:label "lod0surface wegdeel"@nl ;
+	skos:definition "Vlakgeometrie in 2.5D."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Lod1geometry> rdfs:label "lod1geometry"@nl ;
+	skos:definition "3D geometrie op level of detail 1."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Lod1implicitRepresentation> rdfs:label "lod1implicit representation"@nl ;
+	skos:definition "Link naar een prototypische geometrie op level of detail 1  die wordt hergebruikt elke keer als een dergelijk object voorkomt."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Lod2geometry> rdfs:label "lod2geometry"@nl ;
+	skos:definition "3D geometrie op level of detail 2."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Lod2implicitRepresentation> rdfs:label "lod2implicit representation"@nl ;
+	skos:definition "Link naar een prototypische geometrie op level of detail 2  die wordt hergebruikt elke keer als een dergelijk object voorkomt."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Lod3geometry> rdfs:label "lod3geometry"@nl ;
+	skos:definition "3D geometrie op level of detail 3."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Lod3implicitRepresentation> rdfs:label "lod3implicit representation"@nl ;
+	skos:definition "Link naar een prototypische geometrie op level of detail 3  die wordt hergebruikt elke keer als een dergelijk object voorkomt."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/LokaalId> rdfs:label "lokaal id"@nl ;
+	skos:definition "Unieke identificatiecode binnen een registratie. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Loofbos> rdfs:label "loofbos"@nl ;
+	skos:definition "Terreindeel begroeid met een dusdanige aantal loofbomen dat deze een min of meer gesloten geheel vormen of  na volgroeiing van de bomen  zullen vormen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Luifel> rdfs:label "luifel"@nl ;
+	skos:definition "Afdak aangebracht aan de gevel van een pand  eventueel rustend op kolommen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Lv-publicatiedatum> rdfs:label "lv-publicatiedatum"@nl ;
+	skos:definition "Tijdstip waarop deze instantie van het object is opgenomen in de landelijke voorziening. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/MaatschappelijkeEnofPublieksvoorziening> rdfs:label "maatschappelijke en/of publieksvoorziening"@nl ;
+	skos:definition "Bebouwd of landelijk gebied  niet zijnde woon- of bedrijventerrein  in gebruik voor maatschappelijke- en publieksdoeleinden  omvat overheids- en particuliere terreinen . "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Mast> rdfs:label "mast"@nl ;
+	skos:definition "Hoge draagconstructie. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/MeerPlasVenVijver> rdfs:label "meer, plas, ven, vijver"@nl ;
+	skos:definition "Een massa stilstaand landoppervlaktewater. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Meerpaal> rdfs:label "meerpaal"@nl ;
+	skos:definition "Paal voor een kade of in een haven waaraan een schip kan worden afgemeerd. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Moeras> rdfs:label "moeras"@nl ;
+	skos:definition "Terreindeel met moerasvegetatie in stilstaand water van geringe diepte zonder merkbare toe- of afvloeiing. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Molgoot> rdfs:label "molgoot"@nl ;
+	skos:definition "Smalle goot  lijngeometrie  in de lengterichting van de verharding  met veelal een cirkelsegment als dwarsprofiel. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Muur> rdfs:label "muur"@nl ;
+	skos:definition "Een scheiding gemaakt van steen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Naaldbos> rdfs:label "naaldbos"@nl ;
+	skos:definition "Terreindeel begroeid met een dusdanige aantal naaldbomen dat deze een min of meer gesloten geheel vormen of  na volgroeiing van de bomen  zullen vormen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Naam_functioneelGebied> rdfs:label "naam (functioneel gebied)"@nl ;
+	skos:definition "De benaming van het functionele gebied. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Naam_registratiefGebied> rdfs:label "naam (registratief gebied)"@nl ;
+	skos:definition "De benaming van het registratieve gebied. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/NaamEnIdOpenbareRuimte> rdfs:label "naam en id openbare ruimte"@nl ;
+	skos:definition "Verwijzing naar het BGT object OpenbareRuimteLabel waarin de BGT identificatie  BAG identificatie  naam en type van de openbare ruimte zijn opgenomen."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Namespace> rdfs:label "namespace"@nl ;
+	skos:definition "Unieke verwijzing naar een registratie van objecten. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/NatuurEnLandschap> rdfs:label "natuur en landschap"@nl ;
+	skos:definition "Gebied dat wegens natuurschoon en of natuurlijke historie in stand wordt gehouden. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Nauwkeurigheid> rdfs:label "nauwkeurigheid"@nl ;
+	skos:definition "Gerealiseerde geometrische nauwkeurigheid van de geometrie van het object ten opzichte van de werkelijkheid  uitgedrukt in centimeters. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Nen3610id> rdfs:label "nen3610id"@nl ;
+	skos:definition "Identificatiegegevens voor de universeel unieke identificatie van een object. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/NietGeautoriseerd> rdfs:label "niet geautoriseerd"@nl ;
+	skos:definition "Deze zender vindt dat de ontvanger niet geautoriseerd is om de waarde te kennen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/NietOndersteund> rdfs:label "niet ondersteund"@nl ;
+	skos:definition "Zender houdt in zijn registratie geen waarde voor dit attribuut bij. Geldt voor alle objecten van dit objecttype. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Niet-bgt> rdfs:label "niet-bgt"@nl ;
+	skos:definition "Het object is geen BGT object. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Nummeraanduidingreeks_nummeraanduidingreeks> rdfs:label "nummeraanduidingreeks (nummeraanduidingreeks)"@nl ;
+	skos:definition "Bevat de reeks nummeraanduidingen behorend bij het pand ten behoeve van visualisatie.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Nummeraanduidingreeks_pand> rdfs:label "nummeraanduidingreeks (pand)"@nl ;
+	skos:definition "Bevat de reeks nummeraanduidingen behorend bij het pand ten behoeve van visualisatie. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/OeverSlootkant> rdfs:label "oever, slootkant"@nl ;
+	skos:definition "De strook land die in direct contact staat met water  inclusief het gebied tussen de hoogwaterlijn en laagwaterlijn. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/OnbegroeidTerreindeel> rdfs:label "onbegroeid terreindeel"@nl ;
+	skos:definition "Kleinste functioneel onafhankelijk stukje van een terrein  dat er binnen het objecttype Terrein van NEN 3610 wordt onderscheiden  zonder aaneengesloten vegetatie. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/OnbegroeidTerreindeelOpTalud> rdfs:label "onbegroeid terreindeel op talud"@nl ;
+	skos:definition "Indicatie of het object wel of niet op een hellend vlak ligt.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/OndersteunendWaterdeel> rdfs:label "ondersteunend waterdeel"@nl ;
+	skos:definition "Object dat in het kader van de waterhuishouding periodiek gedeeltelijk of geheel met water is bedekt. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/OndersteunendWegdeel> rdfs:label "ondersteunend wegdeel"@nl ;
+	skos:definition "Een deel van de weg dat niet primair bedoeld is voor gebruik door het verkeer. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/OndersteunendWegdeelOpTalud> rdfs:label "ondersteunend wegdeel op talud"@nl ;
+	skos:definition "Indicatie of het object wel of niet op een hellend vlak ligt.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/OngeclassificeerdObject> rdfs:label "ongeclassificeerd object"@nl ;
+	skos:definition "Object waarvoor geen bronhouder aangewezen is en of dat niet nader is geclassificeerd. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Onverhard_fysiekVoorkomenOnbegroeidTerrein> rdfs:label "onverhard (fysiek voorkomen onbegroeid terrein)"@nl ;
+	skos:definition "Terreindeel waar geen verharding of aaneengesloten vegetatie aanwezig is  niet zijnde zand. Braakliggend valt hier wel onder. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Onverhard_fysiekVoorkomenWeg> rdfs:label "onverhard (fysiek voorkomen weg)"@nl ;
+	skos:definition "Wegdelen waar geen verharding of aaneengesloten vegetatie aanwezig is.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/OpenDuinvegetatie> rdfs:label "open duinvegetatie"@nl ;
+	skos:definition "Duin met een overwegend grasachtige vegetatie. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/OpenLoods> rdfs:label "open loods"@nl ;
+	skos:definition "Niet verplaatsbaar licht gebouw met een open gevel  bestemd als berg- of werkplaats of als tijdelijk onderdak voor andere doeleinden. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/OpenVerharding> rdfs:label "open verharding"@nl ;
+	skos:definition "Verharding gevormd door in verband aangebrachte elementen van beperkte afmetingen  zoals bijvoorbeeld klinkers en tegels. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/OpenbaarToilet> rdfs:label "openbaar toilet"@nl ;
+	skos:definition "Voor mensen bedoeld toilet niet zijnde een pand  langs de openbare weg.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/OpenbareRuimte> rdfs:label "openbare ruimte"@nl ;
+	skos:definition "Een OPENBARE RUIMTE is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen   n woonplaats is gelegen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/OpenbareRuimteLabel> rdfs:label "openbare ruimte label"@nl ;
+	skos:definition "Naam en plaatsingspunten van een in de BAG geregistreerde OPENBARE RUIMTE.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/OpenbareRuimteNaam> rdfs:label "openbare ruimte naam"@nl ;
+	skos:definition "Een door het bevoegde gemeentelijke orgaan aan een OPENBARE RUIMTE toegekende benaming. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/OpenbareRuimteType> rdfs:label "openbare ruimte type"@nl ;
+	skos:definition "De aard van de als zodanig benoemde OPENBARE RUIMTE.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/OpenbareVerlichtingkast> rdfs:label "openbare verlichtingkast"@nl ;
+	skos:definition "Kast ten behoeve van de regeling van de openbare verlichting. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Opslagtank> rdfs:label "opslagtank"@nl ;
+	skos:definition "Opslagfaciliteit voor vloeistoffen. Alleen bovengrondse opslagtanks worden opgenomen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Ov-baan> rdfs:label "ov-baan"@nl ;
+	skos:definition "Wegdeel dat uitsluitend is bestemd en gemarkeerd voor openbaar vervoer en afgescheiden is van de andere wegdelen niet uitsluitend door markering. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/OverbruggingIsBeweegbaar> rdfs:label "overbrugging is beweegbaar"@nl ;
+	skos:definition "Aanduiding of de brug waar het overbruggingsdeel bij hoort al dan niet beweegbaar is. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Overbruggingsdeel> rdfs:label "overbruggingsdeel"@nl ;
+	skos:definition "Onderdeel van een beweegbare of vaste verbinding tussen twee punten  die door water  een weg of anderszins gescheiden zijn  dat essentieel is voor de constructie .  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/OverigBouwwerk> rdfs:label "overig bouwwerk"@nl ;
+	skos:definition "Met de aarde verbonden duurzaam bouwwerk  dat niet valt onder de definities van een pand of kunstwerk. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/OverigeConstructie> rdfs:label "overige constructie"@nl ;
+	skos:definition "Abstract objecttype zijnde een gebouwd object dat niet valt onder de definitie van NEN 3610 Gebouw.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/OverigeScheiding> rdfs:label "overige scheiding"@nl ;
+	skos:definition "Kunstmatig  meestal lineair obstakel met een werende functie  met kleinere afmetingen dan toegestaan voor opname in de BGT. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Overkapping> rdfs:label "overkapping"@nl ;
+	skos:definition "Een afzonderlijk staande overdekking rustend op kolommen.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Overkluizing> rdfs:label "overkluizing"@nl ;
+	skos:definition "Een overkluizing is een civieltechnisch kunstwerk waarmee een weg een andere weg  een plein of een waterloop  kruiselings  overwelft. In het geval van een waterweg is er onder het bouwwerk  vaak  geen scheepvaart mogelijk  maar ligt het wateroppervlak nog wel vrij. Een overkluizing is te vergelijken met een brug  alleen bestaat de brug in dit geval vaak niet uit een wegdek maar uit een opstal. Anders gesteld  het maakt meestal geen deel uit van een weg.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Overweg> rdfs:label "overweg"@nl ;
+	skos:definition "Een gelijkvloerse kruising van een wegdeel en een wegdeel type ov-baan met spoor type trein of sneltram.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Paal> rdfs:label "paal"@nl ;
+	skos:definition "Langwerpig stuk hout  ijzer  steen enz.  dat in de grond staat. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Pand> rdfs:label "pand"@nl ;
+	skos:definition "Een PAND is de kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Panoramabeelden> rdfs:label "panoramabeelden"@nl ;
+	skos:definition "De geometrie is vanaf panoramafoto s ingewonnen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Parkeerbeugel> rdfs:label "parkeerbeugel"@nl ;
+	skos:definition "Een omklapbare beugel voor het afschermen van een parkeerplaats. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Parkeervlak> rdfs:label "parkeervlak"@nl ;
+	skos:definition "Wegdeel bestemd voor het parkeren van motorvoertuigen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Perron> rdfs:label "perron"@nl ;
+	skos:definition "Verhoogde constructie langs een spoorrail of tramrail voor het in- en uitstappen van passagiers of voor het laden en lossen van goederen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Picknicktafel> rdfs:label "picknicktafel"@nl ;
+	skos:definition "Een  picknicktafel  is een tafel met vaak daaraan gemonteerde zitbanken of stoelen die kan gebruikt worden om te picknicken.   "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Pijler> rdfs:label "pijler"@nl ;
+	skos:definition "Ondersteuningsconstructie van bruggen en soortgelijke kunstwerken. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Plaatsbepalingspunt> rdfs:label "plaatsbepalingspunt"@nl ;
+	skos:definition "Punt dat is ingemeten en vervolgens gebruikt is bij en onderdeel uitmaakt van de begrenzing van BGT objecten. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Plaatsingspunt> rdfs:label "plaatsingspunt"@nl ;
+	skos:definition "Co rdinaten voor de locatie waar het label moet worden getoond. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Plaatsnaambord> rdfs:label "plaatsnaambord"@nl ;
+	skos:definition "Een bord waarop een naam van een  woon plaats of locatie is vermeld. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Plan> rdfs:label "plan"@nl ;
+	skos:definition "Situatie die ontstaat op het moment van verlening van een beschikking voor bouw of aanleg en duurt tot het moment waarop het object gereed is voor het beoogde gebruik. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Planten> rdfs:label "planten"@nl ;
+	skos:definition "Beheerde niet nader gespecificeerde beplanting van groenvak in de openbare ruimte. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Plus-functieOndersteunendWegdeel> rdfs:label "plus-functie ondersteunend wegdeel"@nl ;
+	skos:definition "Specificatie van het soort ondersteunend wegdeel  nadere classificatie. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Plus-functieSpoor> rdfs:label "plus-functie spoor"@nl ;
+	skos:definition "Specificatie van het soort gebruik van het spoor  indien dit een IMGeo uitbreiding van de populatie betreft. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Plus-functieWegdeel> rdfs:label "plus-functie wegdeel"@nl ;
+	skos:definition "Specificatie van het hoofdgebruiksdoel van het wegdeel  nadere classificatie. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Plus-fysiekVookomen> rdfs:label "plus-fysiek vookomen"@nl ;
+	skos:definition "Nadere classificatie van het vegetatiedek  ingedeeld naar soort vegetatie. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Plus-fysiekVoorkomen> rdfs:label "plus-fysiek voorkomen"@nl ;
+	skos:definition "Nadere classificatie van het soort terrein  ingedeeld naar de uiterlijke verschijningsvorm. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Plus-fysiekVoorkomenOndersteunendWegdeel> rdfs:label "plus-fysiek voorkomen ondersteunend wegdeel"@nl ;
+	skos:definition "Mate waarin het ondersteunend wegdeel al of niet verhard is  nadere classificatie. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Plus-fysiekVoorkomenWegdeel> rdfs:label "plus-fysiek voorkomen wegdeel"@nl ;
+	skos:definition "Mate waarin het wegdeel al of niet verhard is  nadere classificatie. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Plus-status> rdfs:label "plus-status"@nl ;
+	skos:definition "De status gekoppeld aan de levenscyclus van een geo-object  indien dit een uitbreiding van de populatie betreft. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Plus-type_bak> rdfs:label "plus-type (bak)"@nl ;
+	skos:definition "Het soort bak  IMGeo plus-populatie . "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Plus-type_bord> rdfs:label "plus-type (bord)"@nl ;
+	skos:definition "Het soort bord  IMGeo plus-populatie . "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Plus-type_functioneelGebied> rdfs:label "plus-type (functioneel gebied)"@nl ;
+	skos:definition "Specificatie van het soort Functioneel Gebied  indien het een IMGeo uitbreiding van de populatie betreft. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Plus-type_installatie> rdfs:label "plus-type (installatie)"@nl ;
+	skos:definition "Het soort installatie  IMGeo plus-populatie . "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Plus-type_kast> rdfs:label "plus-type (kast)"@nl ;
+	skos:definition "Het soort kast  IMGeo plus-populatie . "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Plus-type_kunstwerkdeel> rdfs:label "plus-type (kunstwerkdeel)"@nl ;
+	skos:definition "Specificatie van het soort kunstwerk  indien dit een IMGeo uitbreiding van de populatie betreft. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Plus-type_mast> rdfs:label "plus-type (mast)"@nl ;
+	skos:definition "Het soort mast  IMGeo plus-populatie . "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Plus-type_overigBouwwerk> rdfs:label "plus-type (overig bouwwerk)"@nl ;
+	skos:definition "Specificatie van het soort overig bouwwerk  indien dit een IMGeo uitbreiding van de populatie betreft. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Plus-type_overigeScheiding> rdfs:label "plus-type (overige scheiding)"@nl ;
+	skos:definition "Specificatie van het soort overige scheiding. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Plus-type_paal> rdfs:label "plus-type (paal)"@nl ;
+	skos:definition "Het soort paal  IMGeo plus-populatie . "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Plus-type_put> rdfs:label "plus-type (put)"@nl ;
+	skos:definition "Het soort put  IMGeo plus-populatie . "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Plus-type_scheiding> rdfs:label "plus-type (scheiding)"@nl ;
+	skos:definition "Specificatie van het soort scheiding  indien dit een IMGeo uitbreiding van de populatie betreft. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Plus-type_sensor> rdfs:label "plus-type (sensor)"@nl ;
+	skos:definition "Het soort sensor  IMGeo plus-populatie . "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Plus-type_straatmeubilair> rdfs:label "plus-type (straatmeubilair)"@nl ;
+	skos:definition "Het soort straatmeubilair  IMGeo plus-populatie . "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Plus-type_vegetatieObject> rdfs:label "plus-type (vegetatie object)"@nl ;
+	skos:definition "De specificatie van het soort vrijstaand vegetatieobject. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Plus-type_waterdeel> rdfs:label "plus-type (waterdeel)"@nl ;
+	skos:definition "Specificatie van het soort Water  nadere classificatie. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Plus-type_waterinrichtingselement> rdfs:label "plus-type (waterinrichtingselement)"@nl ;
+	skos:definition "Het soort waterinrichtingselement  IMGeo plus-populatie . "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Plus-type_weginrichtingselement> rdfs:label "plus-type (weginrichtingselement)"@nl ;
+	skos:definition "Het soort weginrichtingselement  IMGeo plus-populatie . "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Plus-typeGebouwInstallatie> rdfs:label "plus-type gebouw installatie"@nl ;
+	skos:definition "Specificatie van het soort gebouwinstallatie  indien dit een IMGeo uitbreiding van de populatie betreft. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Poller> rdfs:label "poller"@nl ;
+	skos:definition "Een poller of inzinkbare paal is een paal die door een elektrische of hydraulische aandrijving uit een wegdek omhoog wordt gestuurd en die dient om het autoverkeer te reguleren. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Pomp> rdfs:label "pomp"@nl ;
+	skos:definition "Werktuig dat door middel van een verschil in druk vloeistoffen of gassen verplaatst. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Ponton> rdfs:label "ponton"@nl ;
+	skos:definition "Drijvende  dichte bak  waarover soms een dek is gelegd. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Portaal> rdfs:label "portaal"@nl ;
+	skos:definition "Geheel van twee of meer ondersteuningsconstructies die door een ligger zijn verbonden  bedoelt voor het aanbrengen van verkeersaanduidingen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Positie> rdfs:label "positie"@nl ;
+	skos:definition "Labelpositie  samengesteld uit plaatsingspunt en rotatiehoek. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Praatpaal> rdfs:label "praatpaal"@nl ;
+	skos:definition "Stalen of kunststof paal langs verkeerswegen welke bedoeld is telefonisch contact te leggen met een centrale meldkamer  ANWB . "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Puin_fysiekVoorkomenOnbegroeidTerreinPlus> rdfs:label "puin (fysiek voorkomen onbegroeid terrein plus)"@nl ;
+	skos:definition "Puin is afvalmateriaal dat bestaat uit losse brokstukken  grotendeels bestaande uit stenen en beton  van gesloopte of ingestorte gebouwen  viaducten  bruggen en andere objecten. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Puin_fysiekVoorkomenWegPlus> rdfs:label "puin (fysiek voorkomen weg plus)"@nl ;
+	skos:definition "Puin is afvalmateriaal dat bestaat uit losse brokstukken  grotendeels bestaande uit stenen en beton  van gesloopte of ingestorte gebouwen  viaducten  bruggen en andere objecten.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Put> rdfs:label "put"@nl ;
+	skos:definition "Gegraven of geboorde kokervormige diepte waarin zich  vloei stoffen bevinden. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Pyloon> rdfs:label "pyloon"@nl ;
+	skos:definition "Boven de bovenbouw uitstekende draagconstructie voor tuien  kabels . "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/RadarDetector> rdfs:label "radar detector"@nl ;
+	skos:definition "Met een radardetector wordt het verkeer gedetecteerd  bijvoorbeeld voor het be nvloeden van verkeerslichten. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Radarmast> rdfs:label "radarmast"@nl ;
+	skos:definition "Vaste of neerklapbare constructie waarop de radarantenne bevestigd is. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Reclamebord> rdfs:label "reclamebord"@nl ;
+	skos:definition "Vrijstaand bord zuil waarop rondom of aan   n of meer zijden affiches kunnen worden  of zijn  geplakt. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Reclamezuil> rdfs:label "reclamezuil"@nl ;
+	skos:definition "Vrijstaand bord zuil waarop rondom of aan   n of meer zijden affiches kunnen worden  of zijn  geplakt. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Recreatie> rdfs:label "recreatie"@nl ;
+	skos:definition "Gebied in gebruik voor openlucht recreatie. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/RecreatieBungalowpark> rdfs:label "recreatie: bungalowpark"@nl ;
+	skos:definition "Geheel van verharding  begroeiing  overige opstallen en gebouwen  bedoeld als vakantie- weekendhuisjes die niet permanent bewoond worden. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/RecreatieCamping> rdfs:label "recreatie: camping"@nl ;
+	skos:definition "Geheel van verharding  begroeiing en opstallen  in gebruik als terrein waar tijdelijk tenten en of caravans kunnen worden geplaatst ten behoeve van recreatie. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/RecreatiePark> rdfs:label "recreatie: park"@nl ;
+	skos:definition "Landschappelijk ingericht terrein  begroeid met houtachtige en kruidachtige vegetatie  verharding  objecten  waterpartijen en dergelijke  bedoeld als  grootschalige  recreatieve voorziening. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/RecreatieSpeeltuin> rdfs:label "recreatie: speeltuin"@nl ;
+	skos:definition "Geheel van begroeiing  verharding  opstallen en speelwerktuigen  bedoeld als speelplaats voor kinderen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/RecreatieSportterrein> rdfs:label "recreatie: sportterrein"@nl ;
+	skos:definition "Terrein  mogelijk met groenvoorziening  verharding en bebouwing  bestemd voor sportbeoefening. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/RecreatieVolkstuin> rdfs:label "recreatie: volkstuin"@nl ;
+	skos:definition "Terreingedeelte in gebruik als volkstuinen  inclusief bebouwing  verharding en dergelijke. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/RegistratiefGebied> rdfs:label "registratief gebied"@nl ;
+	skos:definition "Op basis van wet- of regelgeving afgebakend gebied dat als eenheid geldt van politiek bestuurlijke verantwoordelijkheid of voor bedrijfsvoering. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/RelatieveHoogteligging> rdfs:label "relatieve hoogteligging"@nl ;
+	skos:definition "Aanduiding voor de relatieve hoogte van het object "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Remmingswerk> rdfs:label "remmingswerk"@nl ;
+	skos:definition "Constructie langs de opstelruimte en wachtruimte bedoeld voor het afmeren van schepen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Rietland> rdfs:label "rietland"@nl ;
+	skos:definition "Terreindeel overwegend begroeid met rietvegetatie. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/RijbaanAutosnelweg> rdfs:label "rijbaan autosnelweg"@nl ;
+	skos:definition "Wegdeel dat onderdeel is van een weg uitsluitend bestemd voor snelverkeer en met gescheiden rijbanen en ongelijkvloerse kruisingen  daartoe aangeduid met het betreffende verkeersbord. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/RijbaanAutoweg> rdfs:label "rijbaan autoweg"@nl ;
+	skos:definition "Wegdeel dat onderdeel is van een weg uitsluitend bestemd voor snelverkeer  daartoe aangeduid met het betreffende verkeersbord. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/RijbaanLokaleWeg> rdfs:label "rijbaan lokale weg"@nl ;
+	skos:definition "Wegdeel dat onderdeel is van een weg van lokaal belang. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/RijbaanRegionaleWeg> rdfs:label "rijbaan regionale weg"@nl ;
+	skos:definition "Wegdeel dat onderdeel is van een weg die een verbinding vormt tussen bewoonde oorden of tussen wijken binnen een dorp of stad. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Rioolkast> rdfs:label "rioolkast"@nl ;
+	skos:definition "Kast ten behoeve van de regeling van het transport van rioolwater. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Rivier> rdfs:label "rivier"@nl ;
+	skos:definition "Het water  dat ten atmosferische neerslag op hellende terreinen valt  vloeit  voor zover het niet verdampt of door planten wordt opgenomen  tezamen tot een waterloop en stroomt naar laaggelegen streken. Zulk een natuurlijke afvloeiing heet een rivier. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Rooster> rdfs:label "rooster"@nl ;
+	skos:definition "Een rooster niet zijnde lijnafwatering of wildrooster. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Ruiterpad> rdfs:label "ruiterpad"@nl ;
+	skos:definition "Een wegdeel primair aangelegd voor het gebruik door ruiters. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Scannen> rdfs:label "scannen"@nl ;
+	skos:definition "De geometrie is geautomatiseerd van analoog naar digitale informatie omgezet. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Scheepvaartbord> rdfs:label "scheepvaartbord"@nl ;
+	skos:definition "Bord waarop een scheepvaartteken is aangebracht en waarvan de uitvoering als richtlijn is voorgeschreven volgens  Richtlijnen Scheepvaarttekens  RST 2008  . "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Scheiding> rdfs:label "scheiding"@nl ;
+	skos:definition "Kunstmatig  meestal lineair obstakel met een werende functie. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Schelpen_fysiekVoorkomenOndersteunendWegdeelPlus> rdfs:label "schelpen (fysiek voorkomen ondersteunend wegdeel plus)"@nl ;
+	skos:definition "Ongebonden verharding bestaande uit schelpenmateriaal.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Schelpen_fysiekVoorkomenOnbegroeidTerreinPlus> rdfs:label "schelpen (fysiek voorkomen onbegroeid terrein plus)"@nl ;
+	skos:definition "Ongebonden verharding bestaande uit schelpenmateriaal "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Schelpen_fysiekVoorkomenWegPlus> rdfs:label "schelpen (fysiek voorkomen weg plus)"@nl ;
+	skos:definition "Ongebonden verharding bestaande uit schelpenmateriaal. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Schuur> rdfs:label "schuur"@nl ;
+	skos:definition "Een vrijstaand  al of niet prefab  niet-vergunningsplichtig bouwwerk dat gebruikt wordt om goederen in op te slaan en ook als werkruimte kan dienen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Sensor> rdfs:label "sensor"@nl ;
+	skos:definition "Apparaat voor de meting van een fysieke grootheid  bijv. temperatuur  licht  druk  elektriciteit .  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Sierbestrating_fysiekVoorkomenWegPlus> rdfs:label "sierbestrating (fysiek voorkomen weg plus)"@nl ;
+	skos:definition "Bestrating  uitgevoerd in verschillende bestratingsverbanden en -materialen  of in een sierverband  die vooral wordt toegepast uit esthetische overwegingen.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Sierbestrating_fysiekVoorkomenOndersteunendWegdeelPlus> rdfs:label "sierbestrating (fysiek voorkomen ondersteunend wegdeel plus)"@nl ;
+	skos:definition "Bestrating  uitgevoerd in verschillende bestratingsverbanden en -materialen  of in een sierverband  die vooral wordt toegepast uit esthetische overwegingen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Sirene> rdfs:label "sirene"@nl ;
+	skos:definition "Een apparaat dat geluiden van variabele toonhoogte kan voortbrengen met als functie waarschuwingsdoeleinden. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Slagboom> rdfs:label "slagboom"@nl ;
+	skos:definition "Boom of balk om de weg of een gedeelte hiervan af te sluiten.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Slik> rdfs:label "slik"@nl ;
+	skos:definition "Buitendijks aangeslibde  onbegroeide grond die bij vrijwel elk hoogwater onderloopt. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Sloof> rdfs:label "sloof"@nl ;
+	skos:definition "Deel van de pijler voor de overdracht van krachten naar de ondergrond of de fundering. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Sloot> rdfs:label "sloot"@nl ;
+	skos:definition "Algemene benaming voor een waterloop van beperkte breedte die stilstaand of slechts langzaam stromend water bevat.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Sluis> rdfs:label "sluis"@nl ;
+	skos:definition "Een kunstmatige  beweegbare waterkering die de verbinding tussen twee wateren kan afsluiten of openstellen en daartoe van deuren of schuiven is voorzien. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Sneltram> rdfs:label "sneltram"@nl ;
+	skos:definition "Spoor voor een boven- danwel ondergrondse interlokale tram met een vrije baan.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Speelvoorziening> rdfs:label "speelvoorziening"@nl ;
+	skos:definition "Aard en nagelvast met de grond verbonden constructie in de openbare ruimte  bedoeld als speelmateriaal voor kinderen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Spoor> rdfs:label "spoor"@nl ;
+	skos:definition "De as van het spoor  dat wil zeggen het midden van twee stalen staven op een onderling vaste afstand  waarover trein  tram  of sneltram rijdt. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Spoorbaan_functieWeg> rdfs:label "spoorbaan (functie weg)"@nl ;
+	skos:definition "Gebaand gedeelte voor het verkeer over rails. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Spoorbaan_typeOpenbareRuimte> rdfs:label "spoorbaan (type openbare ruimte)"@nl ;
+	skos:definition "Gebaand gedeelte voor het verkeer over rails. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Stadsdeel_wijk> rdfs:label "stadsdeel (wijk)"@nl ;
+	skos:definition "Het stadsdeel waarin de wijk gelegen is."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Steiger> rdfs:label "steiger"@nl ;
+	skos:definition "Vaste  niet drijvende  waterbouwkundige constructie voor het aanleggen van schepen en bedoeld om deze schepen vanaf de wal te laden en te lossen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Straalzender> rdfs:label "straalzender"@nl ;
+	skos:definition "Zender voor radio  televisie en telecommunicatie signalen die in smalle stralenbundels uitzendt. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Straatmeubilair> rdfs:label "straatmeubilair"@nl ;
+	skos:definition "Een ruimtelijk object ter inrichting van de openbare ruimte.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Straatnaambord> rdfs:label "straatnaambord"@nl ;
+	skos:definition "Bord waarop de door de gemeente vastgestelde naam van de straat is vermeld. Bord kan zich op een paal of aan de gevel bevinden. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/StrandEnStrandwal> rdfs:label "strand en strandwal"@nl ;
+	skos:definition "Onbegroeide zandige kustvlakte op de overgang van zee met land. Staat onder invloed van het zeewater en de wind. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Strekdam> rdfs:label "strekdam"@nl ;
+	skos:definition "Constructie in het water ter verdediging van de kust oever. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Struiken> rdfs:label "struiken"@nl ;
+	skos:definition "Terreindeel bedekt met niet-gecultiveerde  natuurlijke   lage  houtachtige  overblijvende planten gekenmerkt door verschillende vertakkingen dicht bij de wortel en afwezigheid van opvallende stammen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Struikrozen> rdfs:label "struikrozen"@nl ;
+	skos:definition "Beheerde beplanting van groenvak in  de openbare ruimte  zijnde in struikvorm groeiende rozen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Stuw> rdfs:label "stuw"@nl ;
+	skos:definition "Een constructie met een vaste drempel of een beweegbare klep  die dient om de waterstand boven- en benedenstrooms te regelen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Tegels_fysiekVoorkomenOnbegroeidTerreinPlus> rdfs:label "tegels (fysiek voorkomen onbegroeid terrein plus)"@nl ;
+	skos:definition "Bestrating van tegels  een platte vaak vierkante betonnen steen  veelal gebruikt voor trottoirbestrating. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Tegels_fysiekVoorkomenWegPlus> rdfs:label "tegels (fysiek voorkomen weg plus)"@nl ;
+	skos:definition "Bestrating van tegels  een platte vaak vierkante betonnen steen  veelal gebruikt voor trottoirbestrating.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Tekst> rdfs:label "tekst"@nl ;
+	skos:definition "Tekst voor het label. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/TelecomKast> rdfs:label "telecom kast"@nl ;
+	skos:definition "Kast ten behoeve van de regeling van telecommunicatie. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Telefooncel> rdfs:label "telefooncel"@nl ;
+	skos:definition "Niet-inpandige ruimte in openbaar gebied louter bestemd voor telefoneren. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Telkast> rdfs:label "telkast"@nl ;
+	skos:definition "Kast ten behoeve van het meten van permanente verkeertellingen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Telpaal> rdfs:label "telpaal"@nl ;
+	skos:definition "Paal waaraan de verkeersteller is bevestigd. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Terrein> rdfs:label "terrein"@nl ;
+	skos:definition "Door een fysiek voorkomen gekarakteriseerd zichtbaar begrensd stuk grond. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Terrestrisch> rdfs:label "terrestrisch"@nl ;
+	skos:definition "De geometrie is ingewonnen middels terreinbezoek.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/TijdstipRegistratie> rdfs:label "tijdstip registratie"@nl ;
+	skos:definition "Tijdstip waarop deze instantie van het object is opgenomen door de bronhouder. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Toegangstrap> rdfs:label "toegangstrap"@nl ;
+	skos:definition "Niet afsluitbare trap  of trappenhuis  die toegang biedt aan een gebouw. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Tram> rdfs:label "tram"@nl ;
+	skos:definition "Spoor voor een railvoertuig voor personenvervoer voor de korte afstand. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Transitie_inwinningsmethode> rdfs:label "transitie (inwinningsmethode)"@nl ;
+	skos:definition "De gebruikte inwinningsmethode is tijdens transitie niet bekend. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Transitie_typeWater> rdfs:label "transitie (type water)"@nl ;
+	skos:definition "De waarde is tijdens transitie niet bekend. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Trein> rdfs:label "trein"@nl ;
+	skos:definition "Spoor voor een railvoertuig voor de langere afstand dat sneller dan 45 km per uur kan  bestaande uit een enkele of een reeks van locomotieven  treinstellen en of wagons. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Tunneldeel> rdfs:label "tunneldeel"@nl ;
+	skos:definition "Onderdeel van een kunstmatig aangelegde  kokervormige onderdoorgang dat essentieel is voor de constructie. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/VastgesteldOnbekend> rdfs:label "vastgesteld onbekend"@nl ;
+	skos:definition "Er is vastgesteld dat de waarde van het attribuut onbekend is en hoogst waarschijnlijk niet meer kan worden achterhaald  bijvoorbeeld omdat het brondocument onleesbaar is of het object niet meer bestaat in de werkelijkheid . "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/VegetatieObject> rdfs:label "vegetatie object"@nl ;
+	skos:definition "Solitair vegetatieobject of lijn- of vlakvormige groep gelijksoortige vegetatieobjecten met een beperkte omvang. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Verbindingsweg> rdfs:label "verbindingsweg"@nl ;
+	skos:definition "Een verbindingsweg is  in principe  een eenrichtingsweg  gelegen binnen een knooppunt of aansluiting  die onderdeel is van de wijze waarop de ongelijkvloersheid is gerealiseerd. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Verblindingswering> rdfs:label "verblindingswering"@nl ;
+	skos:definition "Constructie bedoeld om verblinding van weggebruikers door tegenlicht te voorkomen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Verkeersbord> rdfs:label "verkeersbord"@nl ;
+	skos:definition "Bord waarop een verkeersteken is aangebracht en waarvan de uitvoering wettelijk is voorgeschreven volgens het  Reglement verkeersregels en verkeerstekens 1990  RVV 1990  . "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Verkeersbordpaal> rdfs:label "verkeersbordpaal"@nl ;
+	skos:definition "Paal waaraan een of meerdere verkeersborden zijn bevestigd. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Verkeersdrempel> rdfs:label "verkeersdrempel"@nl ;
+	skos:definition "Verhoging in een regionale rijbaan  bedoeld om het gemotoriseerde verkeer met een lage snelheid te laten rijden. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Verkeerseiland> rdfs:label "verkeerseiland"@nl ;
+	skos:definition "Ondersteunend wegdeel van beperkte omvang  uitgevoerd als verhoging of wegmarkering  dat wordt omsloten door wegdelen en ten doel heeft verkeersstromen te scheiden. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Verkeersregelinstallatiekast> rdfs:label "verkeersregelinstallatiekast"@nl ;
+	skos:definition "Kast ten behoeve van de regeling van het verkeer. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Verkeersregelinstallatiepaal> rdfs:label "verkeersregelinstallatiepaal"@nl ;
+	skos:definition "Paal met daaraan bevestigd de verkeersregelinstallatie. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/VerklikkerTransportleiding> rdfs:label "verklikker transportleiding"@nl ;
+	skos:definition "Bovengrondse voorziening om een ondergrondse transportleiding te markeren. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Verzorgingsplaats> rdfs:label "verzorgingsplaats"@nl ;
+	skos:definition "Langs de weg gelegen parkeergelegenheid  met inbegrip van de daarbij behorende verharde en onverharde banen en een of meer voorzieningen ten behoeve van reizigers en of voertuigen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Viaduct> rdfs:label "viaduct"@nl ;
+	skos:definition "Kunstwerk over een weg  spoorweg of terreinverdieping  bestaande uit een dek gesteund door pijlers en of landhoofden. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Vispassage> rdfs:label "vispassage"@nl ;
+	skos:definition "Een kunstmatige passage ten behoeve van de vistrek bij kunstwerken in wateren. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Vlaggenmast> rdfs:label "vlaggenmast"@nl ;
+	skos:definition "Paal bedoeld om vlaggen aan te hangen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Voedersilo> rdfs:label "voedersilo"@nl ;
+	skos:definition "Opslagfaciliteit voor veevoer  bestaande uit een verticale container met een opening aan de onderkant.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Voetgangersgebied> rdfs:label "voetgangersgebied"@nl ;
+	skos:definition "Wegdeel alleen voor het gebruik door voetgangers  waarbij het door voetgangers te gebruiken gebied de volle breedte van de weg beslaat en het gebied een nadrukkelijk openbaar karakter heeft. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Voetpad> rdfs:label "voetpad"@nl ;
+	skos:definition "Wegdeel waar voetgangers gebruik van moeten maken. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/VoetpadOpTrap> rdfs:label "voetpad op trap"@nl ;
+	skos:definition "Voetpad op verkeersinfrastructurele voorziening bestaande uit een constructie van treden  waarop men een hoger of lager gelegen plaats kan bereiken.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Vollegrondsteelt> rdfs:label "vollegrondsteelt"@nl ;
+	skos:definition "Terreindeel in gebruik als akker  voor de teelt van tuinbouwgewassen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Voorde> rdfs:label "voorde"@nl ;
+	skos:definition "Een doorwaadbare  doorgaans verharde  plaats in de waterloop  die dient voor de oversteek van die waterloop. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Vuilvang> rdfs:label "vuilvang"@nl ;
+	skos:definition "Een voorziening om de waterloop dan wel   n of meerdere objecten benedenstrooms te vrijwaren van drijvend vuil en dergelijke. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/WaardeOnbekend> rdfs:label "waarde onbekend"@nl ;
+	skos:definition "Element is verplicht maar de waarde is bij de zender niet bekend. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Waarschuwingshek> rdfs:label "waarschuwingshek"@nl ;
+	skos:definition "Constructie in de vorm van een hek  voorzien van rode en witte blokken of chevrons  die het verkeer attendeert op een gevarenpunt. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Walbescherming> rdfs:label "walbescherming"@nl ;
+	skos:definition "Een nagenoeg verticale wand tot kering van grond om afkalving van water te voorkomen  niet zijnde een kademuur. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Water> rdfs:label "water"@nl ;
+	skos:definition "Grondoppervlak in principe bedekt met water. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Waterbergingsgebied> rdfs:label "waterbergingsgebied"@nl ;
+	skos:definition "Terrein met als functie het tijdelijk of langdurig bergen van  regen wateroverschotten uit de omgeving. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Waterdeel> rdfs:label "waterdeel"@nl ;
+	skos:definition "Kleinste functioneel onafhankelijk stukje water met gelijkblijvende  homogene eigenschappen en relaties dat er binnen het objecttype Water van NEN 3610 wordt onderscheiden en dat permanent met water bedekt is. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Waterinrichtingselement> rdfs:label "waterinrichtingselement"@nl ;
+	skos:definition "Een ruimtelijk object ter inrichting van het water. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Waterleidingput> rdfs:label "waterleidingput"@nl ;
+	skos:definition "Put met afsluitkraan ten behoeve van het ondergrondse leidingenstelsel voor watertransport. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Waterloop> rdfs:label "waterloop"@nl ;
+	skos:definition "Een voor de waterbeheersing bestemde geul die meestal permanent water bevat  zoals rivier  kanaal  beek  sloot  gracht . "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Waterschap> rdfs:label "waterschap"@nl ;
+	skos:definition "Regionaal gebied onder het bestuur van een overheidsinstantie  waterschap  die tot taak heeft de waterhuishouding in dit gebied te regelen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Waterstandmeter> rdfs:label "waterstandmeter"@nl ;
+	skos:definition "Een meter die de waterstand  over het algemeen ten opzichte van NAP  meet. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Watervlakte> rdfs:label "watervlakte"@nl ;
+	skos:definition "Alle oppervlakken die vrij permanent met zoet water zijn bedekt.  zoals meer  plas  ven  vijver . "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Weerstation> rdfs:label "weerstation"@nl ;
+	skos:definition "Een weerstation is een verzameling instrumenten die het weer kunnen meten. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Weg> rdfs:label "weg"@nl ;
+	skos:definition "Gebaand gedeelte voor het wegverkeer en vliegverkeer te land. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Wegdeel> rdfs:label "wegdeel"@nl ;
+	skos:definition "Kleinste functioneel onafhankelijk stukje van een NEN 3610 Weg met gelijkblijvende  homogene eigenschappen en relaties en primair bedoeld voor gebruik door weg-  spoor- en vliegverkeer te land.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/WegdeelOpTalud> rdfs:label "wegdeel op talud"@nl ;
+	skos:definition "Indicatie of het object wel of niet op een hellend vlak ligt.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Weginrichtingselement> rdfs:label "weginrichtingselement"@nl ;
+	skos:definition "Een ruimtelijk object dat dient voor de inrichting van de openbare weg. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Wegmarkering> rdfs:label "wegmarkering"@nl ;
+	skos:definition "Op of in het oppervlak van de verharding aangebrachte tekens ter geleiding  waarschuwing  regeling of informatie van het verkeer. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Wegwijzer> rdfs:label "wegwijzer"@nl ;
+	skos:definition "Constructie voorzien van een of meer panelen met informatie ten behoeve van de bewegwijzering.  "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Wijk_buurt> rdfs:label "wijk (buurt)"@nl ;
+	skos:definition "De wijk waarin de buurt gelegen is."@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Wijkcode> rdfs:label "wijkcode"@nl ;
+	skos:definition "De code behorende bij de naam van de wijk. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Wijngaarden> rdfs:label "wijngaarden"@nl ;
+	skos:definition "Terreindeel begroeid met druivenstokken voor wijnbouw. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Wildrooster> rdfs:label "wildrooster"@nl ;
+	skos:definition "Horizontaal raamwerk dat dient om wild de doorgang te beletten. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Windmeter> rdfs:label "windmeter"@nl ;
+	skos:definition "Apparatuur waarmee de snelheid en de richting van de wind kan worden gemeten. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Windturbine> rdfs:label "windturbine"@nl ;
+	skos:definition "Turbine waarin winddruk omgezet wordt in mechanische energie. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Woonerf> rdfs:label "woonerf"@nl ;
+	skos:definition "Wegdeel waar de verblijfsfunctie  lopen  spelen  ontmoeten enzovoorts  prioriteit heeft boven de verkeersfunctie. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Zand_fysiekVoorkomenOnbegroeidTerrein> rdfs:label "zand (fysiek voorkomen onbegroeid terrein)"@nl ;
+	skos:definition "Terreindeel dat grotendeels bedekt is met zand. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Zand_fysiekVoorkomenWegPlus> rdfs:label "zand (fysiek voorkomen weg plus)"@nl ;
+	skos:definition "Onverhard met als deklaag zand. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Zand-Zoutbak> rdfs:label "zand- / zoutbak"@nl ;
+	skos:definition "Een bak met strooisel ten behoeve van gladheidsbestrijding. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Zandverstuiving> rdfs:label "zandverstuiving"@nl ;
+	skos:definition "Een gebied met zandige bodem waarvan delen van het gebied zonder vegetatie zijn  door invloed van wind. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Zee> rdfs:label "zee"@nl ;
+	skos:definition "Uitgestrekt oppervlak zout water. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Zendmast> rdfs:label "zendmast"@nl ;
+	skos:definition "Mast bestemd voor het uitzenden van radio  televisie of telecommunicatie signalen. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
+<http://definities.geostandaarden.nl/imgeo/id/begrip/Zonnepaneel> rdfs:label "zonnepaneel"@nl ;
+	skos:definition "Een zonnepaneel is een paneel dat zonne-energie omzet in elektriciteit. "@nl ;
+	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
+.
+
