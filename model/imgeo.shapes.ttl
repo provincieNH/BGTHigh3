@@ -1,8 +1,10 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gml: <http://www.opengis.net/ont/gml#> .
+@prefix gsp: <http://www.opengis.net/ont/geosparql#> .
 @prefix imgeo: <http://definities.geostandaarden.nl/def/imgeo#> .
 @prefix imgeo-col: <http://definities.geostandaarden.nl/imgeo/id/collection/> .
 @prefix imgeo-sh: <http://definities.geostandaarden.nl/def/imgeo/> .
-@prefix nen3160: <http://definities.geostandaarden.nl/def/nen3610#> .
+@prefix nen3610: <http://definities.geostandaarden.nl/def/nen3610#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sh: <http://www.w3.org/ns/shacl#> .
@@ -80,4 +82,18 @@ imgeo-sh:Objectregistratie_lv-publicatiedatum a sh:PropertyShape ;
   sh:path imgeo:lv-publicatiedatum ;
   sh:datatype xsd:dateTime ;
   sh:maxCount 1 ;
+.
+
+############################
+## Geo
+############################
+
+imgeo-sh:Geometry a sh:NodeShape ;
+  sh:targetClass gsp:Geometry ;
+  sh:property [
+    sh:path gsp:asWKT ;
+    sh:datatype gsp:wktLiteral ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+  ] ;
 .

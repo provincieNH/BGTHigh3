@@ -1,6 +1,6 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix imgeo: <https://definities.geostandaarden.nl/def/imgeo#> .
-@prefix nen3160: <https://definities.geostandaarden.nl/def/nen3610#> .
+@prefix imgeo: <http://definities.geostandaarden.nl/def/imgeo#> .
+@prefix nen3610: <http://definities.geostandaarden.nl/def/nen3610#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -11,7 +11,7 @@
 
 imgeo:Object a owl:Class ;
   rdfs:label "Object" ;
-  rdfs:subClassOf nen3160:GeoObject ;
+  rdfs:subClassOf nen3610:GeoObject ;
 .
 
 imgeo:bgt-status a owl:ObjectProperty ;
@@ -49,4 +49,32 @@ imgeo:lv-publicatiedatum a owl:DatatypeProperty ;
   rdfs:label "LV-publicatiedatum" ;
   rdfs:domain imgeo:Objectregistratie ;
   rdfs:range xsd:dateTime ;
+.
+
+
+#########################################
+# generiek
+#########################################
+
+imgeo:opTalud a owl:DatatypeProperty ;
+  rdfs:label "op talud" ;
+  rdfs:range xsd:boolean ;
+.
+
+imgeo:kruinlijn a owl:ObjectProperty ;
+  rdfs:label "kruinlijn" ;
+  rdfs:subPropertyOf gsp:hasGeometry ;
+  rdfs:range gsp:Geometry ;
+.
+
+imgeo:geometrie2d a owl:ObjectProperty ;
+  rdfs:label "geometrie2d" ;
+  rdfs:subPropertyOf gsp:hasGeometry ;
+  rdfs:range gsp:Geometry ;
+.
+
+imgeo:lod0Surface a owl:ObjectProperty ;
+  rdfs:label "lod0Surface" ;
+  rdfs:subPropertyOf gsp:hasGeometry ;
+  rdfs:range gsp:Geometry ;
 .

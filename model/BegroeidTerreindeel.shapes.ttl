@@ -1,0 +1,57 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gml: <http://www.opengis.net/ont/gml#> .
+@prefix gsp: <http://www.opengis.net/ont/geosparql#> .
+@prefix imgeo: <http://definities.geostandaarden.nl/def/imgeo#> .
+@prefix imgeo-col: <http://definities.geostandaarden.nl/imgeo/id/collection/> .
+@prefix imgeo-sh: <http://definities.geostandaarden.nl/def/imgeo/> .
+@prefix nen3610: <http://definities.geostandaarden.nl/def/nen3610#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+#########################################
+# imgeo:BegroeidTerreindeel
+#########################################
+
+imgeo-sh:BegroeidTerreindeel a sh:NodeShape ;
+  sh:targetClass imgeo:BegroeidTerreindeel ;
+  sh:property
+    imgeo-sh:BegroeidTerreindeel_opTalud ,
+    imgeo-sh:BegroeidTerreindeel_kruinlijn ,
+    imgeo-sh:BegroeidTerreindeel_geometrie2d ,
+    imgeo-sh:BegroeidTerreindeel_lod0Surface ;
+.
+
+imgeo-sh:BegroeidTerreindeel_opTalud a sh:PropertyShape ;
+  sh:path imgeo:opTalud ;
+  sh:datatype xsd:boolean ;
+  sh:minCount 1 ;
+  sh:maxCount 1 ;
+.
+
+imgeo-sh:BegroeidTerreindeel_kruinlijn a sh:PropertyShape ;
+  sh:path imgeo:kruinlijn ;
+  sh:class
+    gsp:Geometry ,
+    gml:Curve ;
+  sh:maxCount 1 ;
+.
+
+imgeo-sh:BegroeidTerreindeel_geometrie2d a sh:PropertyShape ;
+  sh:path imgeo:geometrie2d ;
+  sh:class
+    gsp:Geometry ,
+    gml:Surface ;
+  sh:minCount 1 ;
+  sh:maxCount 1 ;
+.
+
+imgeo-sh:BegroeidTerreindeel_lod0Surface a sh:PropertyShape ;
+  sh:path imgeo:lod0Surface ;
+  sh:class
+    gsp:Geometry ,
+    gml:MultiSurface ;
+  sh:maxCount 1 ;
+.
