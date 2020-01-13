@@ -1,0 +1,12 @@
+conversie/resources
+conversie/output
+conversie/uploadexecutable
+conversie/bin
+conversie/include
+conversie/lib
+conversie/share
+conversie/lib64
+*.err
+pyvenv.cfg
+.envrc-local
+*.log

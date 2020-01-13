@@ -1,0 +1,9 @@
+#!/bin/bash
+
+
+export ETL_API_TOKEN= #ETL-token
+export HOME_DIR= #Location of the home file.
+export ETL_API_ACCOUNT_NAME= #Account name to store the ETL datasets. Can be your own account name, or the name of an organization
+export ETL_API_URL= #url of the triply API. E.g. http://thomas.local.triply.cc:10081 , or `https://api.nightly.triply.cc`
+export TRIPLY__PATHS__DATA_DIR= #Path to the directory storing the input, output, temp, etc.
+export ETL_DATASET_NAME= #Name of the ETL dataset.
