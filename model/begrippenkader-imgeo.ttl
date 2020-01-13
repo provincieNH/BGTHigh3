@@ -411,7 +411,7 @@
 .
 
 <http://definities.geostandaarden.nl/imgeo/id/begrip/DynamischeSnelheidsindicator> rdfs:label "dynamische snelheidsindicator"@nl ;
-	skos:definition "Een snelheidsinformatiebord dat in "real time" de snelheid van de weggebruikers aanduidt. "@nl ;
+	skos:definition """Een snelheidsinformatiebord dat in "real time" de snelheid van de weggebruikers aanduidt. """@nl ;
 	skos:inScheme <http://definities.geostandaarden.nl/id/begrippenkader/imgeo> ;
 .
 
