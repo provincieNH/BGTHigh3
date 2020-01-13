@@ -1,7 +1,8 @@
+@prefix bgt-col: <http://bgt.basisregistraties.overheid.nl/bgt/id/collection/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix imgeo: <https://definities.geostandaarden.nl/def/imgeo#> .
-@prefix imgeo-sh: <https://definities.geostandaarden.nl/def/imgeo/> .
-@prefix nen3160: <https://definities.geostandaarden.nl/def/nen3610#> .
+@prefix imgeo: <http://definities.geostandaarden.nl/def/imgeo#> .
+@prefix imgeo-sh: <http://definities.geostandaarden.nl/def/imgeo/> .
+@prefix nen3160: <http://definities.geostandaarden.nl/def/nen3610#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sh: <http://www.w3.org/ns/shacl#> .
@@ -16,15 +17,17 @@ imgeo-sh:Object a sh:NodeShape ;
   sh:targetClass imgeo:Object ;
   sh:property
     imgeo-sh:Object_bgt-status ,
-    imgeo-sh:Object_;
+    imgeo-sh:Object_relatieveHoogteligging ,
+    imgeo-sh:Object_isPrimaryTopicOf ;
 .
 
 imgeo-sh:Object_bgt-status a sh:PropertyShape ;
   sh:path imgeo:bgt-status ;
+  sh:nodeKind sh:IRI ;
   sh:class skos:Concept ;
   sh:node [
     sh:property [
-      sh:path [sh:inversePath skos:member] ;
+      sh:path [ sh:inversePath skos:member ] ;
       sh:hasValue bgt-col:Status ;
       sh:minCount 1 ;
     ] ;
@@ -33,9 +36,48 @@ imgeo-sh:Object_bgt-status a sh:PropertyShape ;
   sh:maxCount 1 ;
 .
 
+imgeo-sh:Object_relatieveHoogteligging a sh:PropertyShape ;
+  sh:path imgeo:relatieveHoogteligging ;
+  sh:datatype xsd:integer ;
+  sh:minCount 1 ;
+  sh:maxCount 1 ;
+.
+
+imgeo-sh:Object_isPrimaryTopicOf a sh:PropertyShape ;
+  sh:path foaf:isPrimaryTopicOf ;
+  sh:nodeKind sh:IRI ;
+  sh:class imgeo:Objectregistratie ;
+  sh:minCount 1 ;
+.
 
 #########################################
 # imgeo:Objectregistratie
 #########################################
 
+imgeo-sh:Objectregistratie a sh:NodeShape ;
+  sh:targetClass imgeo:Objectregistratie ;
+  sh:property
+    imgeo-sh:Objectregistratie_bronhouder ,
+    imgeo-sh:Objectregistratie_inOnderzoek ,
+    imgeo-sh:Objectregistratie_lv-publicatiedatum ;
+.
 
+imgeo-sh:Objectregistratie_bronhouder a sh:PropertyShape ;
+  sh:path imgeo:bronhouder ;
+  sh:nodeKind sh:BlankNodeOrIRI ;
+  sh:minCount 1 ;
+  sh:maxCount 1 ;
+.
+
+imgeo-sh:Objectregistratie_inOnderzoek a sh:PropertyShape ;
+  sh:path imgeo:bronhouder ;
+  sh:datatype xsd:boolean ;
+  sh:minCount 1 ;
+  sh:maxCount 1 ;
+.
+
+imgeo-sh:Objectregistratie_lv-publicatiedatum a sh:PropertyShape ;
+  sh:path imgeo:lv-publicatiedatum ;
+  sh:datatype xsd:dateTime ;
+  sh:maxCount 1 ;
+.
