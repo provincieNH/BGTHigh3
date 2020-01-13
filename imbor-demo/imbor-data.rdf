@@ -1,0 +1,1458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:sf="http://www.opengis.net/ont/sf#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:otlvwl="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/vastewaardelijst/" xmlns:geo="http://www.opengis.net/ont/geosparql#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:demo-data="http://connecteddata.nl/imbor/id/data/" xmlns:p="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/prop/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:bgt="http://connecteddata.nl/bgt/def/objecttype/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:otl="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/" xml:base="http://connecteddata.nl/imbor/id/data/">
+	<owl:Ontology rdf:about="">
+		<owl:imports rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/"></owl:imports>
+	</owl:Ontology>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.DC521B579C6747C5852A8EB1D643EFD3">
+		<p:Attributen_201>NL.IMGEO.L0002.3742f0237fa445e1974fcf7d0f21264b</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/VP"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.L0002.3742f0237fa445e1974fcf7d0f21264b</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.BD47486BE3914A21BFD8C19426808E8F">
+		<p:Attributen_201>NL.IMGEO.L0002.da5680718e2d4dcd876ce138e3891295</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.L0002.da5680718e2d4dcd876ce138e3891295</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.E4091B210A4A4F7A8CE757E819120AE9">
+		<p:Attributen_201>NL.IMGEO.L0002.1a1f323663c94a15bd937359e1b0ec47</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/VP"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.L0002.1a1f323663c94a15bd937359e1b0ec47</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.7175DEDDA79847BF9FC4274C85222D90">
+		<p:Attributen_201>NL.IMGEO.L0002.3a498908236a4323bdfc8180ad525999</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.L0002.3a498908236a4323bdfc8180ad525999</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.3802104EA09145FAAEF0F79EC7801E96">
+		<p:Attributen_201>NL.IMGEO.P0027.4426df43b8a041e994fed1e46a4133e0</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.4426df43b8a041e994fed1e46a4133e0</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.EABE564989714FCF87166A07ED01DA39">
+		<p:Attributen_201>NL.IMGEO.P0027.7293d31e18e142b8936a8916eab2e1c2</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.7293d31e18e142b8936a8916eab2e1c2</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.F0A9166F66184C69863B5842B73E7BCB">
+		<p:Attributen_201>NL.IMGEO.P0027.2ddf5839dd934960a9cdba8ea3b67f69</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.2ddf5839dd934960a9cdba8ea3b67f69</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.E8D21008F4CE4DE7B697AE4B20DD70B3">
+		<p:Attributen_201>NL.IMGEO.P0027.42085f0af2be4021a442075f5f671418</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.42085f0af2be4021a442075f5f671418</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.7D677B82D24345ADB96F2F11A298AF18">
+		<p:Attributen_201>NL.IMGEO.P0027.01f5b113d8ad447ca87116b91d8a7d51</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_3"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.01f5b113d8ad447ca87116b91d8a7d51</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.D4B8933E342243E9A06994E11F7B330F">
+		<p:Attributen_201>NL.IMGEO.P0027.9eb1058897f24684ae13097197fd9507</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.9eb1058897f24684ae13097197fd9507</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.72CB76AB46A7490590E6ED81775B866E">
+		<p:Attributen_201>NL.IMGEO.P0027.2e7b6197da1d4b8d8a2b316d69bb0c24</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.2e7b6197da1d4b8d8a2b316d69bb0c24</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.CBB55D416BA7495AB47537325BBF58E1">
+		<p:Attributen_201>NL.IMGEO.P0027.8878d25e904944939805df737fc9efbf</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.8878d25e904944939805df737fc9efbf</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.D47D59C72BB64CDD888608E3C720982A">
+		<p:Attributen_201>NL.IMGEO.P0027.7a5a7492ae2c45ebbea787dafeb10ecf</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.7a5a7492ae2c45ebbea787dafeb10ecf</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.6964F6F7E81944AE897E5171DAE77516">
+		<p:Attributen_201>NL.IMGEO.P0027.9f688fe1467c4cb7bf76601fce85bd0f</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.9f688fe1467c4cb7bf76601fce85bd0f</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.359B7BF2AB834C61B1A45FE1FAAD6FA1">
+		<p:Attributen_201>NL.IMGEO.P0027.fbe877386a534213b92f531af4dbd373</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.fbe877386a534213b92f531af4dbd373</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.6A3EDF9818254945B5DE94BE29B2CEA5">
+		<p:Attributen_201>NL.IMGEO.P0027.5ccf41e28cfd428482e4e2fa3ae19ee7</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.5ccf41e28cfd428482e4e2fa3ae19ee7</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.9FA8E0707DC347DB8C283898CD6BE87C">
+		<p:Attributen_201>NL.IMGEO.P0027.5916bb72829547c2b787f543b1c62a5a</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.5916bb72829547c2b787f543b1c62a5a</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.A471FB96FA854950BD197456E98A3B8F">
+		<p:Attributen_201>NL.IMGEO.P0027.43aabd5066cb461494b1dec84e1f2256</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.43aabd5066cb461494b1dec84e1f2256</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.E5745B2A1F8A4FAFB3FB03294870DC96">
+		<p:Attributen_201>NL.IMGEO.P0027.8e0531ff0b6548b4ba84f4d7aecc295f</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.8e0531ff0b6548b4ba84f4d7aecc295f</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.886D11B9666E45B0AF8BE543CC1195E9">
+		<p:Attributen_201>NL.IMGEO.P0027.b44a31a8acc04ecdbc4c395b07905772</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.b44a31a8acc04ecdbc4c395b07905772</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.46E26B25F16049759763ABB5D9B22792">
+		<p:Attributen_201>NL.IMGEO.P0027.6b0da58786f9455a89c9f5b72d24a724</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.6b0da58786f9455a89c9f5b72d24a724</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.531AB6A8C7DE4F0BAD51F1C8AA567D22">
+		<p:Attributen_201>NL.IMGEO.P0027.a276f7974c50485889baa7cd39f33e11</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.a276f7974c50485889baa7cd39f33e11</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.F67E76D39D54448EA62962AAE284183E">
+		<p:Attributen_201>NL.IMGEO.P0027.c1ad10f2a6b14f4fb8a91f1def6e2d82</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.c1ad10f2a6b14f4fb8a91f1def6e2d82</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.2DD513FF5EC045D899ABEF3CA6A204D2">
+		<p:Attributen_201>NL.IMGEO.P0027.95fe40dea6024c88834e4e9e2e18d4e0</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.95fe40dea6024c88834e4e9e2e18d4e0</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.B2ECC5AC42094F8B8E6014E6482EBFF6">
+		<p:Attributen_201>NL.IMGEO.P0027.71e760e7311c4af7acce63ee3674d54f</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.71e760e7311c4af7acce63ee3674d54f</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.0FB4C835B0DB4C3F8C263EF28A1318DD">
+		<p:Attributen_201>NL.IMGEO.P0027.a08884e34f7b443fbdad2efb496fe8e4</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.a08884e34f7b443fbdad2efb496fe8e4</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.E73CF9F596614AE09C213565EBDD6960">
+		<p:Attributen_201>NL.IMGEO.P0027.0fce275b500d460cb9515f45068a1968</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.0fce275b500d460cb9515f45068a1968</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.DBE532BC0B9F40619433C0904263D7B0">
+		<p:Attributen_201>NL.IMGEO.P0027.4b106eaf873c4c568e7308494d5af245</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.4b106eaf873c4c568e7308494d5af245</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.2DB284F8ECE942A89C46802BFDD390F0">
+		<p:Attributen_201>NL.IMGEO.P0027.b7a979cef1734e4fb04e7abd67e8d7a3</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.b7a979cef1734e4fb04e7abd67e8d7a3</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.F378985F40CB4080B6CCBC258622D9ED">
+		<p:Attributen_201>NL.IMGEO.P0027.adf5653002044ce599bda19f57193908</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/FP"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.adf5653002044ce599bda19f57193908</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.28BA42A6926E4FC59FCAC5484CC48148">
+		<p:Attributen_201>NL.IMGEO.P0027.00253eb00233411e89bddb31eeb38483</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.00253eb00233411e89bddb31eeb38483</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.984F03D8CEFA41B491951D9BFEC9E912">
+		<p:Attributen_201>NL.IMGEO.P0027.4e86e3ba9a9f44189660d8fa4764568b</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.4e86e3ba9a9f44189660d8fa4764568b</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.CB08E7BDAC73435EA0F251AC53079598">
+		<p:Attributen_201>NL.IMGEO.P0027.39f4da25579f495a817c5947ae5961c9</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.39f4da25579f495a817c5947ae5961c9</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.199C68B509934EDFBA4D5F7A8C9D6ED3">
+		<p:Attributen_201>NL.IMGEO.P0027.d73b9360fb484ab8b64d67484515962c</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.d73b9360fb484ab8b64d67484515962c</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.FE68338B3CE94F689D40F228A51D5C0D">
+		<p:Attributen_201>NL.IMGEO.P0027.1e56047160a84f14977857a472f39b47</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.1e56047160a84f14977857a472f39b47</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.C5866E5F254A43969D9D907C6716DC58">
+		<p:Attributen_201>NL.IMGEO.P0027.9ac40a749c714f91b31678840c6254db</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.9ac40a749c714f91b31678840c6254db</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.C92EC5C08AF14525BF9C63326467DFD9">
+		<p:Attributen_201>NL.IMGEO.P0027.f18bb97ea53f4495aeb392a7446cc5ff</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.f18bb97ea53f4495aeb392a7446cc5ff</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.A895170190AF4D73A4817635B9AFD8AB">
+		<p:Attributen_201>NL.IMGEO.P0027.95299d0671df4ac3a0c87d7256700c62</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.95299d0671df4ac3a0c87d7256700c62</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.679D0A0E4FBC49FD966625746EFE92B2">
+		<p:Attributen_201>NL.IMGEO.P0027.09461c07b4a440f3a11c1eed95f5f09a</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.09461c07b4a440f3a11c1eed95f5f09a</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.FA99E7589E4D4717BE358B94098D2C30">
+		<p:Attributen_201>NL.IMGEO.P0027.3b4bc51992e34ed29a4b7942ff1f8993</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.3b4bc51992e34ed29a4b7942ff1f8993</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.60AF0A12758644828FAA5250E7B81B0F">
+		<p:Attributen_201>NL.IMGEO.P0027.6bcb41c099884034bbc2fd7af7ee9a1b</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.6bcb41c099884034bbc2fd7af7ee9a1b</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.BFFAE306BDF646DDAFAFEB997C165D0D">
+		<p:Attributen_201>NL.IMGEO.P0027.c631e820e2f543fc9d36b76fb19d3c43</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.c631e820e2f543fc9d36b76fb19d3c43</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.A9E199EA98C5458DB1E47AB9F5A97723">
+		<p:Attributen_201>NL.IMGEO.P0027.620f816b3a0b4cefb5a630a1aaa027e8</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.620f816b3a0b4cefb5a630a1aaa027e8</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.E35807826B544FF9840D5D893276E71E">
+		<p:Attributen_201>NL.IMGEO.P0027.e17e1f40461742cfa8b22783410e9d3e</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.e17e1f40461742cfa8b22783410e9d3e</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.1FB8FEBF0F034531A21F4CCAB44115DB">
+		<p:Attributen_201>NL.IMGEO.P0027.bda862cac35c4a66a462d03ba76b9fc1</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.bda862cac35c4a66a462d03ba76b9fc1</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.89306AF0B3F04FF1ABAEE35506B97D29">
+		<p:Attributen_201>NL.IMGEO.P0027.aa75d7eec37f4da2b4c48070ac0903be</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.aa75d7eec37f4da2b4c48070ac0903be</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.558DD1AAC9FD4F58854C14B758D55403">
+		<p:Attributen_201>NL.IMGEO.P0027.969dcb17f2e1403aa075c9d27bc1218f</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.969dcb17f2e1403aa075c9d27bc1218f</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.3C34A912517E4EA6BB1AE9AEB698913E">
+		<p:Attributen_201>NL.IMGEO.P0027.26bdf6c26796400ea222971e273dbd1a</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.26bdf6c26796400ea222971e273dbd1a</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.40C632B7D3754973BADF8E5C4098A7E1">
+		<p:Attributen_201>NL.IMGEO.P0027.45efec13a0474e90a1bbee0824b54a1a</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.45efec13a0474e90a1bbee0824b54a1a</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.4143BFD3E10847E2B87600109970B188">
+		<p:Attributen_201>NL.IMGEO.P0027.2ed453318b1a44189bfb8c38b0c3a039</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.2ed453318b1a44189bfb8c38b0c3a039</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.3568D13BD0974CC29435416B114AB578">
+		<p:Attributen_201>NL.IMGEO.P0027.aba52cc955764b2fbeaab631cbcd6f24</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.aba52cc955764b2fbeaab631cbcd6f24</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.5D7C87095A1E45D29A6EAD1BCC955144">
+		<p:Attributen_201>NL.IMGEO.P0027.25f255b6fa7d42f2941395d72d8b7231</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.25f255b6fa7d42f2941395d72d8b7231</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.D2CCAF7536E347CC81D39B7CCED463F6">
+		<p:Attributen_201>NL.IMGEO.P0027.a4dab8f4ffe148e69b6dc2b766a0069e</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.a4dab8f4ffe148e69b6dc2b766a0069e</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.3A2B6009CFEF4938B6C29879BC8B4890">
+		<p:Attributen_201>NL.IMGEO.P0027.60faec4606124825997b32a53f4fdb30</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.60faec4606124825997b32a53f4fdb30</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.06DA660D362248E983A480B87F8CF7F6">
+		<p:Attributen_201>NL.IMGEO.P0027.bcc1e23da36b493999a90644d26c39b8</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.bcc1e23da36b493999a90644d26c39b8</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.4B2DC689A581440DA4B1B47E1FA798B9">
+		<p:Attributen_201>NL.IMGEO.P0027.f88413a8c75741d8a4138f206856158e</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.f88413a8c75741d8a4138f206856158e</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.6326F7C218E1487EAC8C955A28304F0A">
+		<p:Attributen_201>NL.IMGEO.P0027.2257ede32e4f45e19584f97c96e2bddb</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.2257ede32e4f45e19584f97c96e2bddb</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.267FD4D217D34D8298BEA9020BEADFCA">
+		<p:Attributen_201>NL.IMGEO.P0027.6f3882e0397d4c43b771f246af307da2</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.6f3882e0397d4c43b771f246af307da2</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.9CAD951E27124EC9A41672DD8AE969DA">
+		<p:Attributen_201>NL.IMGEO.P0027.17eaea4805554447ab0ca9faeb14ebdb</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.17eaea4805554447ab0ca9faeb14ebdb</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.D27A7A6EBCCB41C1A3524B9C38F82661">
+		<p:Attributen_201>NL.IMGEO.P0027.fc98ed7609d54624982751a453d2cbfc</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.fc98ed7609d54624982751a453d2cbfc</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.A73CE4D6E85A49E8B98FF058A1A0D73D">
+		<p:Attributen_201>NL.IMGEO.P0027.1df2ec9d09e74225bba1b78df4b5371f</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.1df2ec9d09e74225bba1b78df4b5371f</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.BCC099B675A94F0C963FA2E2659474A1">
+		<p:Attributen_201>NL.IMGEO.P0027.98db32629fc04ce38213c98421600fa3</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.98db32629fc04ce38213c98421600fa3</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.B6EF6797217946599C891C6B70518E04">
+		<p:Attributen_201>NL.IMGEO.P0027.9fd22a67b888487aa54f991d50d55a94</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.9fd22a67b888487aa54f991d50d55a94</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.2D566F82C74449CFAE486BB967A72C17">
+		<p:Attributen_201>NL.IMGEO.P0027.21f00e6b2d324e7fb1b9649481474db1</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.21f00e6b2d324e7fb1b9649481474db1</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.36C9219C63D74F9DABB9980B80FE68BA">
+		<p:Attributen_201>NL.IMGEO.P0027.933ac30948c04b5280c29c39d9fdcde0</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.933ac30948c04b5280c29c39d9fdcde0</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.28BA8DDD17614EA7AA6E6EE8812B176F">
+		<p:Attributen_201>NL.IMGEO.P0027.91d9f9bd1ff54aaeb5a805320039027f</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.91d9f9bd1ff54aaeb5a805320039027f</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.84A7E8C48EC3483A8C0E3EEB1552C183">
+		<p:Attributen_201>NL.IMGEO.G0394.043ba3998cc44e9c8ace0cbd9a1209b9</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/FP"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.G0394.043ba3998cc44e9c8ace0cbd9a1209b9</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.98762051076B4A14822BCA7C93B3D23A">
+		<p:Attributen_201>NL.IMGEO.P0027.1348677c67a945898c1af2d495a03c5c</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.1348677c67a945898c1af2d495a03c5c</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.DBF1F6D2509F4F13A6BBAAB61CBBC376">
+		<p:Attributen_201>NL.IMGEO.P0027.e94c58d4868e4f9ba84d5332c87ea32d</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.e94c58d4868e4f9ba84d5332c87ea32d</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.EE2F06AC10E644B2A9613C15827B079F">
+		<p:Attributen_201>NL.IMGEO.P0027.5ab8fd60cd8d40d9b396947af7980c4a</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.5ab8fd60cd8d40d9b396947af7980c4a</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.DA7F282D428E4F289003A05C14D01935">
+		<p:Attributen_201>NL.IMGEO.P0027.fc950fe1d4cf473fbcabdac64b160646</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.fc950fe1d4cf473fbcabdac64b160646</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.07CEEE8C48004570B8661F138CCD5CF7">
+		<p:Attributen_201>NL.IMGEO.P0027.644dfdfcb77f4c139219146107d3350a</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.644dfdfcb77f4c139219146107d3350a</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.852ECBFB3F7844DE82A6EF8367BE598B">
+		<p:Attributen_201>NL.IMGEO.P0027.377ee1598f7c43e4b11f65dd8bb1f63d</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.377ee1598f7c43e4b11f65dd8bb1f63d</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.D0BBD45470E047C8A10C90307B31F34E">
+		<p:Attributen_201>NL.IMGEO.P0027.5b0ea754e25b4c4ba23cce1026324593</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.5b0ea754e25b4c4ba23cce1026324593</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.14E59A11DD114EE8A18F270D27731D98">
+		<p:Attributen_201>NL.IMGEO.P0027.406bd1bf70ac4bdba0b108ebc9328ff1</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.406bd1bf70ac4bdba0b108ebc9328ff1</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.20FFA2A1BA8C4BE381CA4D0952CF288C">
+		<p:Attributen_201>NL.IMGEO.P0027.5bb52d9dd1b34b9c9e5b3ffe456c60c7</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.5bb52d9dd1b34b9c9e5b3ffe456c60c7</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.1D7194A4882A4A8BBF1783CBD2378D38">
+		<p:Attributen_201>NL.IMGEO.P0027.5fb212a63fc1499bbb0f1ffbacf8f9c2</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.5fb212a63fc1499bbb0f1ffbacf8f9c2</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.D344D6311C904F3184F011934EC3D431">
+		<p:Attributen_201>NL.IMGEO.P0027.fb759edc87284252a87bdda1e24facda</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.fb759edc87284252a87bdda1e24facda</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.E972CFDC9DAF4FB89CCC2A9FF9295053">
+		<p:Attributen_201>NL.IMGEO.P0027.ecc03f04fa5a46bdac4307cd1472af88</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.ecc03f04fa5a46bdac4307cd1472af88</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.2F9F87BAA5F44087BA8BE04CDD208987">
+		<p:Attributen_201>NL.IMGEO.P0027.2c0870b82f154387acb6059768d31e09</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.2c0870b82f154387acb6059768d31e09</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.11D3C2339F7F4E3F841BAD8D87E84497">
+		<p:Attributen_201>NL.IMGEO.P0027.b8d66883d2d641b08cdb488919e9bb01</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.b8d66883d2d641b08cdb488919e9bb01</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.337F801077BC48E2834B2C1A8DC40523">
+		<p:Attributen_201>NL.IMGEO.P0027.d9ac6323ea4f4922acc6469f48844cde</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.d9ac6323ea4f4922acc6469f48844cde</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.C523EA261FBE4EA88B85CACBCDD46567">
+		<p:Attributen_201>NL.IMGEO.P0027.2384d0e780354c05b02cffdd9bbb4e01</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.2384d0e780354c05b02cffdd9bbb4e01</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.7E0A07EED22C4B999E671E4250370EB6">
+		<p:Attributen_201>NL.IMGEO.P0027.a177d5ab2a6d4ded97a47c6eaa362ec1</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.a177d5ab2a6d4ded97a47c6eaa362ec1</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.67F193507E254220A0327D7BF4826E1E">
+		<p:Attributen_201>NL.IMGEO.P0027.fa462ff6894245a09ac23c6ebdf15f51</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.fa462ff6894245a09ac23c6ebdf15f51</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.54C55557CFFA4D29BB3C31179FA35966">
+		<p:Attributen_201>NL.IMGEO.P0027.2bef383fef764320ae6cb521b2645783</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.2bef383fef764320ae6cb521b2645783</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.3AFEC6A732F94D46A0254A8C09F5BF0D">
+		<p:Attributen_201>NL.IMGEO.P0027.99b080b28e2a48a7ba179ece71ef5b80</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.99b080b28e2a48a7ba179ece71ef5b80</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.53B0B0299B444658AE13A52227FE3576">
+		<p:Attributen_201>NL.IMGEO.P0027.991779538f0b4a01933196dd877723dc</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.991779538f0b4a01933196dd877723dc</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.011A0A44D7E24EE5B70A3CD488D59C2F">
+		<p:Attributen_201>NL.IMGEO.P0027.83271d8d0b5745969f39ceee62f00393</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.83271d8d0b5745969f39ceee62f00393</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.4AEB728BD0174416905B17B4D6F3A85E">
+		<p:Attributen_201>NL.IMGEO.P0027.3aabb36375c644989057bd749f7c80e4</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.3aabb36375c644989057bd749f7c80e4</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.0B97F30C86BB47FE92EFD6FC8FC8872B">
+		<p:Attributen_201>NL.IMGEO.P0027.4567806b837e4139b5c2d8cd2626fb38</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.4567806b837e4139b5c2d8cd2626fb38</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.A578495C6DDB44E3B565A4E6A293ECC5">
+		<p:Attributen_201>NL.IMGEO.P0027.6f0c97215f6441d0b2c81c65802eff5c</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.6f0c97215f6441d0b2c81c65802eff5c</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.03A8970BDC3041AB884A774D1999035E">
+		<p:Attributen_201>NL.IMGEO.P0027.9af379f51c19433783b9ccf2a5ceb5d4</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.9af379f51c19433783b9ccf2a5ceb5d4</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.778AA2D1C82446C6B03CD88591A5D875">
+		<p:Attributen_201>NL.IMGEO.P0027.bdd1b68df30b4bbaa60ae4abd6f46fdb</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.bdd1b68df30b4bbaa60ae4abd6f46fdb</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.63B678C8E54B439599F43BF3D1EE2361">
+		<p:Attributen_201>NL.IMGEO.P0027.d2612ca6f38d4f8791eda405a80d74f5</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.d2612ca6f38d4f8791eda405a80d74f5</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.1D202E4B99454022AA81BE319AD64037">
+		<p:Attributen_201>NL.IMGEO.P0027.1f0f540d0eed46969fdd65a0d0545461</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.1f0f540d0eed46969fdd65a0d0545461</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.570132C8AE8D41DAB8DFE60F2F0899E9">
+		<p:Attributen_201>NL.IMGEO.G0394.82efc85d654c430cb70d869a299be7bb</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.G0394.82efc85d654c430cb70d869a299be7bb</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.EA4FD385BCC944C3A63C81A4F0E86CC0">
+		<p:Attributen_201>NL.IMGEO.P0027.411821aab7a7458798390c3eca908029</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.411821aab7a7458798390c3eca908029</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.0BB67C5EE4FA41CC80C3779FF48FF745">
+		<p:Attributen_201>NL.IMGEO.P0027.813b73d224574cc1aa092377628fe0a0</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.813b73d224574cc1aa092377628fe0a0</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.D07F5ECC671546308CB6F5A2F3248073">
+		<p:Attributen_201>NL.IMGEO.P0027.115f3e249b974d6cac3516f8f12c6748</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.115f3e249b974d6cac3516f8f12c6748</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.47CDBDCB03E640DEB0B5766FC9D7A890">
+		<p:Attributen_201>NL.IMGEO.G0394.0d1cc5e46ed24903a90384cd0a7b356b</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.G0394.0d1cc5e46ed24903a90384cd0a7b356b</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.B3356CDD76C04B369109EE7FFE43694F">
+		<p:Attributen_201>NL.IMGEO.G0394.757c4e67af4a404bae4816d84fb5a764</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.G0394.757c4e67af4a404bae4816d84fb5a764</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.4D3D546C9788446BBD5F33210EAD48CF">
+		<p:Attributen_201>NL.IMGEO.P0027.664e9a97d31a47e28d817a457067d0c3</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.664e9a97d31a47e28d817a457067d0c3</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.F55F74614A464493AF32F07892A4644E">
+		<p:Attributen_201>NL.IMGEO.P0027.cce26b143e8144eb87274ed5ace7c12b</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.cce26b143e8144eb87274ed5ace7c12b</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.57BA74B5522844F4B07147CCD416584C">
+		<p:Attributen_201>NL.IMGEO.G0394.dc440ff47a21431cae95a7b10638127e</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.G0394.dc440ff47a21431cae95a7b10638127e</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.BBA60F9DD5CE45A2B8C1D9ACB88C2FD2">
+		<p:Attributen_201>NL.IMGEO.P0027.5ed68800f8524a6fad58e076d0ea67ea</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.5ed68800f8524a6fad58e076d0ea67ea</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.7F73AB4FF84A4D5485E8A8AF2B58ED5C">
+		<p:Attributen_201>NL.IMGEO.P0027.9a51e7556bfb4c1c96f1710acc96f4b1</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.9a51e7556bfb4c1c96f1710acc96f4b1</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.2DE2F1B1AF05460486728B210147B312">
+		<p:Attributen_201>NL.IMGEO.P0027.77d5bc12d4d74192b28b55f04d06351b</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.77d5bc12d4d74192b28b55f04d06351b</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.D8D918BDA5A04381A6503905AF55EA8B">
+		<p:Attributen_201>NL.IMGEO.P0027.565cbe810ba04bb3ab216640eca74f00</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.565cbe810ba04bb3ab216640eca74f00</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.30B9129D88324B8782F383FFEEB40879">
+		<p:Attributen_201>NL.IMGEO.P0027.f630650f4b27413c90cd442932b78456</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.f630650f4b27413c90cd442932b78456</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.F9E13F913DF54AFEBCCA12EA7312D3CF">
+		<p:Attributen_201>NL.IMGEO.P0027.f3f2a9a259a24ad4b6bb373a4c3e5ce2</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.f3f2a9a259a24ad4b6bb373a4c3e5ce2</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.D9F6C357095F4F81AA53F0528A4EA8E6">
+		<p:Attributen_201>NL.IMGEO.P0027.c521e657bccc441fbbc1922ca942e747</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.c521e657bccc441fbbc1922ca942e747</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.404D7181AAAF4D719CB57F45AC3DBFD0">
+		<p:Attributen_201>NL.IMGEO.P0027.bfd389d25f4a4eaaa95cef184bd1bb59</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.bfd389d25f4a4eaaa95cef184bd1bb59</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.D5C911029D2D49459A4A7E3EBE1C531B">
+		<p:Attributen_201>NL.IMGEO.P0027.7d0e866d100e426ab95cd75bb561597c</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.7d0e866d100e426ab95cd75bb561597c</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.91ECAADEE2274FCC8CDA6064FC86D517">
+		<p:Attributen_201>NL.IMGEO.P0027.962a331cfe934a02b8a9d9c9d400af55</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.962a331cfe934a02b8a9d9c9d400af55</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.CE3E8BA31C02433EB2C38B302BECD433">
+		<p:Attributen_201>NL.IMGEO.P0027.8f3b1411c59647f19795946cc8fef688</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.8f3b1411c59647f19795946cc8fef688</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.6BE3C18AB5924C1590B7306E2FB38D15">
+		<p:Attributen_201>NL.IMGEO.P0027.308648bd113441d69fe9c46d0d859aa3</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.308648bd113441d69fe9c46d0d859aa3</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.FDB6672E6F2E4121821BAA34CCCC2F23">
+		<p:Attributen_201>NL.IMGEO.P0027.d942409bea8a4b31b8347859fbc49e2b</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.d942409bea8a4b31b8347859fbc49e2b</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.F5201B283FF8441A9C9D16F418A295C6">
+		<p:Attributen_201>NL.IMGEO.P0027.973095074a25419ea71c08c73122b6b9</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.973095074a25419ea71c08c73122b6b9</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.01C508A801D74965B454E35BBF7FCF22">
+		<p:Attributen_201>NL.IMGEO.P0027.6752893a61d44eae94d8b70d360062f3</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.6752893a61d44eae94d8b70d360062f3</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.25D7718EFEF84192A63D0C9B469FF2B3">
+		<p:Attributen_201>NL.IMGEO.P0027.4111cc023c5a40978ecfa0c7e291f6e6</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.4111cc023c5a40978ecfa0c7e291f6e6</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.61024759066F4041BD89E65AE40C895B">
+		<p:Attributen_201>NL.IMGEO.P0027.1218634ef5664c3dbd068362012cc7f5</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.1218634ef5664c3dbd068362012cc7f5</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.59FD2AE639684CE08A6F4A2A97A324C2">
+		<p:Attributen_201>NL.IMGEO.P0027.6c4947a7cdde4b8f9b90c6d74490deec</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.6c4947a7cdde4b8f9b90c6d74490deec</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.5CDA526D9C6A41C48BDC09D8C7C105EA">
+		<p:Attributen_201>NL.IMGEO.P0027.235d8761880f4289a8a48cf00d980d9a</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.235d8761880f4289a8a48cf00d980d9a</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.1B9270FF274D4EBCB06B7EC59415145E">
+		<p:Attributen_201>NL.IMGEO.P0027.2619af6d05a74817b2dccefcc3b5839a</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.2619af6d05a74817b2dccefcc3b5839a</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.A9D64E9BCAAF49169E06FEB4A4EF1B99">
+		<p:Attributen_201>NL.IMGEO.P0027.b1b7c0aca3174f6b8b0a6bce4e3a26b1</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.b1b7c0aca3174f6b8b0a6bce4e3a26b1</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.A3A654E42AE547CA94C8408A41870BE4">
+		<p:Attributen_201>NL.IMGEO.P0027.c4f2525722a344aa87a6c7d11005a387</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.c4f2525722a344aa87a6c7d11005a387</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.C9702529A0DD4072AD535935DAD92B3E">
+		<p:Attributen_201>NL.IMGEO.P0027.469dec778d104b82941d96d2e6e12d23</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.469dec778d104b82941d96d2e6e12d23</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.EB6B3BE6744C4A13A19614EECE26CE9D">
+		<p:Attributen_201>NL.IMGEO.P0027.bc4f5b5b873b460593d94d475dd0525e</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.bc4f5b5b873b460593d94d475dd0525e</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.76E60F3A706249CABC88A99AF956C02F">
+		<p:Attributen_201>NL.IMGEO.P0027.37b94897e4fd4b82869561bc4501c721</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.37b94897e4fd4b82869561bc4501c721</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.9B55AD2BAAF74B218DC2B02AE22BFC1F">
+		<p:Attributen_201>NL.IMGEO.P0027.39cd2ca883414f9ba6b8b6faed925770</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.39cd2ca883414f9ba6b8b6faed925770</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.BC6241936B41495BAD045B7F464FA2D0">
+		<p:Attributen_201>NL.IMGEO.P0027.591b2e8b7c6c4811b3de21825ecf7016</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.591b2e8b7c6c4811b3de21825ecf7016</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.EB22C756D98A4A4CB46C61EE825F39DF">
+		<p:Attributen_201>NL.IMGEO.P0027.aae8e08321704e1eba31bd3703d03e9f</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.aae8e08321704e1eba31bd3703d03e9f</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.35C5596974A04149B52E5C7AAFECA8B3">
+		<p:Attributen_201>NL.IMGEO.P0027.1cf0812fb0744ef19ade7a95daf91998</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.1cf0812fb0744ef19ade7a95daf91998</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.F73C65B3C6B3415883734F2BEBBDC991">
+		<p:Attributen_201>NL.IMGEO.P0027.690469fd3f49494381c74981bc4cd037</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.690469fd3f49494381c74981bc4cd037</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.9D8C1F3E66B94B29B942B2AB1CA59AA0">
+		<p:Attributen_201>NL.IMGEO.P0027.c9f24882efce48b5bfcd1a6f22115bc0</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.c9f24882efce48b5bfcd1a6f22115bc0</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.1F3B22ABCC44465581FF5A3FF1435EC6">
+		<p:Attributen_201>NL.IMGEO.P0027.15da4fb5315a47c585ae1a0255dfed69</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.15da4fb5315a47c585ae1a0255dfed69</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.51D7EF29D0B646419578375F8FD43DC3">
+		<p:Attributen_201>NL.IMGEO.P0027.6872dc840583496587e90f7dfff5dab7</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.6872dc840583496587e90f7dfff5dab7</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.40F56BC0EAC34B48BA2494D9AA2AA8B1">
+		<p:Attributen_201>NL.IMGEO.P0027.8e9e1433c6be4431bca159d8cdf84dd8</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.8e9e1433c6be4431bca159d8cdf84dd8</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.8B761921573547168A5776859EFF4A0B">
+		<p:Attributen_201>NL.IMGEO.P0027.509d7ac6123844219403c4d555c84617</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.509d7ac6123844219403c4d555c84617</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.7FD0A16DE721448995952DB418CEF09B">
+		<p:Attributen_201>NL.IMGEO.P0027.440d2d04b19240c5b45c124455c84418</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.440d2d04b19240c5b45c124455c84418</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.BBCDAA6CE02B409FA563FFFD9C7D5E46">
+		<p:Attributen_201>NL.IMGEO.P0027.7234ec49e94a469ead0f0f3924571345</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.7234ec49e94a469ead0f0f3924571345</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.0C0E94F09208463AA452B52044DA420B">
+		<p:Attributen_201>NL.IMGEO.P0027.53e447752ca6462196c04765f2404779</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.53e447752ca6462196c04765f2404779</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.4E64D5C22467475A9FE4A29738AB6CC8">
+		<p:Attributen_201>NL.IMGEO.P0027.17be396b4df84386b7d93fb2255f7967</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.17be396b4df84386b7d93fb2255f7967</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.0D906214429245E6B95FE8EB31751B70">
+		<p:Attributen_201>NL.IMGEO.P0027.5e17e620c80049a3a8d07b444a332bae</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.5e17e620c80049a3a8d07b444a332bae</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.3B7F770C760D4B03AB85ED570E3480C5">
+		<p:Attributen_201>NL.IMGEO.P0027.6750e240d2c049ffb0344e7b77bb2614</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.6750e240d2c049ffb0344e7b77bb2614</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.6D03602DE43C4A0B95161C56FA73CFE0">
+		<p:Attributen_201>NL.IMGEO.P0027.bbfc89abe02c4376ba3340e82f554b46</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.bbfc89abe02c4376ba3340e82f554b46</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.70808B58968F4A7CB004C61C6AD83EFF">
+		<p:Attributen_201>NL.IMGEO.P0027.6876987263a441b8a4ecf7cf78202f94</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.6876987263a441b8a4ecf7cf78202f94</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.91015E271EC74C8CB8D6094F3418657B">
+		<p:Attributen_201>NL.IMGEO.P0027.2b2dbaf1c0d145dca4d46a1e0a108bb9</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.2b2dbaf1c0d145dca4d46a1e0a108bb9</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.61B3A816D91447EF8215F96EC6E75C58">
+		<p:Attributen_201>NL.IMGEO.P0027.e25cf4751c0f43ad96ce39470c10061b</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.e25cf4751c0f43ad96ce39470c10061b</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.1660F88FCB784C3994C9503CECC2F44B">
+		<p:Attributen_201>NL.IMGEO.P0027.5367eb1d1b9a4be9b3fe62004164cb20</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.5367eb1d1b9a4be9b3fe62004164cb20</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.9A546F48A5D24ED6A87083B49D5959CA">
+		<p:Attributen_201>NL.IMGEO.P0027.9984989b388b43df9c98c8101007af81</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.9984989b388b43df9c98c8101007af81</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.94594D03619340498D71ED1F66D94A09">
+		<p:Attributen_201>NL.IMGEO.P0027.fd00b00396f8408aade21e37ecd82af2</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.fd00b00396f8408aade21e37ecd82af2</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.2C05159A52C249A98EE6F66BC2D25101">
+		<p:Attributen_201>NL.IMGEO.P0027.3b019c0d163c4fb49403962fcbed05f5</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.3b019c0d163c4fb49403962fcbed05f5</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.F4B3D0459E4A4A71AA54A8E38AB8B55D">
+		<p:Attributen_201>NL.IMGEO.P0027.06b64d232b5a41929c785beb3011f965</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.06b64d232b5a41929c785beb3011f965</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.BF3746FE726944879178DC50A80442BE">
+		<p:Attributen_201>NL.IMGEO.P0027.fd8324755cc5467abbb8b5ad5aed39b1</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.fd8324755cc5467abbb8b5ad5aed39b1</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.599FFDD8CF524BFEB192C48D86114B94">
+		<p:Attributen_201>NL.IMGEO.P0027.0acaa3958c174fbba3c03731ea0d8569</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.0acaa3958c174fbba3c03731ea0d8569</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.1D3DE6389F484D9F916FAFC5B6AEB1B0">
+		<p:Attributen_201>NL.IMGEO.P0027.1fbb19ea1f2f4f4eb677124a1603afb5</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.1fbb19ea1f2f4f4eb677124a1603afb5</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.7062419D31D14558867A846AA449C037">
+		<p:Attributen_201>NL.IMGEO.G0394.b93174c1ed4f47a39d6b654b159d7abf</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.G0394.b93174c1ed4f47a39d6b654b159d7abf</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.A7DB65E1AA7D4B1EA4FF44569C2288A7">
+		<p:Attributen_201>NL.IMGEO.P0027.67cb4623043f45858e573bcf5c98c82f</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.67cb4623043f45858e573bcf5c98c82f</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.D93808EE72E64C22879A78FFCF8452BD">
+		<p:Attributen_201>NL.IMGEO.P0027.abfb95237da845548a8f431aa42ecc5e</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.abfb95237da845548a8f431aa42ecc5e</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.344C4C75074C402FA7CECCABC9294D01">
+		<p:Attributen_201>NL.IMGEO.P0027.00272bd899964bdcaed67605a0d47317</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.00272bd899964bdcaed67605a0d47317</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.6B133159523546C3AF491097161E985A">
+		<p:Attributen_201>NL.IMGEO.P0027.3f037a69b059414b937d21d60095667a</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.3f037a69b059414b937d21d60095667a</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.C706F4F86E6E4C409BF87B6090DED405">
+		<p:Attributen_201>NL.IMGEO.P0027.e09d44c697ab44a9af568d33e42cc2ec</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.e09d44c697ab44a9af568d33e42cc2ec</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.C966CC6C875644F4A3C51CB303F4A5F6">
+		<p:Attributen_201>NL.IMGEO.P0027.ce0875ea4dcc41c692ab3592d0a04552</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.ce0875ea4dcc41c692ab3592d0a04552</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.30611BD2DA9240499EF2A205D7DCE367">
+		<p:Attributen_201>NL.IMGEO.P0027.2af18f0ea6cd4cfcb518eb568a41fe23</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.2af18f0ea6cd4cfcb518eb568a41fe23</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.D0E1F2EFBE5E41A3AB5213687EB36BF2">
+		<p:Attributen_201>NL.IMGEO.P0027.d1c879a87bc64b399785ca3c503c1c4e</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.d1c879a87bc64b399785ca3c503c1c4e</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.F2BC980C00AE4636A2BA4C4B1E156C7B">
+		<p:Attributen_201>NL.IMGEO.P0027.b4868d5df01a4f8abb190c14d2f1ab8e</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.b4868d5df01a4f8abb190c14d2f1ab8e</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.119FCAFB9E4E46C7AC0E0699489BBC70">
+		<p:Attributen_201>NL.IMGEO.P0027.6e7b73eb90084e58b4f2470a2c664fd1</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.6e7b73eb90084e58b4f2470a2c664fd1</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.2D47695F365E482693F955B454BD013E">
+		<p:Attributen_201>NL.IMGEO.P0027.0cb269450e344f16b28d1aeef6396f1f</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.0cb269450e344f16b28d1aeef6396f1f</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.BD976DCD7E72497AB083BEADE6C28AE8">
+		<p:Attributen_201>NL.IMGEO.P0027.8f0bb8e544c94c30836f9bbf7c956493</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.8f0bb8e544c94c30836f9bbf7c956493</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.1F0B11026817408DB82C0974EC488A2F">
+		<p:Attributen_201>NL.IMGEO.P0027.3bcde4c126094b91a1208f69a3594b79</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.3bcde4c126094b91a1208f69a3594b79</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.F1BDAA192CC24451A3272D70D16A2FB1">
+		<p:Attributen_201>NL.IMGEO.P0027.d235a4b5bec540f3b2517dce7ae0befe</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.d235a4b5bec540f3b2517dce7ae0befe</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.AFCCBAF548FF4DA4A94B9C3F8920EEFF">
+		<p:Attributen_201>NL.IMGEO.P0027.99fd46bd9ed147feb52daf2c2b99797d</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.99fd46bd9ed147feb52daf2c2b99797d</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.B14481224F0A49E2ADC6B632CFF48C7E">
+		<p:Attributen_201>NL.IMGEO.P0027.8741ef2e3a3b441da281451efac55de6</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.8741ef2e3a3b441da281451efac55de6</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.B0A3EA90AA614CDD8DC97C64016D7312">
+		<p:Attributen_201>NL.IMGEO.P0027.de5e5cd406d04607943d8b591828981b</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.de5e5cd406d04607943d8b591828981b</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.F04C269B47944275B094960F9A85DD53">
+		<p:Attributen_201>NL.IMGEO.P0027.fb981949ea8f437eb54c8d7e0c437f9b</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.fb981949ea8f437eb54c8d7e0c437f9b</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.EC19A427411E4BA49BA8E173DC82B17D">
+		<p:Attributen_201>NL.IMGEO.P0027.0ea52149441e4996a0dd97348272e1fd</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.0ea52149441e4996a0dd97348272e1fd</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.0B11726D14E04E9CA383B2C414AE3CD2">
+		<p:Attributen_201>NL.IMGEO.P0027.5e51b015a39944698559a71b6aebd369</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.5e51b015a39944698559a71b6aebd369</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.C38D432511C14953909ADE4293F9BD51">
+		<p:Attributen_201>NL.IMGEO.P0027.b6abe24d389442df97a1ddd09ee90fff</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.b6abe24d389442df97a1ddd09ee90fff</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.81A5D88E022640BF8102A7EF3EBFAB0D">
+		<p:Attributen_201>NL.IMGEO.P0027.f4df43b98ec24ac9a9a82827cb80fcc4</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.f4df43b98ec24ac9a9a82827cb80fcc4</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.DB9E2F2890954016BCF1ECEBAD813509">
+		<p:Attributen_201>NL.IMGEO.P0027.8e61f0f54a4b492099b010b9079f7e34</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.8e61f0f54a4b492099b010b9079f7e34</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.70F053E922044A0885F4A17417F16F26">
+		<p:Attributen_201>NL.IMGEO.P0027.4f36310795524e389329475c19eeb2c5</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.4f36310795524e389329475c19eeb2c5</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.75DE3F5E978142D8A7B5D67E31B8E1C7">
+		<p:Attributen_201>NL.IMGEO.P0027.e1a86528eb204a29ab2ccca80549a028</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.e1a86528eb204a29ab2ccca80549a028</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.C2AE5183535449E0B4A4793E1B02C7F3">
+		<p:Attributen_201>NL.IMGEO.P0027.a76ddb586bd047e98d8b8dadd96eafdd</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.a76ddb586bd047e98d8b8dadd96eafdd</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.91A07550CAB74AC5B044FE3157531265">
+		<p:Attributen_201>NL.IMGEO.P0027.6de1a4de959741408fc1cc702f7d8937</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.6de1a4de959741408fc1cc702f7d8937</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.10175242AFD141B39608174D688C0669">
+		<p:Attributen_201>NL.IMGEO.P0027.6d251b394a5c4f5f9e27b66c38b78436</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.6d251b394a5c4f5f9e27b66c38b78436</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.65B744C80375418BB851FED9E7CE33C2">
+		<p:Attributen_201>NL.IMGEO.P0027.a4cea6b393324870ab5bbbf62b06a77f</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.a4cea6b393324870ab5bbbf62b06a77f</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.C79D21B3B74348039F31CEF15757CA29">
+		<p:Attributen_201>NL.IMGEO.P0027.3ddb45a3d89a4f9f8b126e1943335632</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.3ddb45a3d89a4f9f8b126e1943335632</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.E8CDD5DB630D4CE98C0205455A3F8153">
+		<p:Attributen_201>NL.IMGEO.P0027.b76d884ab30444ae80255c93c0887039</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.b76d884ab30444ae80255c93c0887039</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.AC29346698984CDA981A3E7CB5ABA3FA">
+		<p:Attributen_201>NL.IMGEO.P0027.922b6c99557c4c21940acb63b9cbb184</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.922b6c99557c4c21940acb63b9cbb184</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.585B7228F4A446E6B3EEE784D570DE31">
+		<p:Attributen_201>NL.IMGEO.P0027.5b1df4a501044422b6c2e6fc0793e64d</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.5b1df4a501044422b6c2e6fc0793e64d</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.9F12AB2631364B91B40B74A54D8F0215">
+		<p:Attributen_201>NL.IMGEO.P0027.0491ec104186487ea9eeeb5bbca42223</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.0491ec104186487ea9eeeb5bbca42223</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.28407AA601FE4E81A48F88AD02966D69">
+		<p:Attributen_201>NL.IMGEO.P0027.8cf7e65787754f8086c2add9eee29e26</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.8cf7e65787754f8086c2add9eee29e26</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.5E0B1EDF0E824D83AC133D8379B7B636">
+		<p:Attributen_201>NL.IMGEO.P0027.d42549dcf3d14c059264fca469e3431f</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.d42549dcf3d14c059264fca469e3431f</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.DEA2ED6BBBBC4E4C9F4A91CE27A0F68E">
+		<p:Attributen_201>NL.IMGEO.P0027.f96f130f32a44986a58f53a1c23186e5</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.f96f130f32a44986a58f53a1c23186e5</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.F682ADD2AE5E4604864C63E57D917EC7">
+		<p:Attributen_201>NL.IMGEO.G0394.112700ba6b4b4498889a3a16fbc9e32e</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/FP"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.G0394.112700ba6b4b4498889a3a16fbc9e32e</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.EDF2C6154D0A4AC69EBE8D234B8552D4">
+		<p:Attributen_201>NL.IMGEO.P0027.bca2af4402bb453e9429bfc50f3ccc84</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.bca2af4402bb453e9429bfc50f3ccc84</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.E1D98510CED848FD93B6E63645B20F10">
+		<p:Attributen_201>NL.IMGEO.P0027.38d884f80ac148128afe60dc44cf83bd</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.38d884f80ac148128afe60dc44cf83bd</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.67193CC0E3EB4B99B65B2ADEC8B7B820">
+		<p:Attributen_201>NL.IMGEO.P0027.ea09c80cf41942d785c13082181d88a8</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.ea09c80cf41942d785c13082181d88a8</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.62127B93D14348C08CCF0A9A8299D78C">
+		<p:Attributen_201>NL.IMGEO.P0027.491d8dc98e4349e784d7575553cd507c</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.491d8dc98e4349e784d7575553cd507c</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.F194AFF269BD4CDAB49A62B917FD0EC3">
+		<p:Attributen_201>NL.IMGEO.P0027.e55bc9b3c03f43cb83ae8d48c54f26be</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.e55bc9b3c03f43cb83ae8d48c54f26be</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.0C8AE7F624744AAB8157BF2133683807">
+		<p:Attributen_201>NL.IMGEO.P0027.6c1a21058ee84eae806e39f9857c382d</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.6c1a21058ee84eae806e39f9857c382d</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.9EC27A82DEC8456988220FFF2E8514A7">
+		<p:Attributen_201>NL.IMGEO.P0027.36e6d47651d3473a888b12f9260f7f6b</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.36e6d47651d3473a888b12f9260f7f6b</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.6CBF2468E75E48DAAE48AD45BC5BB0C5">
+		<p:Attributen_201>NL.IMGEO.P0027.9ff4fc3e0e40499480f6b52ae8c7cacd</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.9ff4fc3e0e40499480f6b52ae8c7cacd</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.1BFD6CC3BBBE47198D174C814F670A02">
+		<p:Attributen_201>NL.IMGEO.P0027.bb57ae287b6f4958b024845380f83e97</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.bb57ae287b6f4958b024845380f83e97</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.5A585F14CB68417BB46FB7E92704462C">
+		<p:Attributen_201>NL.IMGEO.P0027.12de9651aa79449599791cc490525571</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.12de9651aa79449599791cc490525571</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.2D1DF9B071BC49CDA54D1F503C1950D4">
+		<p:Attributen_201>NL.IMGEO.P0027.cde2677485e948a18e2acef31657e97f</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.cde2677485e948a18e2acef31657e97f</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.707A365543DA49AE90AC9CCF6F7F2D35">
+		<p:Attributen_201>NL.IMGEO.P0027.ee303dbce05349c2b24cc00da7c294d2</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.ee303dbce05349c2b24cc00da7c294d2</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.EC8C73DC928B40298B5B63E4114C2C19">
+		<p:Attributen_201>NL.IMGEO.P0027.16164cdc0b4e4588a2a23002ca4c4836</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.16164cdc0b4e4588a2a23002ca4c4836</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.93279909830E421FBED9B0A24435980F">
+		<p:Attributen_201>NL.IMGEO.P0027.4487e4f25ab74bd2a9538dcaa22efc74</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.4487e4f25ab74bd2a9538dcaa22efc74</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.C7E0CCA49BB842E2AEF8C82F44795D00">
+		<p:Attributen_201>NL.IMGEO.P0027.762686cfa6b64d29ae0a94baecb0a7a1</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.762686cfa6b64d29ae0a94baecb0a7a1</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.AFFA239646714A169806081C559F32DD">
+		<p:Attributen_201>NL.IMGEO.P0027.da399e2bbb1c4e68a6a261bd9a34ea9d</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.da399e2bbb1c4e68a6a261bd9a34ea9d</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.E1C5B2E7DD424F519F5EE4A7EB3F1A7D">
+		<p:Attributen_201>NL.IMGEO.P0027.662db2c8addd4d1ba21d201e913a50fd</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.662db2c8addd4d1ba21d201e913a50fd</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.505B045AA2354D5FA399F16BBAAA4B0B">
+		<p:Attributen_201>NL.IMGEO.P0027.164222a1448d4456bfb503017402c52e</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.164222a1448d4456bfb503017402c52e</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.ACAC3208079E41CAB2CB18C57D6A673F">
+		<p:Attributen_201>NL.IMGEO.P0027.107fcd44afaf49969ec7e4a56ee4ec0e</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.107fcd44afaf49969ec7e4a56ee4ec0e</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.A211CC71573A4C4996EA2DD3F4C1F2F7">
+		<p:Attributen_201>NL.IMGEO.G0394.51564f7acd3a498094c8925789ea5249</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.G0394.51564f7acd3a498094c8925789ea5249</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.E0F6F044F1BA46F299C8E5758F4C455A">
+		<p:Attributen_201>NL.IMGEO.P0027.beca5df9097d47858eecc4ff911888b6</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.beca5df9097d47858eecc4ff911888b6</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.B44C9C3D5CE24B77A11BC045036853BC">
+		<p:Attributen_201>NL.IMGEO.P0027.ee234f0754f24236ae0bbd17fd4162a5</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.ee234f0754f24236ae0bbd17fd4162a5</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.37794869C3794BB08133B6E597BCB3C2">
+		<p:Attributen_201>NL.IMGEO.P0027.efd732f0cf7141488bb2a42555face34</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.efd732f0cf7141488bb2a42555face34</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.55BD2758DB0D4A5687D3FF5C4DAB009F">
+		<p:Attributen_201>NL.IMGEO.P0027.7dd7cf7f527b4c749c0e6adec45bdc99</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.7dd7cf7f527b4c749c0e6adec45bdc99</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.DEF19831789B483DADF9F5D82D09E7D5">
+		<p:Attributen_201>NL.IMGEO.P0027.ba789b5b1f1d419881535286ff4fdb45</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.ba789b5b1f1d419881535286ff4fdb45</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.C3A66A2E274D4FB4A65A5EAE140164B1">
+		<p:Attributen_201>NL.IMGEO.P0027.0eb8dde0a6f34fa9830db490695fabd6</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.0eb8dde0a6f34fa9830db490695fabd6</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.A0B191F0F8AE461E9F32371AAAD6723A">
+		<p:Attributen_201>NL.IMGEO.P0027.6f6bea59d19e4ad9aa104fc40d1b9ec1</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.6f6bea59d19e4ad9aa104fc40d1b9ec1</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.C6E378E8ABF1420BBBB4D0A92FB9A794">
+		<p:Attributen_201>NL.IMGEO.P0027.f66135214e894ad7b1c7fcc4b65c09e7</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.f66135214e894ad7b1c7fcc4b65c09e7</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.38FC4B8F71574349BB53C9D9202B32B9">
+		<p:Attributen_201>NL.IMGEO.P0027.9f6c540c4d334ebe92edc8fe1d9f3c2b</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.9f6c540c4d334ebe92edc8fe1d9f3c2b</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.D1A408CD28744BF2B0368313711CB777">
+		<p:Attributen_201>NL.IMGEO.P0027.87723c7701f6498f948df6c195380f61</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.87723c7701f6498f948df6c195380f61</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.BB312ED7AA2541229CE5E60A785DCF63">
+		<p:Attributen_201>NL.IMGEO.P0027.5ecc30e94c514b4b9b3da46b4a75b9bd</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.5ecc30e94c514b4b9b3da46b4a75b9bd</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.23094C1500864C9EB798E9346A7FC023">
+		<p:Attributen_201>NL.IMGEO.P0027.60c3befcc6f84068903bb3f28108b91b</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.60c3befcc6f84068903bb3f28108b91b</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.4ACCC955292346B18F9F47351BDE0A64">
+		<p:Attributen_201>NL.IMGEO.P0027.44f85d65a3b04bb69f40f360727f4890</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.44f85d65a3b04bb69f40f360727f4890</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.ACC2BC70667242C898393AA8D4114AD6">
+		<p:Attributen_201>NL.IMGEO.P0027.567114b6b0624289a08466a40bd20d99</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.567114b6b0624289a08466a40bd20d99</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.1C2D7B2BE9544F9E8CB8EB79B2C00E95">
+		<p:Attributen_201>NL.IMGEO.P0027.bf1e1b0b7f64465bb862437cb92f2a1d</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.bf1e1b0b7f64465bb862437cb92f2a1d</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.1E816F624D2441AEB7EDC13758E5FC41">
+		<p:Attributen_201>NL.IMGEO.P0027.828e5ecf978d4ce390d0af1e069b3eec</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.828e5ecf978d4ce390d0af1e069b3eec</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.51FFB902250B4ACD8CA5E1986362486C">
+		<p:Attributen_201>NL.IMGEO.P0027.beb0232308534c9a850c9d0f95dd3772</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.beb0232308534c9a850c9d0f95dd3772</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.96CE654CDD154E5C8DB700E68CE73D49">
+		<p:Attributen_201>NL.IMGEO.P0027.68a38f72fbde45cdb3d76573a379c19a</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.68a38f72fbde45cdb3d76573a379c19a</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.90A7404353034025963D2588F05CD5D0">
+		<p:Attributen_201>NL.IMGEO.P0027.c9e8a39c5a014f809de3d882d79dc480</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.c9e8a39c5a014f809de3d882d79dc480</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.E662BD93BF704CD1853C6BDB5839D92C">
+		<p:Attributen_201>NL.IMGEO.P0027.a1a20c6b069e4b8b83b92996ddc03ade</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.a1a20c6b069e4b8b83b92996ddc03ade</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.6F2EC2B9E3404503B58FF71011630942">
+		<p:Attributen_201>NL.IMGEO.P0027.b1607760411f4c658ed1f453cbfcb9ae</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.b1607760411f4c658ed1f453cbfcb9ae</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.91B3462F95FC443F94B9177CEBE29BE9">
+		<p:Attributen_201>NL.IMGEO.P0027.6443ed4933dc4638aa2190b0dc7d9e1a</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.6443ed4933dc4638aa2190b0dc7d9e1a</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.71B0CE2499634866B41D8DF0F10E1F4F">
+		<p:Attributen_201>NL.IMGEO.P0027.fcf819bff55d4382917f3a93e8519a9e</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/D_SW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.fcf819bff55d4382917f3a93e8519a9e</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.6B407FFAA8C749C888465C8A98D1934C">
+		<p:Attributen_201>NL.IMGEO.P0027.ec99b246cd05468ab8d2e3f3c860d903</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.ec99b246cd05468ab8d2e3f3c860d903</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://connecteddata.nl/imbor/id/data/AD.156152C94591419691BF90E77251AE88">
+		<p:Attributen_201>NL.IMGEO.P0027.6adb140a697343a7b1c74aaa63999793</p:Attributen_201>
+		<p:Attributen_523 rdf:resource="http://connecteddata.nl/bgt/def/waardenlijst/GOW_2"></p:Attributen_523>
+		<rdf:type rdf:resource="http://linkeddata.crow.nl/otl-bim-pro-imbor/def/objecttype/Objecttypes_401"></rdf:type>
+		<rdfs:label>NL.IMGEO.P0027.6adb140a697343a7b1c74aaa63999793</rdfs:label>
+	</rdf:Description>
+</rdf:RDF>
