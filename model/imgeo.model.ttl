@@ -11,7 +11,7 @@
 
 imgeo:Object a owl:Class ;
   rdfs:label "Object" ;
-  rdfs:subClassOf nen3160:GeoObject ; 
+  rdfs:subClassOf nen3160:GeoObject ;
 .
 
 imgeo:bgt-status a owl:ObjectProperty ;
