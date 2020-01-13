@@ -1,0 +1,68 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gml: <http://www.opengis.net/ont/gml#> .
+@prefix gsp: <http://www.opengis.net/ont/geosparql#> .
+@prefix imgeo: <http://definities.geostandaarden.nl/def/imgeo#> .
+@prefix imgeo-col: <http://definities.geostandaarden.nl/imgeo/id/collection/> .
+@prefix imgeo-sh: <http://definities.geostandaarden.nl/def/imgeo/> .
+@prefix nen3610: <http://definities.geostandaarden.nl/def/nen3610#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+#########################################
+# imgeo:Wegdeel
+#########################################
+
+imgeo-sh:Wegdeel a sh:NodeShape ;
+  sh:targetClass imgeo:Wegdeel ;
+  sh:property
+    imgeo-sh:Wegdeel_functie ,
+    imgeo-sh:Wegdeel_wegdeelOpTalud ,
+    imgeo-sh:Wegdeel_kruinlijnWegdeel ,
+    imgeo-sh:Wegdeel_geometrie2dWegdeel ,
+    imgeo-sh:Wegdeel_lod0SurfaceWegdeel ;
+.
+
+imgeo-sh:Wegdeel_functie a sh:PropertyShape ;
+  sh:path imgeo:functie ;
+  sh:node [
+    sh:property [
+      sh:path [ sh:inversePath skos:member ] ;
+      sh:hasValue imgeo-col:Wegdeelfuncties ;
+      sh:minCount 1 ;
+    ] ;
+  ] ;
+.
+
+imgeo-sh:Wegdeel_wegdeelOpTalud a sh:PropertyShape ;
+  sh:path imgeo:wegdeelOpTalud ;
+  sh:minCount 1 ;
+  sh:maxCount 1 ;
+.
+
+imgeo-sh:Wegdeel_kruinlijnWegdeel a sh:PropertyShape ;
+  sh:path imgeo:kruinlijnWegdeel ;
+  sh:class
+    gsp:Geometry ,
+    gml:Curve ;
+  sh:maxCount 1 ;
+.
+
+imgeo-sh:Wegdeel_geometrie2dWegdeel a sh:PropertyShape ;
+  sh:path imgeo:geometrie2dWegdeel ;
+  sh:class
+    gsp:Geometry ,
+    gml:Surface ;
+  sh:minCount 1 ;
+  sh:maxCount 1 ;
+.
+
+imgeo-sh:Wegdeel_lod0SurfaceWegdeel a sh:PropertyShape ;
+  sh:path imgeo:lod0SurfaceWegdeel ;
+  sh:class
+    gsp:Geometry ,
+    gml:Surface ;
+  sh:maxCount 1 ;
+.

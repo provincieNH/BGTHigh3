@@ -1,0 +1,33 @@
+@prefix imgeo-col: <http://definities.geostandaarden.nl/imgeo/id/collection/> .
+@prefix imgeo-cpt: <http://definities.geostandaarden.nl/imgeo/id/concept/> .
+@prefix imgeo-def: <http://www.geostandaarden.nl/imgeo/def/2.1#> .
+@prefix imgeo-sch: <http://definities.geostandaarden.nl/imgeo/id/scheme/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+imgeo-col:Wegdeelfuncties a skos:Collection ;
+  skos:member
+    imgeo-def:FunctieWeg_OV_baan ,
+    imgeo-def:FunctieWeg_baan_voor_vliegverkeer ,
+    imgeo-def:FunctieWeg_fietspad ,
+    imgeo-def:FunctieWeg_inrit ,
+    imgeo-def:FunctieWeg_overweg ,
+    imgeo-def:FunctieWeg_parkeervlak ,
+    imgeo-def:FunctieWeg_rijbaan_autosnelweg ,
+    imgeo-def:FunctieWeg_rijbaan_autoweg ,
+    imgeo-def:FunctieWeg_rijbaan_lokale_weg ,
+    imgeo-def:FunctieWeg_rijbaan_regionale_weg ,
+    imgeo-def:FunctieWeg_ruiterpad ,
+    imgeo-def:FunctieWeg_spoorbaan ,
+    imgeo-def:FunctieWeg_transitie ,
+    imgeo-def:FunctieWeg_voetgangersgebied ,
+    imgeo-def:FunctieWeg_voetpad ,
+    imgeo-def:FunctieWeg_voetpad_op_trap ,
+    imgeo-def:FunctieWeg_woonerf ,
+    imgeo-def:FunctieWegPlus_calamiteitendoorsteek ,
+    imgeo-def:FunctieWegPlus_verbindingsweg ,
+    imgeo-def:FunctieWegPlus_verkeersdrempel ;
+.
