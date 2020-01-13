@@ -247,8 +247,7 @@
 
 ###  https://register.geostandaarden.nl/informatiemodel/imgeo/2.1.1#BegroeidTerreindeel
 :BegroeidTerreindeel rdf:type owl:Class ;
-    rdfs:subClassOf imgeo:Object ;
-    
+    rdfs:subClassOf imgeo:Object , <http://definities.geostandaarden.nl/def/nen3610#Terrein>;
     .
 
 
