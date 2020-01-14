@@ -27,12 +27,30 @@ def xml_naar_dict(gml):
 
     return _features
 
+def geometrie_terugzetten(bgt_dict):
+    """
+    Verandert geometrie weer terug in xml
+
+    :param bgt_dict:
+    :return bgt_dict_xml_geom:
+    """
+    _bgt_dict = bgt_dict
+
+    # maak dict met alleen maar geometrieën
+    bgt_dict_xml_geom = {}
+
+    return bgt_dict_xml_geom
+
 def main():
 
     bgt_gml = r"D:\high3Repo\resources\bgt_begroeidterreindeel.gml"
-    bgt_dict = xml_naar_dict(bgt_gml)
+    bgt_dict_initial = xml_naar_dict(bgt_gml)
 
-    print(bgt_dict)
+
+
+    bgt_dict_final = geometrie_terugzetten(bgt_dict_initial)
+
+    print(bgt_dict_final)
 
 
 if __name__ == "__main__":
