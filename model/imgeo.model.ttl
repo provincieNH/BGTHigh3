@@ -83,3 +83,9 @@ imgeo:lod0Surface a owl:ObjectProperty ;
   rdfs:subPropertyOf gsp:hasGeometry ;
   rdfs:range gsp:Geometry ;
 .
+
+imgeo:lod0Geometry a owl:ObjectProperty ;
+  rdfs:label "lod0Geometry" ;
+  rdfs:subPropertyOf gsp:hasGeometry ;
+  rdfs:range gsp:Geometry ;
+.

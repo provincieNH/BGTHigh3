@@ -31,9 +31,9 @@ imgeo-sh:OverigeConstructie_geometrie2d a sh:PropertyShape ;
   sh:maxCount 1 ;
 .
 
-imgeo-sh:OverigeConstructie_lod0Surface a sh:PropertyShape ;
-  sh:name "imgeo:lod0Surface" ;
-  sh:path imgeo:lod0Surface ;
+imgeo-sh:OverigeConstructie_lod0Geometry a sh:PropertyShape ;
+  sh:name "imgeo:lod0Geometry" ;
+  sh:path imgeo:lod0Geometry ;
   sh:class gsp:Geometry ;
   sh:node imgeo-sh:PointCurveSurface ;
   sh:maxCount 1 ;
