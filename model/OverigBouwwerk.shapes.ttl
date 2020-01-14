@@ -1,0 +1,21 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gml: <http://www.opengis.net/ont/gml#> .
+@prefix gsp: <http://www.opengis.net/ont/geosparql#> .
+@prefix imgeo: <http://definities.geostandaarden.nl/def/imgeo#> .
+@prefix imgeo-col: <http://definities.geostandaarden.nl/imgeo/id/collection/> .
+@prefix imgeo-sh: <http://definities.geostandaarden.nl/def/imgeo/> .
+@prefix nen3610: <http://definities.geostandaarden.nl/def/nen3610#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+#########################################
+# imgeo:OverigBouwwerk
+#########################################
+
+imgeo-sh:OverigBouwwerk a sh:NodeShape ;
+  sh:name "imgeo:OverigBouwwerk" ;
+  sh:targetClass imgeo:OverigBouwwerk ;
+.
