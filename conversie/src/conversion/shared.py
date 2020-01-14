@@ -7,12 +7,15 @@ import re
 
 ## GLOBAL VARIABLES:
 bgt=rdflib.Namespace('http://bgt.basisregistraties.overheid.nl/bgt/')
-bgtdef=rdflib.Namespace("http://bag.basisregistraties.overheid.nl/def/bag#")
+bgtdef=rdflib.Namespace("http://bgt.basisregistraties.overheid.nl/def/bgt#")
 dc=rdflib.Namespace("http://purl.org/dc/terms/")
 skos=rdflib.Namespace("http://www.w3.org/2004/02/skos/core#")
 imgeo=rdflib.Namespace("http://definities.geostandaarden.nl/def/imgeo#")
+imgeobegrip=rdflib.Namespace("http://definities.geostandaarden.nl/imgeo/id/begrip/")
 foaf=rdflib.Namespace("http://xmlns.com/foaf/0.1/")
 nen3610=rdflib.Namespace("http://definities.geostandaarden.nl/def/nen3610#")
+bgtBegrip=rdflib.Namespace("http://bgt.basisregistraties.overheid.nl/id/begrip/")
+geometry=rdflib.Namespace("http://www.opengis.net/ont/geosparql#")
 
 def getBronhouderIri(bronhouder):
     if re.search("^G\\d{4}$",bronhouder):
@@ -30,8 +33,11 @@ def getClassIri(waarde, baseIri, feature):
 
 def convertGMLShapetoWKT(gml):
     # Export geometry to WKT
-    wkt = ogr.CreateGeometryFromGML(gml).ExportToWkt()
-    return wkt
+    wkt = ogr.CreateGeometryFromGML(gml)
+    if wkt:
+        return wkt.ExportToWkt()
+    else:
+        return ""
 
 def stringToDate(inputString):
     if len(inputString.split("T")) > 1:
@@ -53,8 +59,14 @@ def predefinedStringToIRI(inputString):
         return imgeo[suffix]
     if prefix == "nen3610":
         return nen3610[suffix]
-    if prefix == "":
+    if prefix == "bgt":
         return bgt[suffix]
+    if prefix == "bgtBegrip":
+        return bgtBegrip[suffix]
+    if prefix == "imgeobegrip":
+        return imgeobegrip[suffix]
+    if prefix == "geometry":
+        return geometry[suffix]
 
 def stringToInteger(inputString):
     return int(inputString), XSD.integer
@@ -72,7 +84,7 @@ def stringTolangString(inputString):
     return integer, XSD.language
 
 def wktToLiteral(wkt):
-    return wkt, URIRef("http://www.opengis.net/ont/geosparql#")
+    return Literal(wkt, datatype=URIRef("http://www.opengis.net/ont/geosparql#"))
 
 def stringToLiteral(inputString):
     dateRegex = "([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01]))"

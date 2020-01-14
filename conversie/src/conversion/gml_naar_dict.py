@@ -8,7 +8,7 @@ Dit script is geschreven voor de omzetting van BGT in GML format naar linked dat
 
 import xmltodict
 
-def xml_naar_dict(gml):
+def xml_naar_dict(gmlLine):
     """
     Leest een gml bestand en zet deze om naar een dict.
 
@@ -18,9 +18,7 @@ def xml_naar_dict(gml):
 
     _features = {}
     try:
-        with open(gml) as f:
-            data = f.read()
-            _features = xmltodict.parse(data)
+        _features = xmltodict.parse(gmlLine)
 
     except Exception as e:
         print(e)
@@ -34,23 +32,23 @@ def geometrie_terugzetten(bgt_dict):
     :param bgt_dict:
     :return bgt_dict_xml_geom:
     """
+
     _bgt_dict = bgt_dict
-
     _new_dict = {}
-    # create new_dict {imgeo:identificatie: geometrie}
-    for _features in _bgt_dict['CityModel']['cityObjectMember']:
-        for _feature in _features.values():
-            try:
-                # zet om
-                _xml_geom = dict_xmliseren(_feature['imgeo:geometrie2dBegroeidTerreindeel'])
-                # pas aan in dict
+    if _bgt_dict == {}:
+        return _bgt_dict
 
-                try:
-                    _bgt_dict['CityModel']['cityObjectMember']['todo dit moet een index zin!']['PlantCover']['imgeo:geometrie2dBegroeidTerreindeel'] = _xml_geom
-                except Exception as e:
-                    print('error while putting xml in dict: {0}'.format(e))
-            except Exception as e:
-                print(e)
+    try:
+        # zet om
+        _xml_geom = dict_xmliseren(_bgt_dict['cityObjectMember']['PlantCover']['imgeo:geometrie2dBegroeidTerreindeel'] )
+        # pas aan in dict
+
+        try:
+            _bgt_dict['cityObjectMember']['PlantCover']['imgeo:geometrie2dBegroeidTerreindeel'] = _xml_geom
+        except Exception as e:
+            print('error while putting xml in dict: {0}'.format(e))
+    except Exception as e:
+        print(e)
 
     #
     # # maak dict met alleen maar geometrieën
@@ -80,15 +78,14 @@ def dict_xmliseren(geom_dict):
 
 
 def main():
-
     bgt_gml = r"D:\high3Repo\resources\bgt_begroeidterreindeel.gml"
-    bgt_dict_initial = xml_naar_dict(bgt_gml)
+    with open(bgt_gml) as f:
+        data = f.readline()
+        bgt_dict_initial = xml_naar_dict(line)
 
+        bgt_dict_final = geometrie_terugzetten(bgt_dict_initial)
 
-
-    bgt_dict_final = geometrie_terugzetten(bgt_dict_initial)
-
-    print(bgt_dict_final)
+        print(bgt_dict_final)
 
 
 if __name__ == "__main__":
