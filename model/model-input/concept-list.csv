@@ -1,0 +1,50 @@
+classlabel,schemelabel,collectionlabel,lowerconcept,lowerconceptlabel,broader,lowerconceptbroaderlabel,topconceptlabel
+GebouwInstallatie,TypeGebouwInstallatie,TypeGebouwInstallatie,http://www.geostandaarden.nl/imgeo/def/2.1#TypeGebouwInstallatie_niet_bgt,niet-bgt,,,TypeGebouwInstallatie
+IMGeo-Object,Status,Status,http://www.geostandaarden.nl/imgeo/def/2.1#Status_bestaand,bestaand,,,Status
+OndersteunendWegdeel,FunctieOndersteunendWegdeel,FunctieOndersteunendWegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieOndersteunendWegdeel_berm,berm,,,FunctieOndersteunendWegdeel
+OndersteunendWegdeel,FunctieOndersteunendWegdeel,FunctieOndersteunendWegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieOndersteunendWegdeel_transitie,transitie,,,FunctieOndersteunendWegdeel
+OndersteunendWegdeel,FunctieOndersteunendWegdeel,FunctieOndersteunendWegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieOndersteunendWegdeel_verkeerseiland,verkeerseiland,,,FunctieOndersteunendWegdeel
+Overbruggingsdeel,TypeOverbruggingsdeel,TypeOverbruggingsdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverbruggingsdeel_dek,dek,,,TypeOverbruggingsdeel
+Overbruggingsdeel,TypeOverbruggingsdeel,TypeOverbruggingsdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverbruggingsdeel_landhoofd,landhoofd,,,TypeOverbruggingsdeel
+Overbruggingsdeel,TypeOverbruggingsdeel,TypeOverbruggingsdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverbruggingsdeel_pijler,pijler,,,TypeOverbruggingsdeel
+Overbruggingsdeel,TypeOverbruggingsdeel,TypeOverbruggingsdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverbruggingsdeel_pyloon,pyloon,,,TypeOverbruggingsdeel
+Overbruggingsdeel,TypeOverbruggingsdeel,TypeOverbruggingsdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverbruggingsdeel_sloof,sloof,,,TypeOverbruggingsdeel
+Spoor,FunctieSpoor,FunctieSpoor,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieSpoor_niet_bgt,niet-bgt,,,FunctieSpoor
+Spoor,FunctieSpoor,FunctieSpoor,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieSpoor_sneltram,sneltram,,,FunctieSpoor
+Spoor,FunctieSpoor,FunctieSpoor,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieSpoor_tram,tram,,,FunctieSpoor
+Spoor,FunctieSpoor,FunctieSpoor,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieSpoor_transitie,transitie,,,FunctieSpoor
+Spoor,FunctieSpoor,FunctieSpoor,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieSpoor_trein,trein,,,FunctieSpoor
+Wegdeel,FunctieWeg,FunctieWeg,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_OV_baan,OV-baan,,,FunctieWeg
+Wegdeel,FunctieWeg,FunctieWeg,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_baan_voor_vliegverkeer,baan voor vliegverkeer,,,FunctieWeg
+Wegdeel,FunctieWeg,FunctieWeg,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_fietspad,fietspad,,,FunctieWeg
+Wegdeel,FunctieWeg,FunctieWeg,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_inrit,inrit,,,FunctieWeg
+Wegdeel,FunctieWeg,FunctieWeg,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_overweg,overweg,,,FunctieWeg
+Wegdeel,FunctieWeg,FunctieWeg,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_parkeervlak,parkeervlak,,,FunctieWeg
+Wegdeel,FunctieWeg,FunctieWeg,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_rijbaan_autosnelweg,rijbaan autosnelweg,,,FunctieWeg
+Wegdeel,FunctieWeg,FunctieWegPlus,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWegPlus_calamiteitendoorsteek,calamiteitendoorsteek,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_rijbaan_autosnelweg,rijbaan autosnelweg,
+Wegdeel,FunctieWeg,FunctieWegPlus,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWegPlus_calamiteitendoorsteek,calamiteitendoorsteek,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_rijbaan_autoweg,rijbaan autoweg,
+Wegdeel,FunctieWeg,FunctieWegPlus,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWegPlus_verbindingsweg,verbindingsweg,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_rijbaan_autosnelweg,rijbaan autosnelweg,
+Wegdeel,FunctieWeg,FunctieWegPlus,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWegPlus_verbindingsweg,verbindingsweg,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_rijbaan_autoweg,rijbaan autoweg,
+Wegdeel,FunctieWeg,FunctieWegPlus,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWegPlus_verbindingsweg,verbindingsweg,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_rijbaan_regionale_weg,rijbaan regionale weg,
+Wegdeel,FunctieWeg,FunctieWeg,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_rijbaan_autoweg,rijbaan autoweg,,,FunctieWeg
+Wegdeel,FunctieWeg,FunctieWegPlus,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWegPlus_calamiteitendoorsteek,calamiteitendoorsteek,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_rijbaan_autosnelweg,rijbaan autosnelweg,
+Wegdeel,FunctieWeg,FunctieWegPlus,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWegPlus_calamiteitendoorsteek,calamiteitendoorsteek,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_rijbaan_autoweg,rijbaan autoweg,
+Wegdeel,FunctieWeg,FunctieWegPlus,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWegPlus_verbindingsweg,verbindingsweg,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_rijbaan_autosnelweg,rijbaan autosnelweg,
+Wegdeel,FunctieWeg,FunctieWegPlus,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWegPlus_verbindingsweg,verbindingsweg,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_rijbaan_autoweg,rijbaan autoweg,
+Wegdeel,FunctieWeg,FunctieWegPlus,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWegPlus_verbindingsweg,verbindingsweg,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_rijbaan_regionale_weg,rijbaan regionale weg,
+Wegdeel,FunctieWeg,FunctieWeg,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_rijbaan_lokale_weg,rijbaan lokale weg,,,FunctieWeg
+Wegdeel,FunctieWeg,FunctieWegPlus,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWegPlus_verkeersdrempel,verkeersdrempel,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_rijbaan_lokale_weg,rijbaan lokale weg,
+Wegdeel,FunctieWeg,FunctieWegPlus,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWegPlus_verkeersdrempel,verkeersdrempel,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_rijbaan_regionale_weg,rijbaan regionale weg,
+Wegdeel,FunctieWeg,FunctieWeg,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_rijbaan_regionale_weg,rijbaan regionale weg,,,FunctieWeg
+Wegdeel,FunctieWeg,FunctieWegPlus,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWegPlus_verbindingsweg,verbindingsweg,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_rijbaan_autosnelweg,rijbaan autosnelweg,
+Wegdeel,FunctieWeg,FunctieWegPlus,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWegPlus_verbindingsweg,verbindingsweg,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_rijbaan_autoweg,rijbaan autoweg,
+Wegdeel,FunctieWeg,FunctieWegPlus,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWegPlus_verbindingsweg,verbindingsweg,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_rijbaan_regionale_weg,rijbaan regionale weg,
+Wegdeel,FunctieWeg,FunctieWegPlus,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWegPlus_verkeersdrempel,verkeersdrempel,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_rijbaan_lokale_weg,rijbaan lokale weg,
+Wegdeel,FunctieWeg,FunctieWegPlus,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWegPlus_verkeersdrempel,verkeersdrempel,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_rijbaan_regionale_weg,rijbaan regionale weg,
+Wegdeel,FunctieWeg,FunctieWeg,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_ruiterpad,ruiterpad,,,FunctieWeg
+Wegdeel,FunctieWeg,FunctieWeg,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_spoorbaan,spoorbaan,,,FunctieWeg
+Wegdeel,FunctieWeg,FunctieWeg,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_transitie,transitie,,,FunctieWeg
+Wegdeel,FunctieWeg,FunctieWeg,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_voetgangersgebied,voetgangersgebied,,,FunctieWeg
+Wegdeel,FunctieWeg,FunctieWeg,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_voetpad,voetpad,,,FunctieWeg
+Wegdeel,FunctieWeg,FunctieWeg,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_voetpad_op_trap,voetpad op trap,,,FunctieWeg
+Wegdeel,FunctieWeg,FunctieWeg,http://www.geostandaarden.nl/imgeo/def/2.1#FunctieWeg_woonerf,woonerf,,,FunctieWeg
