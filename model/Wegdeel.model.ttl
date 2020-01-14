@@ -25,12 +25,12 @@ imgeo:GeslotenVerharding_Weg a owl:Class;
 imgeo:Asfalt_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_asfalt>;
   rdfs:label "asfalt";
-  rdfs:subClassOf imgeo:Weg_gesloten_verharding .
+  rdfs:subClassOf imgeo:GeslotenVerharding_Weg .
 
 imgeo:Cementbeton_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_cementbeton>;
   rdfs:label "cementbeton";
-  rdfs:subClassOf imgeo:Weg_gesloten_verharding .
+  rdfs:subClassOf imgeo:GeslotenVerharding_Weg .
 
 imgeo:HalfVerhard_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_half_verhard>;
@@ -40,27 +40,27 @@ imgeo:HalfVerhard_Weg a owl:Class;
 imgeo:Grasklinkers_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_grasklinkers>;
   rdfs:label "grasklinkers";
-  rdfs:subClassOf imgeo:Weg_half_verhard .
+  rdfs:subClassOf imgeo:HalfVerhard_Weg .
 
 imgeo:Gravel_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_gravel>;
   rdfs:label "gravel";
-  rdfs:subClassOf imgeo:Weg_half_verhard .
+  rdfs:subClassOf imgeo:HalfVerhard_Weg .
 
 imgeo:Grind_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_grind>;
   rdfs:label "grind";
-  rdfs:subClassOf imgeo:Weg_half_verhard .
+  rdfs:subClassOf imgeo:HalfVerhard_Weg .
 
 imgeo:Puin_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_puin>;
   rdfs:label "puin";
-  rdfs:subClassOf imgeo:Weg_half_verhard .
+  rdfs:subClassOf imgeo:HalfVerhard_Weg .
 
 imgeo:Schelpen_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_schelpen>;
   rdfs:label "schelpen";
-  rdfs:subClassOf imgeo:Weg_half_verhard .
+  rdfs:subClassOf imgeo:HalfVerhard_Weg .
 
 imgeo:Onverhard_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_onverhard>;
@@ -70,12 +70,12 @@ imgeo:Onverhard_Weg a owl:Class;
 imgeo:Boomschors_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_boomschors>;
   rdfs:label "boomschors";
-  rdfs:subClassOf imgeo:Weg_onverhard .
+  rdfs:subClassOf imgeo:Onverhard_Weg .
 
 imgeo:Zand_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_zand>;
   rdfs:label "zand";
-  rdfs:subClassOf imgeo:Weg_onverhard .
+  rdfs:subClassOf imgeo:Onverhard_Weg .
 
 imgeo:OpenVerharding_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_open_verharding>;
@@ -85,25 +85,25 @@ imgeo:OpenVerharding_Weg a owl:Class;
 imgeo:BetonElement_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_beton_element>;
   rdfs:label "beton element";
-  rdfs:subClassOf imgeo:Weg_open_verharding .
+  rdfs:subClassOf imgeo:OpenVerharding_Weg .
 
 imgeo:Betonstraatstenen_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_betonstraatstenen>;
   rdfs:label "betonstraatstenen";
-  rdfs:subClassOf imgeo:Weg_open_verharding .
+  rdfs:subClassOf imgeo:OpenVerharding_Weg .
 
 imgeo:GebakkenKlinkers_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_gebakken_klinkers>;
   rdfs:label "gebakken klinkers";
-  rdfs:subClassOf imgeo:Weg_open_verharding .
+  rdfs:subClassOf imgeo:OpenVerharding_Weg .
 
 imgeo:Sierbestrating_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_sierbestrating>;
   rdfs:label "sierbestrating";
-  rdfs:subClassOf imgeo:Weg_open_verharding .
+  rdfs:subClassOf imgeo:OpenVerharding_Weg .
 
 imgeo:Tegels_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_tegels>;
   rdfs:label "tegels";
-  rdfs:subClassOf imgeo:Weg_open_verharding .
+  rdfs:subClassOf imgeo:OpenVerharding_Weg .
 
