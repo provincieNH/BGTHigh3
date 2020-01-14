@@ -1,0 +1,219 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dbpo: <http://dbpedia.org/ontology/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gml: <http://www.opengis.net/ont/gml#> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix nen3610: <http://definities.geostandaarden.nl/def/nen3610#> .
+@prefix ogc: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix person: <https://www.w3.org/ns/person#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://www.schema.org/> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix imgeo: <http://definities.geostandaarden.nl/def/imgeo#> .
+@prefix imgeo-cpt: <http://definities.geostandaarden.nl/imgeo/id/begrip/> .
+@prefix imgeo-col: <http://definities.geostandaarden.nl/imgeo/id/collection/> .
+@prefix imgeo-sch: <http://definities.geostandaarden.nl/imgeo/id/scheme/> .
+
+# RML prefixes
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix fno: <http://semweb.datasciencelab.be/ns/function#> .
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix carml: <http://carml.taxonic.com/carml/> .
+
+@prefix fnPdok: <http://data.pdok.nl/mappings/functions#> .
+@prefix fnBgt: <http://brk.basisregistraties.overheid.nl/bgt/mappings/functions#> .
+
+@prefix : <http://data.pdok/nl/mappings/brk/cdmkad/v20190701#> .
+
+
+:SimpleExecutionMapping
+  rr:template "functionExec" ;
+  rr:termType rr:BlankNode ;
+  rr:class fno:Execution ;
+.
+
+#####################################################################################
+## SubClasses
+#####################################################################################
+
+:Concepts_LS a rml:LogicalSource ;
+  rml:source "concept-list.csv" ;
+  rml:referenceFormulation ql:CSV ;
+.
+
+:Concepts a rr:TriplesMap ;
+  rml:logicalSource :Concepts_LS ;
+  rr:subjectMap [
+    fnml:functionValue [
+      rr:subjectMap :SimpleExecutionMapping ;
+      rr:predicateObjectMap
+        [
+          rr:predicate fno:executes ;
+          rr:object fnPdok:getClassIri ;
+        ] , 
+        [
+          rr:predicate fnPdok:baseIriParameter ;
+          rr:object "http://definities.geostandaarden.nl/imgeo/id/begrip/" ;
+        ] ,
+        [
+          rr:predicate fnPdok:valueParameter ;
+          rr:objectMap [
+            rml:reference "lowerconceptlabel" ;
+          ] ;
+        ] ,
+        [
+          rr:predicate fnPdok:postFixParameter ;
+          rr:objectMap [
+            rml:reference "schemelabel" ;
+          ] ;
+        ] ;
+    ] ;
+    rr:class skos:Concept ;
+  ] ;
+  rr:predicateObjectMap
+    :Concepts_prefLabel ,
+    :Concepts_notation ,
+    :Concepts_broader ,
+    :Concepts_inScheme ;
+.
+:Concepts_prefLabel a rr:PredicateObjectMap ;
+  rr:predicate skos:prefLabel ;
+  rr:objectMap [
+    rml:reference "lowerconceptlabel" ;
+    rr:language "nl" ;
+  ] ;
+.
+
+:Concepts_notation a rr:PredicateObjectMap ;
+  rr:predicate skos:notation ;
+  rr:objectMap [
+    rml:reference "lowerconceptlabel" ;
+  ] ;
+.
+
+:Concepts_broader a rr:PredicateObjectMap ;
+  rr:predicate skos:broader ;
+  rr:objectMap [
+    rr:parentTriplesMap :BroaderConcept ;
+  ] ;
+  rr:objectMap [
+    rr:parentTriplesMap :TopConcept ;
+  ] ;
+.
+
+:Concepts_inScheme a rr:PredicateObjectMap ;
+  rr:predicate skos:inScheme ;
+  rr:object imgeo-sch:imgeo ;
+.
+
+:BroaderConcept a rr:TriplesMap ;
+  rml:logicalSource :Concepts_LS ;
+  rr:subjectMap [
+    fnml:functionValue [
+      rr:subjectMap :SimpleExecutionMapping ;
+      rr:predicateObjectMap
+        [
+          rr:predicate fno:executes ;
+          rr:object fnPdok:getClassIri ;
+        ] , 
+        [
+          rr:predicate fnPdok:baseIriParameter ;
+          rr:object "http://definities.geostandaarden.nl/imgeo/id/begrip/" ;
+        ] ,
+        [
+          rr:predicate fnPdok:valueParameter ;
+          rr:objectMap [
+            rml:reference "lowerconceptbroaderlabel" ;
+          ] ;
+        ] ,
+        [
+          rr:predicate fnPdok:postFixParameter ;
+          rr:objectMap [
+            rml:reference "schemelabel" ;
+          ] ;
+        ] ;
+    ] ;
+  ] ;
+.
+
+:TopConcept a rr:TriplesMap ;
+  rml:logicalSource :Concepts_LS ;
+  rr:subjectMap [
+    fnml:functionValue [
+      rr:subjectMap :SimpleExecutionMapping ;
+      rr:predicateObjectMap
+        [
+          rr:predicate fno:executes ;
+          rr:object fnPdok:getClassIri ;
+        ] , 
+        [
+          rr:predicate fnPdok:baseIriParameter ;
+          rr:object "http://definities.geostandaarden.nl/imgeo/id/begrip/" ;
+        ] ,
+        [
+          rr:predicate fnPdok:valueParameter ;
+          rr:objectMap [
+            rml:reference "topconceptlabel" ;
+          ] ;
+        ] ;
+    ] ;
+  ] ;
+  rr:predicateObjectMap [
+    rr:predicate skos:topConceptOf ;
+    rr:object imgeo-sch:imgeo ;
+  ] ;
+.
+
+:Concepts_Waardelijst a rr:TriplesMap ;
+  rml:logicalSource :Concepts_LS ;
+  rr:subjectMap [
+    fnml:functionValue [
+      rr:subjectMap :SimpleExecutionMapping ;
+      rr:predicateObjectMap
+        [
+          rr:predicate fno:executes ;
+          rr:object fnPdok:getClassIri ;
+        ] , 
+        [
+          rr:predicate fnPdok:baseIriParameter ;
+          rr:object "http://definities.geostandaarden.nl/imgeo/id/collection/" ;
+        ] ,
+        [
+          rr:predicate fnPdok:valueParameter ;
+          rr:objectMap [
+            rml:reference "collectionlabel" ;
+          ] ;
+        ] ;
+    ] ;
+    rr:class skos:Collection ;
+  ] ;
+  rr:predicateObjectMap
+    [
+      rr:predicate rdfs:label ;
+      rr:objectMap [
+        rr:template "{schemelabel} waardelijst" ;
+        rr:language "nl" ;
+      ] ;
+    ] ,
+    [
+      rr:predicate skos:member ;
+      rr:objectMap [
+        rr:parentTriplesMap :Concepts ;
+      ] ;
+    ] ;
+.
