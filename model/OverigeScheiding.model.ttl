@@ -1,0 +1,16 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix imgeo: <http://definities.geostandaarden.nl/def/imgeo#> .
+@prefix nen3610: <http://definities.geostandaarden.nl/def/nen3610#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+#########################################
+# imgeo:OverigeScheiding
+#########################################
+
+imgeo:OverigeScheiding a owl:Class ;
+  rdfs:label "Overige scheiding" ;
+  rdfs:subClassOf imgeo:OverigeConstructie ;
+.
