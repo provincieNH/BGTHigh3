@@ -19,7 +19,7 @@
       <data key="d4"/>
       <data key="d5">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="53.0" width="200.0" x="2000.0" y="173.5"/>
+          <y:Geometry height="53.0" width="200.0" x="700.0" y="423.5"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.0" x="0.0" xml:space="preserve" y="4.0">imgeo:BegroeidTerreindeel</y:NodeLabel>
@@ -35,7 +35,7 @@
       <data key="d4"/>
       <data key="d5">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="53.0" width="200.0" x="2000.0" y="473.5"/>
+          <y:Geometry height="53.0" width="200.0" x="1750.0" y="1323.5"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.0" x="0.0" xml:space="preserve" y="4.0">Geometry</y:NodeLabel>
@@ -47,11 +47,34 @@
       </data>
     </node>
     <node id="n2">
+      <data key="d3" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Kunstwerkdeel]]></data>
+      <data key="d4"/>
+      <data key="d5">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="40.0" width="200.0" x="3450.0" y="405.0"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.0" x="0.0" xml:space="preserve" y="4.0">imgeo:Kunstwerkdeel</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.0" x="2.0" y="33.09375">
+            <y:LabelModel>
+              <y:ErdAttributesNodeLabelModel/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:ErdAttributesNodeLabelModelParameter/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n3">
       <data key="d3" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Nummeraanduidingreeks]]></data>
       <data key="d4"/>
       <data key="d5">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="79.0" width="200.0" x="525.0" y="835.5"/>
+          <y:Geometry height="79.0" width="200.0" x="2825.0" y="1310.5"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.0" x="0.0" xml:space="preserve" y="4.0">Nummeraanduidingreeks</y:NodeLabel>
@@ -64,12 +87,12 @@ imgeo:hoogsteHuisnummer [0,n]<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:L
         </y:GenericNode>
       </data>
     </node>
-    <node id="n3">
+    <node id="n4">
       <data key="d3" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Object]]></data>
       <data key="d4"/>
       <data key="d5">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="66.0" width="200.0" x="750.0" y="42.0"/>
+          <y:Geometry height="66.0" width="200.0" x="700.0" y="242.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.0" x="0.0" xml:space="preserve" y="4.0">imgeo:Object</y:NodeLabel>
@@ -81,12 +104,12 @@ imgeo:bgt-status [1,1]<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelMod
         </y:GenericNode>
       </data>
     </node>
-    <node id="n4">
+    <node id="n5">
       <data key="d3" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Objectregistratie]]></data>
       <data key="d4"/>
       <data key="d5">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="79.0" width="200.0" x="2300.0" y="35.5"/>
+          <y:Geometry height="79.0" width="200.0" x="700.0" y="-14.5"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.0" x="0.0" xml:space="preserve" y="4.0">imgeo:Objectregistratie</y:NodeLabel>
@@ -99,12 +122,12 @@ imgeo:bronhouder [1,1]<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelMod
         </y:GenericNode>
       </data>
     </node>
-    <node id="n5">
+    <node id="n6">
       <data key="d3" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/OnbegroeidTerreindeel]]></data>
       <data key="d4"/>
       <data key="d5">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="53.0" width="200.0" x="1000.0" y="248.5"/>
+          <y:Geometry height="53.0" width="200.0" x="225.0" y="248.5"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.0" x="0.0" xml:space="preserve" y="4.0">imgeo:OnbegroeidTerreindeel</y:NodeLabel>
@@ -115,12 +138,35 @@ imgeo:bronhouder [1,1]<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelMod
         </y:GenericNode>
       </data>
     </node>
-    <node id="n6">
+    <node id="n7">
+      <data key="d3" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/OndersteunendWaterdeel]]></data>
+      <data key="d4"/>
+      <data key="d5">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="40.0" width="200.0" x="1475.0" y="1180.0"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.0" x="0.0" xml:space="preserve" y="4.0">imgeo:OndersteunendWaterdeel</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.0" x="2.0" y="33.09375">
+            <y:LabelModel>
+              <y:ErdAttributesNodeLabelModel/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:ErdAttributesNodeLabelModelParameter/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n8">
       <data key="d3" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/OndersteunendWegdeel]]></data>
       <data key="d4"/>
       <data key="d5">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="66.0" width="200.0" x="2700.0" y="467.0"/>
+          <y:Geometry height="66.0" width="200.0" x="0.0" y="142.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.0" x="0.0" xml:space="preserve" y="4.0">imgeo:OndersteunendWegdeel</y:NodeLabel>
@@ -132,12 +178,81 @@ imgeo:functie [0,n]<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n7">
+    <node id="n9">
+      <data key="d3" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/OverigBouwwerk]]></data>
+      <data key="d4"/>
+      <data key="d5">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="40.0" width="200.0" x="3750.0" y="405.0"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.0" x="0.0" xml:space="preserve" y="4.0">imgeo:OverigBouwwerk</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.0" x="2.0" y="33.09375">
+            <y:LabelModel>
+              <y:ErdAttributesNodeLabelModel/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:ErdAttributesNodeLabelModelParameter/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n10">
+      <data key="d3" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/OverigeConstructie]]></data>
+      <data key="d4"/>
+      <data key="d5">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="40.0" width="200.0" x="2550.0" y="155.0"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.0" x="0.0" xml:space="preserve" y="4.0">imgeo:OverigeConstructie</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.0" x="2.0" y="33.09375">
+            <y:LabelModel>
+              <y:ErdAttributesNodeLabelModel/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:ErdAttributesNodeLabelModelParameter/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n11">
+      <data key="d3" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/OverigeScheiding]]></data>
+      <data key="d4"/>
+      <data key="d5">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="40.0" width="200.0" x="3975.0" y="405.0"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.0" x="0.0" xml:space="preserve" y="4.0">imgeo:OverigeScheiding</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.0" x="2.0" y="33.09375">
+            <y:LabelModel>
+              <y:ErdAttributesNodeLabelModel/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:ErdAttributesNodeLabelModelParameter/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n12">
       <data key="d3" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Pand]]></data>
       <data key="d4"/>
       <data key="d5">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="53.0" width="200.0" x="525.0" y="648.5"/>
+          <y:Geometry height="53.0" width="200.0" x="2300.0" y="1323.5"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.0" x="0.0" xml:space="preserve" y="4.0">imgeo:Pand</y:NodeLabel>
@@ -148,12 +263,107 @@ imgeo:functie [0,n]<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n8">
+    <node id="n13">
+      <data key="d3" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/PointCurveSurface]]></data>
+      <data key="d4"/>
+      <data key="d5">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="53.0" width="200.0" x="3225.0" y="398.5"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.0" x="0.0" xml:space="preserve" y="4.0">PointCurveSurface</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.0" x="2.0" xml:space="preserve" y="33.09375">gml:Point, gml:Curve, gml:Surface [2,2]<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n14">
+      <data key="d3" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/PointCurveSurfaceMultiSurface]]></data>
+      <data key="d4"/>
+      <data key="d5">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="53.0" width="200.0" x="2950.0" y="398.5"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.0" x="0.0" xml:space="preserve" y="4.0">PointCurveSurfaceMultiSurface</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="16.2509765625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="257.9794921875" x="2.0" xml:space="preserve" y="33.09375">gml:Point, gml:Curve, gml:Surface, gml:MultiSurface [2,2]<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n15">
+      <data key="d3" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Scheiding]]></data>
+      <data key="d4"/>
+      <data key="d5">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="40.0" width="200.0" x="4200.0" y="405.0"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.0" x="0.0" xml:space="preserve" y="4.0">imgeo:Scheiding</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.0" x="2.0" y="33.09375">
+            <y:LabelModel>
+              <y:ErdAttributesNodeLabelModel/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:ErdAttributesNodeLabelModelParameter/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n16">
+      <data key="d3" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Spoor]]></data>
+      <data key="d4"/>
+      <data key="d5">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="66.0" width="200.0" x="1750.0" y="1067.0"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.0" x="0.0" xml:space="preserve" y="4.0">imgeo:Spoor</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="28.501953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.0" x="2.0" xml:space="preserve" y="33.09375">imgeo:functie [0,n]
+imgeo:opTalud (boolean) [1,1]<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n17">
+      <data key="d3" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Waterdeel]]></data>
+      <data key="d4"/>
+      <data key="d5">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="40.0" width="200.0" x="1200.0" y="1180.0"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.0" x="0.0" xml:space="preserve" y="4.0">imgeo:Waterdeel</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.0" x="2.0" y="33.09375">
+            <y:LabelModel>
+              <y:ErdAttributesNodeLabelModel/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:ErdAttributesNodeLabelModelParameter/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n18">
       <data key="d3" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Wegdeel]]></data>
       <data key="d4"/>
       <data key="d5">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="66.0" width="200.0" x="750.0" y="467.0"/>
+          <y:Geometry height="66.0" width="200.0" x="450.0" y="342.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.0" x="0.0" xml:space="preserve" y="4.0">imgeo:Wegdeel</y:NodeLabel>
@@ -165,12 +375,12 @@ imgeo:functie [0,n]<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n9">
+    <node id="n19">
       <data key="d3" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/nen3610/GeoObject]]></data>
       <data key="d4"/>
       <data key="d5">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="40.0" width="200.0" x="400.0" y="55.0"/>
+          <y:Geometry height="40.0" width="200.0" x="2550.0" y="255.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.0" x="0.0" xml:space="preserve" y="4.0">nen3610:GeoObject</y:NodeLabel>
@@ -188,12 +398,12 @@ imgeo:functie [0,n]<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n10">
+    <node id="n20">
       <data key="d3" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/nen3610/GeoObjectRegistratie]]></data>
       <data key="d4"/>
       <data key="d5">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="118.0" width="200.0" x="400.0" y="216.0"/>
+          <y:Geometry height="118.0" width="200.0" x="2675.0" y="466.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.0" x="0.0" xml:space="preserve" y="4.0">GeoObjectRegistratie</y:NodeLabel>
@@ -209,12 +419,12 @@ nen3610:eindGeldigheid (dateTime) [0,1]<y:LabelModel><y:ErdAttributesNodeLabelMo
         </y:GenericNode>
       </data>
     </node>
-    <node id="n11">
+    <node id="n21">
       <data key="d3" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/nen3610/NEN3610Identificatie]]></data>
       <data key="d4"/>
       <data key="d5">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="92.0" width="200.0" x="0.0" y="29.0"/>
+          <y:Geometry height="92.0" width="200.0" x="2425.0" y="479.0"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.0" x="0.0" xml:space="preserve" y="4.0">NEN3610Identificatie</y:NodeLabel>
@@ -235,15 +445,14 @@ rdf:value (string) [0,1]<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelM
       <data key="d10"/>
       <data key="d11">
         <y:PolyLineEdge>
-          <y:Path sx="-25.0" sy="26.5" tx="-25.0" ty="-26.5">
-            <y:Point x="2075.0" y="275.0"/>
-            <y:Point x="1850.0" y="275.0"/>
-            <y:Point x="1850.0" y="375.0"/>
-            <y:Point x="2075.0" y="375.0"/>
+          <y:Path sx="0.0" sy="26.5" tx="-100.0" ty="-14.333333333333329">
+            <y:Point x="800.0" y="700.0"/>
+            <y:Point x="1100.0" y="700.0"/>
+            <y:Point x="1100.0" y="1335.6666666666667"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="214.45703125" x="-332.228515625" xml:space="preserve" y="89.1494140625">imgeo:geometrie2d → gml:Surface [1,1]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="214.45703125" x="42.771484375" xml:space="preserve" y="214.1494140625">imgeo:geometrie2d → gml:Surface [1,1]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -255,10 +464,14 @@ rdf:value (string) [0,1]<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelM
       <data key="d10"/>
       <data key="d11">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="26.5" tx="0.0" ty="-26.5"/>
+          <y:Path sx="25.0" sy="26.5" tx="-100.0" ty="-16.125">
+            <y:Point x="825.0" y="625.0"/>
+            <y:Point x="1125.0" y="625.0"/>
+            <y:Point x="1125.0" y="1333.875"/>
+          </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="179.083984375" x="-89.5419921875" xml:space="preserve" y="89.1494140625">imgeo:kruinlijn → gml:Curve [0,1]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="179.083984375" x="35.4580078125" xml:space="preserve" y="139.1494140625">imgeo:kruinlijn → gml:Curve [0,1]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -270,252 +483,384 @@ rdf:value (string) [0,1]<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelM
       <data key="d10"/>
       <data key="d11">
         <y:PolyLineEdge>
-          <y:Path sx="25.0" sy="26.5" tx="25.0" ty="-26.5">
-            <y:Point x="2125.0" y="275.0"/>
-            <y:Point x="2375.0" y="275.0"/>
-            <y:Point x="2375.0" y="375.0"/>
-            <y:Point x="2125.0" y="375.0"/>
+          <y:Path sx="50.0" sy="26.5" tx="-100.0" ty="-17.916666666666657">
+            <y:Point x="850.0" y="550.0"/>
+            <y:Point x="1150.0" y="550.0"/>
+            <y:Point x="1150.0" y="1332.0833333333333"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="237.126953125" x="131.4365234375" xml:space="preserve" y="89.1494140625">imgeo:lod0Surface → gml:MultiSurface [0,1]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="237.126953125" x="31.4365234375" xml:space="preserve" y="64.1494140625">imgeo:lod0Surface → gml:MultiSurface [0,1]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e3" source="n3" target="n4">
+    <edge id="e3" source="n4" target="n5">
       <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Object]]></data>
       <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Objectregistratie]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[http://xmlns.com/foaf/0.1/isPrimaryTopicOf]]></data>
       <data key="d10"/>
       <data key="d11">
         <y:PolyLineEdge>
-          <y:Path sx="100.0" sy="-0.0" tx="-100.0" ty="-0.0"/>
+          <y:Path sx="0.0" sy="-33.0" tx="0.0" ty="39.5"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="146.04296875" x="1176.978515625" xml:space="preserve" y="-9.3505859375">foaf:isPrimaryTopicOf [1,n]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="146.04296875" x="-73.021484375" xml:space="preserve" y="-126.3072509765625">foaf:isPrimaryTopicOf [1,n]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e4" source="n5" target="n1">
+    <edge id="e4" source="n6" target="n1">
       <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/OnbegroeidTerreindeel]]></data>
       <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Geometry]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo#kruinlijn]]></data>
       <data key="d10"/>
       <data key="d11">
         <y:PolyLineEdge>
-          <y:Path sx="100.0" sy="12.5" tx="-75.0" ty="-26.5">
-            <y:Point x="1325.0" y="287.5"/>
-            <y:Point x="1325.0" y="425.0"/>
-            <y:Point x="2025.0" y="425.0"/>
+          <y:Path sx="0.0" sy="26.5" tx="-100.0" ty="-5.375">
+            <y:Point x="325.0" y="1075.0"/>
+            <y:Point x="575.0" y="1075.0"/>
+            <y:Point x="575.0" y="1344.625"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="179.083984375" x="35.4580078125" xml:space="preserve" y="53.1494140625">imgeo:kruinlijn → gml:Curve [0,1]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="179.083984375" x="35.4580078125" xml:space="preserve" y="764.1494140625">imgeo:kruinlijn → gml:Curve [0,1]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e5" source="n5" target="n1">
+    <edge id="e5" source="n6" target="n1">
       <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/OnbegroeidTerreindeel]]></data>
       <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Geometry]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo#geometrie2d]]></data>
       <data key="d10"/>
       <data key="d11">
         <y:PolyLineEdge>
-          <y:Path sx="100.0" sy="-0.0" tx="-50.0" ty="-26.5">
-            <y:Point x="1575.0" y="275.0"/>
-            <y:Point x="1575.0" y="400.0"/>
-            <y:Point x="2050.0" y="400.0"/>
+          <y:Path sx="25.0" sy="26.5" tx="-100.0" ty="-7.166666666666664">
+            <y:Point x="350.0" y="1000.0"/>
+            <y:Point x="650.0" y="1000.0"/>
+            <y:Point x="650.0" y="1342.8333333333333"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="214.45703125" x="267.771484375" xml:space="preserve" y="65.6494140625">imgeo:geometrie2d → gml:Surface [1,1]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="214.45703125" x="42.77148437499994" xml:space="preserve" y="689.1494140625">imgeo:geometrie2d → gml:Surface [1,1]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e6" source="n6" target="n1">
+    <edge id="e6" source="n7" target="n1">
+      <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/OndersteunendWaterdeel]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Geometry]]></data>
+      <data key="d9" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo#geometrie2d]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="20.0" tx="-100.0" ty="-21.5">
+            <y:Point x="1575.0" y="1328.5"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="214.45703125" x="-107.228515625" xml:space="preserve" y="45.6494140625">imgeo:geometrie2d → gml:Surface [1,1]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e7" source="n8" target="n1">
       <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/OndersteunendWegdeel]]></data>
       <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Geometry]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo#lod0Surface]]></data>
       <data key="d10"/>
       <data key="d11">
         <y:PolyLineEdge>
-          <y:Path sx="-100.0" sy="-25.0" tx="100.0" ty="-12.5">
-            <y:Point x="2675.0" y="475.0"/>
-            <y:Point x="2675.0" y="400.0"/>
-            <y:Point x="2275.0" y="400.0"/>
-            <y:Point x="2275.0" y="487.5"/>
+          <y:Path sx="0.0" sy="33.0" tx="-100.0" ty="-0.0">
+            <y:Point x="100.0" y="1300.0"/>
+            <y:Point x="400.0" y="1300.0"/>
+            <y:Point x="400.0" y="1350.0"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="211.791015625" x="-280.8466796875" xml:space="preserve" y="-84.3505859375">imgeo:lod0Surface → gml:Surface [0,1]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="211.791015625" x="44.104492187499915" xml:space="preserve" y="1082.6494140625">imgeo:lod0Surface → gml:Surface [0,1]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e7" source="n6" target="n1">
+    <edge id="e8" source="n8" target="n1">
       <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/OndersteunendWegdeel]]></data>
       <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Geometry]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo#geometrie2d]]></data>
       <data key="d10"/>
       <data key="d11">
         <y:PolyLineEdge>
-          <y:Path sx="-100.0" sy="-0.0" tx="100.0" ty="-0.0"/>
+          <y:Path sx="25.0" sy="33.0" tx="-100.0" ty="-1.7916666666666643">
+            <y:Point x="125.0" y="1225.0"/>
+            <y:Point x="425.0" y="1225.0"/>
+            <y:Point x="425.0" y="1348.2083333333333"/>
+          </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="214.45703125" x="-382.197998046875" xml:space="preserve" y="-9.350585937499943">imgeo:geometrie2d → gml:Surface [1,1]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="214.45703125" x="42.771484375" xml:space="preserve" y="1007.6494140625">imgeo:geometrie2d → gml:Surface [1,1]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e8" source="n6" target="n1">
+    <edge id="e9" source="n8" target="n1">
       <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/OndersteunendWegdeel]]></data>
       <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Geometry]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo#kruinlijn]]></data>
       <data key="d10"/>
       <data key="d11">
         <y:PolyLineEdge>
-          <y:Path sx="-100.0" sy="25.0" tx="100.0" ty="12.5">
-            <y:Point x="2575.0" y="525.0"/>
-            <y:Point x="2575.0" y="600.0"/>
-            <y:Point x="2275.0" y="600.0"/>
-            <y:Point x="2275.0" y="512.5"/>
+          <y:Path sx="50.0" sy="33.0" tx="-100.0" ty="-3.5833333333333286">
+            <y:Point x="150.0" y="1150.0"/>
+            <y:Point x="450.0" y="1150.0"/>
+            <y:Point x="450.0" y="1346.4166666666667"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="179.083984375" x="-389.511474609375" xml:space="preserve" y="65.6494140625">imgeo:kruinlijn → gml:Curve [0,1]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="179.083984375" x="35.458007812499886" xml:space="preserve" y="932.6494140625">imgeo:kruinlijn → gml:Curve [0,1]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e9" source="n7" target="n2">
-      <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Pand]]></data>
-      <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Nummeraanduidingreeks]]></data>
-      <data key="d9" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo#nummeraanduidingreeks]]></data>
+    <edge id="e10" source="n10" target="n14">
+      <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/OverigeConstructie]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/PointCurveSurfaceMultiSurface]]></data>
+      <data key="d9" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo#geometrie2d]]></data>
       <data key="d10"/>
       <data key="d11">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="26.5" tx="0.0" ty="-39.5"/>
+          <y:Path sx="25.0" sy="20.0" tx="0.0" ty="-26.5">
+            <y:Point x="2675.0" y="225.0"/>
+            <y:Point x="3700.0" y="225.0"/>
+            <y:Point x="3700.0" y="275.0"/>
+            <y:Point x="3050.0" y="275.0"/>
+          </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="198.77734375" x="-99.388671875" xml:space="preserve" y="64.1494140625">imgeo:nummeraanduidingreeks [1,n]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="133.41015625" x="308.294921875" xml:space="preserve" y="120.6494140625">imgeo:geometrie2d [1,1]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e10" source="n7" target="n1">
+    <edge id="e11" source="n10" target="n13">
+      <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/OverigeConstructie]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/PointCurveSurface]]></data>
+      <data key="d9" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo#lod0Geometry]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="25.0" sy="20.0" tx="0.0" ty="-26.5">
+            <y:Point x="2675.0" y="225.0"/>
+            <y:Point x="3700.0" y="225.0"/>
+            <y:Point x="3700.0" y="275.0"/>
+            <y:Point x="3325.0" y="275.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="142.0703125" x="578.96484375" xml:space="preserve" y="120.64941406250011">imgeo:lod0Geometry [0,1]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e12" source="n12" target="n1">
       <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Pand]]></data>
       <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Geometry]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo#geometrie2dGrondvlak]]></data>
       <data key="d10"/>
       <data key="d11">
         <y:PolyLineEdge>
-          <y:Path sx="100.0" sy="-0.0" tx="0.0" ty="26.5">
-            <y:Point x="2100.0" y="675.0"/>
-          </y:Path>
+          <y:Path sx="-100.0" sy="-0.0" tx="100.0" ty="-0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="294.484375" x="1227.7578125" xml:space="preserve" y="-84.3505859375">imgeo:geometrie2dGrondvlak → gml:MultiSurface [1,1]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="294.484375" x="-322.199462890625" xml:space="preserve" y="-9.3505859375">imgeo:geometrie2dGrondvlak → gml:MultiSurface [1,1]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e11" source="n8" target="n1">
-      <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Wegdeel]]></data>
-      <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Geometry]]></data>
-      <data key="d9" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo#lod0Surface]]></data>
-      <data key="d10"/>
-      <data key="d11">
-        <y:PolyLineEdge>
-          <y:Path sx="100.0" sy="25.0" tx="-100.0" ty="12.5">
-            <y:Point x="975.0" y="525.0"/>
-            <y:Point x="975.0" y="600.0"/>
-            <y:Point x="1275.0" y="600.0"/>
-            <y:Point x="1275.0" y="512.5"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="211.791015625" x="69.1044921875" xml:space="preserve" y="65.6494140625">imgeo:lod0Surface → gml:Surface [0,1]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e12" source="n8" target="n1">
-      <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Wegdeel]]></data>
-      <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Geometry]]></data>
-      <data key="d9" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo#geometrie2d]]></data>
+    <edge id="e13" source="n12" target="n3">
+      <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Pand]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Nummeraanduidingreeks]]></data>
+      <data key="d9" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo#nummeraanduidingreeks]]></data>
       <data key="d10"/>
       <data key="d11">
         <y:PolyLineEdge>
           <y:Path sx="100.0" sy="-0.0" tx="-100.0" ty="-0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="214.45703125" x="67.771484375" xml:space="preserve" y="-9.3505859375">imgeo:geometrie2d → gml:Surface [1,1]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="198.77734375" x="25.611328125" xml:space="preserve" y="-9.3505859375">imgeo:nummeraanduidingreeks [1,n]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e13" source="n8" target="n1">
+    <edge id="e14" source="n16" target="n1">
+      <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Spoor]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Geometry]]></data>
+      <data key="d9" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo#geometrie2d]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="33.0" tx="0.0" ty="-26.5"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="214.45703125" x="-107.228515625" xml:space="preserve" y="82.6494140625">imgeo:geometrie2d → gml:Surface [1,1]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e15" source="n16" target="n1">
+      <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Spoor]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Geometry]]></data>
+      <data key="d9" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo#lod0Surface]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="25.0" sy="33.0" tx="25.0" ty="-26.5">
+            <y:Point x="1875.0" y="1175.0"/>
+            <y:Point x="2125.0" y="1175.0"/>
+            <y:Point x="2125.0" y="1275.0"/>
+            <y:Point x="1875.0" y="1275.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="211.791015625" x="144.1044921875" xml:space="preserve" y="82.6494140625">imgeo:lod0Surface → gml:Surface [0,1]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e16" source="n17" target="n1">
+      <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Waterdeel]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Geometry]]></data>
+      <data key="d9" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo#geometrie2d]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="20.0" tx="-100.0" ty="-19.70833333333333">
+            <y:Point x="1300.0" y="1330.2916666666667"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="214.45703125" x="-107.228515625" xml:space="preserve" y="45.6494140625">imgeo:geometrie2d → gml:Surface [1,1]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e17" source="n18" target="n1">
+      <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Wegdeel]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Geometry]]></data>
+      <data key="d9" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo#lod0Surface]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="33.0" tx="-100.0" ty="-8.958333333333329">
+            <y:Point x="550.0" y="925.0"/>
+            <y:Point x="850.0" y="925.0"/>
+            <y:Point x="850.0" y="1341.0416666666667"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="211.791015625" x="44.1044921875" xml:space="preserve" y="507.6494140625">imgeo:lod0Surface → gml:Surface [0,1]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e18" source="n18" target="n1">
+      <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Wegdeel]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Geometry]]></data>
+      <data key="d9" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo#geometrie2d]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="25.0" sy="33.0" tx="-100.0" ty="-10.75">
+            <y:Point x="575.0" y="850.0"/>
+            <y:Point x="875.0" y="850.0"/>
+            <y:Point x="875.0" y="1339.25"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="214.45703125" x="42.771484375" xml:space="preserve" y="432.6494140625">imgeo:geometrie2d → gml:Surface [1,1]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e19" source="n18" target="n1">
       <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Wegdeel]]></data>
       <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Geometry]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo#kruinlijn]]></data>
       <data key="d10"/>
       <data key="d11">
         <y:PolyLineEdge>
-          <y:Path sx="100.0" sy="-25.0" tx="-100.0" ty="-12.5">
-            <y:Point x="975.0" y="475.0"/>
-            <y:Point x="975.0" y="400.0"/>
-            <y:Point x="1300.0" y="400.0"/>
-            <y:Point x="1300.0" y="487.5"/>
+          <y:Path sx="50.0" sy="33.0" tx="-100.0" ty="-12.541666666666664">
+            <y:Point x="600.0" y="775.0"/>
+            <y:Point x="900.0" y="775.0"/>
+            <y:Point x="900.0" y="1337.4583333333333"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="179.083984375" x="60.4580078125" xml:space="preserve" y="-84.3505859375">imgeo:kruinlijn → gml:Curve [0,1]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="179.083984375" x="35.4580078125" xml:space="preserve" y="357.6494140625">imgeo:kruinlijn → gml:Curve [0,1]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e14" source="n9" target="n11">
+    <edge id="e20" source="n19" target="n21">
       <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/nen3610/GeoObject]]></data>
       <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/nen3610/NEN3610Identificatie]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/nen3610#identificatie]]></data>
       <data key="d10"/>
       <data key="d11">
         <y:PolyLineEdge>
-          <y:Path sx="-100.0" sy="-0.0" tx="100.0" ty="-0.0"/>
+          <y:Path sx="0.0" sy="20.0" tx="0.0" ty="-46.0">
+            <y:Point x="2650.0" y="350.0"/>
+            <y:Point x="2525.0" y="350.0"/>
+          </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="140.76953125" x="-170.3359375" xml:space="preserve" y="-9.350585937499986">nen3610:identificatie [1,1]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="140.76953125" x="-195.384765625" xml:space="preserve" y="95.6494140625">nen3610:identificatie [1,1]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e15" source="n9" target="n10">
+    <edge id="e21" source="n19" target="n20">
       <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/nen3610/GeoObject]]></data>
       <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/nen3610/GeoObjectRegistratie]]></data>
       <data key="d9" xml:space="preserve"><![CDATA[http://xmlns.com/foaf/0.1/isPrimaryTopicOf]]></data>
       <data key="d10"/>
       <data key="d11">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="20.0" tx="0.0" ty="-59.0"/>
+          <y:Path sx="0.0" sy="20.0" tx="0.0" ty="-59.0">
+            <y:Point x="2650.0" y="350.0"/>
+            <y:Point x="2775.0" y="350.0"/>
+          </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="146.04296875" x="-73.021484375" xml:space="preserve" y="45.6494140625">foaf:isPrimaryTopicOf [0,n]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="146.04296875" x="51.978515625" xml:space="preserve" y="95.6494140625">foaf:isPrimaryTopicOf [0,n]<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e16" source="n0" target="n3">
+    <edge id="e22" source="n0" target="n4">
       <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/BegroeidTerreindeel]]></data>
       <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Object]]></data>
       <data key="d10"/>
       <data key="d11">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="-26.5" tx="100.0" ty="25.0">
-            <y:Point x="2100.0" y="100.0"/>
+          <y:Path sx="0.0" sy="-26.5" tx="0.0" ty="33.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e23" source="n2" target="n10">
+      <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Kunstwerkdeel]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/OverigeConstructie]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="-20.0" tx="25.0" ty="20.0">
+            <y:Point x="3550.0" y="275.0"/>
+            <y:Point x="3700.0" y="275.0"/>
+            <y:Point x="3700.0" y="225.0"/>
+            <y:Point x="2675.0" y="225.0"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="white_delta"/>
@@ -523,27 +868,40 @@ rdf:value (string) [0,1]<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelM
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e17" source="n3" target="n9">
+    <edge id="e24" source="n4" target="n19">
       <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Object]]></data>
       <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/nen3610/GeoObject]]></data>
       <data key="d10"/>
       <data key="d11">
         <y:PolyLineEdge>
-          <y:Path sx="-100.0" sy="-0.0" tx="100.0" ty="-0.0"/>
+          <y:Path sx="100.0" sy="-0.0" tx="-100.0" ty="-0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="white_delta"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e18" source="n5" target="n3">
+    <edge id="e25" source="n6" target="n4">
       <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/OnbegroeidTerreindeel]]></data>
       <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Object]]></data>
       <data key="d10"/>
       <data key="d11">
         <y:PolyLineEdge>
-          <y:Path sx="-100.0" sy="-0.0" tx="25.0" ty="33.0">
-            <y:Point x="875.0" y="275.0"/>
+          <y:Path sx="100.0" sy="-0.0" tx="-100.0" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e26" source="n7" target="n4">
+      <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/OndersteunendWaterdeel]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Object]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="-20.0" tx="100.0" ty="18.75">
+            <y:Point x="1575.0" y="293.75"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="white_delta"/>
@@ -551,15 +909,14 @@ rdf:value (string) [0,1]<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelM
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e19" source="n6" target="n3">
+    <edge id="e27" source="n8" target="n4">
       <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/OndersteunendWegdeel]]></data>
       <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Object]]></data>
       <data key="d10"/>
       <data key="d11">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="-33.0" tx="0.0" ty="-33.0">
-            <y:Point x="2800.0" y="0.0"/>
-            <y:Point x="850.0" y="0.0"/>
+          <y:Path sx="100.0" sy="-0.0" tx="-25.0" ty="-33.0">
+            <y:Point x="775.0" y="175.0"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="white_delta"/>
@@ -567,14 +924,78 @@ rdf:value (string) [0,1]<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelM
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e20" source="n7" target="n3">
+    <edge id="e28" source="n9" target="n10">
+      <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/OverigBouwwerk]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/OverigeConstructie]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="-20.0" tx="25.0" ty="20.0">
+            <y:Point x="3850.0" y="275.0"/>
+            <y:Point x="3700.0" y="275.0"/>
+            <y:Point x="3700.0" y="225.0"/>
+            <y:Point x="2675.0" y="225.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e29" source="n10" target="n19">
+      <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/OverigeConstructie]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/nen3610/GeoObject]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="20.0" tx="0.0" ty="-20.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e30" source="n10" target="n4">
+      <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/OverigeConstructie]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Object]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-100.0" sy="-0.0" tx="25.0" ty="-33.0">
+            <y:Point x="825.0" y="175.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e31" source="n11" target="n10">
+      <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/OverigeScheiding]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/OverigeConstructie]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="-20.0" tx="25.0" ty="20.0">
+            <y:Point x="4075.0" y="275.0"/>
+            <y:Point x="3700.0" y="275.0"/>
+            <y:Point x="3700.0" y="225.0"/>
+            <y:Point x="2675.0" y="225.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e32" source="n12" target="n4">
       <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Pand]]></data>
       <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Object]]></data>
       <data key="d10"/>
       <data key="d11">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="-26.5" tx="-100.0" ty="25.0">
-            <y:Point x="625.0" y="100.0"/>
+          <y:Path sx="0.0" sy="-26.5" tx="100.0" ty="6.25">
+            <y:Point x="2400.0" y="281.25"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="white_delta"/>
@@ -582,13 +1003,63 @@ rdf:value (string) [0,1]<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelM
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e21" source="n8" target="n3">
+    <edge id="e33" source="n15" target="n10">
+      <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Scheiding]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/OverigeConstructie]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="-20.0" tx="25.0" ty="20.0">
+            <y:Point x="4300.0" y="275.0"/>
+            <y:Point x="3700.0" y="275.0"/>
+            <y:Point x="3700.0" y="225.0"/>
+            <y:Point x="2675.0" y="225.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e34" source="n16" target="n4">
+      <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Spoor]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Object]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="-33.0" tx="100.0" ty="12.5">
+            <y:Point x="1850.0" y="287.5"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e35" source="n17" target="n4">
+      <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Waterdeel]]></data>
+      <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Object]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="-20.0" tx="100.0" ty="25.0">
+            <y:Point x="1300.0" y="300.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e36" source="n18" target="n4">
       <data key="d7" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Wegdeel]]></data>
       <data key="d8" xml:space="preserve"><![CDATA[http://definities.geostandaarden.nl/def/imgeo/Object]]></data>
       <data key="d10"/>
       <data key="d11">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="-33.0" tx="0.0" ty="33.0"/>
+          <y:Path sx="100.0" sy="-0.0" tx="-25.0" ty="33.0">
+            <y:Point x="775.0" y="375.0"/>
+          </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="white_delta"/>
           <y:BendStyle smoothed="false"/>
