@@ -12,36 +12,35 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 #########################################
-# imgeo:Wegdeel
+# imgeo:Spoor
 #########################################
 
-imgeo-sh:Wegdeel a sh:NodeShape ;
-  sh:name "imgeo:Wegdeel" ;
-  sh:targetClass imgeo:Wegdeel ;
+imgeo-sh:Spoor a sh:NodeShape ;
+  sh:name "imgeo:Spoor" ;
+  sh:targetClass imgeo:Spoor ;
   sh:property
-    imgeo-sh:Wegdeel_functie ,
-    imgeo-sh:Wegdeel_opTalud ,
-    imgeo-sh:Wegdeel_kruinlijn ,
-    imgeo-sh:Wegdeel_geometrie2d ,
-    imgeo-sh:Wegdeel_lod0Surface ;
+    imgeo-sh:Spoor_functie ,
+    imgeo-sh:Spoor_opTalud ,
+    imgeo-sh:Spoor_geometrie2d ,
+    imgeo-sh:Spoor_lod0Surface ;
 .
 
-imgeo-sh:Wegdeel_functie a sh:PropertyShape ;
+imgeo-sh:Spoor_functie a sh:PropertyShape ;
   sh:name "imgeo:functie" ;
   sh:path imgeo:functie ;
   sh:node [
     sh:property [
       sh:path [ sh:inversePath skos:member ] ;
       sh:in (
-        imgeo-col:FunctieWeg
-        imgeo-col:FunctieWegPlus
+        imgeo-col:FunctieSpoor
+        # imgeo-col:FunctieSpoorPlus
       ) ;
       sh:minCount 1 ;
     ] ;
   ] ;
 .
 
-imgeo-sh:Wegdeel_opTalud a sh:PropertyShape ;
+imgeo-sh:Spoor_opTalud a sh:PropertyShape ;
   sh:name "imgeo:opTalud" ;
   sh:path imgeo:opTalud ;
   sh:datatype xsd:boolean ;
@@ -49,16 +48,7 @@ imgeo-sh:Wegdeel_opTalud a sh:PropertyShape ;
   sh:maxCount 1 ;
 .
 
-imgeo-sh:Wegdeel_kruinlijn a sh:PropertyShape ;
-  sh:name "imgeo:kruinlijn" ;
-  sh:path imgeo:kruinlijn ;
-  sh:class
-    gsp:Geometry ,
-    gml:Curve ;
-  sh:maxCount 1 ;
-.
-
-imgeo-sh:Wegdeel_geometrie2d a sh:PropertyShape ;
+imgeo-sh:Spoor_geometrie2d a sh:PropertyShape ;
   sh:name "imgeo:geometrie2d" ;
   sh:path imgeo:geometrie2d ;
   sh:class
@@ -68,7 +58,7 @@ imgeo-sh:Wegdeel_geometrie2d a sh:PropertyShape ;
   sh:maxCount 1 ;
 .
 
-imgeo-sh:Wegdeel_lod0Surface a sh:PropertyShape ;
+imgeo-sh:Spoor_lod0Surface a sh:PropertyShape ;
   sh:name "imgeo:lod0Surface" ;
   sh:path imgeo:lod0Surface ;
   sh:class

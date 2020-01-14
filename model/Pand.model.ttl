@@ -1,5 +1,6 @@
 @prefix bag: <https://bag.basisregistraties.overheid.nl/def/bag#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gsp: <http://www.opengis.net/ont/geosparql#> .
 @prefix imgeo: <http://definities.geostandaarden.nl/def/imgeo#> .
 @prefix nen3610: <http://definities.geostandaarden.nl/def/nen3610#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -42,14 +43,19 @@ imgeo:nummeraanduidingreeksnummeraanduidingreeks a owl:DatatypeProperty ;
     rdfs:domain imgeo:Nummeraanduidingreeks ; 
     rdfs:range xsd:string ; 
     .
-imgeo:hoogsteHuisnummer a owl:DatatypeProperty ; 
+imgeo:hoogsteHuisnummer a owl:ObjectProperty ; 
     rdfs:label "Hoogste huisnummer"@nl ;
     rdfs:domain imgeo:Nummeraanduidingreeks ; 
     rdfs:range bag:Nummeraanduiding ;
     .
-imgeo:laagsteHuisnummer a owl:DatatypeProperty ; 
+imgeo:laagsteHuisnummer a owl:ObjectProperty ; 
     rdfs:label "Laagste huisnummer"@nl ;
     rdfs:domain imgeo:Nummeraanduidingreeks ;
     rdfs:range bag:Nummeraanduiding ;
     . 
 
+imgeo:geometrie2dGrondvlak a owl:ObjectProperty ;
+  rdfs:label "geometrie 2d grondvlak" ;
+  rdfs:subPropertyOf gsp:hasGeometry ;
+  rdfs:range gsp:Geometry ;
+.

@@ -1,9 +1,11 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix imgeo: <http://definities.geostandaarden.nl/def/imgeo#> .
 @prefix imgeo-col: <http://definities.geostandaarden.nl/imgeo/id/collection/> .
-@prefix imgeo-cpt: <http://definities.geostandaarden.nl/imgeo/id/concept/> .
+@prefix imgeo-cpt: <http://definities.geostandaarden.nl/imgeo/id/begrip/> .
 @prefix imgeo-sch: <http://definities.geostandaarden.nl/imgeo/id/scheme/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -11,23 +13,263 @@ imgeo-sch:imgeo a skos:ConceptScheme ;
   rdfs:label "IMGEO begrippenkader" ;
 .
 
-imgeo-cpt:Status a skos:Concept ;
-  rdfs:label "Status" ;
-  skos:prefLabel "Status"@nl ;
-  skos:narrower imgeo-cpt:Bestaand ;
-  skos:topConceptOf imgeo-sch:imgeo ;
-  skos:inScheme imgeo-sch:imgeo ;
-.
+imgeo-cpt:NietBgt_TypeGebouwInstallatie a skos:Concept;
+  skos:broader imgeo-cpt:TypeGebouwInstallatie;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "niet-bgt";
+  skos:prefLabel "niet-bgt"@nl .
 
-imgeo-cpt:Bestaand a skos:Concept ;
-  rdfs:label "Bestaand" ;
-  skos:prefLabel "Bestaand"@nl ;
-  skos:inScheme imgeo-sch:imgeo ;
-.
+imgeo-cpt:Bestaand_Status a skos:Concept;
+  skos:broader imgeo-cpt:Status;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "bestaand";
+  skos:prefLabel "bestaand"@nl .
 
-imgeo-col:BgtStatus a skos:Collection ;
-  rdfs:label "BGT-status waardelijst" ;
-  skos:member
-    imgeo-cpt:Bestaand ;
-  skos:inScheme imgeo-sch:imgeo ;
-.
+imgeo-cpt:Berm_FunctieOndersteunendWegdeel a skos:Concept;
+  skos:broader imgeo-cpt:FunctieOndersteunendWegdeel;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "berm";
+  skos:prefLabel "berm"@nl .
+
+imgeo-cpt:Transitie_FunctieOndersteunendWegdeel a skos:Concept;
+  skos:broader imgeo-cpt:FunctieOndersteunendWegdeel;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "transitie";
+  skos:prefLabel "transitie"@nl .
+
+imgeo-cpt:Verkeerseiland_FunctieOndersteunendWegdeel a skos:Concept;
+  skos:broader imgeo-cpt:FunctieOndersteunendWegdeel;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "verkeerseiland";
+  skos:prefLabel "verkeerseiland"@nl .
+
+imgeo-cpt:Dek_TypeOverbruggingsdeel a skos:Concept;
+  skos:broader imgeo-cpt:TypeOverbruggingsdeel;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "dek";
+  skos:prefLabel "dek"@nl .
+
+imgeo-cpt:Landhoofd_TypeOverbruggingsdeel a skos:Concept;
+  skos:broader imgeo-cpt:TypeOverbruggingsdeel;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "landhoofd";
+  skos:prefLabel "landhoofd"@nl .
+
+imgeo-cpt:Pijler_TypeOverbruggingsdeel a skos:Concept;
+  skos:broader imgeo-cpt:TypeOverbruggingsdeel;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "pijler";
+  skos:prefLabel "pijler"@nl .
+
+imgeo-cpt:Pyloon_TypeOverbruggingsdeel a skos:Concept;
+  skos:broader imgeo-cpt:TypeOverbruggingsdeel;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "pyloon";
+  skos:prefLabel "pyloon"@nl .
+
+imgeo-cpt:Sloof_TypeOverbruggingsdeel a skos:Concept;
+  skos:broader imgeo-cpt:TypeOverbruggingsdeel;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "sloof";
+  skos:prefLabel "sloof"@nl .
+
+imgeo-cpt:NietBgt_FunctieSpoor a skos:Concept;
+  skos:broader imgeo-cpt:FunctieSpoor;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "niet-bgt";
+  skos:prefLabel "niet-bgt"@nl .
+
+imgeo-cpt:Sneltram_FunctieSpoor a skos:Concept;
+  skos:broader imgeo-cpt:FunctieSpoor;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "sneltram";
+  skos:prefLabel "sneltram"@nl .
+
+imgeo-cpt:Tram_FunctieSpoor a skos:Concept;
+  skos:broader imgeo-cpt:FunctieSpoor;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "tram";
+  skos:prefLabel "tram"@nl .
+
+imgeo-cpt:Transitie_FunctieSpoor a skos:Concept;
+  skos:broader imgeo-cpt:FunctieSpoor;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "transitie";
+  skos:prefLabel "transitie"@nl .
+
+imgeo-cpt:Trein_FunctieSpoor a skos:Concept;
+  skos:broader imgeo-cpt:FunctieSpoor;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "trein";
+  skos:prefLabel "trein"@nl .
+
+imgeo-cpt:Ov-baan_FunctieWeg a skos:Concept;
+  skos:broader imgeo-cpt:FunctieWeg;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "OV-baan";
+  skos:prefLabel "OV-baan"@nl .
+
+imgeo-cpt:BaanVoorVliegverkeer_FunctieWeg a skos:Concept;
+  skos:broader imgeo-cpt:FunctieWeg;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "baan voor vliegverkeer";
+  skos:prefLabel "baan voor vliegverkeer"@nl .
+
+imgeo-cpt:Fietspad_FunctieWeg a skos:Concept;
+  skos:broader imgeo-cpt:FunctieWeg;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "fietspad";
+  skos:prefLabel "fietspad"@nl .
+
+imgeo-cpt:Inrit_FunctieWeg a skos:Concept;
+  skos:broader imgeo-cpt:FunctieWeg;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "inrit";
+  skos:prefLabel "inrit"@nl .
+
+imgeo-cpt:Overweg_FunctieWeg a skos:Concept;
+  skos:broader imgeo-cpt:FunctieWeg;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "overweg";
+  skos:prefLabel "overweg"@nl .
+
+imgeo-cpt:Parkeervlak_FunctieWeg a skos:Concept;
+  skos:broader imgeo-cpt:FunctieWeg;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "parkeervlak";
+  skos:prefLabel "parkeervlak"@nl .
+
+imgeo-cpt:RijbaanAutosnelweg_FunctieWeg a skos:Concept;
+  skos:broader imgeo-cpt:FunctieWeg;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "rijbaan autosnelweg";
+  skos:prefLabel "rijbaan autosnelweg"@nl .
+
+imgeo-cpt:Calamiteitendoorsteek_FunctieWeg a skos:Concept;
+  skos:broader imgeo-cpt:RijbaanAutosnelweg_FunctieWeg, imgeo-cpt:RijbaanAutoweg_FunctieWeg;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "calamiteitendoorsteek";
+  skos:prefLabel "calamiteitendoorsteek"@nl .
+
+imgeo-cpt:Verbindingsweg_FunctieWeg a skos:Concept;
+  skos:broader imgeo-cpt:RijbaanAutosnelweg_FunctieWeg, imgeo-cpt:RijbaanAutoweg_FunctieWeg,
+    imgeo-cpt:RijbaanRegionaleWeg_FunctieWeg;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "verbindingsweg";
+  skos:prefLabel "verbindingsweg"@nl .
+
+imgeo-cpt:RijbaanAutoweg_FunctieWeg a skos:Concept;
+  skos:broader imgeo-cpt:FunctieWeg;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "rijbaan autoweg";
+  skos:prefLabel "rijbaan autoweg"@nl .
+
+imgeo-cpt:RijbaanLokaleWeg_FunctieWeg a skos:Concept;
+  skos:broader imgeo-cpt:FunctieWeg;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "rijbaan lokale weg";
+  skos:prefLabel "rijbaan lokale weg"@nl .
+
+imgeo-cpt:Verkeersdrempel_FunctieWeg a skos:Concept;
+  skos:broader imgeo-cpt:RijbaanLokaleWeg_FunctieWeg, imgeo-cpt:RijbaanRegionaleWeg_FunctieWeg;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "verkeersdrempel";
+  skos:prefLabel "verkeersdrempel"@nl .
+
+imgeo-cpt:RijbaanRegionaleWeg_FunctieWeg a skos:Concept;
+  skos:broader imgeo-cpt:FunctieWeg;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "rijbaan regionale weg";
+  skos:prefLabel "rijbaan regionale weg"@nl .
+
+imgeo-cpt:Ruiterpad_FunctieWeg a skos:Concept;
+  skos:broader imgeo-cpt:FunctieWeg;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "ruiterpad";
+  skos:prefLabel "ruiterpad"@nl .
+
+imgeo-cpt:Spoorbaan_FunctieWeg a skos:Concept;
+  skos:broader imgeo-cpt:FunctieWeg;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "spoorbaan";
+  skos:prefLabel "spoorbaan"@nl .
+
+imgeo-cpt:Transitie_FunctieWeg a skos:Concept;
+  skos:broader imgeo-cpt:FunctieWeg;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "transitie";
+  skos:prefLabel "transitie"@nl .
+
+imgeo-cpt:Voetgangersgebied_FunctieWeg a skos:Concept;
+  skos:broader imgeo-cpt:FunctieWeg;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "voetgangersgebied";
+  skos:prefLabel "voetgangersgebied"@nl .
+
+imgeo-cpt:Voetpad_FunctieWeg a skos:Concept;
+  skos:broader imgeo-cpt:FunctieWeg;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "voetpad";
+  skos:prefLabel "voetpad"@nl .
+
+imgeo-cpt:VoetpadOpTrap_FunctieWeg a skos:Concept;
+  skos:broader imgeo-cpt:FunctieWeg;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "voetpad op trap";
+  skos:prefLabel "voetpad op trap"@nl .
+
+imgeo-cpt:Woonerf_FunctieWeg a skos:Concept;
+  skos:broader imgeo-cpt:FunctieWeg;
+  skos:inScheme imgeo-sch:imgeo;
+  skos:notation "woonerf";
+  skos:prefLabel "woonerf"@nl .
+
+imgeo-cpt:TypeGebouwInstallatie skos:topConceptOf imgeo-sch:imgeo .
+
+imgeo-cpt:Status skos:topConceptOf imgeo-sch:imgeo .
+
+imgeo-cpt:FunctieOndersteunendWegdeel skos:topConceptOf imgeo-sch:imgeo .
+
+imgeo-cpt:TypeOverbruggingsdeel skos:topConceptOf imgeo-sch:imgeo .
+
+imgeo-cpt:FunctieSpoor skos:topConceptOf imgeo-sch:imgeo .
+
+imgeo-cpt:FunctieWeg skos:topConceptOf imgeo-sch:imgeo .
+
+imgeo-col:TypeGebouwInstallatie a skos:Collection;
+  rdfs:label "TypeGebouwInstallatie waardelijst"@nl;
+  skos:member imgeo-cpt:NietBgt_TypeGebouwInstallatie .
+
+imgeo-col:Status a skos:Collection;
+  rdfs:label "Status waardelijst"@nl;
+  skos:member imgeo-cpt:Bestaand_Status .
+
+imgeo-col:FunctieOndersteunendWegdeel a skos:Collection;
+  rdfs:label "FunctieOndersteunendWegdeel waardelijst"@nl;
+  skos:member imgeo-cpt:Berm_FunctieOndersteunendWegdeel, imgeo-cpt:Transitie_FunctieOndersteunendWegdeel,
+    imgeo-cpt:Verkeerseiland_FunctieOndersteunendWegdeel .
+
+imgeo-col:TypeOverbruggingsdeel a skos:Collection;
+  rdfs:label "TypeOverbruggingsdeel waardelijst"@nl;
+  skos:member imgeo-cpt:Dek_TypeOverbruggingsdeel, imgeo-cpt:Landhoofd_TypeOverbruggingsdeel,
+    imgeo-cpt:Pijler_TypeOverbruggingsdeel, imgeo-cpt:Pyloon_TypeOverbruggingsdeel, imgeo-cpt:Sloof_TypeOverbruggingsdeel .
+
+imgeo-col:FunctieSpoor a skos:Collection;
+  rdfs:label "FunctieSpoor waardelijst"@nl;
+  skos:member imgeo-cpt:NietBgt_FunctieSpoor, imgeo-cpt:Sneltram_FunctieSpoor, imgeo-cpt:Tram_FunctieSpoor,
+    imgeo-cpt:Transitie_FunctieSpoor, imgeo-cpt:Trein_FunctieSpoor .
+
+imgeo-col:FunctieWeg a skos:Collection;
+  rdfs:label "FunctieWeg waardelijst"@nl;
+  skos:member imgeo-cpt:BaanVoorVliegverkeer_FunctieWeg, imgeo-cpt:Fietspad_FunctieWeg,
+    imgeo-cpt:Inrit_FunctieWeg, imgeo-cpt:Ov-baan_FunctieWeg, imgeo-cpt:Overweg_FunctieWeg,
+    imgeo-cpt:Parkeervlak_FunctieWeg, imgeo-cpt:RijbaanAutosnelweg_FunctieWeg, imgeo-cpt:RijbaanAutoweg_FunctieWeg,
+    imgeo-cpt:RijbaanLokaleWeg_FunctieWeg, imgeo-cpt:RijbaanRegionaleWeg_FunctieWeg, imgeo-cpt:Ruiterpad_FunctieWeg,
+    imgeo-cpt:Spoorbaan_FunctieWeg, imgeo-cpt:Transitie_FunctieWeg, imgeo-cpt:Voetgangersgebied_FunctieWeg,
+    imgeo-cpt:VoetpadOpTrap_FunctieWeg, imgeo-cpt:Voetpad_FunctieWeg, imgeo-cpt:Woonerf_FunctieWeg .
+
+imgeo-col:FunctieWegPlus a skos:Collection;
+  rdfs:label "FunctieWeg waardelijst"@nl;
+  skos:member imgeo-cpt:Calamiteitendoorsteek_FunctieWeg, imgeo-cpt:Verbindingsweg_FunctieWeg,
+    imgeo-cpt:Verkeersdrempel_FunctieWeg .
+

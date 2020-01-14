@@ -6,6 +6,7 @@
 @prefix imgeo-sh: <http://definities.geostandaarden.nl/def/imgeo/> .
 @prefix nen3610: <http://definities.geostandaarden.nl/def/nen3610#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -16,6 +17,7 @@
 #########################################
 
 imgeo-sh:Object a sh:NodeShape ;
+  sh:name "imgeo:Object" ;
   sh:targetClass imgeo:Object ;
   sh:property
     imgeo-sh:Object_bgt-status ,
@@ -60,6 +62,7 @@ imgeo-sh:Object_isPrimaryTopicOf a sh:PropertyShape ;
 #########################################
 
 imgeo-sh:Objectregistratie a sh:NodeShape ;
+  sh:name "imgeo:Objectregistratie" ;
   sh:targetClass imgeo:Objectregistratie ;
   sh:property
     imgeo-sh:Objectregistratie_bronhouder ,
@@ -102,5 +105,56 @@ imgeo-sh:Geometry a sh:NodeShape ;
     sh:datatype gsp:wktLiteral ;
     sh:minCount 1 ;
     sh:maxCount 1 ;
+  ] ;
+.
+
+imgeo-sh:Point a sh:NodeShape ;
+  sh:name "gml:Point" ;
+  sh:targetClass gml:Point ;
+.
+
+imgeo-sh:Curve a sh:NodeShape ;
+  sh:name "gml:Curve" ;
+  sh:targetClass gml:Curve ;
+.
+
+imgeo-sh:Surface a sh:NodeShape ;
+  sh:name "gml:Surface" ;
+  sh:targetClass gml:Surface ;
+.
+
+imgeo-sh:MultiSurface a sh:NodeShape ;
+  sh:name "gml:MultiSurface" ;
+  sh:targetClass gml:MultiSurface ;
+.
+
+imgeo-sh:PointCurveSurface a sh:NodeShape ;
+  sh:property [
+    sh:name "gml:Point, gml:Curve, gml:Surface" ;
+    sh:path rdf:type ;
+    sh:in (
+      gsp:Geometry
+      gml:Point
+      gml:Curve
+      gml:Surface
+    ) ;
+    sh:minCount 2 ;
+    sh:maxCount 2 ;
+  ] ;
+.
+
+imgeo-sh:PointCurveSurfaceMultiSurface a sh:NodeShape ;
+  sh:property [
+    sh:name "gml:Point, gml:Curve, gml:Surface, gml:MultiSurface" ;
+    sh:path rdf:type ;
+    sh:in (
+      gsp:Geometry
+      gml:Point
+      gml:Curve
+      gml:Surface
+      gml:MultiSurface
+    ) ;
+    sh:minCount 2 ;
+    sh:maxCount 2 ;
   ] ;
 .
