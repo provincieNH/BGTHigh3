@@ -1,61 +1,68 @@
 import rdflib
+from rdflib.namespace import FOAF
 from .shared import *
 from .gml_naar_dict import xml_naar_dict
 import collections
 
-
-
-## DictionaryKeys
-# class
-# imgeo:geometrie2dBegroeidTerreindeel
-# imgeo:begroeidTerreindeelOpTalud
-# imgeo:kruinlijnBegroeidTerreindeel
-# imgeo:plus-fysiekVoorkomen
-# @xmlns
-# @gml:id
-# creationDate
-# imgeo:LV-publicatiedatum
-# imgeo:relatieveHoogteligging
-# imgeo:inOnderzoek
-# imgeo:tijdstipRegistratie
-# imgeo:identificatie
-# imgeo:bronhouder
-# imgeo:bgt-status
-# imgeo:plus-status
-# <class 'str'> @xmlns http://www.opengis.net/citygml/vegetation/2.0
-# <class 'str'> @gml:id b714098fc-4c7a-11e8-951f-610a7ca84980
-# <class 'str'> imgeo:LV-publicatiedatum 2018-04-27T14:26:17.000
-# <class 'str'> imgeo:relatieveHoogteligging 0
-# <class 'str'> imgeo:inOnderzoek false
-# <class 'str'> imgeo:tijdstipRegistratie 2018-04-27T13:58:35.000
-# <class 'str'> imgeo:bronhouder G0307
-# <class 'str'> imgeo:begroeidTerreindeelOpTalud false
-
-
-
-
 def conversion(dict: collections.OrderedDict) -> rdflib.Graph:
     graph = rdflib.Graph()
+
     for Class, _value in dict.items():
-        print(Class)
-
-        id = stringToId(dict[Class]["@gml:id"])
-        graph.add((id, RDF.type, stringToClass(Class)))
+        className = dict[Class]["imgeo:bgt-status"]["#text"]
+        DocId = stringToId(dict[Class]["@gml:id"], "doc", className)
+        idId = stringToId(dict[Class]["@gml:id"], "id", className)
+        graph.add((idId, RDF.type, stringToClass(className)))
+        graph.add((idId, FOAF.isPrimaryTopicOf, DocId))
     for key, value in dict[Class].items():
+        if key == "imgeo:identificatie":
+            nen3610Id = predefinedStringToIRI("nen3610:"+value['imgeo:NEN3610ID']['imgeo:lokaalID'])
+            graph.add((idId, predefinedStringToIRI("nen3610:identificatie"),nen3610Id))
+            graph.add((nen3610Id, predefinedStringToIRI("nen3610:namespace"), stringToLiteral(value['imgeo:NEN3610ID']['imgeo:namespace']) ))
+            graph.add((nen3610Id, predefinedStringToIRI("nen3610:lokaalID"), stringToLiteral(value['imgeo:NEN3610ID']['imgeo:lokaalID']) ))
+
+            continue
+        if key == "imgeo:functie":
+            graph.add((idId, predefinedStringToIRI(key), stringToLiteral(value["#text"])))
+            continue
+        if key == "class":
+            graph.add((idId, RDF.type, stringToLiteral(value["#text"])))
+            continue
+        if key == "imgeo:plus-fysiekVoorkomen":
+            graph.add((idId, RDF.type, stringToLiteral(value["#text"])))
+            continue
+        if "imgeo:kruinlijn" in key:
+            if "@nilReason"in value:
+                continue
+            else:
+                graph.add((idId, predefinedStringToIRI("imgeo:kruinlijn"), stringToLiteral("GEOMETRY")))
+            continue
+        if "imgeo:geometrie2d" in key:
+            if "@nilReason"in value:
+                continue
+            else:
+                graph.add((idId, predefinedStringToIRI("imgeo:geometry"), stringToLiteral("GEOMETRY")))
+            continue
+
         if type(value) == collections.OrderedDict:
-            for keyLayer2, valueLayer2 in value.items():
-                print("KEY: ", key, "Key: ", keyLayer2, "Value: ",valueLayer2)
+            continue
 
-
-
+        if key == "creationDate":
+            graph.add((idId, predefinedStringToIRI("imgeo:"+key), stringToLiteral(value["#text"])))
             continue
         if key == "imgeo:bronhouder" :
             IRI = getBronhouderIri(value)
             if IRI != "":
-                graph.add((id, predefinedStringToIRI(key), stringToIRI(IRI)))
+                graph.add((DocId, predefinedStringToIRI(key), stringToIRI(IRI)))
             continue
-        if key.split(":")[0] == "imgeo" :
-            graph.add((id, predefinedStringToIRI(key), stringToLiteral(value)))
+        if key == "imgeo:inOnderzoek" :
+            graph.add((DocId, predefinedStringToIRI(key), stringToLiteral(value)))
+            continue
+        if key == "imgeo:LV-publicatiedatum" :
+            graph.add((DocId, predefinedStringToIRI(key), stringToLiteral(value)))
+            continue
+
+        if "imgeo" in key :
+            graph.add((idId, predefinedStringToIRI(key), stringToLiteral(value)))
             continue
 
     return graph
