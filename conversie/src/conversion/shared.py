@@ -1,16 +1,20 @@
 from osgeo import ogr
-from rdflib import Literal, URIRef
+import rdflib
+from rdflib import Literal, URIRef, RDF
 from rdflib.namespace import XSD
 import re
 
+## GLOBAL VARIABLES:
+imgeo=rdflib.Namespace('http://dbpedia.org/ontology/')
+bgtId=rdflib.Namespace('http://dbpedia.org/ontology/id/')
+bgt=rdflib.Namespace('http://dbpedia.org/ontology/id#')
+
 def getBronhouderIri(bronhouder):
-    if bronhouder.matches("^G\\d{4}$"):
-        return "http://data.labs.pdok.nl/bbi/id/gemeente/" + bronhouder.substring(1)
-    elif Bronhouder.MAPPING.containsKey(bronhouder):
-        return Bronhouder.MAPPING.get(bronhouder)
+    if re.search("^G\\d{4}$",bronhouder):
+        return "http://data.labs.pdok.nl/bbi/id/gemeente/" + bronhouder[1:]
     else:
         print("Unexpected bronhouder format: {}".format(bronhouder))
-        return null
+        return ""
 
 def getClassIri(waarde, baseIri, feature):
     if waarde == null or waarde.equals("niet-bgt"):
@@ -24,40 +28,61 @@ def convertGMLShapetoWKT(gml):
     wkt = ogr.CreateGeometryFromGML(gml).ExportToWkt()
     return wkt
 
-def StringToDate(inputString):
+def stringToDate(inputString):
     date_object = datetime.strptime(inputString, '%d-%m-%Y').date()
     return inputString, XSD.date
 
-def StringToInteger(inputString):
+def stringToId(inputString):
+    return bgtId[inputString]
+
+def stringToClass(inputString):
+    return bgt[inputString]
+
+
+def predefinedStringToIRI(inputString):
+    prefix, suffix = inputString.split(":")
+    if prefix == "imgeo":
+        return imgeo[suffix]
+    if prefix == "":
+        return bgt[suffix]
+
+def stringToInteger(inputString):
     return int(inputString), XSD.integer
 
-def StringToURI(inputString):
+def stringToURI(inputString):
     return inputString, XSD.anyURI
 
-def StringToFloat(inputString):
+def stringToBoolean(inputString):
+    return inputString, XSD.boolean
+
+def stringToFloat(inputString):
     return float(inputString), XSD.float
 
-def StringTolangString(inputString):
+def stringTolangString(inputString):
     return integer, XSD.language
 
 def wktToLiteral(wkt):
     return wkt, URIRef("http://www.opengis.net/ont/geosparql#")
 
-def StringToLiteral(inputString):
+def stringToLiteral(inputString):
     dateRegex = "^\d{1,2}\/\d{1,2}\/\d{4}$"
     integerRegex = "^(-?[1-9]+\d*)$|^0$"
     floatRegex = "^[-+]?[0-9]*\.?[0-9]+([eE][-+]?[0-9]+)?$"
     anyURIRegex = "@^(https?|ftp)://[^\s/$.?#].[^\s]*$@iS"
+    booleanRegex = "true|false"
     langRegex = ""
     # Cases literal
+
     if re.search(dateRegex, inputString):
-        out, datatype = StringToDate(inputString)
+        out, datatype = stringToDate(inputString)
+    elif re.search(booleanRegex, inputString):
+        out, datatype = stringToBoolean(inputString)
     elif re.search(integerRegex, inputString):
-        out, datatype = StringToInteger(inputString)
+        out, datatype = stringToInteger(inputString)
     elif re.search(floatRegex, inputString):
-        out, datatype = StringToFloat(inputString)
+        out, datatype = stringToFloat(inputString)
     elif re.search(anyURIRegex, inputString):
-        out, datatype = StringToURI(inputString)
+        out, datatype = stringToURI(inputString)
     elif re.search(langRegex, inputString):
         out = inputString
         datatype = XSD.string
@@ -68,7 +93,7 @@ def StringToLiteral(inputString):
 
     return Literal(out, datatype=datatype)
 
-def StringToIRI(inputString):
+def stringToIRI(inputString):
     return URIRef(inputString)
 
 
