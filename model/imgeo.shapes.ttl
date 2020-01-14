@@ -107,6 +107,11 @@ imgeo-sh:Geometry a sh:NodeShape ;
   ] ;
 .
 
+imgeo-sh:Point a sh:NodeShape ;
+  sh:name "gml:Point" ;
+  sh:targetClass gml:Point ;
+.
+
 imgeo-sh:Curve a sh:NodeShape ;
   sh:name "gml:Curve" ;
   sh:targetClass gml:Curve ;
@@ -120,4 +125,35 @@ imgeo-sh:Surface a sh:NodeShape ;
 imgeo-sh:MultiSurface a sh:NodeShape ;
   sh:name "gml:MultiSurface" ;
   sh:targetClass gml:MultiSurface ;
+.
+
+imgeo-sh:PointCurveSurface a sh:NodeShape ;
+  sh:property [
+    sh:name "gml:Point, gml:Curve, gml:Surface" ;
+    sh:path rdf:type ;
+    sh:in (
+      gsp:Geometry
+      gml:Point
+      gml:Curve
+      gml:Surface
+    ) ;
+    sh:minCount 2 ;
+    sh:maxCount 2 ;
+  ] ;
+.
+
+imgeo-sh:PointCurveSurfaceMultiSurface a sh:NodeShape ;
+  sh:property [
+    sh:name "gml:Point, gml:Curve, gml:Surface, gml:MultiSurface" ;
+    sh:path rdf:type ;
+    sh:in (
+      gsp:Geometry
+      gml:Point
+      gml:Curve
+      gml:Surface
+      gml:MultiSurface
+    ) ;
+    sh:minCount 2 ;
+    sh:maxCount 2 ;
+  ] ;
 .
