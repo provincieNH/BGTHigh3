@@ -1,4 +1,4 @@
-from osgeo import ogr
+from osgeo import ogr, osr
 import rdflib
 from datetime import datetime
 from rdflib import Literal, URIRef, RDF
@@ -16,12 +16,24 @@ foaf=rdflib.Namespace("http://xmlns.com/foaf/0.1/")
 nen3610=rdflib.Namespace("http://definities.geostandaarden.nl/def/nen3610#")
 bgtBegrip=rdflib.Namespace("http://bgt.basisregistraties.overheid.nl/id/begrip/")
 geometry=rdflib.Namespace("http://www.opengis.net/ont/geosparql#")
+bag=rdflib.Namespace("http://bag.basisregistraties.overheid.nl/bag/id/pand/")
+__verbose = False
+
+source = osr.SpatialReference()
+source.ImportFromEPSG(28992)
+
+target = osr.SpatialReference()
+target.ImportFromEPSG(4258)
+
+transform = osr.CoordinateTransformation(source, target)
+
 
 def getBronhouderIri(bronhouder):
     if re.search("^G\\d{4}$",bronhouder):
         return "http://data.labs.pdok.nl/bbi/id/gemeente/" + bronhouder[1:]
     else:
-        print("Unexpected bronhouder format: {}".format(bronhouder))
+        if __verbose:
+            print("Unexpected bronhouder format: {}".format(bronhouder))
         return ""
 
 def getClassIri(waarde, baseIri, feature):
@@ -34,8 +46,11 @@ def getClassIri(waarde, baseIri, feature):
 def convertGMLShapetoWKT(gml):
     # Export geometry to WKT
     wkt = ogr.CreateGeometryFromGML(gml)
+
     if wkt:
-        return wkt.ExportToWkt()
+        wktLinear = wkt.GetLinearGeometry()
+        wktLinear.Transform(transform)
+        return wktLinear.ExportToWkt()
     else:
         return ""
 
@@ -44,10 +59,10 @@ def stringToDate(inputString):
         date_object = datetime.strptime(inputString, '%Y-%m-%dT%H:%M:%S.%f').date()
     else:
         date_object = datetime.strptime(inputString, '%Y-%m-%d').date()
-    return inputString, XSD.date
+    return date_object, XSD.date
 
 def stringToClass(inputString):
-    return bgtdef[inputString]
+    return imgeo[inputString]
 
 def stringToId(inputString, docOrId, classType):
     input = docOrId+ "/" + classType+ "/"+inputString
@@ -67,6 +82,8 @@ def predefinedStringToIRI(inputString):
         return imgeobegrip[suffix]
     if prefix == "geometry":
         return geometry[suffix]
+    if prefix == "bag":
+        return bag[suffix]
 
 def stringToInteger(inputString):
     return int(inputString), XSD.integer
@@ -84,7 +101,7 @@ def stringTolangString(inputString):
     return integer, XSD.language
 
 def wktToLiteral(wkt):
-    return Literal(wkt, datatype=URIRef("http://www.opengis.net/ont/geosparql#"))
+    return Literal(wkt, datatype=URIRef("http://www.opengis.net/ont/geosparql#wktLiteral"))
 
 def stringToLiteral(inputString):
     dateRegex = "([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01]))"
