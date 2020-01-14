@@ -17,93 +17,93 @@ imgeo:Wegdeel a owl:Class ;
     nen3610:Weg ;
 .
 
-imgeo:Weg_gesloten_verharding a owl:Class;
+imgeo:GeslotenVerharding_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_gesloten_verharding>;
   rdfs:label "gesloten verharding";
   rdfs:subClassOf imgeo:Wegdeel .
 
-imgeo:WegPlus_asfalt a owl:Class;
+imgeo:Asfalt_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_asfalt>;
   rdfs:label "asfalt";
-  rdfs:subClassOf imgeo:Weg_gesloten_verharding .
+  rdfs:subClassOf imgeo:GeslotenVerharding_Weg .
 
-imgeo:WegPlus_cementbeton a owl:Class;
+imgeo:Cementbeton_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_cementbeton>;
   rdfs:label "cementbeton";
-  rdfs:subClassOf imgeo:Weg_gesloten_verharding .
+  rdfs:subClassOf imgeo:GeslotenVerharding_Weg .
 
-imgeo:Weg_half_verhard a owl:Class;
+imgeo:HalfVerhard_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_half_verhard>;
   rdfs:label "half verhard";
   rdfs:subClassOf imgeo:Wegdeel .
 
-imgeo:WegPlus_grasklinkers a owl:Class;
+imgeo:Grasklinkers_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_grasklinkers>;
   rdfs:label "grasklinkers";
-  rdfs:subClassOf imgeo:Weg_half_verhard .
+  rdfs:subClassOf imgeo:HalfVerhard_Weg .
 
-imgeo:WegPlus_gravel a owl:Class;
+imgeo:Gravel_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_gravel>;
   rdfs:label "gravel";
-  rdfs:subClassOf imgeo:Weg_half_verhard .
+  rdfs:subClassOf imgeo:HalfVerhard_Weg .
 
-imgeo:WegPlus_grind a owl:Class;
+imgeo:Grind_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_grind>;
   rdfs:label "grind";
-  rdfs:subClassOf imgeo:Weg_half_verhard .
+  rdfs:subClassOf imgeo:HalfVerhard_Weg .
 
-imgeo:WegPlus_puin a owl:Class;
+imgeo:Puin_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_puin>;
   rdfs:label "puin";
-  rdfs:subClassOf imgeo:Weg_half_verhard .
+  rdfs:subClassOf imgeo:HalfVerhard_Weg .
 
-imgeo:WegPlus_schelpen a owl:Class;
+imgeo:Schelpen_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_schelpen>;
   rdfs:label "schelpen";
-  rdfs:subClassOf imgeo:Weg_half_verhard .
+  rdfs:subClassOf imgeo:HalfVerhard_Weg .
 
-imgeo:Weg_onverhard a owl:Class;
+imgeo:Onverhard_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_onverhard>;
   rdfs:label "onverhard";
   rdfs:subClassOf imgeo:Wegdeel .
 
-imgeo:WegPlus_boomschors a owl:Class;
+imgeo:Boomschors_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_boomschors>;
   rdfs:label "boomschors";
-  rdfs:subClassOf imgeo:Weg_onverhard .
+  rdfs:subClassOf imgeo:Onverhard_Weg .
 
-imgeo:WegPlus_zand a owl:Class;
+imgeo:Zand_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_zand>;
   rdfs:label "zand";
-  rdfs:subClassOf imgeo:Weg_onverhard .
+  rdfs:subClassOf imgeo:Onverhard_Weg .
 
-imgeo:Weg_open_verharding a owl:Class;
+imgeo:OpenVerharding_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_open_verharding>;
   rdfs:label "open verharding";
   rdfs:subClassOf imgeo:Wegdeel .
 
-imgeo:WegPlus_beton_element a owl:Class;
+imgeo:BetonElement_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_beton_element>;
   rdfs:label "beton element";
-  rdfs:subClassOf imgeo:Weg_open_verharding .
+  rdfs:subClassOf imgeo:OpenVerharding_Weg .
 
-imgeo:WegPlus_betonstraatstenen a owl:Class;
+imgeo:Betonstraatstenen_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_betonstraatstenen>;
   rdfs:label "betonstraatstenen";
-  rdfs:subClassOf imgeo:Weg_open_verharding .
+  rdfs:subClassOf imgeo:OpenVerharding_Weg .
 
-imgeo:WegPlus_gebakken_klinkers a owl:Class;
+imgeo:GebakkenKlinkers_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_gebakken_klinkers>;
   rdfs:label "gebakken klinkers";
-  rdfs:subClassOf imgeo:Weg_open_verharding .
+  rdfs:subClassOf imgeo:OpenVerharding_Weg .
 
-imgeo:WegPlus_sierbestrating a owl:Class;
+imgeo:Sierbestrating_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_sierbestrating>;
   rdfs:label "sierbestrating";
-  rdfs:subClassOf imgeo:Weg_open_verharding .
+  rdfs:subClassOf imgeo:OpenVerharding_Weg .
 
-imgeo:WegPlus_tegels a owl:Class;
+imgeo:Tegels_Weg a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_tegels>;
   rdfs:label "tegels";
-  rdfs:subClassOf imgeo:Weg_open_verharding .
+  rdfs:subClassOf imgeo:OpenVerharding_Weg .
 

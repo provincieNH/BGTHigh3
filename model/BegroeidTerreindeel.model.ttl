@@ -12,112 +12,112 @@ imgeo:BegroeidTerreindeel rdf:type owl:Class ;
     rdfs:subClassOf imgeo:Object , <http://definities.geostandaarden.nl/def/nen3610#Terrein> ;
 .
 
-imgeo:BegroeidTerrein_bouwland a owl:Class;
+imgeo:Bouwland_BegroeidTerrein a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_bouwland>;
   rdfs:label "bouwland";
   rdfs:subClassOf imgeo:BegroeidTerreindeel .
 
-imgeo:BegroeidTerreinPlus_akkerbouw a owl:Class;
+imgeo:Akkerbouw_BegroeidTerrein a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_akkerbouw>;
   rdfs:label "akkerbouw";
-  rdfs:subClassOf imgeo:BegroeidTerrein_bouwland .
+  rdfs:subClassOf imgeo:Bouwland_BegroeidTerrein .
 
-imgeo:BegroeidTerreinPlus_bollenteelt a owl:Class;
+imgeo:Bollenteelt_BegroeidTerrein a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_bollenteelt>;
   rdfs:label "bollenteelt";
-  rdfs:subClassOf imgeo:BegroeidTerrein_bouwland .
+  rdfs:subClassOf imgeo:Bouwland_BegroeidTerrein .
 
-imgeo:BegroeidTerreinPlus_braakliggend a owl:Class;
+imgeo:Braakliggend_BegroeidTerrein a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_braakliggend>;
   rdfs:label "braakliggend";
-  rdfs:subClassOf imgeo:BegroeidTerrein_bouwland .
+  rdfs:subClassOf imgeo:Bouwland_BegroeidTerrein .
 
-imgeo:BegroeidTerreinPlus_vollegrondsteelt a owl:Class;
+imgeo:Vollegrondsteelt_BegroeidTerrein a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_vollegrondsteelt>;
   rdfs:label "vollegrondsteelt";
-  rdfs:subClassOf imgeo:BegroeidTerrein_bouwland .
+  rdfs:subClassOf imgeo:Bouwland_BegroeidTerrein .
 
-imgeo:BegroeidTerrein_duin a owl:Class;
+imgeo:Duin_BegroeidTerrein a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_duin>;
   rdfs:label "duin";
   rdfs:subClassOf imgeo:BegroeidTerreindeel .
 
-imgeo:BegroeidTerreinPlus_gesloten_duinvegetatie a owl:Class;
+imgeo:GeslotenDuinvegetatie_BegroeidTerrein a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_gesloten_duinvegetatie>;
   rdfs:label "gesloten duinvegetatie";
-  rdfs:subClassOf imgeo:BegroeidTerrein_duin .
+  rdfs:subClassOf imgeo:Duin_BegroeidTerrein .
 
-imgeo:BegroeidTerreinPlus_open_duinvegetatie a owl:Class;
+imgeo:OpenDuinvegetatie_BegroeidTerrein a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_open_duinvegetatie>;
   rdfs:label "open duinvegetatie";
-  rdfs:subClassOf imgeo:BegroeidTerrein_duin .
+  rdfs:subClassOf imgeo:Duin_BegroeidTerrein .
 
-imgeo:BegroeidTerrein_fruitteelt a owl:Class;
+imgeo:Fruitteelt_BegroeidTerrein a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_fruitteelt>;
   rdfs:label "fruitteelt";
   rdfs:subClassOf imgeo:BegroeidTerreindeel .
 
-imgeo:BegroeidTerreinPlus_hoogstam_boomgaarden a owl:Class;
+imgeo:HoogstamBoomgaarden_BegroeidTerrein a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_hoogstam_boomgaarden>;
   rdfs:label "hoogstam boomgaarden";
-  rdfs:subClassOf imgeo:BegroeidTerrein_fruitteelt .
+  rdfs:subClassOf imgeo:Fruitteelt_BegroeidTerrein .
 
-imgeo:BegroeidTerreinPlus_klein_fruit a owl:Class;
+imgeo:KleinFruit_BegroeidTerrein a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_klein_fruit>;
   rdfs:label "klein fruit";
-  rdfs:subClassOf imgeo:BegroeidTerrein_fruitteelt .
+  rdfs:subClassOf imgeo:Fruitteelt_BegroeidTerrein .
 
-imgeo:BegroeidTerreinPlus_laagstam_boomgaarden a owl:Class;
+imgeo:LaagstamBoomgaarden_BegroeidTerrein a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_laagstam_boomgaarden>;
   rdfs:label "laagstam boomgaarden";
-  rdfs:subClassOf imgeo:BegroeidTerrein_fruitteelt .
+  rdfs:subClassOf imgeo:Fruitteelt_BegroeidTerrein .
 
-imgeo:BegroeidTerreinPlus_wijngaarden a owl:Class;
+imgeo:Wijngaarden_BegroeidTerrein a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_wijngaarden>;
   rdfs:label "wijngaarden";
-  rdfs:subClassOf imgeo:BegroeidTerrein_fruitteelt .
+  rdfs:subClassOf imgeo:Fruitteelt_BegroeidTerrein .
 
-imgeo:BegroeidTerrein_groenvoorziening a owl:Class;
+imgeo:Groenvoorziening_BegroeidTerrein a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_groenvoorziening>;
   rdfs:label "groenvoorziening";
   rdfs:subClassOf imgeo:BegroeidTerreindeel .
 
-imgeo:BegroeidTerreinPlus_bodembedekkers a owl:Class;
+imgeo:Bodembedekkers_BegroeidTerrein a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_bodembedekkers>;
   rdfs:label "bodembedekkers";
-  rdfs:subClassOf imgeo:BegroeidTerrein_groenvoorziening .
+  rdfs:subClassOf imgeo:Groenvoorziening_BegroeidTerrein .
 
-imgeo:BegroeidTerreinPlus_bosplantsoen a owl:Class;
+imgeo:Bosplantsoen_BegroeidTerrein a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_bosplantsoen>;
   rdfs:label "bosplantsoen";
-  rdfs:subClassOf imgeo:BegroeidTerrein_groenvoorziening .
+  rdfs:subClassOf imgeo:Groenvoorziening_BegroeidTerrein .
 
-imgeo:BegroeidTerreinPlus_gras_en_kruidachtigen a owl:Class;
+imgeo:GrasEnKruidachtigen_BegroeidTerrein a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_gras_en_kruidachtigen>;
   rdfs:label "gras- en kruidachtigen";
-  rdfs:subClassOf imgeo:BegroeidTerrein_groenvoorziening .
+  rdfs:subClassOf imgeo:Groenvoorziening_BegroeidTerrein .
 
-imgeo:BegroeidTerreinPlus_heesters a owl:Class;
+imgeo:Heesters_BegroeidTerrein a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_heesters>;
   rdfs:label "heesters";
-  rdfs:subClassOf imgeo:BegroeidTerrein_groenvoorziening .
+  rdfs:subClassOf imgeo:Groenvoorziening_BegroeidTerrein .
 
-imgeo:BegroeidTerreinPlus_planten a owl:Class;
+imgeo:Planten_BegroeidTerrein a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_planten>;
   rdfs:label "planten";
-  rdfs:subClassOf imgeo:BegroeidTerrein_groenvoorziening .
+  rdfs:subClassOf imgeo:Groenvoorziening_BegroeidTerrein .
 
-imgeo:BegroeidTerreinPlus_struikrozen a owl:Class;
+imgeo:Struikrozen_BegroeidTerrein a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_struikrozen>;
   rdfs:label "struikrozen";
-  rdfs:subClassOf imgeo:BegroeidTerrein_groenvoorziening .
+  rdfs:subClassOf imgeo:Groenvoorziening_BegroeidTerrein .
 
-imgeo:BegroeidTerrein_loofbos a owl:Class;
+imgeo:Loofbos_BegroeidTerrein a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_loofbos>;
   rdfs:label "loofbos";
   rdfs:subClassOf imgeo:BegroeidTerreindeel .
 
-imgeo:BegroeidTerreinPlus_griend_en_hakhout a owl:Class;
+imgeo:GriendEnHakhout_BegroeidTerrein a owl:Class;
   dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_griend_en_hakhout>;
   rdfs:label "griend en hakhout";
-  rdfs:subClassOf imgeo:BegroeidTerrein_loofbos .
+  rdfs:subClassOf imgeo:Loofbos_BegroeidTerrein .
