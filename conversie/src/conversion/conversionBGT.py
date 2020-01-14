@@ -7,6 +7,30 @@ from zipfile import ZipFile
 
 __verbose = False
 
+
+def conversionPand(graph, dict, idId) :
+    bnodeNummerAanduidingsReeks = rdflib.BNode()
+    graph.add((idId, predefinedStringToIRI("imgeo:nummeraanduidingreeks"), bnodeNummerAanduidingsReeks))
+    text = dict["imgeo:Nummeraanduidingreeks"]["imgeo:nummeraanduidingreeks"]["imgeo:Label"]["imgeo:tekst"]
+    numbers = text.split("-")
+    if len(numbers) == 2:
+        graph.add((bnodeNummerAanduidingsReeks,RDFS.label,stringToLiteral(numbers[0])))
+        graph.add((bnodeNummerAanduidingsReeks,RDFS.label,stringToLiteral(numbers[1])))
+    if "imgeo:identificatieBAGVBOHoogsteHuisnummer" in dict["imgeo:Nummeraanduidingreeks"]:
+        hoogsteNummer = dict["imgeo:Nummeraanduidingreeks"]["imgeo:identificatieBAGVBOHoogsteHuisnummer"]
+        graph.add((bnodeNummerAanduidingsReeks,predefinedStringToIRI("imgeo:identificatieBAGVBOHoogsteHuisnummer"),stringToLiteral(hoogsteNummer)))
+    elif len(numbers) == 1:
+        graph.add((bnodeNummerAanduidingsReeks,predefinedStringToIRI("imgeo:laagsteHuisnummer"),stringToLiteral(numbers[0])))
+
+    laagsteNummer = dict["imgeo:Nummeraanduidingreeks"]["imgeo:identificatieBAGVBOLaagsteHuisnummer"]
+
+    graph.add((bnodeNummerAanduidingsReeks,RDFS.label,stringToLiteral(text)))
+    graph.add((bnodeNummerAanduidingsReeks,predefinedStringToIRI("imgeo:Nummeraanduidingreeksnummeraanduidingreeks"),stringToLiteral(text)))
+    graph.add((bnodeNummerAanduidingsReeks,predefinedStringToIRI("imgeo:identificatieBAGVBOLaagsteHuisnummer"),stringToLiteral(laagsteNummer)))
+
+
+    return graph
+
 def conversion(dict: collections.OrderedDict) -> rdflib.Graph:
     if dict == {}:
         return
@@ -36,19 +60,19 @@ def conversion(dict: collections.OrderedDict) -> rdflib.Graph:
             ReplacetypeName = typeName
             if typeName == "Wegdeel":
                 ReplacetypeName = "Weg"
-            if value["#text"] != "Waardeonbekend":
+            if value["#text"].lower() != "waardeonbekend":
                 graph.add((idId, predefinedStringToIRI("imgeo:functie"), predefinedStringToIRI("imgeobegrip:" + value["#text"].title().replace(" ", "")+"_Functie"+ReplacetypeName)))
             continue
         if "imgeo:plus-functie" == key:
-            if value["#text"] != "Waardeonbekend":
+            if value["#text"].lower() != "waardeonbekend":
                 graph.add((idId, predefinedStringToIRI("imgeo:functie"), predefinedStringToIRI("imgeobegrip:" + value["#text"].title().replace(" ", "")+"_Functie"+ReplacetypeName)))
             continue
         if "surfaceMaterial" in key:
-            if value["#text"] != "Waardeonbekend":
+            if value["#text"].lower() != "waardeonbekend":
                 graph.add((idId, RDF.type, stringToClass( value["#text"].title().replace(" ", ""))))
             continue
         if "imgeo:plus-fysiekVoorkomen" in key:
-            if value["#text"] != "Waardeonbekend":
+            if value["#text"].lower() != "waardeonbekend":
                 graph.add((idId, RDF.type, stringToClass( value["#text"].title().replace(" ", ""))))
             continue
         # if key == "imgeo:plus-fysiekVoorkomen":
@@ -112,8 +136,20 @@ def conversion(dict: collections.OrderedDict) -> rdflib.Graph:
                 graph.add((idId, RDFS.label, stringToLiteral(value)))
             continue
         if key == "imgeo:identificatieBAGPND" :
-            if value:
+            if value and int(value) > 0:
                 graph.add((idId,predefinedStringToIRI("imgeo:Pand"), predefinedStringToIRI("bag:"+value)))
+            continue
+        if key == "imgeo:overbruggingIsBeweegbaar" :
+            graph.add((DocId, predefinedStringToIRI(key), stringToLiteral(value)))
+            continue
+
+        if key == "imgeo:nummeraanduidingreeks" :
+            if type(value) == type([]):
+                for element in value:
+                    graph = conversionPand(graph, element, idId)
+            if type(value) == type({}):
+                graph = conversionPand(graph, value, idId)
+            continue
         if "imgeo" in key :
             print(key, value)
             if value:
@@ -129,41 +165,50 @@ def conversion(dict: collections.OrderedDict) -> rdflib.Graph:
 
     return graph
 
-def _convertBGT():
-    Outfile = open("output/output.nt", "wb+")
-    file_name ="resources/bgt_begroeidterreindeel.gml"
-    with open(file_name) as f:
-        line = f.readline()
-        while len(line) > 0:
-            bgt_dict_initial = xml_naar_dict(line)
-            bgt_dict_final = geometrie_terugzetten(bgt_dict_initial)
-            if bgt_dict_final != {}:
-                graph = conversion(bgt_dict_final['cityObjectMember'])
-                Outfile.write(graph.serialize(format='nt'))
+def convertFile(zip, file, sample):
+    with zip.open(file) as f:
+        try:
             line = f.readline()
+        except:
+            line = ""
+        j = 0
+        i = 0
+        if sample:
+            maxLines = 100000
+        else:
+            maxLines = 900000000
+        while len(line) > 0 and i < maxLines:
+            Outfile = open("output/output_"+str(file[:-4])+"_"+str(j)+".nt", "wb+")
+            j += 1
+            i = 0
+            while i < 100000 and len(line) > 0:
+                bgt_dict_initial = xml_naar_dict(line)
+                bgt_dict_final = geometrie_terugzetten(bgt_dict_initial)
+                if bgt_dict_final != {}:
+                    try:
+                        graph = conversion(bgt_dict_final['cityObjectMember'])
+                    except:
+                        print("FAILED TO CREATE GRAPH CONTINUEING")
+                        continue
+                    Outfile.write(graph.serialize(format='nt'))
+
+                i += 1
+                try:
+                    line = f.readline()
+                except:
+                    continue
 
 
 def convertBGT():
     file_name ="resources/bgt-citygml-nl-nopbp.zip"
+    FileRoundTwo = []
     with ZipFile(file_name, 'r') as zip:
         listOfFileNames = zip.namelist()
         for file in listOfFileNames:
-            # SKIPPING FILENAMES FOR TESTING
-            # if file not in [ "bgt_wegdeel.gml"]: #"bgt_begroeidterreindeel.gml", "bgt_pand.gml"
-            #     continue
-            with zip.open(file) as f:
-                line = f.readline()
-                j = 0
-                i = 0
-                while len(line) > 0 and i < 100000:
-                    Outfile = open("output/output_"+str(file[:-4])+"_"+str(j)+".nt", "wb+")
-                    j += 1
-                    i = 0
-                    while i < 100000:
-                        bgt_dict_initial = xml_naar_dict(line)
-                        bgt_dict_final = geometrie_terugzetten(bgt_dict_initial)
-                        if bgt_dict_final != {}:
-                            graph = conversion(bgt_dict_final['cityObjectMember'])
-                            Outfile.write(graph.serialize(format='nt'))
-                        line = f.readline()
-                        i += 1
+            if file not in [ "bgt_pand.gml", "bgt_begroeidterreindeel.gml", "bgt_wegdeel.gml"]:
+                FileRoundTwo.append(file)
+                continue
+            else:
+                convertFile(zip, file, True)
+        # for file in FileRoundTwo:
+        #     convertFile(zip, file, True)

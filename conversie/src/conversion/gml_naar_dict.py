@@ -77,7 +77,7 @@ def geometrie_terugzetten(bgt_dict):
                     print('error while putting xml in dict: {0}'.format(e))
 
     except Exception as e:
-        print(e)
+        pass
 
     _bgt_dict['cityObjectMember'][typeElement]["type"] = type
 
