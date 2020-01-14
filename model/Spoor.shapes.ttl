@@ -1,0 +1,68 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gml: <http://www.opengis.net/ont/gml#> .
+@prefix gsp: <http://www.opengis.net/ont/geosparql#> .
+@prefix imgeo: <http://definities.geostandaarden.nl/def/imgeo#> .
+@prefix imgeo-col: <http://definities.geostandaarden.nl/imgeo/id/collection/> .
+@prefix imgeo-sh: <http://definities.geostandaarden.nl/def/imgeo/> .
+@prefix nen3610: <http://definities.geostandaarden.nl/def/nen3610#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+#########################################
+# imgeo:Spoor
+#########################################
+
+imgeo-sh:Spoor a sh:NodeShape ;
+  sh:name "imgeo:Spoor" ;
+  sh:targetClass imgeo:Spoor ;
+  sh:property
+    imgeo-sh:Spoor_functie ,
+    imgeo-sh:Spoor_opTalud ,
+    imgeo-sh:Spoor_geometrie2d ,
+    imgeo-sh:Spoor_lod0Surface ;
+.
+
+imgeo-sh:Spoor_functie a sh:PropertyShape ;
+  sh:name "imgeo:functie" ;
+  sh:path imgeo:functie ;
+  sh:node [
+    sh:property [
+      sh:path [ sh:inversePath skos:member ] ;
+      sh:in (
+        imgeo-col:FunctieSpoor
+        # imgeo-col:FunctieSpoorPlus
+      ) ;
+      sh:minCount 1 ;
+    ] ;
+  ] ;
+.
+
+imgeo-sh:Spoor_opTalud a sh:PropertyShape ;
+  sh:name "imgeo:opTalud" ;
+  sh:path imgeo:opTalud ;
+  sh:datatype xsd:boolean ;
+  sh:minCount 1 ;
+  sh:maxCount 1 ;
+.
+
+imgeo-sh:Spoor_geometrie2d a sh:PropertyShape ;
+  sh:name "imgeo:geometrie2d" ;
+  sh:path imgeo:geometrie2d ;
+  sh:class
+    gsp:Geometry ,
+    gml:Surface ;
+  sh:minCount 1 ;
+  sh:maxCount 1 ;
+.
+
+imgeo-sh:Spoor_lod0Surface a sh:PropertyShape ;
+  sh:name "imgeo:lod0Surface" ;
+  sh:path imgeo:lod0Surface ;
+  sh:class
+    gsp:Geometry ,
+    gml:Surface ;
+  sh:maxCount 1 ;
+.
