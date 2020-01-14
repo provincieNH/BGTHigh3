@@ -1,0 +1,858 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix imgeo: <http://definities.geostandaarden.nl/def/imgeo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+imgeo:NietBgt_Bak a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeBak_niet_bgt>;
+  rdfs:label "niet-bgt";
+  rdfs:subClassOf imgeo:Bak .
+
+imgeo:Boomteelt_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_boomteelt>;
+  rdfs:label "boomteelt";
+  rdfs:subClassOf imgeo:BegroeidTerreindeel .
+
+imgeo:Bouwland_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_bouwland>;
+  rdfs:label "bouwland";
+  rdfs:subClassOf imgeo:BegroeidTerreindeel .
+
+imgeo:Akkerbouw_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_akkerbouw>;
+  rdfs:label "akkerbouw";
+  rdfs:subClassOf imgeo:Bouwland_BegroeidTerreindeel .
+
+imgeo:Bollenteelt_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_bollenteelt>;
+  rdfs:label "bollenteelt";
+  rdfs:subClassOf imgeo:Bouwland_BegroeidTerreindeel .
+
+imgeo:Braakliggend_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_braakliggend>;
+  rdfs:label "braakliggend";
+  rdfs:subClassOf imgeo:Bouwland_BegroeidTerreindeel .
+
+imgeo:Vollegrondsteelt_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_vollegrondsteelt>;
+  rdfs:label "vollegrondsteelt";
+  rdfs:subClassOf imgeo:Bouwland_BegroeidTerreindeel .
+
+imgeo:Duin_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_duin>;
+  rdfs:label "duin";
+  rdfs:subClassOf imgeo:BegroeidTerreindeel .
+
+imgeo:GeslotenDuinvegetatie_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_gesloten_duinvegetatie>;
+  rdfs:label "gesloten duinvegetatie";
+  rdfs:subClassOf imgeo:Duin_BegroeidTerreindeel .
+
+imgeo:OpenDuinvegetatie_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_open_duinvegetatie>;
+  rdfs:label "open duinvegetatie";
+  rdfs:subClassOf imgeo:Duin_BegroeidTerreindeel .
+
+imgeo:Fruitteelt_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_fruitteelt>;
+  rdfs:label "fruitteelt";
+  rdfs:subClassOf imgeo:BegroeidTerreindeel .
+
+imgeo:HoogstamBoomgaarden_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_hoogstam_boomgaarden>;
+  rdfs:label "hoogstam boomgaarden";
+  rdfs:subClassOf imgeo:Fruitteelt_BegroeidTerreindeel .
+
+imgeo:KleinFruit_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_klein_fruit>;
+  rdfs:label "klein fruit";
+  rdfs:subClassOf imgeo:Fruitteelt_BegroeidTerreindeel .
+
+imgeo:LaagstamBoomgaarden_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_laagstam_boomgaarden>;
+  rdfs:label "laagstam boomgaarden";
+  rdfs:subClassOf imgeo:Fruitteelt_BegroeidTerreindeel .
+
+imgeo:Wijngaarden_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_wijngaarden>;
+  rdfs:label "wijngaarden";
+  rdfs:subClassOf imgeo:Fruitteelt_BegroeidTerreindeel .
+
+imgeo:GemengdBos_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_gemengd_bos>;
+  rdfs:label "gemengd bos";
+  rdfs:subClassOf imgeo:BegroeidTerreindeel .
+
+imgeo:GraslandAgrarisch_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_grasland_agrarisch>;
+  rdfs:label "grasland agrarisch";
+  rdfs:subClassOf imgeo:BegroeidTerreindeel .
+
+imgeo:GraslandOverig_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_grasland_overig>;
+  rdfs:label "grasland overig";
+  rdfs:subClassOf imgeo:BegroeidTerreindeel .
+
+imgeo:Groenvoorziening_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_groenvoorziening>;
+  rdfs:label "groenvoorziening";
+  rdfs:subClassOf imgeo:BegroeidTerreindeel .
+
+imgeo:Bodembedekkers_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_bodembedekkers>;
+  rdfs:label "bodembedekkers";
+  rdfs:subClassOf imgeo:Groenvoorziening_BegroeidTerreindeel .
+
+imgeo:Bosplantsoen_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_bosplantsoen>;
+  rdfs:label "bosplantsoen";
+  rdfs:subClassOf imgeo:Groenvoorziening_BegroeidTerreindeel .
+
+imgeo:Gras-EnKruidachtigen_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_gras_en_kruidachtigen>;
+  rdfs:label "gras- en kruidachtigen";
+  rdfs:subClassOf imgeo:Groenvoorziening_BegroeidTerreindeel .
+
+imgeo:Heesters_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_heesters>;
+  rdfs:label "heesters";
+  rdfs:subClassOf imgeo:Groenvoorziening_BegroeidTerreindeel .
+
+imgeo:Planten_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_planten>;
+  rdfs:label "planten";
+  rdfs:subClassOf imgeo:Groenvoorziening_BegroeidTerreindeel .
+
+imgeo:Struikrozen_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_struikrozen>;
+  rdfs:label "struikrozen";
+  rdfs:subClassOf imgeo:Groenvoorziening_BegroeidTerreindeel .
+
+imgeo:Heide_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_heide>;
+  rdfs:label "heide";
+  rdfs:subClassOf imgeo:BegroeidTerreindeel .
+
+imgeo:Houtwal_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_houtwal>;
+  rdfs:label "houtwal";
+  rdfs:subClassOf imgeo:BegroeidTerreindeel .
+
+imgeo:Kwelder_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_kwelder>;
+  rdfs:label "kwelder";
+  rdfs:subClassOf imgeo:BegroeidTerreindeel .
+
+imgeo:Loofbos_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_loofbos>;
+  rdfs:label "loofbos";
+  rdfs:subClassOf imgeo:BegroeidTerreindeel .
+
+imgeo:GriendEnHakhout_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_griend_en_hakhout>;
+  rdfs:label "griend en hakhout";
+  rdfs:subClassOf imgeo:Loofbos_BegroeidTerreindeel .
+
+imgeo:Moeras_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_moeras>;
+  rdfs:label "moeras";
+  rdfs:subClassOf imgeo:BegroeidTerreindeel .
+
+imgeo:Naaldbos_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_naaldbos>;
+  rdfs:label "naaldbos";
+  rdfs:subClassOf imgeo:BegroeidTerreindeel .
+
+imgeo:Rietland_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_rietland>;
+  rdfs:label "rietland";
+  rdfs:subClassOf imgeo:BegroeidTerreindeel .
+
+imgeo:Struiken_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_struiken>;
+  rdfs:label "struiken";
+  rdfs:subClassOf imgeo:BegroeidTerreindeel .
+
+imgeo:Transitie_BegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_transitie>;
+  rdfs:label "transitie";
+  rdfs:subClassOf imgeo:BegroeidTerreindeel .
+
+imgeo:NietBgt_Bord a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeBord_niet_bgt>;
+  rdfs:label "niet-bgt";
+  rdfs:subClassOf imgeo:Bord .
+
+imgeo:Kering_FunctioneelGebied a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeFunctioneelGebied_kering>;
+  rdfs:label "kering";
+  rdfs:subClassOf imgeo:FunctioneelGebied .
+
+imgeo:NietBgt_FunctioneelGebied a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeFunctioneelGebied_niet_bgt>;
+  rdfs:label "niet-bgt";
+  rdfs:subClassOf imgeo:FunctioneelGebied .
+
+imgeo:NietBgt_Installatie a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeInstallatie_niet_bgt>;
+  rdfs:label "niet-bgt";
+  rdfs:subClassOf imgeo:Installatie .
+
+imgeo:NietBgt_Kast a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeKast_niet_bgt>;
+  rdfs:label "niet-bgt";
+  rdfs:subClassOf imgeo:Kast .
+
+imgeo:Gemaal_Kunstwerkdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeKunstwerk_gemaal>;
+  rdfs:label "gemaal";
+  rdfs:subClassOf imgeo:Kunstwerkdeel .
+
+imgeo:Hoogspanningsmast_Kunstwerkdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeKunstwerk_hoogspanningsmast>;
+  rdfs:label "hoogspanningsmast";
+  rdfs:subClassOf imgeo:Kunstwerkdeel .
+
+imgeo:NietBgt_Kunstwerkdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeKunstwerk_niet_bgt>;
+  rdfs:label "niet-bgt";
+  rdfs:subClassOf imgeo:Kunstwerkdeel .
+
+imgeo:Perron_Kunstwerkdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeKunstwerk_perron>;
+  rdfs:label "perron";
+  rdfs:subClassOf imgeo:Kunstwerkdeel .
+
+imgeo:Sluis_Kunstwerkdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeKunstwerk_sluis>;
+  rdfs:label "sluis";
+  rdfs:subClassOf imgeo:Kunstwerkdeel .
+
+imgeo:Steiger_Kunstwerkdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeKunstwerk_steiger>;
+  rdfs:label "steiger";
+  rdfs:subClassOf imgeo:Kunstwerkdeel .
+
+imgeo:Strekdam_Kunstwerkdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeKunstwerk_strekdam>;
+  rdfs:label "strekdam";
+  rdfs:subClassOf imgeo:Kunstwerkdeel .
+
+imgeo:Stuw_Kunstwerkdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeKunstwerk_stuw>;
+  rdfs:label "stuw";
+  rdfs:subClassOf imgeo:Kunstwerkdeel .
+
+imgeo:Transitie_Kunstwerkdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeKunstwerk_transitie>;
+  rdfs:label "transitie";
+  rdfs:subClassOf imgeo:Kunstwerkdeel .
+
+imgeo:NietBgt_Mast a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeMast_niet_bgt>;
+  rdfs:label "niet-bgt";
+  rdfs:subClassOf imgeo:Mast .
+
+imgeo:Erf_OnbegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerrein_erf>;
+  rdfs:label "erf";
+  rdfs:subClassOf imgeo:OnbegroeidTerreindeel .
+
+imgeo:GeslotenVerharding_OnbegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerrein_gesloten_verharding>;
+  rdfs:label "gesloten verharding";
+  rdfs:subClassOf imgeo:OnbegroeidTerreindeel .
+
+imgeo:Asfalt_OnbegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_asfalt>;
+  rdfs:label "asfalt";
+  rdfs:subClassOf imgeo:GeslotenVerharding_OnbegroeidTerreindeel .
+
+imgeo:Cementbeton_OnbegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_cementbeton>;
+  rdfs:label "cementbeton";
+  rdfs:subClassOf imgeo:GeslotenVerharding_OnbegroeidTerreindeel .
+
+imgeo:Kunststof_OnbegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_kunststof>;
+  rdfs:label "kunststof";
+  rdfs:subClassOf imgeo:GeslotenVerharding_OnbegroeidTerreindeel .
+
+imgeo:HalfVerhard_OnbegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerrein_half_verhard>;
+  rdfs:label "half verhard";
+  rdfs:subClassOf imgeo:OnbegroeidTerreindeel .
+
+imgeo:Grasklinkers_OnbegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_grasklinkers>;
+  rdfs:label "grasklinkers";
+  rdfs:subClassOf imgeo:HalfVerhard_OnbegroeidTerreindeel .
+
+imgeo:Gravel_OnbegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_gravel>;
+  rdfs:label "gravel";
+  rdfs:subClassOf imgeo:HalfVerhard_OnbegroeidTerreindeel .
+
+imgeo:Grind_OnbegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_grind>;
+  rdfs:label "grind";
+  rdfs:subClassOf imgeo:HalfVerhard_OnbegroeidTerreindeel .
+
+imgeo:Puin_OnbegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_puin>;
+  rdfs:label "puin";
+  rdfs:subClassOf imgeo:HalfVerhard_OnbegroeidTerreindeel .
+
+imgeo:Schelpen_OnbegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_schelpen>;
+  rdfs:label "schelpen";
+  rdfs:subClassOf imgeo:HalfVerhard_OnbegroeidTerreindeel .
+
+imgeo:Onverhard_OnbegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerrein_onverhard>;
+  rdfs:label "onverhard";
+  rdfs:subClassOf imgeo:OnbegroeidTerreindeel .
+
+imgeo:Boomschors_OnbegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_boomschors>;
+  rdfs:label "boomschors";
+  rdfs:subClassOf imgeo:Onverhard_OnbegroeidTerreindeel .
+
+imgeo:Zand_OnbegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_zand>,
+    <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerrein_zand>;
+  rdfs:label "zand";
+  rdfs:subClassOf imgeo:OnbegroeidTerreindeel, imgeo:Onverhard_OnbegroeidTerreindeel .
+
+imgeo:OpenVerharding_OnbegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerrein_open_verharding>;
+  rdfs:label "open verharding";
+  rdfs:subClassOf imgeo:OnbegroeidTerreindeel .
+
+imgeo:BetonElement_OnbegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_beton_element>;
+  rdfs:label "beton element";
+  rdfs:subClassOf imgeo:OpenVerharding_OnbegroeidTerreindeel .
+
+imgeo:Betonstraatstenen_OnbegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_betonstraatstenen>;
+  rdfs:label "betonstraatstenen";
+  rdfs:subClassOf imgeo:OpenVerharding_OnbegroeidTerreindeel .
+
+imgeo:GebakkenKlinkers_OnbegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_gebakken_klinkers>;
+  rdfs:label "gebakken klinkers";
+  rdfs:subClassOf imgeo:OpenVerharding_OnbegroeidTerreindeel .
+
+imgeo:Sierbestrating_OnbegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_sierbestrating>;
+  rdfs:label "sierbestrating";
+  rdfs:subClassOf imgeo:OpenVerharding_OnbegroeidTerreindeel .
+
+imgeo:Tegels_OnbegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_tegels>;
+  rdfs:label "tegels";
+  rdfs:subClassOf imgeo:OpenVerharding_OnbegroeidTerreindeel .
+
+imgeo:Transitie_OnbegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerrein_transitie>;
+  rdfs:label "transitie";
+  rdfs:subClassOf imgeo:OnbegroeidTerreindeel .
+
+imgeo:StrandEnStrandwal_OnbegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_strand_en_strandwal>;
+  rdfs:label "strand en strandwal";
+  rdfs:subClassOf imgeo:Zand_OnbegroeidTerreindeel .
+
+imgeo:Zandverstuiving_OnbegroeidTerreindeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_zandverstuiving>;
+  rdfs:label "zandverstuiving";
+  rdfs:subClassOf imgeo:Zand_OnbegroeidTerreindeel .
+
+imgeo:Oever_Slootkant_OndersteunendWaterdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeOndersteunendWaterdeel_oever_slootkant>;
+  rdfs:label "oever, slootkant";
+  rdfs:subClassOf imgeo:OndersteunendWaterdeel .
+
+imgeo:Slik_OndersteunendWaterdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeOndersteunendWaterdeel_slik>;
+  rdfs:label "slik";
+  rdfs:subClassOf imgeo:OndersteunendWaterdeel .
+
+imgeo:Transitie_OndersteunendWaterdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeOndersteunendWaterdeel_transitie>;
+  rdfs:label "transitie";
+  rdfs:subClassOf imgeo:OndersteunendWaterdeel .
+
+imgeo:GeslotenVerharding_OndersteunendWegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeel_gesloten_verharding>;
+  rdfs:label "gesloten verharding";
+  rdfs:subClassOf imgeo:OndersteunendWegdeel .
+
+imgeo:Cementbeton_OndersteunendWegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_cementbeton>;
+  rdfs:label "cementbeton";
+  rdfs:subClassOf imgeo:GeslotenVerharding_OndersteunendWegdeel .
+
+imgeo:Asfalt_OndersteunendWegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_asfalt>;
+  rdfs:label "asfalt";
+  rdfs:subClassOf imgeo:GeslotenVerharding_OndersteunendWegdeel .
+
+imgeo:Groenvoorziening_OndersteunendWegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeel_groenvoorziening>;
+  rdfs:label "groenvoorziening";
+  rdfs:subClassOf imgeo:OndersteunendWegdeel .
+
+imgeo:Bodembedekkers_OndersteunendWegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_bodembedekkers>;
+  rdfs:label "bodembedekkers";
+  rdfs:subClassOf imgeo:Groenvoorziening_OndersteunendWegdeel .
+
+imgeo:Bosplantsoen_OndersteunendWegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_bosplantsoen>;
+  rdfs:label "bosplantsoen";
+  rdfs:subClassOf imgeo:Groenvoorziening_OndersteunendWegdeel .
+
+imgeo:Gras-EnKruidachtigen_OndersteunendWegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_gras_en_kruidachtigen>;
+  rdfs:label "gras- en kruidachtigen";
+  rdfs:subClassOf imgeo:Groenvoorziening_OndersteunendWegdeel .
+
+imgeo:Heesters_OndersteunendWegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_heesters>;
+  rdfs:label "heesters";
+  rdfs:subClassOf imgeo:Groenvoorziening_OndersteunendWegdeel .
+
+imgeo:Planten_OndersteunendWegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_planten>;
+  rdfs:label "planten";
+  rdfs:subClassOf imgeo:Groenvoorziening_OndersteunendWegdeel .
+
+imgeo:Struikrozen_OndersteunendWegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_struikrozen>;
+  rdfs:label "struikrozen";
+  rdfs:subClassOf imgeo:Groenvoorziening_OndersteunendWegdeel .
+
+imgeo:HalfVerhard_OndersteunendWegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeel_half_verhard>;
+  rdfs:label "half verhard";
+  rdfs:subClassOf imgeo:OndersteunendWegdeel .
+
+imgeo:Grasklinkers_OndersteunendWegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_grasklinkers>;
+  rdfs:label "grasklinkers";
+  rdfs:subClassOf imgeo:HalfVerhard_OndersteunendWegdeel .
+
+imgeo:Gravel_OndersteunendWegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_gravel>;
+  rdfs:label "gravel";
+  rdfs:subClassOf imgeo:HalfVerhard_OndersteunendWegdeel .
+
+imgeo:Grind_OndersteunendWegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_grind>;
+  rdfs:label "grind";
+  rdfs:subClassOf imgeo:HalfVerhard_OndersteunendWegdeel .
+
+imgeo:Puin_OndersteunendWegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_puin>;
+  rdfs:label "puin";
+  rdfs:subClassOf imgeo:HalfVerhard_OndersteunendWegdeel .
+
+imgeo:Schelpen_OndersteunendWegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_schelpen>;
+  rdfs:label "schelpen";
+  rdfs:subClassOf imgeo:HalfVerhard_OndersteunendWegdeel .
+
+imgeo:Onverhard_OndersteunendWegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeel_onverhard>;
+  rdfs:label "onverhard";
+  rdfs:subClassOf imgeo:OndersteunendWegdeel .
+
+imgeo:Boomschors_OndersteunendWegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_boomschors>;
+  rdfs:label "boomschors";
+  rdfs:subClassOf imgeo:Onverhard_OndersteunendWegdeel .
+
+imgeo:Zand_OndersteunendWegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_zand>;
+  rdfs:label "zand";
+  rdfs:subClassOf imgeo:Onverhard_OndersteunendWegdeel .
+
+imgeo:OpenVerharding_OndersteunendWegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeel_open_verharding>;
+  rdfs:label "open verharding";
+  rdfs:subClassOf imgeo:OndersteunendWegdeel .
+
+imgeo:BetonElement_OndersteunendWegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_beton_element>;
+  rdfs:label "beton element";
+  rdfs:subClassOf imgeo:OpenVerharding_OndersteunendWegdeel .
+
+imgeo:Betonstraatstenen_OndersteunendWegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_betonstraatstenen>;
+  rdfs:label "betonstraatstenen";
+  rdfs:subClassOf imgeo:OpenVerharding_OndersteunendWegdeel .
+
+imgeo:GebakkenKlinkers_OndersteunendWegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_gebakken_klinkers>;
+  rdfs:label "gebakken klinkers";
+  rdfs:subClassOf imgeo:OpenVerharding_OndersteunendWegdeel .
+
+imgeo:Sierbestrating_OndersteunendWegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_sierbestrating>;
+  rdfs:label "sierbestrating";
+  rdfs:subClassOf imgeo:OpenVerharding_OndersteunendWegdeel .
+
+imgeo:Tegels_OndersteunendWegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_tegels>;
+  rdfs:label "tegels";
+  rdfs:subClassOf imgeo:OpenVerharding_OndersteunendWegdeel .
+
+imgeo:Transitie_OndersteunendWegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeel_transitie>;
+  rdfs:label "transitie";
+  rdfs:subClassOf imgeo:OndersteunendWegdeel .
+
+imgeo:AdministratiefGebied_OpenbareRuimteLabel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeOpenbareRuimte_Administratief_gebied>;
+  rdfs:label "Administratief gebied";
+  rdfs:subClassOf imgeo:OpenbareRuimteLabel .
+
+imgeo:Kunstwerk_OpenbareRuimteLabel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeOpenbareRuimte_Kunstwerk>;
+  rdfs:label "Kunstwerk";
+  rdfs:subClassOf imgeo:OpenbareRuimteLabel .
+
+imgeo:LandschappelijkGebied_OpenbareRuimteLabel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeOpenbareRuimte_Landschappelijk_gebied>;
+  rdfs:label "Landschappelijk gebied";
+  rdfs:subClassOf imgeo:OpenbareRuimteLabel .
+
+imgeo:Spoorbaan_OpenbareRuimteLabel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeOpenbareRuimte_Spoorbaan>;
+  rdfs:label "Spoorbaan";
+  rdfs:subClassOf imgeo:OpenbareRuimteLabel .
+
+imgeo:Terrein_OpenbareRuimteLabel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeOpenbareRuimte_Terrein>;
+  rdfs:label "Terrein";
+  rdfs:subClassOf imgeo:OpenbareRuimteLabel .
+
+imgeo:Water_OpenbareRuimteLabel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeOpenbareRuimte_Water>;
+  rdfs:label "Water";
+  rdfs:subClassOf imgeo:OpenbareRuimteLabel .
+
+imgeo:Weg_OpenbareRuimteLabel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeOpenbareRuimte_Weg>;
+  rdfs:label "Weg";
+  rdfs:subClassOf imgeo:OpenbareRuimteLabel .
+
+imgeo:Aquaduct_Overbruggingsdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverbrugging_aquaduct>;
+  rdfs:label "aquaduct";
+  rdfs:subClassOf imgeo:Overbruggingsdeel .
+
+imgeo:Brug_Overbruggingsdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverbrugging_brug>;
+  rdfs:label "brug";
+  rdfs:subClassOf imgeo:Overbruggingsdeel .
+
+imgeo:Ecoduct_Overbruggingsdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverbrugging_ecoduct>;
+  rdfs:label "ecoduct";
+  rdfs:subClassOf imgeo:Overbruggingsdeel .
+
+imgeo:FlyOver_Overbruggingsdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverbrugging_fly_over>;
+  rdfs:label "fly-over";
+  rdfs:subClassOf imgeo:Overbruggingsdeel .
+
+imgeo:Viaduct_Overbruggingsdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverbrugging_viaduct>;
+  rdfs:label "viaduct";
+  rdfs:subClassOf imgeo:Overbruggingsdeel .
+
+imgeo:Bassin_OverigBouwwerk a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverigBouwwerk_bassin>;
+  rdfs:label "bassin";
+  rdfs:subClassOf imgeo:OverigBouwwerk .
+
+imgeo:Bezinkbak_OverigBouwwerk a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverigBouwwerk_bezinkbak>;
+  rdfs:label "bezinkbak";
+  rdfs:subClassOf imgeo:OverigBouwwerk .
+
+imgeo:LageTrafo_OverigBouwwerk a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverigBouwwerk_lage_trafo>;
+  rdfs:label "lage trafo";
+  rdfs:subClassOf imgeo:OverigBouwwerk .
+
+imgeo:NietBgt_OverigBouwwerk a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverigBouwwerk_niet_bgt>;
+  rdfs:label "niet-bgt";
+  rdfs:subClassOf imgeo:OverigBouwwerk .
+
+imgeo:OpenLoods_OverigBouwwerk a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverigBouwwerk_open_loods>;
+  rdfs:label "open loods";
+  rdfs:subClassOf imgeo:OverigBouwwerk .
+
+imgeo:Opslagtank_OverigBouwwerk a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverigBouwwerk_opslagtank>;
+  rdfs:label "opslagtank";
+  rdfs:subClassOf imgeo:OverigBouwwerk .
+
+imgeo:Overkapping_OverigBouwwerk a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverigBouwwerk_overkapping>;
+  rdfs:label "overkapping";
+  rdfs:subClassOf imgeo:OverigBouwwerk .
+
+imgeo:Transitie_OverigBouwwerk a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverigBouwwerk_transitie>;
+  rdfs:label "transitie";
+  rdfs:subClassOf imgeo:OverigBouwwerk .
+
+imgeo:Windturbine_OverigBouwwerk a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverigBouwwerk_windturbine>;
+  rdfs:label "windturbine";
+  rdfs:subClassOf imgeo:OverigBouwwerk .
+
+imgeo:NietBgt_Paal a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypePaal_niet_bgt>;
+  rdfs:label "niet-bgt";
+  rdfs:subClassOf imgeo:Paal .
+
+imgeo:NietBgt_Put a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypePut_niet_bgt>;
+  rdfs:label "niet-bgt";
+  rdfs:subClassOf imgeo:Put .
+
+imgeo:Damwand_Scheiding a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeScheiding_damwand>;
+  rdfs:label "damwand";
+  rdfs:subClassOf imgeo:Scheiding .
+
+imgeo:Geluidsscherm_Scheiding a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeScheiding_geluidsscherm>;
+  rdfs:label "geluidsscherm";
+  rdfs:subClassOf imgeo:Scheiding .
+
+imgeo:Hek_Scheiding a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeScheiding_hek>;
+  rdfs:label "hek";
+  rdfs:subClassOf imgeo:Scheiding .
+
+imgeo:Kademuur_Scheiding a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeScheiding_kademuur>;
+  rdfs:label "kademuur";
+  rdfs:subClassOf imgeo:Scheiding .
+
+imgeo:Muur_Scheiding a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeScheiding_muur>;
+  rdfs:label "muur";
+  rdfs:subClassOf imgeo:Scheiding .
+
+imgeo:NietBgt_Scheiding a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeScheiding_niet_bgt>;
+  rdfs:label "niet-bgt";
+  rdfs:subClassOf imgeo:Scheiding .
+
+imgeo:Transitie_Scheiding a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeScheiding_transitie>;
+  rdfs:label "transitie";
+  rdfs:subClassOf imgeo:Scheiding .
+
+imgeo:Walbescherming_Scheiding a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeScheiding_walbescherming>;
+  rdfs:label "walbescherming";
+  rdfs:subClassOf imgeo:Scheiding .
+
+imgeo:NietBgt_Sensor a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeSensor_niet_bgt>;
+  rdfs:label "niet-bgt";
+  rdfs:subClassOf imgeo:Sensor .
+
+imgeo:NietBgt_Straatmeubilair a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeStraatmeubilair_niet_bgt>;
+  rdfs:label "niet-bgt";
+  rdfs:subClassOf imgeo:Straatmeubilair .
+
+imgeo:NietBgt_VegetatieObject a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeVegetatieObject_niet_bgt>;
+  rdfs:label "niet-bgt";
+  rdfs:subClassOf imgeo:VegetatieObject .
+
+imgeo:Greppel_DrogeSloot_Waterdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeWater_greppel_droge_sloot>;
+  rdfs:label "greppel, droge sloot";
+  rdfs:subClassOf imgeo:Waterdeel .
+
+imgeo:Transitie_Waterdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeWater_transitie>;
+  rdfs:label "transitie";
+  rdfs:subClassOf imgeo:Waterdeel .
+
+imgeo:Waterloop_Waterdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeWater_waterloop>;
+  rdfs:label "waterloop";
+  rdfs:subClassOf imgeo:Waterdeel .
+
+imgeo:Beek_Waterdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeWaterPlus_beek>;
+  rdfs:label "beek";
+  rdfs:subClassOf imgeo:Waterloop_Waterdeel .
+
+imgeo:Bron_Waterdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeWaterPlus_bron>;
+  rdfs:label "bron";
+  rdfs:subClassOf imgeo:Waterloop_Waterdeel .
+
+imgeo:Gracht_Waterdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeWaterPlus_gracht>;
+  rdfs:label "gracht";
+  rdfs:subClassOf imgeo:Waterloop_Waterdeel .
+
+imgeo:Kanaal_Waterdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeWaterPlus_kanaal>;
+  rdfs:label "kanaal";
+  rdfs:subClassOf imgeo:Waterloop_Waterdeel .
+
+imgeo:Rivier_Waterdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeWaterPlus_rivier>;
+  rdfs:label "rivier";
+  rdfs:subClassOf imgeo:Waterloop_Waterdeel .
+
+imgeo:Sloot_Waterdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeWaterPlus_sloot>;
+  rdfs:label "sloot";
+  rdfs:subClassOf imgeo:Waterloop_Waterdeel .
+
+imgeo:Watervlakte_Waterdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeWater_watervlakte>;
+  rdfs:label "watervlakte";
+  rdfs:subClassOf imgeo:Waterdeel .
+
+imgeo:Haven_Waterdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeWaterPlus_haven>;
+  rdfs:label "haven";
+  rdfs:subClassOf imgeo:Watervlakte_Waterdeel .
+
+imgeo:Meer_Plas_Ven_Vijver_Waterdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeWaterPlus_meer_plas_ven_vijver>;
+  rdfs:label "meer, plas, ven, vijver";
+  rdfs:subClassOf imgeo:Watervlakte_Waterdeel .
+
+imgeo:Zee_Waterdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeWater_zee>;
+  rdfs:label "zee";
+  rdfs:subClassOf imgeo:Waterdeel .
+
+imgeo:NietBgt_Waterinrichtingselement a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeWaterinrichting_niet_bgt>;
+  rdfs:label "niet-bgt";
+  rdfs:subClassOf imgeo:Waterinrichtingselement .
+
+imgeo:GeslotenVerharding_Wegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_gesloten_verharding>;
+  rdfs:label "gesloten verharding";
+  rdfs:subClassOf imgeo:Wegdeel .
+
+imgeo:Asfalt_Wegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_asfalt>;
+  rdfs:label "asfalt";
+  rdfs:subClassOf imgeo:GeslotenVerharding_Wegdeel .
+
+imgeo:Cementbeton_Wegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_cementbeton>;
+  rdfs:label "cementbeton";
+  rdfs:subClassOf imgeo:GeslotenVerharding_Wegdeel .
+
+imgeo:HalfVerhard_Wegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_half_verhard>;
+  rdfs:label "half verhard";
+  rdfs:subClassOf imgeo:Wegdeel .
+
+imgeo:Grasklinkers_Wegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_grasklinkers>;
+  rdfs:label "grasklinkers";
+  rdfs:subClassOf imgeo:HalfVerhard_Wegdeel .
+
+imgeo:Gravel_Wegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_gravel>;
+  rdfs:label "gravel";
+  rdfs:subClassOf imgeo:HalfVerhard_Wegdeel .
+
+imgeo:Grind_Wegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_grind>;
+  rdfs:label "grind";
+  rdfs:subClassOf imgeo:HalfVerhard_Wegdeel .
+
+imgeo:Puin_Wegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_puin>;
+  rdfs:label "puin";
+  rdfs:subClassOf imgeo:HalfVerhard_Wegdeel .
+
+imgeo:Schelpen_Wegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_schelpen>;
+  rdfs:label "schelpen";
+  rdfs:subClassOf imgeo:HalfVerhard_Wegdeel .
+
+imgeo:Onverhard_Wegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_onverhard>;
+  rdfs:label "onverhard";
+  rdfs:subClassOf imgeo:Wegdeel .
+
+imgeo:Boomschors_Wegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_boomschors>;
+  rdfs:label "boomschors";
+  rdfs:subClassOf imgeo:Onverhard_Wegdeel .
+
+imgeo:Zand_Wegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_zand>;
+  rdfs:label "zand";
+  rdfs:subClassOf imgeo:Onverhard_Wegdeel .
+
+imgeo:OpenVerharding_Wegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_open_verharding>;
+  rdfs:label "open verharding";
+  rdfs:subClassOf imgeo:Wegdeel .
+
+imgeo:BetonElement_Wegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_beton_element>;
+  rdfs:label "beton element";
+  rdfs:subClassOf imgeo:OpenVerharding_Wegdeel .
+
+imgeo:Betonstraatstenen_Wegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_betonstraatstenen>;
+  rdfs:label "betonstraatstenen";
+  rdfs:subClassOf imgeo:OpenVerharding_Wegdeel .
+
+imgeo:GebakkenKlinkers_Wegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_gebakken_klinkers>;
+  rdfs:label "gebakken klinkers";
+  rdfs:subClassOf imgeo:OpenVerharding_Wegdeel .
+
+imgeo:Sierbestrating_Wegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_sierbestrating>;
+  rdfs:label "sierbestrating";
+  rdfs:subClassOf imgeo:OpenVerharding_Wegdeel .
+
+imgeo:Tegels_Wegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_tegels>;
+  rdfs:label "tegels";
+  rdfs:subClassOf imgeo:OpenVerharding_Wegdeel .
+
+imgeo:Transitie_Wegdeel a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_transitie>;
+  rdfs:label "transitie";
+  rdfs:subClassOf imgeo:Wegdeel .
+
+imgeo:NietBgt_Weginrichtingselement a owl:Class;
+  dct:subject <http://www.geostandaarden.nl/imgeo/def/2.1#TypeWeginrichting_niet_bgt>;
+  rdfs:label "niet-bgt";
+  rdfs:subClassOf imgeo:Weginrichtingselement .

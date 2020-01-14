@@ -1,0 +1,172 @@
+classlabel,lowerclass,lowerclasslabel,broader,lowerclassbroaderlabel,upperclasslabel
+Bak,http://www.geostandaarden.nl/imgeo/def/2.1#TypeBak_niet_bgt,niet-bgt,,,Bak
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_boomteelt,boomteelt,,,BegroeidTerreindeel
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_bouwland,bouwland,,,BegroeidTerreindeel
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_akkerbouw,akkerbouw,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_bouwland,bouwland,
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_bollenteelt,bollenteelt,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_bouwland,bouwland,
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_braakliggend,braakliggend,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_bouwland,bouwland,
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_vollegrondsteelt,vollegrondsteelt,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_bouwland,bouwland,
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_duin,duin,,,BegroeidTerreindeel
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_gesloten_duinvegetatie,gesloten duinvegetatie,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_duin,duin,
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_open_duinvegetatie,open duinvegetatie,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_duin,duin,
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_fruitteelt,fruitteelt,,,BegroeidTerreindeel
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_hoogstam_boomgaarden,hoogstam boomgaarden,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_fruitteelt,fruitteelt,
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_klein_fruit,klein fruit,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_fruitteelt,fruitteelt,
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_laagstam_boomgaarden,laagstam boomgaarden,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_fruitteelt,fruitteelt,
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_wijngaarden,wijngaarden,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_fruitteelt,fruitteelt,
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_gemengd_bos,gemengd bos,,,BegroeidTerreindeel
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_grasland_agrarisch,grasland agrarisch,,,BegroeidTerreindeel
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_grasland_overig,grasland overig,,,BegroeidTerreindeel
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_groenvoorziening,groenvoorziening,,,BegroeidTerreindeel
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_bodembedekkers,bodembedekkers,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_groenvoorziening,groenvoorziening,
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_bosplantsoen,bosplantsoen,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_groenvoorziening,groenvoorziening,
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_gras_en_kruidachtigen,gras- en kruidachtigen,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_groenvoorziening,groenvoorziening,
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_heesters,heesters,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_groenvoorziening,groenvoorziening,
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_planten,planten,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_groenvoorziening,groenvoorziening,
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_struikrozen,struikrozen,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_groenvoorziening,groenvoorziening,
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_heide,heide,,,BegroeidTerreindeel
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_houtwal,houtwal,,,BegroeidTerreindeel
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_kwelder,kwelder,,,BegroeidTerreindeel
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_loofbos,loofbos,,,BegroeidTerreindeel
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerreinPlus_griend_en_hakhout,griend en hakhout,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_loofbos,loofbos,
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_moeras,moeras,,,BegroeidTerreindeel
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_naaldbos,naaldbos,,,BegroeidTerreindeel
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_rietland,rietland,,,BegroeidTerreindeel
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_struiken,struiken,,,BegroeidTerreindeel
+BegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenBegroeidTerrein_transitie,transitie,,,BegroeidTerreindeel
+Bord,http://www.geostandaarden.nl/imgeo/def/2.1#TypeBord_niet_bgt,niet-bgt,,,Bord
+FunctioneelGebied,http://www.geostandaarden.nl/imgeo/def/2.1#TypeFunctioneelGebied_kering,kering,,,FunctioneelGebied
+FunctioneelGebied,http://www.geostandaarden.nl/imgeo/def/2.1#TypeFunctioneelGebied_niet_bgt,niet-bgt,,,FunctioneelGebied
+Installatie,http://www.geostandaarden.nl/imgeo/def/2.1#TypeInstallatie_niet_bgt,niet-bgt,,,Installatie
+Kast,http://www.geostandaarden.nl/imgeo/def/2.1#TypeKast_niet_bgt,niet-bgt,,,Kast
+Kunstwerkdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeKunstwerk_gemaal,gemaal,,,Kunstwerkdeel
+Kunstwerkdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeKunstwerk_hoogspanningsmast,hoogspanningsmast,,,Kunstwerkdeel
+Kunstwerkdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeKunstwerk_niet_bgt,niet-bgt,,,Kunstwerkdeel
+Kunstwerkdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeKunstwerk_perron,perron,,,Kunstwerkdeel
+Kunstwerkdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeKunstwerk_sluis,sluis,,,Kunstwerkdeel
+Kunstwerkdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeKunstwerk_steiger,steiger,,,Kunstwerkdeel
+Kunstwerkdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeKunstwerk_strekdam,strekdam,,,Kunstwerkdeel
+Kunstwerkdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeKunstwerk_stuw,stuw,,,Kunstwerkdeel
+Kunstwerkdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeKunstwerk_transitie,transitie,,,Kunstwerkdeel
+Mast,http://www.geostandaarden.nl/imgeo/def/2.1#TypeMast_niet_bgt,niet-bgt,,,Mast
+OnbegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerrein_erf,erf,,,OnbegroeidTerreindeel
+OnbegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerrein_gesloten_verharding,gesloten verharding,,,OnbegroeidTerreindeel
+OnbegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_asfalt,asfalt,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerrein_gesloten_verharding,gesloten verharding,
+OnbegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_cementbeton,cementbeton,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerrein_gesloten_verharding,gesloten verharding,
+OnbegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_kunststof,kunststof,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerrein_gesloten_verharding,gesloten verharding,
+OnbegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerrein_half_verhard,half verhard,,,OnbegroeidTerreindeel
+OnbegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_grasklinkers,grasklinkers,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerrein_half_verhard,half verhard,
+OnbegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_gravel,gravel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerrein_half_verhard,half verhard,
+OnbegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_grind,grind,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerrein_half_verhard,half verhard,
+OnbegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_puin,puin,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerrein_half_verhard,half verhard,
+OnbegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_schelpen,schelpen,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerrein_half_verhard,half verhard,
+OnbegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerrein_onverhard,onverhard,,,OnbegroeidTerreindeel
+OnbegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_boomschors,boomschors,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerrein_onverhard,onverhard,
+OnbegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_zand,zand,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerrein_onverhard,onverhard,
+OnbegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerrein_open_verharding,open verharding,,,OnbegroeidTerreindeel
+OnbegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_beton_element,beton element,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerrein_open_verharding,open verharding,
+OnbegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_betonstraatstenen,betonstraatstenen,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerrein_open_verharding,open verharding,
+OnbegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_gebakken_klinkers,gebakken klinkers,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerrein_open_verharding,open verharding,
+OnbegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_sierbestrating,sierbestrating,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerrein_open_verharding,open verharding,
+OnbegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_tegels,tegels,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerrein_open_verharding,open verharding,
+OnbegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerrein_transitie,transitie,,,OnbegroeidTerreindeel
+OnbegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerrein_zand,zand,,,OnbegroeidTerreindeel
+OnbegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_strand_en_strandwal,strand en strandwal,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerrein_zand,zand,
+OnbegroeidTerreindeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerreinPlus_zandverstuiving,zandverstuiving,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOnbegroeidTerrein_zand,zand,
+OndersteunendWaterdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeOndersteunendWaterdeel_oever_slootkant,"oever, slootkant",,,OndersteunendWaterdeel
+OndersteunendWaterdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeOndersteunendWaterdeel_slik,slik,,,OndersteunendWaterdeel
+OndersteunendWaterdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeOndersteunendWaterdeel_transitie,transitie,,,OndersteunendWaterdeel
+OndersteunendWegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeel_gesloten_verharding,gesloten verharding,,,OndersteunendWegdeel
+OndersteunendWegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_cementbeton,cementbeton,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeel_gesloten_verharding,gesloten verharding,
+OndersteunendWegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_asfalt,asfalt,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeel_gesloten_verharding,gesloten verharding,
+OndersteunendWegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeel_groenvoorziening,groenvoorziening,,,OndersteunendWegdeel
+OndersteunendWegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_bodembedekkers,bodembedekkers,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeel_groenvoorziening,groenvoorziening,
+OndersteunendWegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_bosplantsoen,bosplantsoen,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeel_groenvoorziening,groenvoorziening,
+OndersteunendWegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_gras_en_kruidachtigen,gras- en kruidachtigen,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeel_groenvoorziening,groenvoorziening,
+OndersteunendWegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_heesters,heesters,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeel_groenvoorziening,groenvoorziening,
+OndersteunendWegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_planten,planten,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeel_groenvoorziening,groenvoorziening,
+OndersteunendWegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_struikrozen,struikrozen,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeel_groenvoorziening,groenvoorziening,
+OndersteunendWegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeel_half_verhard,half verhard,,,OndersteunendWegdeel
+OndersteunendWegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_grasklinkers,grasklinkers,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeel_half_verhard,half verhard,
+OndersteunendWegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_gravel,gravel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeel_half_verhard,half verhard,
+OndersteunendWegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_grind,grind,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeel_half_verhard,half verhard,
+OndersteunendWegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_puin,puin,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeel_half_verhard,half verhard,
+OndersteunendWegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_schelpen,schelpen,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeel_half_verhard,half verhard,
+OndersteunendWegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeel_onverhard,onverhard,,,OndersteunendWegdeel
+OndersteunendWegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_boomschors,boomschors,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeel_onverhard,onverhard,
+OndersteunendWegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_zand,zand,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeel_onverhard,onverhard,
+OndersteunendWegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeel_open_verharding,open verharding,,,OndersteunendWegdeel
+OndersteunendWegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_beton_element,beton element,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeel_open_verharding,open verharding,
+OndersteunendWegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_betonstraatstenen,betonstraatstenen,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeel_open_verharding,open verharding,
+OndersteunendWegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_gebakken_klinkers,gebakken klinkers,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeel_open_verharding,open verharding,
+OndersteunendWegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_sierbestrating,sierbestrating,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeel_open_verharding,open verharding,
+OndersteunendWegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeelPlus_tegels,tegels,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeel_open_verharding,open verharding,
+OndersteunendWegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenOndersteunendWegdeel_transitie,transitie,,,OndersteunendWegdeel
+OpenbareRuimteLabel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeOpenbareRuimte_Administratief_gebied,Administratief gebied,,,OpenbareRuimteLabel
+OpenbareRuimteLabel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeOpenbareRuimte_Kunstwerk,Kunstwerk,,,OpenbareRuimteLabel
+OpenbareRuimteLabel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeOpenbareRuimte_Landschappelijk_gebied,Landschappelijk gebied,,,OpenbareRuimteLabel
+OpenbareRuimteLabel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeOpenbareRuimte_Spoorbaan,Spoorbaan,,,OpenbareRuimteLabel
+OpenbareRuimteLabel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeOpenbareRuimte_Terrein,Terrein,,,OpenbareRuimteLabel
+OpenbareRuimteLabel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeOpenbareRuimte_Water,Water,,,OpenbareRuimteLabel
+OpenbareRuimteLabel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeOpenbareRuimte_Weg,Weg,,,OpenbareRuimteLabel
+Overbruggingsdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverbrugging_aquaduct,aquaduct,,,Overbruggingsdeel
+Overbruggingsdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverbrugging_brug,brug,,,Overbruggingsdeel
+Overbruggingsdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverbrugging_ecoduct,ecoduct,,,Overbruggingsdeel
+Overbruggingsdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverbrugging_fly_over,fly-over,,,Overbruggingsdeel
+Overbruggingsdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverbrugging_viaduct,viaduct,,,Overbruggingsdeel
+OverigBouwwerk,http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverigBouwwerk_bassin,bassin,,,OverigBouwwerk
+OverigBouwwerk,http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverigBouwwerk_bezinkbak,bezinkbak,,,OverigBouwwerk
+OverigBouwwerk,http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverigBouwwerk_lage_trafo,lage trafo,,,OverigBouwwerk
+OverigBouwwerk,http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverigBouwwerk_niet_bgt,niet-bgt,,,OverigBouwwerk
+OverigBouwwerk,http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverigBouwwerk_open_loods,open loods,,,OverigBouwwerk
+OverigBouwwerk,http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverigBouwwerk_opslagtank,opslagtank,,,OverigBouwwerk
+OverigBouwwerk,http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverigBouwwerk_overkapping,overkapping,,,OverigBouwwerk
+OverigBouwwerk,http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverigBouwwerk_transitie,transitie,,,OverigBouwwerk
+OverigBouwwerk,http://www.geostandaarden.nl/imgeo/def/2.1#TypeOverigBouwwerk_windturbine,windturbine,,,OverigBouwwerk
+Paal,http://www.geostandaarden.nl/imgeo/def/2.1#TypePaal_niet_bgt,niet-bgt,,,Paal
+Put,http://www.geostandaarden.nl/imgeo/def/2.1#TypePut_niet_bgt,niet-bgt,,,Put
+Scheiding,http://www.geostandaarden.nl/imgeo/def/2.1#TypeScheiding_damwand,damwand,,,Scheiding
+Scheiding,http://www.geostandaarden.nl/imgeo/def/2.1#TypeScheiding_geluidsscherm,geluidsscherm,,,Scheiding
+Scheiding,http://www.geostandaarden.nl/imgeo/def/2.1#TypeScheiding_hek,hek,,,Scheiding
+Scheiding,http://www.geostandaarden.nl/imgeo/def/2.1#TypeScheiding_kademuur,kademuur,,,Scheiding
+Scheiding,http://www.geostandaarden.nl/imgeo/def/2.1#TypeScheiding_muur,muur,,,Scheiding
+Scheiding,http://www.geostandaarden.nl/imgeo/def/2.1#TypeScheiding_niet_bgt,niet-bgt,,,Scheiding
+Scheiding,http://www.geostandaarden.nl/imgeo/def/2.1#TypeScheiding_transitie,transitie,,,Scheiding
+Scheiding,http://www.geostandaarden.nl/imgeo/def/2.1#TypeScheiding_walbescherming,walbescherming,,,Scheiding
+Sensor,http://www.geostandaarden.nl/imgeo/def/2.1#TypeSensor_niet_bgt,niet-bgt,,,Sensor
+Straatmeubilair,http://www.geostandaarden.nl/imgeo/def/2.1#TypeStraatmeubilair_niet_bgt,niet-bgt,,,Straatmeubilair
+VegetatieObject,http://www.geostandaarden.nl/imgeo/def/2.1#TypeVegetatieObject_niet_bgt,niet-bgt,,,VegetatieObject
+Waterdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeWater_greppel_droge_sloot,"greppel, droge sloot",,,Waterdeel
+Waterdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeWater_transitie,transitie,,,Waterdeel
+Waterdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeWater_waterloop,waterloop,,,Waterdeel
+Waterdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeWaterPlus_beek,beek,http://www.geostandaarden.nl/imgeo/def/2.1#TypeWater_waterloop,waterloop,
+Waterdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeWaterPlus_bron,bron,http://www.geostandaarden.nl/imgeo/def/2.1#TypeWater_waterloop,waterloop,
+Waterdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeWaterPlus_gracht,gracht,http://www.geostandaarden.nl/imgeo/def/2.1#TypeWater_waterloop,waterloop,
+Waterdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeWaterPlus_kanaal,kanaal,http://www.geostandaarden.nl/imgeo/def/2.1#TypeWater_waterloop,waterloop,
+Waterdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeWaterPlus_rivier,rivier,http://www.geostandaarden.nl/imgeo/def/2.1#TypeWater_waterloop,waterloop,
+Waterdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeWaterPlus_sloot,sloot,http://www.geostandaarden.nl/imgeo/def/2.1#TypeWater_waterloop,waterloop,
+Waterdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeWater_watervlakte,watervlakte,,,Waterdeel
+Waterdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeWaterPlus_haven,haven,http://www.geostandaarden.nl/imgeo/def/2.1#TypeWater_watervlakte,watervlakte,
+Waterdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeWaterPlus_meer_plas_ven_vijver,"meer, plas, ven, vijver",http://www.geostandaarden.nl/imgeo/def/2.1#TypeWater_watervlakte,watervlakte,
+Waterdeel,http://www.geostandaarden.nl/imgeo/def/2.1#TypeWater_zee,zee,,,Waterdeel
+Waterinrichtingselement,http://www.geostandaarden.nl/imgeo/def/2.1#TypeWaterinrichting_niet_bgt,niet-bgt,,,Waterinrichtingselement
+Wegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_gesloten_verharding,gesloten verharding,,,Wegdeel
+Wegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_asfalt,asfalt,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_gesloten_verharding,gesloten verharding,
+Wegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_cementbeton,cementbeton,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_gesloten_verharding,gesloten verharding,
+Wegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_half_verhard,half verhard,,,Wegdeel
+Wegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_grasklinkers,grasklinkers,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_half_verhard,half verhard,
+Wegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_gravel,gravel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_half_verhard,half verhard,
+Wegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_grind,grind,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_half_verhard,half verhard,
+Wegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_puin,puin,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_half_verhard,half verhard,
+Wegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_schelpen,schelpen,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_half_verhard,half verhard,
+Wegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_onverhard,onverhard,,,Wegdeel
+Wegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_boomschors,boomschors,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_onverhard,onverhard,
+Wegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_zand,zand,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_onverhard,onverhard,
+Wegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_open_verharding,open verharding,,,Wegdeel
+Wegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_beton_element,beton element,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_open_verharding,open verharding,
+Wegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_betonstraatstenen,betonstraatstenen,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_open_verharding,open verharding,
+Wegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_gebakken_klinkers,gebakken klinkers,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_open_verharding,open verharding,
+Wegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_sierbestrating,sierbestrating,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_open_verharding,open verharding,
+Wegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWegPlus_tegels,tegels,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_open_verharding,open verharding,
+Wegdeel,http://www.geostandaarden.nl/imgeo/def/2.1#FysiekVoorkomenWeg_transitie,transitie,,,Wegdeel
+Weginrichtingselement,http://www.geostandaarden.nl/imgeo/def/2.1#TypeWeginrichting_niet_bgt,niet-bgt,,,Weginrichtingselement

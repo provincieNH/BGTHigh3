@@ -1,0 +1,29 @@
+PREFIX : <https://register.geostandaarden.nl/informatiemodel/imgeo/2.1.1#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX citygml: <https://register.geostandaarden.nl/informatiemodel/imgeo-citygml/2.1.1#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX imgeo: <https://definities.geostandaarden.nl/def/imgeo#>
+PREFIX dct: <http://purl.org/dc/terms/>
+select ?classlabel ?lowerclass ?lowerclasslabel ?broader ?lowerclassbroaderlabel ?upperclasslabel
+where {
+#    bind (:BegroeidTerreindeel as ?class)
+    ?class a owl:Class ;
+           rdfs:subClassOf ?l1 .
+    ?l1 owl:onProperty ?prop  ;
+        owl:allValuesFrom/owl:oneOf/rdf:rest*/rdf:first ?subclass .
+    filter( ?prop in (citygml:surfaceMaterial, citygml:class, :bgt-fysiekVoorkomen, :openbareRuimteType, :hoortBijTypeOverbrugging, :bgt-type ))
+    ?lowerclass skos:broader* ?subclass .
+    ?lowerclass skos:prefLabel ?lclabel .
+    
+    bind(strafter(str(?class), '#') as ?classlabel)
+    bind(str(?lclabel) as ?lowerclasslabel)
+    optional {
+        ?lowerclass skos:broader ?broader .
+        ?broader skos:prefLabel ?cbrlabel .
+        bind (str(?cbrlabel) as ?lowerclassbroaderlabel )
+    }
+
+    bind(if (bound(?cbrlabel), '' , ?classlabel) as ?upperclasslabel)
+}

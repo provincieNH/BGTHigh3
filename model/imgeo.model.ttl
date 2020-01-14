@@ -57,6 +57,10 @@ imgeo:lv-publicatiedatum a owl:DatatypeProperty ;
 # generiek
 #########################################
 
+imgeo:functie a owl:ObjectProperty ;
+  rdfs:label "functie" ;
+.
+
 imgeo:opTalud a owl:DatatypeProperty ;
   rdfs:label "op talud" ;
   rdfs:range xsd:boolean ;
