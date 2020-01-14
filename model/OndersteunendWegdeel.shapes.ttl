@@ -1,0 +1,75 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gml: <http://www.opengis.net/ont/gml#> .
+@prefix gsp: <http://www.opengis.net/ont/geosparql#> .
+@prefix imgeo: <http://definities.geostandaarden.nl/def/imgeo#> .
+@prefix imgeo-col: <http://definities.geostandaarden.nl/imgeo/id/collection/> .
+@prefix imgeo-sh: <http://definities.geostandaarden.nl/def/imgeo/> .
+@prefix nen3610: <http://definities.geostandaarden.nl/def/nen3610#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+#########################################
+# imgeo:OndersteunendWegdeel
+#########################################
+
+imgeo-sh:OndersteunendWegdeel a sh:NodeShape ;
+  sh:name "imgeo:OndersteunendWegdeel" ;
+  sh:targetClass imgeo:OndersteunendWegdeel ;
+  sh:property
+    imgeo-sh:OndersteunendWegdeel_functie ,
+    imgeo-sh:OndersteunendWegdeel_opTalud ,
+    imgeo-sh:OndersteunendWegdeel_kruinlijn ,
+    imgeo-sh:OndersteunendWegdeel_geometrie2d ,
+    imgeo-sh:OndersteunendWegdeel_lod0Surface ;
+.
+
+imgeo-sh:OndersteunendWegdeel_functie a sh:PropertyShape ;
+  sh:name "imgeo:functie" ;
+  sh:path imgeo:functie ;
+  sh:node [
+    sh:property [
+      sh:path [ sh:inversePath skos:member ] ;
+      sh:hasValue imgeo-col:FunctieOndersteunendWegdeel ;
+      sh:minCount 1 ;
+    ] ;
+  ] ;
+.
+
+imgeo-sh:OndersteunendWegdeel_opTalud a sh:PropertyShape ;
+  sh:name "imgeo:opTalud" ;
+  sh:path imgeo:opTalud ;
+  sh:datatype xsd:boolean ;
+  sh:minCount 1 ;
+  sh:maxCount 1 ;
+.
+
+imgeo-sh:OndersteunendWegdeel_kruinlijn a sh:PropertyShape ;
+  sh:name "imgeo:kruinlijn" ;
+  sh:path imgeo:kruinlijn ;
+  sh:class
+    gsp:Geometry ,
+    gml:Curve ;
+  sh:maxCount 1 ;
+.
+
+imgeo-sh:OndersteunendWegdeel_geometrie2d a sh:PropertyShape ;
+  sh:name "imgeo:geometrie2d" ;
+  sh:path imgeo:geometrie2d ;
+  sh:class
+    gsp:Geometry ,
+    gml:Surface ;
+  sh:minCount 1 ;
+  sh:maxCount 1 ;
+.
+
+imgeo-sh:OndersteunendWegdeel_lod0Surface a sh:PropertyShape ;
+  sh:name "imgeo:lod0Surface" ;
+  sh:path imgeo:lod0Surface ;
+  sh:class
+    gsp:Geometry ,
+    gml:Surface ;
+  sh:maxCount 1 ;
+.
