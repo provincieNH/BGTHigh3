@@ -106,3 +106,18 @@ imgeo-sh:Geometry a sh:NodeShape ;
     sh:maxCount 1 ;
   ] ;
 .
+
+imgeo-sh:Curve a sh:NodeShape ;
+  sh:name "gml:Curve" ;
+  sh:targetClass gml:Curve ;
+.
+
+imgeo-sh:Surface a sh:NodeShape ;
+  sh:name "gml:Surface" ;
+  sh:targetClass gml:Surface ;
+.
+
+imgeo-sh:MultiSurface a sh:NodeShape ;
+  sh:name "gml:MultiSurface" ;
+  sh:targetClass gml:MultiSurface ;
+.
