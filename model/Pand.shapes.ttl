@@ -11,15 +11,17 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-imgeo-sh:Pand a sh:Nodeshape ;
+imgeo-sh:Pand a sh:NodeShape ;
     sh:targetClass imgeo:Pand ;
     sh:property [
+        sh:name "gsp:sfIntersects" ;
         sh:path gsp:sfIntersects ;
         sh:class bag:Pand ;
         sh:nodeKind sh:IRI ;
         rdfs:comment "Dit relateert het imgeo:Pand aan het bag:Pand."@nl ;
     ] ;
     sh:property [
+        sh:name "imgeo:nummeraanduidingreeks" ;
         sh:path imgeo:nummeraanduidingreeks ;
         sh:class imgeo:Nummeraanduidingreeks ;
         sh:nodeKind sh:BlankNodeOrIRI ;
@@ -27,19 +29,31 @@ imgeo-sh:Pand a sh:Nodeshape ;
     ]
     .
 
-imgeo-sh:Nummeraanduidingreeks a sh:Nodeshape ;
+imgeo-sh:Nummeraanduidingreeks a sh:NodeShape ;
     sh:targetClass imgeo:Nummeraanduidingreeks ;
     sh:property [
+        sh:name "imgeo:hoogsteHuisnummer" ;
         sh:path imgeo:hoogsteHuisnummer ;
-        sh:datatype xsd:string ;
+        sh:class bag:Nummeraanduiding ;
+        sh:nodeKind sh:IRI ;
     ] ;
     sh:property [
+        sh:name "imgeo:laagsteHuisnummer" ;
         sh:path imgeo:laagsteHuisnummer ;
-        sh:datatype xsd:string ;
+        sh:class bag:Nummeraanduiding ;
+        sh:nodeKind sh:IRI ;
     ] ;
     sh:property [
-        sh:path imgeo:nummeraanduidingreeksnummeraanduidingreeks ;
+        sh:name "imgeo:nummeraanduidingreeksnummeraanduidingreeks" ;
+        sh:path imgeo:nummeraanduidingreeksnummeraanduidingreeks ; #Pano: rdfs:label?
         sh:datatype xsd:string ;
     ] ;
     .
 
+# voor plaatje
+imgeo-sh:BagPand a sh:NodeShape ;
+    sh:name "bag:Pand" ;
+    sh:targetClass bag:Pand ;
+.
+
+bag:Pand a owl:Class .

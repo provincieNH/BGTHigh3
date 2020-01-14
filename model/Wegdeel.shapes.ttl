@@ -26,6 +26,7 @@ imgeo-sh:Wegdeel a sh:NodeShape ;
 .
 
 imgeo-sh:Wegdeel_functie a sh:PropertyShape ;
+  sh:name "imgeo:functie" ;
   sh:path imgeo:functie ;
   sh:node [
     sh:property [
@@ -37,6 +38,7 @@ imgeo-sh:Wegdeel_functie a sh:PropertyShape ;
 .
 
 imgeo-sh:Wegdeel_opTalud a sh:PropertyShape ;
+  sh:name "imgeo:opTalud" ;
   sh:path imgeo:opTalud ;
   sh:datatype xsd:boolean ;
   sh:minCount 1 ;
@@ -44,6 +46,7 @@ imgeo-sh:Wegdeel_opTalud a sh:PropertyShape ;
 .
 
 imgeo-sh:Wegdeel_kruinlijn a sh:PropertyShape ;
+  sh:name "imgeo:kruinlijn" ;
   sh:path imgeo:kruinlijn ;
   sh:class
     gsp:Geometry ,
@@ -52,6 +55,7 @@ imgeo-sh:Wegdeel_kruinlijn a sh:PropertyShape ;
 .
 
 imgeo-sh:Wegdeel_geometrie2d a sh:PropertyShape ;
+  sh:name "imgeo:geometrie2d" ;
   sh:path imgeo:geometrie2d ;
   sh:class
     gsp:Geometry ,
@@ -61,6 +65,7 @@ imgeo-sh:Wegdeel_geometrie2d a sh:PropertyShape ;
 .
 
 imgeo-sh:Wegdeel_lod0Surface a sh:PropertyShape ;
+  sh:name "imgeo:lod0Surface" ;
   sh:path imgeo:lod0Surface ;
   sh:class
     gsp:Geometry ,

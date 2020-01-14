@@ -25,6 +25,7 @@ imgeo-sh:BegroeidTerreindeel a sh:NodeShape ;
 .
 
 imgeo-sh:BegroeidTerreindeel_opTalud a sh:PropertyShape ;
+  sh:name "imgeo:opTalud" ;
   sh:path imgeo:opTalud ;
   sh:datatype xsd:boolean ;
   sh:minCount 1 ;
@@ -32,6 +33,7 @@ imgeo-sh:BegroeidTerreindeel_opTalud a sh:PropertyShape ;
 .
 
 imgeo-sh:BegroeidTerreindeel_kruinlijn a sh:PropertyShape ;
+  sh:name "imgeo:kruinlijn" ;
   sh:path imgeo:kruinlijn ;
   sh:class
     gsp:Geometry ,
@@ -40,6 +42,7 @@ imgeo-sh:BegroeidTerreindeel_kruinlijn a sh:PropertyShape ;
 .
 
 imgeo-sh:BegroeidTerreindeel_geometrie2d a sh:PropertyShape ;
+  sh:name "imgeo:geometrie2d" ;
   sh:path imgeo:geometrie2d ;
   sh:class
     gsp:Geometry ,
@@ -49,6 +52,7 @@ imgeo-sh:BegroeidTerreindeel_geometrie2d a sh:PropertyShape ;
 .
 
 imgeo-sh:BegroeidTerreindeel_lod0Surface a sh:PropertyShape ;
+  sh:name "imgeo:lod0Surface" ;
   sh:path imgeo:lod0Surface ;
   sh:class
     gsp:Geometry ,
