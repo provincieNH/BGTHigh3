@@ -24,6 +24,7 @@ imgeo-sh:Object a sh:NodeShape ;
 .
 
 imgeo-sh:Object_bgt-status a sh:PropertyShape ;
+  sh:name "imgeo:bgt-status" ;
   sh:path imgeo:bgt-status ;
   sh:nodeKind sh:IRI ;
   sh:class skos:Concept ;
@@ -39,6 +40,7 @@ imgeo-sh:Object_bgt-status a sh:PropertyShape ;
 .
 
 imgeo-sh:Object_relatieveHoogteligging a sh:PropertyShape ;
+  sh:name "imgeo:relatieveHoogteligging" ;
   sh:path imgeo:relatieveHoogteligging ;
   sh:datatype xsd:integer ;
   sh:minCount 1 ;
@@ -46,6 +48,7 @@ imgeo-sh:Object_relatieveHoogteligging a sh:PropertyShape ;
 .
 
 imgeo-sh:Object_isPrimaryTopicOf a sh:PropertyShape ;
+  sh:name "foaf:isPrimaryTopicOf" ;
   sh:path foaf:isPrimaryTopicOf ;
   sh:nodeKind sh:IRI ;
   sh:class imgeo:Objectregistratie ;
@@ -65,6 +68,7 @@ imgeo-sh:Objectregistratie a sh:NodeShape ;
 .
 
 imgeo-sh:Objectregistratie_bronhouder a sh:PropertyShape ;
+  sh:name "imgeo:bronhouder" ;
   sh:path imgeo:bronhouder ;
   sh:nodeKind sh:BlankNodeOrIRI ;
   sh:minCount 1 ;
@@ -72,13 +76,15 @@ imgeo-sh:Objectregistratie_bronhouder a sh:PropertyShape ;
 .
 
 imgeo-sh:Objectregistratie_inOnderzoek a sh:PropertyShape ;
-  sh:path imgeo:bronhouder ;
+  sh:name "imgeo:inOnderzoek" ;
+  sh:path imgeo:inOnderzoek ;
   sh:datatype xsd:boolean ;
   sh:minCount 1 ;
   sh:maxCount 1 ;
 .
 
 imgeo-sh:Objectregistratie_lv-publicatiedatum a sh:PropertyShape ;
+  sh:name "imgeo:lv-publicatiedatum" ;
   sh:path imgeo:lv-publicatiedatum ;
   sh:datatype xsd:dateTime ;
   sh:maxCount 1 ;
@@ -91,6 +97,7 @@ imgeo-sh:Objectregistratie_lv-publicatiedatum a sh:PropertyShape ;
 imgeo-sh:Geometry a sh:NodeShape ;
   sh:targetClass gsp:Geometry ;
   sh:property [
+    sh:name "gsp:asWKT" ;
     sh:path gsp:asWKT ;
     sh:datatype gsp:wktLiteral ;
     sh:minCount 1 ;
