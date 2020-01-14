@@ -41,20 +41,23 @@ def geometrie_terugzetten(bgt_dict):
     for _features in _bgt_dict['CityModel']['cityObjectMember']:
         for _feature in _features.values():
             try:
-                _new_dict[_feature['@gml:id']] = dict_xmliseren(_feature['imgeo:geometrie2dBegroeidTerreindeel'])
+                # zet om
+                _xml_geom = dict_xmliseren(_feature['imgeo:geometrie2dBegroeidTerreindeel'])
+                # pas aan in dict
+
+                try:
+                    _bgt_dict['CityModel']['cityObjectMember']['todo dit moet een index zin!']['PlantCover']['imgeo:geometrie2dBegroeidTerreindeel'] = _xml_geom
+                except Exception as e:
+                    print('error while putting xml in dict: {0}'.format(e))
             except Exception as e:
                 print(e)
 
-    print(_new_dict)
+    #
+    # # maak dict met alleen maar geometrieën
+    # bgt_dict_xml_geom = {}
 
 
-
-
-    # maak dict met alleen maar geometrieën
-    bgt_dict_xml_geom = {}
-
-
-    return bgt_dict_xml_geom
+    return _bgt_dict
 
 def dict_xmliseren(geom_dict):
     """
