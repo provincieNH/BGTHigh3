@@ -16,6 +16,7 @@
 #########################################
 
 imgeo-sh:Wegdeel a sh:NodeShape ;
+  sh:name "imgeo:Wegdeel" ;
   sh:targetClass imgeo:Wegdeel ;
   sh:property
     imgeo-sh:Wegdeel_functie ,
@@ -31,7 +32,10 @@ imgeo-sh:Wegdeel_functie a sh:PropertyShape ;
   sh:node [
     sh:property [
       sh:path [ sh:inversePath skos:member ] ;
-      sh:hasValue imgeo-col:Wegdeelfuncties ;
+      sh:in (
+        imgeo-col:FunctieWeg
+        imgeo-col:FunctieWegPlus
+      ) ;
       sh:minCount 1 ;
     ] ;
   ] ;

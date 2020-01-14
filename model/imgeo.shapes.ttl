@@ -16,6 +16,7 @@
 #########################################
 
 imgeo-sh:Object a sh:NodeShape ;
+  sh:name "imgeo:Object" ;
   sh:targetClass imgeo:Object ;
   sh:property
     imgeo-sh:Object_bgt-status ,
@@ -60,6 +61,7 @@ imgeo-sh:Object_isPrimaryTopicOf a sh:PropertyShape ;
 #########################################
 
 imgeo-sh:Objectregistratie a sh:NodeShape ;
+  sh:name "imgeo:Objectregistratie" ;
   sh:targetClass imgeo:Objectregistratie ;
   sh:property
     imgeo-sh:Objectregistratie_bronhouder ,

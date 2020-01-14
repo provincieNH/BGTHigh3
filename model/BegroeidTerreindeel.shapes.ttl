@@ -16,6 +16,7 @@
 #########################################
 
 imgeo-sh:BegroeidTerreindeel a sh:NodeShape ;
+  sh:name "imgeo:BegroeidTerreindeel" ;
   sh:targetClass imgeo:BegroeidTerreindeel ;
   sh:property
     imgeo-sh:BegroeidTerreindeel_opTalud ,
