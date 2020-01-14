@@ -9,5 +9,6 @@
 
 ###  https://register.geostandaarden.nl/informatiemodel/imgeo/2.1.1#BegroeidTerreindeel
 imgeo:BegroeidTerreindeel rdf:type owl:Class ;
+    rdfs:label "Begroeid terreindeel" ;
     rdfs:subClassOf imgeo:Object , <http://definities.geostandaarden.nl/def/nen3610#Terrein> ;
 .
