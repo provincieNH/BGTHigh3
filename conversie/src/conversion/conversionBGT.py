@@ -20,7 +20,7 @@ def conversionPand(graph, dict, idId) :
         hoogsteNummer = dict["imgeo:Nummeraanduidingreeks"]["imgeo:identificatieBAGVBOHoogsteHuisnummer"]
         graph.add((bnodeNummerAanduidingsReeks,predefinedStringToIRI("imgeo:identificatieBAGVBOHoogsteHuisnummer"),stringToLiteral(hoogsteNummer)))
     elif len(numbers) == 1:
-        graph.add((bnodeNummerAanduidingsReeks,predefinedStringToIRI("imgeo:laagsteHuisnummer"),stringToLiteral(numbers[0])))
+        graph.add((bnodeNummerAanduidingsReeks,predefinedStringToExportToWktIRI("imgeo:laagsteHuisnummer"),stringToLiteral(numbers[0])))
 
     laagsteNummer = dict["imgeo:Nummeraanduidingreeks"]["imgeo:identificatieBAGVBOLaagsteHuisnummer"]
 
@@ -47,6 +47,7 @@ def conversion(dict: collections.OrderedDict) -> rdflib.Graph:
         if className != typeName:
             graph.add((idId, RDF.type, stringToClass(className+"_"+typeName)))
         graph.add((idId, RDF.type, stringToClass(typeName)))
+        graph.add((DocId, RDF.type, predefinedStringToIRI("imgeo:Objectregistratie")))
         graph.add((idId, FOAF.isPrimaryTopicOf, DocId))
     for key, value in dict[Class].items():
         if key == "imgeo:identificatie":
@@ -54,13 +55,13 @@ def conversion(dict: collections.OrderedDict) -> rdflib.Graph:
             graph.add((idId, predefinedStringToIRI("nen3610:identificatie"),nen3610Id))
             graph.add((nen3610Id, predefinedStringToIRI("nen3610:namespace"), stringToLiteral(value['imgeo:NEN3610ID']['imgeo:namespace']) ))
             graph.add((nen3610Id, predefinedStringToIRI("nen3610:lokaalID"), stringToLiteral(value['imgeo:NEN3610ID']['imgeo:lokaalID']) ))
-
+            graph.add((nen3610Id, RDF.type, predefinedStringToIRI("nen3610def:NEN3610Identificatie")))
             continue
         if key == "function":
             ReplacetypeName = typeName
             if typeName == "Wegdeel":
                 ReplacetypeName = "Weg"
-            if value["#text"].lower() != "waardeonbekend":
+            if value["#text"].lower() != "waardeonbeExportToWktkend":
                 graph.add((idId, predefinedStringToIRI("imgeo:functie"), predefinedStringToIRI("imgeobegrip:" + value["#text"].title().replace(" ", "")+"_Functie"+ReplacetypeName)))
             continue
         if "imgeo:plus-functie" == key:
@@ -84,9 +85,10 @@ def conversion(dict: collections.OrderedDict) -> rdflib.Graph:
             else:
                 wkt = convertGMLShapetoWKT(value)
                 if wkt != "":
-                    Bnode = rdflib.BNode()
+                    Bnode = stringToId(dict[Class]["@gml:id"]+"-geometry-kruinlijn", "id", className)
                     graph.add((idId, predefinedStringToIRI("geometry:hasGeometry"), Bnode))
                     graph.add((Bnode, predefinedStringToIRI("geometry:asWKT"), wktToLiteral(wkt)))
+                    graph.add((Bnode, RDF.type, predefinedStringToIRI("geometry:Geometry")))
             continue
         if "imgeo:geometrie2d" in key:
             if "@nilReason"in value:
@@ -94,9 +96,10 @@ def conversion(dict: collections.OrderedDict) -> rdflib.Graph:
             else:
                 wkt = convertGMLShapetoWKT(value)
                 if wkt != "":
-                    Bnode = rdflib.BNode()
+                    Bnode = stringToId(dict[Class]["@gml:id"]+"-geometry2d", "id", className)
                     graph.add((idId, predefinedStringToIRI("geometry:hasGeometry"), Bnode))
                     graph.add((Bnode, predefinedStringToIRI("geometry:asWKT"), wktToLiteral(wkt)))
+                    graph.add((Bnode, RDF.type, predefinedStringToIRI("geometry:Geometry")))
             continue
 
         if type(value) == collections.OrderedDict:
@@ -174,29 +177,28 @@ def convertFile(zip, file, sample):
         j = 0
         i = 0
         if sample:
-            maxLines = 100000
+            maxLines = 250000
         else:
             maxLines = 900000000
         while len(line) > 0 and i < maxLines:
             Outfile = open("output/output_"+str(file[:-4])+"_"+str(j)+".nt", "wb+")
             j += 1
             i = 0
-            while i < 100000 and len(line) > 0:
+            while i < 250000 and len(line) > 0:
                 bgt_dict_initial = xml_naar_dict(line)
                 bgt_dict_final = geometrie_terugzetten(bgt_dict_initial)
                 if bgt_dict_final != {}:
+                    graph = conversion(bgt_dict_final['cityObjectMember'])
                     try:
-                        graph = conversion(bgt_dict_final['cityObjectMember'])
+                        pass
                     except:
                         print("FAILED TO CREATE GRAPH CONTINUEING")
                         continue
                     Outfile.write(graph.serialize(format='nt'))
 
                 i += 1
-                try:
-                    line = f.readline()
-                except:
-                    continue
+                line = f.readline()
+
 
 
 def convertBGT():
@@ -205,10 +207,10 @@ def convertBGT():
     with ZipFile(file_name, 'r') as zip:
         listOfFileNames = zip.namelist()
         for file in listOfFileNames:
-            if file not in [ "bgt_pand.gml", "bgt_begroeidterreindeel.gml", "bgt_wegdeel.gml"]:
+            if file not in [  "bgt_pand.gml"]: # ,
                 FileRoundTwo.append(file)
                 continue
             else:
-                convertFile(zip, file, True)
-        # for file in FileRoundTwo:
-        #     convertFile(zip, file, True)
+                convertFile(zip, file, False)
+        for file in FileRoundTwo:
+            convertFile(zip, file, False)

@@ -14,6 +14,7 @@ imgeo=rdflib.Namespace("http://definities.geostandaarden.nl/def/imgeo#")
 imgeobegrip=rdflib.Namespace("http://definities.geostandaarden.nl/imgeo/id/begrip/")
 foaf=rdflib.Namespace("http://xmlns.com/foaf/0.1/")
 nen3610=rdflib.Namespace("http://definities.geostandaarden.nl/def/nen3610#")
+nen3610def=rdflib.Namespace("http://definities.geostandaarden.nl/def/nen3610/")
 bgtBegrip=rdflib.Namespace("http://bgt.basisregistraties.overheid.nl/id/begrip/")
 geometry=rdflib.Namespace("http://www.opengis.net/ont/geosparql#")
 bag=rdflib.Namespace("http://bag.basisregistraties.overheid.nl/bag/id/pand/")
@@ -74,6 +75,8 @@ def predefinedStringToIRI(inputString):
         return imgeo[suffix]
     if prefix == "nen3610":
         return nen3610[suffix]
+    if prefix == "nen3610def":
+        return nen3610def[suffix]
     if prefix == "bgt":
         return bgt[suffix]
     if prefix == "bgtBegrip":
