@@ -41,8 +41,8 @@ def conversion(dict: collections.OrderedDict) -> rdflib.Graph:
             className = dict[Class]["class"]["#text"].title().replace(" ", "")
         else:
             className = typeName
-        namespace = dict["imgeo:identificatie"]['imgeo:NEN3610ID']['imgeo:namespace']
-        lokaalID = dict["imgeo:identificatie"]['imgeo:NEN3610ID']['imgeo:lokaalID']
+        namespace = dict[Class]["imgeo:identificatie"]['imgeo:NEN3610ID']['imgeo:namespace']
+        lokaalID = dict[Class]["imgeo:identificatie"]['imgeo:NEN3610ID']['imgeo:lokaalID']
         idString = lokaalID
         idId = stringToId(idString, "id", className)
         DocId = stringToId(idString, "doc", className)
@@ -179,15 +179,16 @@ def convertFile(zip, file, sample):
             line = ""
         j = 0
         i = 0
+        notFAILING = True
         if sample:
             maxLines = 250000
         else:
             maxLines = 900000000
-        while len(line) > 0 and i < maxLines:
+        while len(line) > 0 and i < maxLines and notFAILING:
             Outfile = open("output/output_"+str(file[:-4])+"_"+str(j)+".nt", "wb+")
             j += 1
             i = 0
-            while i < 250000 and len(line) > 0:
+            while i < 250000 and len(line) > 0 and notFAILING:
                 bgt_dict_initial = xml_naar_dict(line)
                 bgt_dict_final = geometrie_terugzetten(bgt_dict_initial)
                 if bgt_dict_final != {}:
@@ -210,7 +211,10 @@ def convertFile(zip, file, sample):
                     except:
                         next(f)
                         breakLoop += 1
-                    if breakLoop > 500000
+                    if breakLoop > 500000:
+                        print("FAILED TO READ XML STOPPING PROCESS")
+                        notFAILING =False
+                        break
 
 
 
