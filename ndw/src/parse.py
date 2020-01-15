@@ -7,9 +7,8 @@ import os
 import openpyxl
 from rdflib import BNode, Graph, Literal, Namespace, URIRef, RDFS, XSD, RDF
 
-ONTO = Namespace("http://ndw.nu/ns/intensiteitsmetingen#")
-MEETLOCATIE = Namespace("http://noordholland.nl/ns/ndw/id/meetlocatie/")
-METING = Namespace("http://noordholland.nl/ns/ndw/id/meting/")
+ONTO = Namespace("http://opendata.ndw.nu/ns/historischedata#")
+MEETLOCATIE = Namespace("http://noord-holland.nl/ns/ndw/id/meetlocatie/")
 GEO = Namespace("http://www.opengis.net/ont/geosparql#")
 QB = Namespace('http://purl.org/linked-data/cube#')
 
@@ -79,18 +78,27 @@ def parse(file):
 
     yield ONTO.Voertuiglengte1, RDF.type, ONTO.Voertuig
     yield ONTO.Voertuiglengte1, RDFS.label, Literal("Voertuig tussen 1,85 m en 2,40 m", lang='nl')
+    yield ONTO.Voertuiglengte1, ONTO.lengteOndergrens, Literal(1.85)
+    yield ONTO.Voertuiglengte1, ONTO.lengteBovengrens, Literal(2.4)
 
     yield ONTO.Voertuiglengte2, RDF.type, ONTO.Voertuig
     yield ONTO.Voertuiglengte2, RDFS.label, Literal("Voertuig tussen 2,40 m en 5,60 m", lang='nl')
+    yield ONTO.Voertuiglengte2, ONTO.lengteOndergrens, Literal(2.4)
+    yield ONTO.Voertuiglengte2, ONTO.lengteBovengrens, Literal(5.6)
 
     yield ONTO.Voertuiglengte3, RDF.type, ONTO.Voertuig
     yield ONTO.Voertuiglengte3, RDFS.label, Literal("Voertuig tussen 5,60 m en 11,50 m", lang='nl')
+    yield ONTO.Voertuiglengte3, ONTO.lengteOndergrens, Literal(5.6)
+    yield ONTO.Voertuiglengte3, ONTO.lengteBovengrens, Literal(11.5)
 
     yield ONTO.Voertuiglengte4, RDF.type, ONTO.Voertuig
     yield ONTO.Voertuiglengte4, RDFS.label, Literal("Voertuig tussen 11,50 m en 12,20 m", lang='nl')
+    yield ONTO.Voertuiglengte4, ONTO.lengteOndergrens, Literal(11.5)
+    yield ONTO.Voertuiglengte4, ONTO.lengteBovengrens, Literal(12.2)
 
     yield ONTO.Voertuiglengte5, RDF.type, ONTO.Voertuig
     yield ONTO.Voertuiglengte5, RDFS.label, Literal("Voertuig groter dan 12,20 m", lang='nl')
+    yield ONTO.Voertuiglengte5, ONTO.lengteOndergrens, Literal(12.20)
 
     yield ONTO.VoertuiglengteOnbekend, RDF.type, ONTO.Voertuig
     yield ONTO.VoertuiglengteOnbekend, RDFS.label, Literal("Voertuig met onbepaalde lengte", lang='nl')
