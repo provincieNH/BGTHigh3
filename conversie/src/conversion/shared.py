@@ -15,6 +15,7 @@ imgeobegrip=rdflib.Namespace("http://definities.geostandaarden.nl/imgeo/id/begri
 foaf=rdflib.Namespace("http://xmlns.com/foaf/0.1/")
 nen3610=rdflib.Namespace("http://definities.geostandaarden.nl/def/nen3610#")
 nen3610def=rdflib.Namespace("http://definities.geostandaarden.nl/def/nen3610/")
+nen3610id=rdflib.Namespace("http://definities.geostandaarden.nl/id/nen3610/")
 bgtBegrip=rdflib.Namespace("http://bgt.basisregistraties.overheid.nl/id/begrip/")
 geometry=rdflib.Namespace("http://www.opengis.net/ont/geosparql#")
 bag=rdflib.Namespace("http://bag.basisregistraties.overheid.nl/bag/id/pand/")
@@ -87,6 +88,8 @@ def predefinedStringToIRI(inputString):
         return geometry[suffix]
     if prefix == "bag":
         return bag[suffix]
+    if prefix =="nen3610id":
+        return nen3610id[suffix]
 
 def stringToInteger(inputString):
     return int(inputString), XSD.integer

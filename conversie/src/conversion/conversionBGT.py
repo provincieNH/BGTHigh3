@@ -20,7 +20,7 @@ def conversionPand(graph, dict, idId) :
         hoogsteNummer = dict["imgeo:Nummeraanduidingreeks"]["imgeo:identificatieBAGVBOHoogsteHuisnummer"]
         graph.add((bnodeNummerAanduidingsReeks,predefinedStringToIRI("imgeo:identificatieBAGVBOHoogsteHuisnummer"),stringToLiteral(hoogsteNummer)))
     elif len(numbers) == 1:
-        graph.add((bnodeNummerAanduidingsReeks,predefinedStringToExportToWktIRI("imgeo:laagsteHuisnummer"),stringToLiteral(numbers[0])))
+        graph.add((bnodeNummerAanduidingsReeks,predefinedStringToIRI("imgeo:laagsteHuisnummer"),stringToLiteral(numbers[0])))
 
     laagsteNummer = dict["imgeo:Nummeraanduidingreeks"]["imgeo:identificatieBAGVBOLaagsteHuisnummer"]
 
@@ -41,9 +41,11 @@ def conversion(dict: collections.OrderedDict) -> rdflib.Graph:
             className = dict[Class]["class"]["#text"].title().replace(" ", "")
         else:
             className = typeName
-
-        idId = stringToId(dict[Class]["@gml:id"], "id", className)
-        DocId = stringToId(dict[Class]["@gml:id"], "doc", className)
+        namespace = dict["imgeo:identificatie"]['imgeo:NEN3610ID']['imgeo:namespace']
+        lokaalID = dict["imgeo:identificatie"]['imgeo:NEN3610ID']['imgeo:lokaalID']
+        idString = lokaalID
+        idId = stringToId(idString, "id", className)
+        DocId = stringToId(idString, "doc", className)
         if className != typeName:
             graph.add((idId, RDF.type, stringToClass(className+"_"+typeName)))
         graph.add((idId, RDF.type, stringToClass(typeName)))
@@ -51,7 +53,7 @@ def conversion(dict: collections.OrderedDict) -> rdflib.Graph:
         graph.add((idId, FOAF.isPrimaryTopicOf, DocId))
     for key, value in dict[Class].items():
         if key == "imgeo:identificatie":
-            nen3610Id = predefinedStringToIRI("nen3610:"+value['imgeo:NEN3610ID']['imgeo:lokaalID'])
+            nen3610Id = predefinedStringToIRI("nen3610id:"+idString)
             graph.add((idId, predefinedStringToIRI("nen3610:identificatie"),nen3610Id))
             graph.add((nen3610Id, predefinedStringToIRI("nen3610:namespace"), stringToLiteral(value['imgeo:NEN3610ID']['imgeo:namespace']) ))
             graph.add((nen3610Id, predefinedStringToIRI("nen3610:lokaalID"), stringToLiteral(value['imgeo:NEN3610ID']['imgeo:lokaalID']) ))
@@ -61,7 +63,7 @@ def conversion(dict: collections.OrderedDict) -> rdflib.Graph:
             ReplacetypeName = typeName
             if typeName == "Wegdeel":
                 ReplacetypeName = "Weg"
-            if value["#text"].lower() != "waardeonbeExportToWktkend":
+            if value["#text"].lower() != "waardeonbekend":
                 graph.add((idId, predefinedStringToIRI("imgeo:functie"), predefinedStringToIRI("imgeobegrip:" + value["#text"].title().replace(" ", "")+"_Functie"+ReplacetypeName)))
             continue
         if "imgeo:plus-functie" == key:
@@ -85,7 +87,8 @@ def conversion(dict: collections.OrderedDict) -> rdflib.Graph:
             else:
                 wkt = convertGMLShapetoWKT(value)
                 if wkt != "":
-                    Bnode = stringToId(dict[Class]["@gml:id"]+"-geometry-kruinlijn", "id", className)
+
+                    Bnode = stringToId(idString+"-geometry-kruinlijn", "id", className)
                     graph.add((idId, predefinedStringToIRI("geometry:hasGeometry"), Bnode))
                     graph.add((Bnode, predefinedStringToIRI("geometry:asWKT"), wktToLiteral(wkt)))
                     graph.add((Bnode, RDF.type, predefinedStringToIRI("geometry:Geometry")))
@@ -96,7 +99,7 @@ def conversion(dict: collections.OrderedDict) -> rdflib.Graph:
             else:
                 wkt = convertGMLShapetoWKT(value)
                 if wkt != "":
-                    Bnode = stringToId(dict[Class]["@gml:id"]+"-geometry2d", "id", className)
+                    Bnode = stringToId(idString+"-geometry2d", "id", className)
                     graph.add((idId, predefinedStringToIRI("geometry:hasGeometry"), Bnode))
                     graph.add((Bnode, predefinedStringToIRI("geometry:asWKT"), wktToLiteral(wkt)))
                     graph.add((Bnode, RDF.type, predefinedStringToIRI("geometry:Geometry")))
@@ -197,7 +200,18 @@ def convertFile(zip, file, sample):
                     Outfile.write(graph.serialize(format='nt'))
 
                 i += 1
-                line = f.readline()
+
+
+                breakLoop = 0
+                while True:
+                    try:
+                        line = f.readline()
+                        break
+                    except:
+                        next(f)
+                        breakLoop += 1
+                    if breakLoop > 500000
+
 
 
 
@@ -214,3 +228,5 @@ def convertBGT():
                 convertFile(zip, file, False)
         for file in FileRoundTwo:
             convertFile(zip, file, False)
+
+        print("finished conversion")
