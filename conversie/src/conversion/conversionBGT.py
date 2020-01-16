@@ -4,6 +4,8 @@ from .shared import *
 from .gml_naar_dict import xml_naar_dict, geometrie_terugzetten, first
 import collections
 from zipfile import ZipFile
+import os
+import shutil
 
 __verbose = False
 
@@ -339,11 +341,14 @@ def convertBGT():
     """
     Reads an zipfile and Converts every document in the zipfile.
     """
-    file_name ="resources/extract_old.zip"
+
     FileRoundTwo = []
-    with ZipFile(file_name, 'r') as zip:
-        listOfFileNames = zip.namelist()
-        for file in listOfFileNames:
-            convertFile(zip, file, False)
+    for file_name in os.listdir("resources"):
+        with ZipFile(file_name, 'r') as zip:
+            listOfFileNames = zip.namelist()
+            for file in listOfFileNames:
+                convertFile(zip, file, False)
 
         print("finished conversion")
+
+    shutil.make_archive("outputZipped/zippedBGT.zip", 'zip', "output/")

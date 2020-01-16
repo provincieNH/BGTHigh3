@@ -21,7 +21,7 @@ pip3 install --global-option=build_ext --global-option="-I/usr/include/gdal" GDA
 ```
 
 ## Running the ETL locally
-To run store your zipped files in the `/resources` directory.
+To run store your zipped GML file in the `/resources` directory. At the moment this script will only convert a zip file with GML's.
 
 Finally execute:
 
@@ -31,3 +31,4 @@ Finally execute:
 This script will execute the python script in your local directory. Making sure that all the API-tokens are formulated correctly.
 
 The data will be generated in the `/output` as .nt files.
+A zip file will be generated in `/outputZipped` as .zip file
