@@ -47,7 +47,7 @@ def convertGMLShapetoWKT(gml):
     else:
         return ""
 
-# Checks if the bronhouder exists, and converts it to an IRI.
+# Checks if the bronhouder exists, and converts it to an IRI. A waardelijst of the bronhouders would add missing bronhouders to the list.
 def getBronhouderIri(bronhouder):
     if re.search("^G\\d{4}$",bronhouder):
         return "http://data.labs.pdok.nl/bbi/id/gemeente/" + bronhouder[1:]

@@ -87,49 +87,86 @@ def conversion(dict: collections.OrderedDict) -> rdflib.Graph:
     else:
         # We will just use the typeName.
         className = typeName
-    
-    lokaalID = DictClass["imgeo:identificatie"]['imgeo:NEN3610ID']['imgeo:lokaalID']
-    idString = lokaalID
+
+    # Retrieving the local ID from the dictionary. This is always in the same location
+    # So we can use dictionary strings to get it.
+    # If it is not available it should fail, as we need this ID for the IRI.
+    idString = DictClass["imgeo:identificatie"]['imgeo:NEN3610ID']['imgeo:lokaalID']
+
+    # Creating the id's for both the object and the Objectregistratie.
     idId = stringToId(idString, "id", className)
     DocId = stringToId(idString, "doc", className)
+
+    # Adding the correct classes with the necessary types.
     if className != typeName:
         graph.add((idId, RDF.type, predefinedStringToIRI("imgeo:"+className+"_"+typeName)))
     graph.add((idId, RDF.type, predefinedStringToIRI("imgeo:"+typeName)))
     graph.add((DocId, RDF.type, predefinedStringToIRI("imgeo:Objectregistratie")))
+
+    # We link the Objectregistratie to the object
     graph.add((idId, FOAF.isPrimaryTopicOf, DocId))
 
+    # Now we will add the properties to the respective classes.
     for key, value in DictClass.items():
+        # NEN3610 identificatie, link to the nen3610.
         if key == "imgeo:identificatie":
+            # Creating an nen3610ID
             nen3610Id = predefinedStringToIRI("nen3610id:"+idString)
+            # Link to the object
             graph.add((idId, predefinedStringToIRI("nen3610:identificatie"),nen3610Id))
+
+            # Add the localId and namespace to the nen3610 object.
             graph.add((nen3610Id, predefinedStringToIRI("nen3610:namespace"), stringToLiteral(value['imgeo:NEN3610ID']['imgeo:namespace']) ))
             graph.add((nen3610Id, predefinedStringToIRI("nen3610:lokaalID"), stringToLiteral(value['imgeo:NEN3610ID']['imgeo:lokaalID']) ))
+
+            # Give the object an type. We do not want any objects without a type.
             graph.add((nen3610Id, RDF.type, predefinedStringToIRI("nen3610def:NEN3610Identificatie")))
             continue
+
+        # MOST ELEMENTS BELOW WILL WORK SIMILAR.
+        # If we match the key we will add the corresponding triple to the graph.
+        ## If something different occurs it will be explained in the comments.
+
+        # Add function of the object
         if key == "function":
             ReplacetypeName = typeName
+
+            # Due to naming schemes we clean the Wegdeel -> Weg. Doing this with codelist has to be implemented just yet.
             if typeName == "Wegdeel":
                 ReplacetypeName = "Weg"
+            # Only when the there is a value and it is known we want to add it to the graph.
             if value["#text"].lower() != "waardeonbekend":
                 graph.add((idId, predefinedStringToIRI("imgeo:functie"), predefinedStringToIRI("imgeobegrip:" + value["#text"].title().replace(" ", "")+"_Functie"+ReplacetypeName)))
             continue
+
+        # Some objects also have an plus-function.
         if "imgeo:plus-functie" == key:
             if value["#text"].lower() != "waardeonbekend":
+                # Only when the there is a value and it is known we want to add it to the graph.
                 graph.add((idId, predefinedStringToIRI("imgeo:functie"), predefinedStringToIRI("imgeobegrip:" + value["#text"].title().replace(" ", "")+"_Functie"+ReplacetypeName)))
             continue
+
         if "surfaceMaterial" in key:
             if value["#text"].lower() != "waardeonbekend":
+                # Only when the there is a value and it is known we want to add it to the graph.
                 graph.add((idId, RDF.type, predefinedStringToIRI("imgeo:"+ value["#text"].title().replace(" ", ""))))
             continue
         if "imgeo:plus-fysiekVoorkomen" in key:
             if value["#text"].lower() != "waardeonbekend":
+                # Only when the there is a value and it is known we want to add it to the graph.
                 graph.add((idId, RDF.type, predefinedStringToIRI("imgeo:"+ value["#text"].title().replace(" ", ""))))
             continue
+
+
         if "imgeo:kruinlijn" in key:
+            # Only when the there is a value and it is known we want to add it to the graph.
             if "@nilReason"in value:
                 continue
             else:
+                # Converts to wkt
                 wkt = convertGMLShapetoWKT(value)
+
+                # Checking just in case if the wkt is empty
                 if wkt != "":
 
                     Bnode = stringToId(idString+"-geometry-kruinlijn", "id", className)
@@ -137,11 +174,18 @@ def conversion(dict: collections.OrderedDict) -> rdflib.Graph:
                     graph.add((Bnode, predefinedStringToIRI("geometry:asWKT"), wktToLiteral(wkt)))
                     graph.add((Bnode, RDF.type, predefinedStringToIRI("geometry:Geometry")))
             continue
+
+        # The geometry 2D
         if "imgeo:geometrie2d" in key:
+
+            # Check for @nilReason, empty gml. Not needed in the graph.
             if "@nilReason"in value:
                 continue
             else:
+                # Converts to wkt
                 wkt = convertGMLShapetoWKT(value)
+
+                # Checking just in case if the wkt is empty
                 if wkt != "":
                     Bnode = stringToId(idString+"-geometry2d", "id", className)
                     graph.add((idId, predefinedStringToIRI("geometry:hasGeometry"), Bnode))
@@ -149,6 +193,19 @@ def conversion(dict: collections.OrderedDict) -> rdflib.Graph:
                     graph.add((Bnode, RDF.type, predefinedStringToIRI("geometry:Geometry")))
             continue
 
+        # Add in nummeraanduidingreeks to the graph
+        # There could be a list of nummeraanduidingreeksen so we first check for a list and then run the
+        # script for converting it to linked data.
+        if key == "imgeo:nummeraanduidingreeks" :
+            if type(value) == type([]):
+                for element in value:
+                    graph = conversionPand(graph, element["imgeo:Nummeraanduidingreeks"], idId)
+            if type(value) == type({}):
+                graph = conversionPand(graph, value["imgeo:Nummeraanduidingreeks"], idId)
+            continue
+
+
+        # We should have cleared all the necessary dictionaries. All others will be skipped.
         if type(value) == collections.OrderedDict:
             continue
 
@@ -193,15 +250,9 @@ def conversion(dict: collections.OrderedDict) -> rdflib.Graph:
             graph.add((DocId, predefinedStringToIRI(key), stringToLiteral(value)))
             continue
 
-        if key == "imgeo:nummeraanduidingreeks" :
-            if type(value) == type([]):
-                for element in value:
-                    graph = conversionPand(graph, element["imgeo:Nummeraanduidingreeks"], idId)
-            if type(value) == type({}):
-                graph = conversionPand(graph, value["imgeo:Nummeraanduidingreeks"], idId)
-            continue
+        # We possibily missed a property. We will print the property and key to the user when the Verbosity is turned on.
+        # Which we can then implemented in the script.
         if "imgeo" in key :
-            print(key, value)
             if value:
                 try:
                     graph.add((idId, predefinedStringToIRI(key), stringToLiteral(value)))
@@ -210,9 +261,12 @@ def conversion(dict: collections.OrderedDict) -> rdflib.Graph:
             if __verbose:
                 print(key, value)
             continue
+
+        # Finally if we missed anything we will print it here.
         if __verbose:
             print(key, value)
 
+    # Finally we will return the graph to be serialized.
     return graph
 
 
