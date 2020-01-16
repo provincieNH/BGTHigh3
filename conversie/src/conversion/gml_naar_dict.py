@@ -27,7 +27,6 @@ def xml_naar_dict(gmlLine):
     _features = {}
     try:
         _features = xmltodict.parse(gmlLine)
-
     except Exception as e:
         print(e)
 
@@ -43,8 +42,8 @@ def geometrie_terugzetten(bgt_dict):
 
     _bgt_dict = bgt_dict
     _new_dict = {}
-    if _bgt_dict == {}:
-        return _bgt_dict
+    if _bgt_dict == {} or 'cityObjectMember' not in bgt_dict:
+        return {}
 
     try:
         # zet om

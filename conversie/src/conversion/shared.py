@@ -6,17 +6,20 @@ from rdflib.namespace import XSD
 import re
 
 ## GLOBAL VARIABLES:
-bgt=rdflib.Namespace('http://bgt.basisregistraties.overheid.nl/bgt/')
-bgtdef=rdflib.Namespace("http://bgt.basisregistraties.overheid.nl/def/bgt#")
-dc=rdflib.Namespace("http://purl.org/dc/terms/")
-skos=rdflib.Namespace("http://www.w3.org/2004/02/skos/core#")
+nen3610=rdflib.Namespace("http://definities.geostandaarden.nl/def/nen3610#")
+nen3610def=rdflib.Namespace("http://definities.geostandaarden.nl/def/nen3610/")
+nen3610id=rdflib.Namespace("http://definities.geostandaarden.nl/id/nen3610/")
 imgeo=rdflib.Namespace("http://definities.geostandaarden.nl/def/imgeo#")
 imgeobegrip=rdflib.Namespace("http://definities.geostandaarden.nl/imgeo/id/begrip/")
-foaf=rdflib.Namespace("http://xmlns.com/foaf/0.1/")
-nen3610=rdflib.Namespace("http://definities.geostandaarden.nl/def/nen3610#")
+bgt=rdflib.Namespace('http://bgt.basisregistraties.overheid.nl/bgt/')
+bgtdef=rdflib.Namespace("http://bgt.basisregistraties.overheid.nl/def/bgt#")
 bgtBegrip=rdflib.Namespace("http://bgt.basisregistraties.overheid.nl/id/begrip/")
-geometry=rdflib.Namespace("http://www.opengis.net/ont/geosparql#")
 bag=rdflib.Namespace("http://bag.basisregistraties.overheid.nl/bag/id/pand/")
+dc=rdflib.Namespace("http://purl.org/dc/terms/")
+skos=rdflib.Namespace("http://www.w3.org/2004/02/skos/core#")
+foaf=rdflib.Namespace("http://xmlns.com/foaf/0.1/")
+geometry=rdflib.Namespace("http://www.opengis.net/ont/geosparql#")
+
 __verbose = False
 
 source = osr.SpatialReference()
@@ -74,6 +77,8 @@ def predefinedStringToIRI(inputString):
         return imgeo[suffix]
     if prefix == "nen3610":
         return nen3610[suffix]
+    if prefix == "nen3610def":
+        return nen3610def[suffix]
     if prefix == "bgt":
         return bgt[suffix]
     if prefix == "bgtBegrip":
@@ -84,6 +89,8 @@ def predefinedStringToIRI(inputString):
         return geometry[suffix]
     if prefix == "bag":
         return bag[suffix]
+    if prefix =="nen3610id":
+        return nen3610id[suffix]
 
 def stringToInteger(inputString):
     return int(inputString), XSD.integer
