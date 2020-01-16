@@ -1,5 +1,5 @@
 
-""""
+"""
 
 Gebruikt xmldict (https://github.com/martinblech/xmltodict)
 
@@ -8,20 +8,17 @@ Dit script is geschreven voor de omzetting van BGT in GML format naar linked dat
 
 import xmltodict
 from .shared import *
-import datetime
-
-dateTimeNOW = datetime.date(2020, 1, 14)
 
 def first(ordered_dict):
+    """
+    Retrieves the first key from an dictionary.
+    """
     for key, item in ordered_dict.items():
         return key
 
 def xml_naar_dict(gmlLine):
     """
     Leest een gml bestand en zet deze om naar een dict.
-
-
-    Todo: geometrie plat slaan?
     """
 
     _features = {}
@@ -42,41 +39,29 @@ def geometrie_terugzetten(bgt_dict):
 
     _bgt_dict = bgt_dict
     _new_dict = {}
+    # Check for empty dictionary. IF empty or incorrect information skip dict.
     if _bgt_dict == {} or 'cityObjectMember' not in bgt_dict:
         return {}
 
-    try:
-        # zet om
-        typeElement = first(_bgt_dict['cityObjectMember'])
-        for key, value in _bgt_dict['cityObjectMember'][typeElement].items():
-            if "imgeo:eindRegistratie" in key:
-                date, _dType = stringToDate(_bgt_dict['cityObjectMember'][typeElement][key])
-                if date < dateTimeNOW :
-                    return {}
-            if "imgeo:kruinlijn" in key:
-                if "@nilReason"in value:
-                    continue
-                else:
-                    _xml_geom = dict_xmliseren(value )
-                    # pas aan in dict
-                    try:
-                        _bgt_dict['cityObjectMember'][typeElement][key] = _xml_geom
-
-                    except Exception as e:
-                        print('error while putting xml in dict: {0}'.format(e))
-            if "imgeo:geometrie2d" in key:
-                type = key.replace("imgeo:geometrie2d","")
-
-                _xml_geom = dict_xmliseren(value )
-                # pas aan in dict
-                try:
-                    _bgt_dict['cityObjectMember'][typeElement][key] = _xml_geom
-
-                except Exception as e:
-                    print('error while putting xml in dict: {0}'.format(e))
-
-    except Exception as e:
-        pass
+    # We retrieve the first and only element from the dictionary.
+    # The typeElement is needed for the nested dictionary
+    typeElement = first(_bgt_dict['cityObjectMember'])
+    for key, value in _bgt_dict['cityObjectMember'][typeElement].items():
+        # Converting the two geometries(kruinlijn and geometrie2d) back from the nested dictionary
+        # to an gml, needed for later conversion to WKT.
+        if "imgeo:kruinlijn" in key:
+            # Skipping if no geometry present.
+            if "@nilReason" in value:
+                continue
+            _xml_geom = dict_xmliseren(value )
+            _bgt_dict['cityObjectMember'][typeElement][key] = _xml_geom
+        if "imgeo:geometrie2d" in key:
+            # Skipping if no geometry present.
+            if "@nilReason" in value:
+                continue
+            type = key.replace("imgeo:geometrie2d","")
+            _xml_geom = dict_xmliseren(value )
+            _bgt_dict['cityObjectMember'][typeElement][key] = _xml_geom
 
     _bgt_dict['cityObjectMember'][typeElement]["type"] = type
 
@@ -103,6 +88,10 @@ def dict_xmliseren(geom_dict):
 
 
 def main():
+    """
+    Runs the above script and converts a single line of the gml to an dict.
+    With returned geometry.
+    """
     bgt_gml = r"D:\high3Repo\resources\bgt_begroeidterreindeel.gml"
     with open(bgt_gml) as f:
         data = f.readline()
