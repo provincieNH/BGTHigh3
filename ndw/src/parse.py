@@ -1,5 +1,5 @@
 # Required:
-# $ pip install openpyxl
+# $ pip install openpyxl rdflib
 
 import glob
 import os
@@ -12,45 +12,7 @@ MEETLOCATIE = Namespace("http://noord-holland.nl/ns/ndw/id/meetlocatie/")
 GEO = Namespace("http://www.opengis.net/ont/geosparql#")
 QB = Namespace('http://purl.org/linked-data/cube#')
 
-def parse(file):
-    workbook = openpyxl.open(file, data_only=True, read_only=True)
-
-    overzicht = workbook["Overzicht"]
-    intensiteit = workbook["Intensiteit"]
-    gemiddelde_snelheid = workbook["Gemiddelde snelheid"]
-
-    meetlocaties = list()
-
-    for volgnummer, id_, naam, lat, long in overzicht["A7:E50"]:
-        meetlocaties.append(
-            {
-                "volgnummer": volgnummer.value,
-                "id": id_.value,
-                "naam": naam.value,
-                "lat": lat.value,
-                "long": long.value,
-            }
-        )
-
-        geometrie = BNode()
-
-        yield MEETLOCATIE[id_.value], RDF.type, ONTO.Meetlocatie
-        yield MEETLOCATIE[id_.value], RDFS.label, Literal(naam.value)
-        yield MEETLOCATIE[id_.value], ONTO.identificatie, Literal(id_.value)
-        yield MEETLOCATIE[id_.value], GEO.hasGeometry, geometrie
-
-        long = float(str(long.value).replace(",", "."))
-        lat = float(str(lat.value).replace(",", "."))
-
-        yield geometrie, GEO.asWKT, Literal(
-            f"POINT ({long} {lat})", datatype=GEO.wktLiteral
-        )
-
-    # 27 rijen per meetlocatie, beginnend op 4, met 10 witregels ertussen
-    offset = 6
-    spacing = 13
-    duration = 24  # uren in de dag duh
-
+def yield_ndw_ontology():
     yield ONTO.Meetlocatie, RDF.type, RDFS.Class
     yield ONTO.Meetlocatie, RDFS.subClassOf, GEO.Feature
     yield ONTO.Meetlocatie, RDFS.label, Literal("Meetlocatie", lang='nl')
@@ -103,6 +65,57 @@ def parse(file):
     yield ONTO.VoertuiglengteOnbekend, RDF.type, ONTO.Voertuig
     yield ONTO.VoertuiglengteOnbekend, RDFS.label, Literal("Voertuig met onbepaalde lengte", lang='nl')
 
+
+def parse_ndw_historical_xlsx_file(file):
+    # bereid de data voor, door het gebruikte datamodel alvast in de graaf neer
+    # te zetten.
+    yield from yield_ndw_ontology()
+
+    # open het Excel-sheet...
+    workbook = openpyxl.open(file, data_only=True, read_only=True)
+
+    overzicht = workbook["Overzicht"]
+    intensiteit = workbook["Intensiteit"]
+    gemiddelde_snelheid = workbook["Gemiddelde snelheid"]
+
+    meetlocaties = list()
+
+    # op een vaste plek A7:E7+n staan de gegevens van de meetlocaties uit deze
+    # datadump. Dit script gaat van maximaal 50-7=43 meetpunten uit; bij 
+    # schrijven beperkt NDW datadumps op 10 meetpunten. 
+    for volgnummer, id_, naam, lat, long in overzicht["A7:E50"]:
+        meetlocaties.append(
+            {
+                "volgnummer": volgnummer.value,
+                "id": id_.value,
+                "naam": naam.value,
+                "lat": lat.value,
+                "long": long.value,
+            }
+        )
+
+        geometrie = BNode()
+
+        # elke triple wordt geyield
+        yield MEETLOCATIE[id_.value], RDF.type, ONTO.Meetlocatie
+        yield MEETLOCATIE[id_.value], RDFS.label, Literal(naam.value)
+        yield MEETLOCATIE[id_.value], ONTO.identificatie, Literal(id_.value)
+        yield MEETLOCATIE[id_.value], GEO.hasGeometry, geometrie
+
+        long = float(str(long.value).replace(",", "."))
+        lat = float(str(lat.value).replace(",", "."))
+
+        yield geometrie, GEO.asWKT, Literal(
+            f"POINT ({long} {lat})", datatype=GEO.wktLiteral
+        )
+
+    # onderstaande calculatie is waarvoor dit parseerscript nodig is:
+    # 27 rijen per meetlocatie (24 dagen + kop- en voetregels), beginnend op 4,
+    # met 10 witregels ertussen. 
+    offset = 6
+    spacing = 13
+    duration = 24  # uren in de dag duh
+
     for i, locatie in enumerate(meetlocaties, start=0):
         begin = offset + (i * (duration + spacing))
         eind = begin + duration - 1
@@ -120,7 +133,8 @@ def parse(file):
             voertuiglengte5,
             voertuiglengte_onbekend,
         ) in intensiteit[bereik]:
-            # meting = BNode()
+            # openpyxl geeft voor lege cellen de value None mee. Die hoeven we
+            # niet als literal (Literal(None).n3() == "None") in onze export. 
 
             v0 = str(intensiteitswaarde.value).replace(",", ".") if intensiteitswaarde is not None else None
             v1 = str(voertuiglengte1.value).replace(",", ".") if voertuiglengte1 is not None else None
@@ -129,21 +143,6 @@ def parse(file):
             v4 = str(voertuiglengte4.value).replace(",", ".") if voertuiglengte4 is not None else None
             v5 = str(voertuiglengte5.value).replace(",", ".") if voertuiglengte5 is not None else None
             v6 = str(voertuiglengte_onbekend.value).replace(",", ".") if voertuiglengte_onbekend is not None else None
-
-            # yield meting, RDF.type, ONTO.Intensiteitsanalyse
-
-            # yield meting, ONTO.periodeStart, Literal(
-            #     uuropdeweg.value.split(" - ")[0], datatype=XSD.string
-            # )
-            # yield meting, ONTO.intensiteitswaarde, Literal(v1, datatype=XSD.decimal)
-            # yield meting, ONTO.perVoertuiglengte1, Literal(v2, datatype=XSD.decimal)
-            # yield meting, ONTO.perVoertuiglengte2, Literal(v3, datatype=XSD.decimal)
-            # yield meting, ONTO.perVoertuiglengte3, Literal(v4, datatype=XSD.decimal)
-            # yield meting, ONTO.perVoertuiglengte4, Literal(v5, datatype=XSD.decimal)
-            # yield meting, ONTO.perVoertuiglengte5, Literal(v6, datatype=XSD.decimal)
-            # yield meting, ONTO.perOnbekendeVoertuiglengte, Literal(v7, datatype=XSD.decimal)
-
-            # yield MEETLOCATIE[locatie["id"]], ONTO.heeftMeting, meting
 
             slice_ = BNode()
             yield slice_, RDF.type, QB.Slice
@@ -195,6 +194,8 @@ def parse(file):
             yield slice_, QB.observation, v6_node
 
     for i, locatie in enumerate(meetlocaties, start=0):
+        # er staat hier -1, omdat in de tabel gemiddelde_snelheid, niet een
+        # totaalkolom is opgenomen. 
         begin = offset + (i * (duration + spacing - 1))
         eind = begin + duration - 1
 
@@ -210,7 +211,6 @@ def parse(file):
             voertuiglengte4,
             voertuiglengte5,
         ) in gemiddelde_snelheid[bereik]:
-            # meting = BNode()
 
             v0 = str(gem_snelheid.value).replace(",", ".") if gem_snelheid.value is not None else None
             v1 = str(voertuiglengte1.value).replace(",", ".") if voertuiglengte1.value is not None else None
@@ -218,19 +218,6 @@ def parse(file):
             v3 = str(voertuiglengte3.value).replace(",", ".") if voertuiglengte3.value is not None else None
             v4 = str(voertuiglengte4.value).replace(",", ".") if voertuiglengte4.value is not None else None
             v5 = str(voertuiglengte5.value).replace(",", ".") if voertuiglengte5.value is not None else None
-
-            # yield meting, RDF.type, ONTO.GemiddeldeSnelheidsanalyse
-            # yield meting, ONTO.periodeStart, Literal(
-            #     uuropdeweg.value.split(" - ")[0], datatype=XSD.string
-            # )
-            # yield meting, ONTO.gemiddeldeSnelheid, Literal(v0, datatype=XSD.decimal)
-            # yield meting, ONTO.perVoertuiglengte1, Literal(v1, datatype=XSD.decimal)
-            # yield meting, ONTO.perVoertuiglengte2, Literal(v2, datatype=XSD.decimal)
-            # yield meting, ONTO.perVoertuiglengte3, Literal(v3, datatype=XSD.decimal)
-            # yield meting, ONTO.perVoertuiglengte4, Literal(v4, datatype=XSD.decimal)
-            # yield meting, ONTO.perVoertuiglengte5, Literal(v5, datatype=XSD.decimal)
-
-            # yield MEETLOCATIE[locatie["id"]], ONTO.heeftMeting, meting
 
             slice_ = BNode()
             yield slice_, RDF.type, QB.Slice
@@ -277,16 +264,19 @@ def parse(file):
 
 
 if __name__ == "__main__":
+    # bereid graaf voor op handige schrijfbare query's
     g = Graph()
     g.bind("geo", GEO)
     g.bind("nh", MEETLOCATIE)
     g.bind("ndw", ONTO)
     g.bind('qb', QB )
 
+    # voor de handig verwerken we alle XLSX'en in de doelmap.
     for file in glob.glob("ndw/data/*.xlsx"):
         # file = "ndw/data/N247samen.xlsx"
         print(f"Processing {os.path.basename(file)}")
-        for triple in parse(file):
+        for triple in parse_ndw_historical_xlsx_file(file):
+            # rdflib.Literal(None).n3() == "None" voorkomen
             if triple[-1] is not None:
                 g.add(triple)
 
