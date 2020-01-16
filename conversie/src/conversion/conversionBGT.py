@@ -18,7 +18,7 @@ def conversionPand(graph, dict, idId) :
         graph.add((bnodeNummerAanduidingsReeks,RDFS.label,stringToLiteral(numbers[1])))
     if "imgeo:identificatieBAGVBOHoogsteHuisnummer" in dict["imgeo:Nummeraanduidingreeks"]:
         hoogsteNummer = dict["imgeo:Nummeraanduidingreeks"]["imgeo:identificatieBAGVBOHoogsteHuisnummer"]
-        graph.add((bnodeNummerAanduidingsReeks,predefinedStringToIRI("imgeo:identificatieBAGVBOHoogsteHuisnummer"),stringToLiteral(hoogsteNummer)))
+        graph.add((bnodeNummerAanduidingsReeks,predefinedStringToIRI("imgeo:identificatieBAGVBOHoogsteHuisnummer"),predefinedStringToIRI("bag:"+hoogsteNummer)))
     elif len(numbers) == 1:
         graph.add((bnodeNummerAanduidingsReeks,predefinedStringToIRI("imgeo:laagsteHuisnummer"),stringToLiteral(numbers[0])))
 
@@ -26,8 +26,7 @@ def conversionPand(graph, dict, idId) :
 
     graph.add((bnodeNummerAanduidingsReeks,RDFS.label,stringToLiteral(text)))
     graph.add((bnodeNummerAanduidingsReeks,predefinedStringToIRI("imgeo:Nummeraanduidingreeksnummeraanduidingreeks"),stringToLiteral(text)))
-    graph.add((bnodeNummerAanduidingsReeks,predefinedStringToIRI("imgeo:identificatieBAGVBOLaagsteHuisnummer"),stringToLiteral(laagsteNummer)))
-
+    graph.add((bnodeNummerAanduidingsReeks,predefinedStringToIRI("imgeo:identificatieBAGVBOLaagsteHuisnummer"),predefinedStringToIRI("bag:"+laagsteNummer)))
 
     return graph
 
@@ -220,17 +219,17 @@ def convertFile(zip, file, sample):
 
 
 def convertBGT():
-    file_name ="resources/bgt-citygml-nl-nopbp.zip"
+    file_name ="resources/extract_old.zip"
     FileRoundTwo = []
     with ZipFile(file_name, 'r') as zip:
         listOfFileNames = zip.namelist()
         for file in listOfFileNames:
-            if file not in [  "bgt_pand.gml"]: # ,
+            if file not in [  "bgt_wegdeel.gml"]: # ,"bgt_wegdeel.gml","bgt_begroeidterreindeel.gml", "bgt_pand.gml"
                 FileRoundTwo.append(file)
                 continue
             else:
                 convertFile(zip, file, False)
-        for file in FileRoundTwo:
-            convertFile(zip, file, False)
+        # for file in FileRoundTwo:
+        #     convertFile(zip, file, False)
 
         print("finished conversion")
