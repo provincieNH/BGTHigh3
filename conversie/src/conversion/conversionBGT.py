@@ -273,7 +273,7 @@ def conversion(dict: collections.OrderedDict) -> rdflib.Graph:
 
 
 
-def convertFile(zip, file, sample):
+def convertFile(zip, file, sample, output_path):
     """
     Opens the zipfile retrieves the file and streams through the xml line by line.
 
@@ -285,6 +285,7 @@ def convertFile(zip, file, sample):
         # tries to read the first line.
         line = readlineFailure(f, 50)
         SampleFile = True
+        part = 1
 
         #While there is a line to read, e.g. the linelength is larger than 0.
         while len(line) > 0 and SampleFile:
@@ -292,7 +293,7 @@ def convertFile(zip, file, sample):
                 SampleFile = False
 
             # Open a new file to write to.
-            Outfile = open("output/output_"+str(file[:-4])+"_"+str(part)+".nt", "wb+")
+            Outfile = open(os.path.join(output_path, "output_" + str(file[:-4]) + "_"+str(part)) + ".nt", "wb+")
 
             # Set a few variables.
             part += 1
@@ -337,7 +338,7 @@ def readlineFailure(f, tries):
             return ""
 
 
-def convertBGT(bgt_zip_path):
+def convertBGT(bgt_zip_path, output_path):
     """
     Reads an zipfile and converts every document in the zipfile.
 
@@ -351,7 +352,7 @@ def convertBGT(bgt_zip_path):
         with ZipFile(os.path.join(bgt_zip_path, file_name), 'r') as zip:
             listOfFileNames = zip.namelist()
             for file in listOfFileNames:
-                convertFile(zip, file, False)
+                convertFile(zip, file, False, output_path)
 
         print("finished conversion")
 
