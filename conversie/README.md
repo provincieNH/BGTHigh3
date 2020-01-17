@@ -34,6 +34,8 @@ pip3 install --global-option=build_ext --global-option="-I/usr/include/gdal" GDA
 #### Windows
 
 https://pythongisandstuff.wordpress.com/2016/04/13/installing-gdal-ogr-for-python-on-windows/
+(points to https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal)
+
 
 ## Running the ETL locally
 
