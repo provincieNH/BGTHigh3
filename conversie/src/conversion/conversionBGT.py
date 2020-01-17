@@ -337,14 +337,18 @@ def readlineFailure(f, tries):
             return ""
 
 
-def convertBGT():
+def convertBGT(bgt_zip_path):
     """
-    Reads an zipfile and Converts every document in the zipfile.
+    Reads an zipfile and converts every document in the zipfile.
+
+    :param source: path containing BGT zip
+    :return:
     """
 
     FileRoundTwo = []
-    for file_name in os.listdir("resources"):
-        with ZipFile(file_name, 'r') as zip:
+
+    for file_name in os.listdir(bgt_zip_path):
+        with ZipFile(os.path.join(bgt_zip_path, file_name), 'r') as zip:
             listOfFileNames = zip.namelist()
             for file in listOfFileNames:
                 convertFile(zip, file, False)
