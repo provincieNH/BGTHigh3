@@ -17,8 +17,8 @@ In deze centrale repo zitten de volgende onderdelen:
 De belangrijkste zaken zijn:
 - In vergelijking met een paar jaar geleden is het omzetten een stuk makkelijker geworden
 - Het linken van datasets gaat eigenlijk heel makkelijk (als je het eenmaal onder de knie hebt)
-- Het combineren van data op basis van zowel ligging als attributen is heel flexibel en krachtig
-       bijvoorbeeld de vraag ‘geef me alle objecten die gerelateerd zijn aan de N247’
+- Het combineren van data op basis van zowel ligging als attributen is heel flexibel en krachtig,
+       bijvoorbeeld de vraag ‘geef me alle objecten die gerelateerd zijn aan de weg N247’ is flexibeler te beantwoorden dan met 'traditionele' gis bevragingen.
 - Deze werkvorm met een multidisciplinair team was leuk, leerzaam en productief
 
 ### Redenen om door te gaan met BGT als Linked data
