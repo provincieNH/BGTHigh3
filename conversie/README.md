@@ -16,10 +16,10 @@ chmod +x /uploadexecutable/runtime/runEtl
 #### Windows
 
 ``` 
-cd /BGTHigh3/conversie
-python3 -m venv conversie
-. conversie/bin/activate
-pip install -r requirements.txt
+cd BGTHigh3\conversie
+python -m venv conversie
+cd conversie\scripts\activate
+pip install -r D:\BGTHigh3\conversie\requirements.txt
 chmod +x /uploadexecutable/runtime/runEtl
 ```
 
