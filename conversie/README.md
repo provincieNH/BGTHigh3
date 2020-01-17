@@ -15,7 +15,7 @@ pip install -r requirements.txt
 
 #### Windows
 
-```
+```sh
 cd BGTHigh3\conversie
 python -m venv conversie
 cd conversie\scripts\activate
@@ -40,6 +40,13 @@ https://pythongisandstuff.wordpress.com/2016/04/13/installing-gdal-ogr-for-pytho
 ## Running the ETL locally
 
 To run store your zipped GML file in the `/resources` directory. At the moment this script will only convert a zip file with GML's.
+
+Set up your directories in the main.py file. At the moment the directories point to:
+
+```python
+input_path = r'D:\BGTHigh3\conversie\resources'
+output_path = r'D:\BGTHigh3\conversie\output'
+```
 
 Finally execute:
 

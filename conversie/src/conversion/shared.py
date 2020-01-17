@@ -1,4 +1,4 @@
-from osgeo import ogr, osr
+from osgeo import ogr, osr, gdal
 import rdflib
 from datetime import datetime
 from rdflib import Literal, URIRef, RDF
@@ -25,6 +25,9 @@ geometry=rdflib.Namespace("http://www.opengis.net/ont/geosparql#")
 # Verbosity of the printStatements
 __verbose = False
 
+# Use gdal execptions
+gdal.UseExceptions()
+
 # Conversion scheme for spatial reference: RD -> WGS84
 source = osr.SpatialReference()
 source.ImportFromEPSG(28992)
@@ -37,8 +40,10 @@ transform = osr.CoordinateTransformation(source, target)
 # Helper function responsible for the conversion of an GML RD geometry to an WKT WGS84 geometry
 def convertGMLShapetoWKT(gml):
     # Export geometry to WKT
-    wkt = ogr.CreateGeometryFromGML(gml)
-
+    try:
+        wkt = ogr.CreateGeometryFromGML(gml)
+    except Exception as e:
+        pass
     if wkt:
         # IF we have an valid WKT we first convert the WKT to a linear geometry.
         wktLinear = wkt.GetLinearGeometry()

@@ -25,7 +25,8 @@ def xml_naar_dict(gmlLine):
     try:
         _features = xmltodict.parse(gmlLine)
     except Exception as e:
-        print(e)
+        if e.args[0] != 'no element found: line 2, column 0':
+            print(e.args[0])
 
     return _features
 
