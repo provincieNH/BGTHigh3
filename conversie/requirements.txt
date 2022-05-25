@@ -10,7 +10,7 @@ idna==2.8
 isodate==0.6.0
 pycparser==2.19
 PyGithub==1.45
-PyJWT==1.7.1
+PyJWT==2.4.0
 pyparsing==2.4.6
 python-gitlab==1.15.0
 PyYAML==5.4
