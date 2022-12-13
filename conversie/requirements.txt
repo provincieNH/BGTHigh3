@@ -5,7 +5,7 @@ cryptography==3.3.2
 Deprecated==1.2.7
 GDAL==2.4.2
 gitdb2==2.0.6
-GitPython==3.0.5
+GitPython==3.1.29
 idna==2.8
 isodate==0.6.0
 pycparser==2.19
