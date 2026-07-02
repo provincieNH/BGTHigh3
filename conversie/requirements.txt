@@ -1,4 +1,4 @@
-GDAL==3.4.1
+GDAL==3.13.1
 osgeo==0.0.1
 rdflib==6.2.0
 xmltodict==0.13.0
